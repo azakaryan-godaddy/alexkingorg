@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Case Studies</title>
+	<atom:link href="http://alexking.org/blog/topic/case-studies/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Web App 2.0 Interface for Glassboard</title>
+		<link>http://alexking.org/blog/2014/07/30/glassboard-web-interface</link>
+		<comments>http://alexking.org/blog/2014/07/30/glassboard-web-interface#comments</comments>
+		<pubDate>Wed, 30 Jul 2014 17:36:26 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">http://pinboard-324adc6ed50a745ce9d2e3cc2be7b097</guid>
+		<description><![CDATA[We&#8217;ve been working with my friend Justin to create a new web app experience for Glassboard. He&#8217;s teasing the new UI &#8211; I&#8217;m pretty pleased with the design we came up with. We&#8217;ll have lots more on this when it ships.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/wp-content/uploads/2014/07/Glassboard-web-app-teaser.jpg"><img src="http://alexking.org/wp-content/uploads/2014/07/Glassboard-web-app-teaser-510x395.jpg" alt="Glassboard-web-app-teaser" width="480" height="371" class="alignnone size-medium-img wp-image-20703" /></a></p>
+<p><a href="http://crowdfavorite.com/">We&#8217;ve</a> been working with my friend <a href="http://carpeaqua.com/">Justin</a> to create a new web app experience for <a href="http://glassboard.com/">Glassboard</a>. He&#8217;s <a href="https://trello.com/c/ypKRZnOK/10-web-app-2-0">teasing the new UI</a> &#8211; I&#8217;m pretty pleased with the design we came up with. We&#8217;ll have lots more on this when it ships.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/30/glassboard-web-interface/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>The Making of Rands in Repose</title>
+		<link>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose</link>
+		<comments>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose#comments</comments>
+		<pubDate>Tue, 03 Dec 2013 18:33:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18820</guid>
+		<description><![CDATA[I&#8217;ve put up a detailed post on the Crowd Favorite blog that outlines the approach, process and execution phases of our redesign of Rands in Repose (and conversion of the site from Moveable Type to WordPress). We&#8217;re putting a bunch of good content up on the Crowd Favorite blog these days. There are already a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve put up a <a href="http://crowdfavorite.com/blog/2013/12/rands-in-repose/">detailed post on the Crowd Favorite blog</a> that outlines the approach, process and execution phases of our redesign of <a href="http://randsinrepose.com/">Rands in Repose</a> (and conversion of the site from Moveable Type to WordPress).</p>
+<p>We&#8217;re putting a bunch of good content up on the <a href="http://crowdfavorite.com/blog/">Crowd Favorite blog</a> these days. There are already a couple of project stories up there, and we&#8217;ve got a bunch of stuff in the pipeline, include some more product and technical posts.</p>
+<p>Our top goals for the new <a href="http://crowdfavorite.com/">Crowd Favorite</a> website were:</p>
+<ol>
+<li>simplify</li>
+<li>tell more stories about the cool stuff we&#8217;re doing</li>
+</ol>
+<p>The blog is our main tool for #2, and I believe it will help us attract clients and customers that appreciate our brand of thoughtful approach to projects and products. You&#8217;ll see me linking to a bunch of stuff there &#8211; stuff that would occasionally be posted on this site instead. And yes, we&#8217;ve got a post on the &#8220;making of&#8221; for the Crowd Favorite site in the queue as well.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>Backflip Studios</title>
+		<link>http://alexking.org/blog/2013/01/22/backflip-studios</link>
+		<comments>http://alexking.org/blog/2013/01/22/backflip-studios#comments</comments>
+		<pubDate>Tue, 22 Jan 2013 23:13:07 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15688</guid>
+		<description><![CDATA[Crowd Favorite recently helped Backflip Studios launch a great new WordPress-powered website. Backflip makes mobile games, and they have awesome artwork. It&#8217;s always a treat to work with beautiful content. This was a pretty straight-forward WordPress CMS site. We created a custom post type for their games so they can easily manage them (and add&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://crowdfavorite.com/portfolio/backflip-studios/"><img src="http://alexking.org/wp-content/uploads/2013/01/hero-backflip-510x161.jpg" alt="Backflip Studios" width="480" height="151" class="alignnone size-medium-img wp-image-15690" /></a></p>
+<p><a href="http://crowdfavorite.com">Crowd Favorite</a> recently helped <a href="http://www.backflipstudios.com/">Backflip Studios</a> launch a great new WordPress-powered website. Backflip makes mobile games, and they have awesome artwork. It&#8217;s always a treat to work with beautiful content.</p>
+<p>This was a pretty straight-forward WordPress CMS site. We created a custom post type for their games so they can easily manage them (and add new ones, etc.). We also integrated <a href="http://crowdfavorite.com/wordpress/carrington-build/">Carrington Build</a> so they can maintain the pages and custom layouts themselves.</p>
+<p>We had a lot of fun implementing the front-end of the site. We made the site fully responsive so that its&#8217;s easy for visitors using mobile devices to get to the appropriate app store to download. We also made the site HiDPI (Retina) friendly for mobile devices.</p>
+<p>See the <a href="http://crowdfavorite.com/portfolio/backflip-studios/">full write-up here</a>. And check out Backflip&#8217;s games &#8211; they&#8217;re fun and free!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/01/22/backflip-studios/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Social 2.5 Sketches</title>
+		<link>http://alexking.org/blog/2012/05/23/social-2-5-sketches</link>
+		<comments>http://alexking.org/blog/2012/05/23/social-2-5-sketches#comments</comments>
+		<pubDate>Wed, 23 May 2012 21:15:21 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13558</guid>
+		<description><![CDATA[I&#8217;ve already professed my love for Paper1, and one of my primary usages is for wireframing UX models. I used it for a few of the improvments we added in Social 2.5, and thought it might be fun to share a couple of them here. One of the biggest changes we made was an overhaul&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve already <a href="http://alexking.org/blog/2012/03/31/on-paper">professed my love for Paper</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, and one of my primary usages is for wireframing UX models. I used it for a few of the improvments we added in <a href="http://alexking.org/blog/2012/05/22/social-2-5">Social 2.5</a>, and thought it might be fun to share a couple of them here.</p>
+<p>One of the biggest changes we made was an overhaul of the Broadcasting screen. Here is the &#8220;before&#8221; version: <span id="more-13558"></span></p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/broadcast-before-510x436.png" alt="Broadcast Social 2.0" width="510" height="436" class="alignnone size-medium-img wp-image-13566" /></p>
+<p>This worked OK, but you can see a few problems:</p>
+<ul>
+<li>You can&#8217;t send different messages to different accounts on the same service. This was something I wanted to be able to do, to have different voicing on @alexkingorg and @crowdfavorite.</li>
+<li>Facebook pages aren&#8217;t visible by default.</li>
+<li>The character counter limit indicator is too far away from the textarea it is reflecting.</li>
+</ul>
+<p>So we worked on some different approaches. These are pretty close to what we shipped in version 2.5:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/braodcast-01-510x382.jpg" alt="Broadcast sketch" width="510" height="382" class="alignnone size-medium-img wp-image-13563" /></p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/broadcast-02-510x382.jpg" alt="Broadcast sketch" width="510" height="382" class="alignnone size-medium-img wp-image-13564" /></p>
+<p>And here is the version that shipped:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/broadcast-after-555x700.png" alt="Broadcast Social 2.5" width="510" height="643" class="alignnone size-large-img wp-image-13565" /></p>
+<p>We also made some significant UI changes to the way accounts are managed on the admin side. Here is the &#8220;before&#8221; version.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/accounts-before-510x458.png" alt="Accounts Social 2.0" width="510" height="458" class="alignnone size-medium-img wp-image-13562" /></p>
+<p>Again, functional but can be improved. In particular I wanted to consolidate this into a single list rather than having one place to add/remove accounts and a separate place to indicate the default accounts. Also, you can see the problem (again) of pages not being shown by default.</p>
+<p>This concept allowed the two lists to be combined into one:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/accounts-01-510x382.jpg" alt="Accounts sketch" width="510" height="382" class="alignnone size-medium-img wp-image-13560" /></p>
+<p>And what we shipped was pretty darn close to that:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/05/accounts-after-510x369.png" alt="" title="Accounts Social 2.5" width="510" height="369" class="alignnone size-medium-img wp-image-13561" /></p>
+<p>In addition to making the admin screens more compact, this design also makes it easier to support more services in the future (Google+, etc.).</p>
+<p>So there you have it, a little &#8220;behind the scenes&#8221; fun. I definitely recommend incorporating sketching and wireframing into your design process, it&#8217;s been a huge help for us as we brainstorm, discuss ideas, etc.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Speaking of which, I hope we&#8217;re due for an update here soon.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/social">Social</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/05/23/social-2-5-sketches/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>Delivereads</title>
+		<link>http://alexking.org/blog/2011/05/16/delivereads</link>
+		<comments>http://alexking.org/blog/2011/05/16/delivereads#comments</comments>
+		<pubDate>Mon, 16 May 2011 19:01:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=5841</guid>
+		<description><![CDATA[I&#8217;ve got an idea&#8230; I love it when I get a note like this from internet superhero Dave Pell. It normally means I&#8217;m going to get a chance to help build something I&#8217;m going to love. Our latest project together is Delivereads. You may have read about it already on Daring Fireball, Gizmodo or the&#8230;]]></description>
+				<content:encoded><![CDATA[<blockquote><p>I&#8217;ve got an idea&#8230;</p></blockquote>
+<p>I love it when I get a note like this from internet superhero Dave Pell. It normally means I&#8217;m going to get a chance to help <a href="http://addictomatic.com/" rel="external">build</a> <a href="http://tweetagewasteland.com/" rel="external">something</a> I&#8217;m going to love.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5725465288/" title="Home Page by alexkingorg, on Flickr"><img src="http://farm3.static.flickr.com/2550/5725465288_ca91124540_m.jpg" width="240" height="238" alt="Home Page"></a></p>
+<p>Our latest project together is <a href="http://delivereads.com" rel="external">Delivereads</a>. You may have read about it already on <a href="http://daringfireball.net/linked/2011/05/13/delivereads" rel="external">Daring Fireball</a>, <a href="http://gizmodo.com/5801865/brain+dead-simple-delivereads-beams-compelling-content-to-your-kindle-automagically" rel="external">Gizmodo</a> or the <a href="http://blog.typekit.com/2011/04/29/sites-we-like-byliner-delivereads-and-brooklyn-derby/" rel="external">TypeKit blog</a>. If you haven&#8217;t, here&#8217;s the 30 second overview:</p>
+<ul>
+<li>Some articles that are available online are too long to comfortably read in your browser, they&#8217;d be better to read on your Kindle.</li>
+<li>Dave wanted a way to send these articles to his own Kindle, and thought that others might be interested in them as well.<sup><a href="#fn1305412897228n" id="fn1305412897228" class="footnote">1</a></sup></li>
+</ul>
+<p>Yep, I certainly wanted to receive Dave&#8217;s selected articles on my Kindle. The system would be pretty straightforward to create&#8230; let&#8217;s do it!</p>
+<p>The basic workflow is pretty straightforward:</p>
+<ol>
+<li>
+<p>Dave does the hard work finding the great content. When he does find something, he uses the Delivereads bookmarklet to add it to the system.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5724908841/" title="Article List by alexkingorg, on Flickr"><img src="http://farm6.static.flickr.com/5061/5724908841_d46d9c9e76_m.jpg" width="240" height="201" alt="Article List"></a></p>
+</li>
+<li>
+<p>When adding the article, Dave can add commentary to it as well. This commentary will be included in the Kindle delivery.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5725465716/" title="Article View by alexkingorg, on Flickr"><img src="http://farm6.static.flickr.com/5081/5725465716_c9d11d031f_m.jpg" width="240" height="200" alt="Article View"></a></p>
+</li>
+<li>
+<p>Once a good selection of articles is ready, Dave creates a delivery and selects the articles he wants to be included. These can be re-ordered as desired (using drag and drop).</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5724909219/" title="Editing a Delivery by alexkingorg, on Flickr"><img src="http://farm3.static.flickr.com/2515/5724909219_bd5ed4bf78_m.jpg" width="240" height="202" alt="Editing a Delivery"></a></p>
+</li>
+<li>
+<p>Once the articles are set, the commentary has been added and everything is ready to go, there are both preview and test-run features to make sure that everything is just right. The preview allows for a quick review on the web to find any obvious issues, then the test run sends the delivery to Dave so he can proof it before it&#8217;s sent out to everyone. As we all know, there is no &#8220;unsend&#8221; button for email, so being a little careful here is important.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5725465798/" title="Viewing a Sent Delivery by alexkingorg, on Flickr"><img src="http://farm6.static.flickr.com/5128/5725465798_cc75a4dcfb_m.jpg" width="240" height="199" alt="Viewing a Sent Delivery"></a></p>
+</li>
+<li>
+<p>Once everything is reviewed and ready, Dave hits the magic button and you get the deliveread on your Kindle.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5724908925/" title="Users List by alexkingorg, on Flickr"><img src="http://farm6.static.flickr.com/5220/5724908925_cf2ebccbb8_m.jpg" width="240" height="200" alt="Users List"></a></p>
+</li>
+</ol>
+<p>The articles that you receive on your Kindle go through a few transformations before they are ready to send. The first step is to grab the article content. The articles are then arranged in the deliveread, along with the table of contents, commentary and various &#8220;back&#8221; links.</p>
+<p>We went through a lot of revisions and tweaking to try to get the deliveread format right. What we have now is basically:</p>
+<ul>
+<li>Table of Contents</li>
+<li>Intro with article list and commentary (your Kindle opens to this page)</li>
+<li>Article 1</li>
+<li>Commentary on Article 2</li>
+<li>Article 2</li>
+<li>Commentary on Article 3</li>
+<li>Article 3</li>
+<li>Unsubscribe instructions</li>
+</ul>
+<p>There is a link to the table of contents at the beginning and end of the article, and a link to original article on the web at the end of each article. We chose to intersperse the commentary on each article after the first article. We do this because these are long form articles and by the time you get to Article 2, you have likely forgotten the commentary from the introduction. However, the links from the introduction and the table of contents go directly to the article (skipping the interstitial commentary) since you likely have that context already. Dave and I are definitely open to feedback and suggestions that might improve the service or deliveread format, so if you have ideas please let us know.</p>
+<hr />
+<p>The Delivereads service is built on our <a href="http://crowdfavorite.com/workshop/">Oxygen web application platform</a>. This provides a very robust set of web application features and best practices so that when we build a web application like Delivereads we are able to focus on building the bits that are of high value instead of spending time on user management, permissions, collision detection, item revision history, etc., etc. We&#8217;ve created a wide variety of apps, services and web APIs with Oxygen and it is proving to be an excellent platform.</p>
+<p>Does building a service like Delivereads sound like fun? It is! Join our team, <a href="http://crowdfavorite.com/jobs/">we&#8217;re hiring</a>! (Previous blog posts: <a href="http://alexking.org/blog/2011/05/09/hiring-sr-php-developers">PHP Web Developer</a>, <a href="http://alexking.org/blog/2011/04/28/wanted-technical-project-manager">Technical Project Manager</a>)</p>
+<ol class="footnotes">
+<li id="fn1305412897228n">Dave is a <em>great</em> curator of content. [<a href="#fn1305412897228">back</a>]</li>
+</ol>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/delivereads-2">Delivereads</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/05/16/delivereads/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>FantasyGrinder</title>
+		<link>http://alexking.org/blog/2010/11/02/fantasygrinder</link>
+		<comments>http://alexking.org/blog/2010/11/02/fantasygrinder#comments</comments>
+		<pubDate>Tue, 02 Nov 2010 16:32:37 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4972</guid>
+		<description><![CDATA[When people ask me what we do at Crowd Favorite, I tell them &#8220;we build cool stuff on the web&#8221;. One of the latest examples of this is FantasyGrinder: an application and web service that creates fun, meaningful game recaps from weekly fantasy sports matchups. The system is pretty sophisticated. It&#8217;s a web application that&#8230;]]></description>
+				<content:encoded><![CDATA[<p>When people ask me what we do at <a href="http://crowdfavorite.com">Crowd Favorite</a>, I tell them &#8220;we build cool stuff on the web&#8221;. One of the latest examples of this is <a href="http://fantasygrinder.com" rel="external">FantasyGrinder</a>: an application and web service that creates fun, meaningful game recaps from weekly fantasy sports matchups.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5139531629/" title="FantasyGrinder by alexkingorg, on Flickr"><img src="http://farm5.static.flickr.com/4057/5139531629_afe67ae51e_m.jpg" width="240" height="232" alt="FantasyGrinder" /></a></p>
+<p>The system is pretty sophisticated. It&#8217;s a web application that allows editorial definition of complex rules and associated clauses with powerful data token replacement/insertion and it&#8217;s a series of web services that work together to manage and process a ton of data in parallel and produce some pretty awesome results. FantasyGrinder looks for great individual efforts, compares starters to bench players, actual player performance to projected performance, comparisons between multiple players, etc. &#8211; the rule engine is very powerful.</p>
+<p>As someone who has played fantasy sports for the last decade, it was a real treat to work with the excellent folks at <a href="http://rotoexperts.com/" rel="external">RotoExperts</a> to help bring FantasyGrinder from concept to reality.</p>
+<p>We have <a href="http://crowdfavorite.com/portfolio/fantasygrinder/">a more detailed case study</a> in our <a href="http://crowdfavorite.com/portfolio/">portfolio</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/11/02/fantasygrinder/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>RedMonk&#8217;s Project Arcturus</title>
+		<link>http://alexking.org/blog/2010/10/19/redmonks-project-arcturus</link>
+		<comments>http://alexking.org/blog/2010/10/19/redmonks-project-arcturus#comments</comments>
+		<pubDate>Tue, 19 Oct 2010 19:55:38 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4930</guid>
+		<description><![CDATA[RedMonk has launched their first product: RedMonk Analytics. The basic premise is to use the data inherent in the activity on the RedMonk web properties to expose interesting trends. Read all about it in Steve&#8217;s blog post. As Steve says, this is a project that is only going to get more interesting with time. One&#8230;]]></description>
+				<content:encoded><![CDATA[<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5095964062/" title="RedMonk's Project Arcturus by alexkingorg, on Flickr"><img src="http://farm5.static.flickr.com/4124/5095964062_f4acccee92_m.jpg" width="240" height="230" alt="RedMonk's Project Arcturus" /></a></p>
+<p><a href="http://redmonk.com/" rel="external">RedMonk</a> has launched their first product: <a href="http://redmonk.com/analytics/" rel="external">RedMonk Analytics</a>. The basic premise is to use the data inherent in the activity on the RedMonk web properties to expose interesting trends. Read all about it in <a href="http://redmonk.com/sogrady/2010/10/18/introducing-project-arcturus-part-1/" rel="external">Steve&#8217;s blog post</a>. As Steve says, this is a project that is only going to get more interesting with time.</p>
+<p>One of the things I enjoy most about <a href="http://crowdfavorite.com">my job</a> is the opportunity to work with smart people and help them execute their great ideas. It&#8217;s even more rewarding in the case of RedMonk where I also have the privilege of calling one of the founders a friend.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/10/19/redmonks-project-arcturus/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>New Crowd Favorite Website</title>
+		<link>http://alexking.org/blog/2010/05/13/new-crowd-favorite-website</link>
+		<comments>http://alexking.org/blog/2010/05/13/new-crowd-favorite-website#comments</comments>
+		<pubDate>Thu, 13 May 2010 15:49:21 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4307</guid>
+		<description><![CDATA[It&#8217;s true in any profession: everyone will look at your own (insert specialty here) and assume it&#8217;s representative of the best of your work. More often, the opposite is true &#8211; especially if you&#8217;re good at what you do. The cobbler&#8217;s children go barefoot. This was definitely the case for us. The previous iteration of&#8230;]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s true in any profession: everyone will look at your own (insert specialty here) and assume it&#8217;s representative of the best of your work. More often, the opposite is true &#8211; especially if you&#8217;re good at what you do.</p>
+<blockquote><p>The cobbler&#8217;s children go barefoot.</p></blockquote>
+<p>This was definitely the case for us. The previous iteration of the Crowd Favorite website was <a href="http://alexking.org/blog/2005/03/22/wordpress-as-cms">built on WordPress 1.5</a> &#8211; for you recent WordPress users, that was before WordPress supported themes. The site was implemented using a variety of clever techniques that were made obsolete over the years as WordPress improved. When I <a href="http://alexking.org/blog/2007/06/04/king-design-is-now-crowd-favorite">renamed the business</a> in 2007, I simply updated the theme on top of the existing site content and structure. The entire thing was due for an overhaul, and that&#8217;s exactly what we did.</p>
+<p>The new Crowd Favorite website is finally representative of our team&#8217;s considerable skills. I&#8217;ll go into detail on many of these items in future posts, but here is a brief overview:</p>
+<ul>
+<li>Built on WordPress 3.0, utilizing the new custom post types feature.</li>
+<li>Advanced, custom page layouts with easy configurability and management &#8211; powered by Carrington Build.</li>
+<li>Integrated bbPress for product support forums.</li>
+<li>Single sign-on for Crowd Favorite customers to access the forums and product downloads.</li>
+<li>Fresh, new design &#8211; all created by our in-house design team.</li>
+<li>Expanded portfolio section, filterable by toolset, technology and services.</li>
+<li>Real, useful directions to the office, including where to park and public transit stops.</li>
+<li>A friendly and sophisticated contact/project inquiry form that helps us capture more information about projects, leading to more meaningful conversations with potential clients.</li>
+<li>Integrated client testimonials.</li>
+<li>Beautifully terse and semantic HTML5 markup (with backward compatibility to IE7).</li>
+<li>Consolidated JS and CSS delivery with ETAG support.</li>
+<li>Theme integration between WordPress and bbPress.</li>
+<li>Migration of legacy customer data.</li>
+<li>Payment integration for our store using our Rockefeller payment library.</li>
+<li>Extensive use of custom taxonomies, custom fields and metadata for content organization.</li>
+<li>Custom gallery displays.</li>
+<li>Small, elegant touches like the slide-out search box.</li>
+<li>Custom search implementation with editorially controlled keyword matching.</li>
+<li>New homes for all of our WordPress plugins and themes.</li>
+</ul>
+<p>We started taking notes for the new site requirements over a year ago, and started and stopped working on design concepts several times over the last few years. The final design came from a series of comps we started last fall. I am certainly our worst client, having put us through countless iterations, new starts and revisions. The end result though, is definitely worth it.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="">Crowd Favorite</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/05/13/new-crowd-favorite-website/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Analytics 360&#176; 1.0</title>
+		<link>http://alexking.org/blog/2009/07/14/analytics-360-1-0</link>
+		<comments>http://alexking.org/blog/2009/07/14/analytics-360-1-0#comments</comments>
+		<pubDate>Tue, 14 Jul 2009 20:55:00 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=3468</guid>
+		<description><![CDATA[MailChimp has released a great new WordPress plugin: Analytics360&#176;. This plugin creates a reporting dashboard for your MailChimp and Google Analytics right within your WordPress admin interface. Take a look at the post about the plugin on MailChimp&#8217;s blog, which includes a very cool video. It&#8217;s pretty slick, and useful &#8211; though I may be&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://mailchimp.com" rel="external">MailChimp</a> has released a great new <a href="http://wordpress.org/" rel="external">WordPress</a> plugin: <a href="http://wordpress.org/extend/plugins/analytics360/" rel="external">Analytics360&deg;</a>. This plugin creates a reporting dashboard for your MailChimp and Google Analytics right within your WordPress admin interface.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/3721675858/" title="a360-dashboard by alexkingorg, on Flickr"><img src="http://farm3.static.flickr.com/2484/3721676144_dd23bcf77a_o.png" width="400" height="320" alt="a360-dashboard-crop" /></a></p>
+<p>Take a look at the post about the plugin <a href="http://www.mailchimp.com/blog/google-analytics-plugin-for-wordpress/" rel="external">on MailChimp&#8217;s blog</a>, which includes a very cool video.</p>
+<p>It&#8217;s pretty slick, and useful &#8211; though I may be biased since my team and I at <a href="http://crowdfavorite.com">Crowd Favorite</a> were lucky enough to build the plugin. I don&#8217;t log into my Google Analytics account that often, but I&#8217;m in my WordPress admin daily. With this plugin, I&#8217;ll probably be keeping a little closer eye on my stats.</p>
+<p>I can&#8217;t imagine how useful this would be if I also did email campaigns with MailChimp. Having a visual display of web site visitor data integrated with mailings and blog posts is hot! The plugin uses APIs and MailChimp and Google Analytics to gather data, then uses that data to build the visualizations in the plugin. With the excellent APIs at both services, we can do all of this without needing to store your credentials for the services, making everything that much more secure.</p>
+<p>Check it out, you (obviously) need either a Google Analytics account or a MailChimp account to bring in the data from that service, and it will work if you have either/or.</p>
+<p>If you have questions, need support or need to report a bug or plugin conflict, please use the <a href="http://www.mailchimp.com/support/contact" rel="external">form here</a> (per the FAQ).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2009/07/14/analytics-360-1-0/feed</wfw:commentRss>
+		<slash:comments>25</slash:comments>
+		</item>
+		<item>
+		<title>Progressive License 1.0</title>
+		<link>http://alexking.org/blog/2008/09/10/progressive-license-10</link>
+		<comments>http://alexking.org/blog/2008/09/10/progressive-license-10#comments</comments>
+		<pubDate>Thu, 11 Sep 2008 04:46:44 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/09/10/progressive-license-10</guid>
+		<description><![CDATA[Steve O&#8217;Grady of RedMonk announced the Progressive License WordPress plugin at WordCamp San Francisco. Progressive License is similar to other plugins that allow you to easily put a license on your content, but it brings a little twist: the ability to change the license applied to the content as the content ages. Steve explains: In&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://redmonk.com/sogrady/" rel="external">Steve O&#8217;Grady</a> of <a href="http://redmonk.com" rel="external">RedMonk</a> <a href="http://redmonk.com/sogrady/2008/08/17/wetry/" rel="external">announced</a> the <a href="http://wordpress.org/extend/plugins/progressive-license/" rel="external">Progressive License</a> <a href="http://wordpress.org/" rel="external">WordPress</a> plugin at WordCamp San Francisco.</p>
+<p>Progressive License is similar to other plugins that allow you to easily put a license on your content, but it brings a little twist: the ability to change the license applied to the content as the content ages.</p>
+<p>Steve explains:</p>
+<blockquote><p>In my case, as an example, it applies a Creative Commons noncommercial license for the first 60 days &#8211; <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">this one</a> &#8211; and then retires the noncommercial provision after that time period, applying <a href="http://creativecommons.org/licenses/by-sa/3.0/">this license</a> on everything older than 60 days.</p></blockquote>
+<p>This is the sort of thing that would have been really simple to build as a one-off custom plugin, but RedMonk instead chose to have my company, <a href="http://crowdfavorite.com">Crowd Favorite</a>, build a solution that could be distributed back to the community.</p>
+<p>This was an interesting user interaction challenge. We did our best to make this definition of the license time windows as user friendly as possible.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/2847794774/" title="License Timeline by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3296/2847794774_d539edc815_m.jpg" width="240" height="212" alt="License Timeline" /></a></p>
+<p>You can see we created a JavaScript based configuration page that does some date calculation to show when licenses would be applied to a post published today. Hopefully this does a good job communicating how the various licenses will be applied.</p>
+<p>Progressive License ships with seven <a href="http://creativecommons.org/" rel="external">Creative Commons licenses</a> included out of the box, but also gives you an interface to add additional licenses you would like to use.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/2847794856/" title="Custom License by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3040/2847794856_6fdc21aa52_m.jpg" width="240" height="213" alt="Custom License" /></a></p>
+<p>Many thanks to RedMonk for bringing us in to build this plugin, and kudos to them for choosing to sponsor the creation of a robust solution for the rest of the WordPress community.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/09/10/progressive-license-10/feed</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>JabberWerx AJAX</title>
+		<link>http://alexking.org/blog/2008/09/05/jabberwerx-ajax</link>
+		<comments>http://alexking.org/blog/2008/09/05/jabberwerx-ajax#comments</comments>
+		<pubDate>Fri, 05 Sep 2008 17:29:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/09/05/jabberwerx-ajax</guid>
+		<description><![CDATA[JabberWerx AJAX has hit the streets! JabberWerx AJAX is a set of thin client JavaScript libraries that can be easily embedded into existing web sites and web applications to add rich push functionality (chat, live content updates, etc.) to them. There are easy to drop in bits for one to one chat (tabbed), group chat&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.jabber.com/CE/JabberWerxAJAXLibrary" rel="external">JabberWerx AJAX</a> has hit the streets!</p>
+<p class="center"><a href="http://flickr.com/photos/alexkingorg/sets/72157607126321921/" title="JabberWerx AJAX by alexkingorg, on Flickr"><a href="http://www.flickr.com/photos/alexkingorg/2829937795/" title="Group Chat by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3269/2829937795_b6083ab344_m.jpg" width="240" height="144" alt="Group Chat" /></a></p>
+<p>JabberWerx AJAX is a set of thin client JavaScript libraries that can be easily embedded into existing web sites and web applications to add rich push functionality (chat, live content updates, etc.) to them.</p>
+<p>There are easy to drop in bits for one to one chat (tabbed), group chat and a library that allows you to push data updates to your page (think pushed stock or twitter updates). It&#8217;s a pretty good system to get up and running easily.</p>
+<p>Most of us think of XMPP/Jabber as a chat protocol, and it does that very well (as anyone using GTalk can attest to); but it&#8217;s also got a very interesting place in the web 2.0 space as a real time data push channel. Using push instead of pull/poll can dramatically reduce server loads, and also gives you new data faster.<sup><a href="#fn1220635375484n" id="fn1220635375484" class="footnote">1</a></sup></p>
+<p>Building libraries and building applications are two very different things. With applications you need to make functionality available to your end users. With libraries, you need to build robust and complete solutions that will be used in ways you probably haven&#8217;t thought of yet; abstraction and building small, distinct components is key. It&#8217;s a fun and different challenge.</p>
+<p>I&#8217;m very proud that my company, <a href="http://crowdfavorite.com">Crowd Favorite</a>, was able to work with the great folks at <a href="http://www.jabber.com" rel="external">Jabber</a> to help bring this concept to fruition.</p>
+<ol class="footnotes">
+<li id="fn1220635375484n">Steve has a <a href="http://redmonk.com/sogrady/2008/07/30/xmpp_rest/" rel="external">great Q&#038;A on this</a>. [<a href="#fn1220635375484">back</a>]</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/09/05/jabberwerx-ajax/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>New Lijit WordPress Plugin</title>
+		<link>http://alexking.org/blog/2008/08/20/new-lijit-wordpress-plugin</link>
+		<comments>http://alexking.org/blog/2008/08/20/new-lijit-wordpress-plugin#comments</comments>
+		<pubDate>Wed, 20 Aug 2008 07:17:20 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/08/20/new-lijit-wordpress-plugin</guid>
+		<description><![CDATA[There&#8217;s a new and improved Lijit WordPress plugin available for download. This version is one that my company, Crowd Favorite, had the pleasure of helping build. The new plugin makes it easy for you to enable Lijit search from the default WordPress search box, or you can add in the full Lijit widget wijit if&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There&#8217;s a new and improved <a href="http://www.lijit.com/blog/2008/08/15/new-and-improved-wordpress-plug-in/" rel="external">Lijit WordPress plugin</a> available for <a href="http://wordpress.org/extend/plugins/wp-lijit-wijit/" rel="external">download</a>. This version is one that my company, <a href="http://crowdfavorite.com">Crowd Favorite</a>, had the pleasure of helping build.</p>
+<p>The new plugin makes it easy for you to enable Lijit search from the default WordPress search box, or you can add in the full Lijit <del>widget</del> wijit if you like.</p>
+<p>I use Lijit search on <a href="http://alexking.info" rel="external">alexking.info</a>, where I aggregate content from all of the various sites and services I publish content on. The Lijit search performs a search across all of that content &#8211; pretty slick.</p>
+<p>I&#8217;m pretty pleased with the overall user experience for the plugin. It nicely handles set-up for new or existing users, gives straightforward options and instructions, and even brings in your Lijit search stats with a new link on the WordPress admin dashboard.</p>
+<p>Many thanks to the <a href="http://learntoduck.com/" rel="external">great</a> <a href="http://www.techniqal.com/blog/2008/08/15/lijit-wordpress-plugin-revamped/" rel="external">folks</a> we were able to work with at Lijit in building the new plugin. It was a pleasure working with people that care deeply about their users and are also technically astute.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/08/20/new-lijit-wordpress-plugin/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>Addictomatic Refreshed</title>
+		<link>http://alexking.org/blog/2008/08/06/addictomatic-refreshed</link>
+		<comments>http://alexking.org/blog/2008/08/06/addictomatic-refreshed#comments</comments>
+		<pubDate>Wed, 06 Aug 2008 18:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/08/06/addictomatic-refreshed</guid>
+		<description><![CDATA[Addictomatic is sporting a shiny new suit today. The overall look has been updated with a great new design from Bryan Bell, and a number of little features have been added and minor tweaks made since the initial launch. I&#8217;ve got a few more screenshots here, but it&#8217;s a lot more fun to just go&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://addictomatic.com" rel="external">Addictomatic</a> is sporting a shiny new suit today.</p>
+<p>The overall look has been updated with a great new design from <a href="http://bryanbell.com/" rel="external">Bryan Bell</a>, and a number of little features have been added and minor tweaks made since the <a href="http://alexking.org/blog/2008/05/01/addictomatic">initial launch</a>.</p>
+<p class="center"><a href="http://flickr.com/photos/alexkingorg/sets/72157606579599467/" title="Home by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3141/2738370951_5a434ea87e_m.jpg" width="240" height="216" alt="Home" /></a></p>
+<p>I&#8217;ve got a few more screenshots <a href="http://flickr.com/photos/alexkingorg/sets/72157606579599467/" rel="external">here</a>, but it&#8217;s a lot more fun to just <a href="http://addictomatic.com/topic/iphone" rel="external">go poke around</a>.</p>
+<p>Here is a partial list of the changes:</p>
+<ul>
+<li>New theme design.</li>
+<li><a href="http://flickr.com/photos/alexkingorg/2738371105/in/set-72157606579599467/" rel="external">Welcome message</a> for first time visitors.</li>
+<li>List of Hot Topics next to the Create box.</li>
+<li>New Browse the News navigation.</li>
+<li>Integrated ads from the Deck.</li>
+<li>More little JavaScript effect niceties.</li>
+<li>Numerous behind the scenes changes for performance.</li>
+</ul>
+<p>The main focus of the refresh was to make it easier for new visitors to explore the site. To this end we exposed more links to Hot Topics, added weight to the Browse the News (formerly Newsfix) button, and configured the Browse the News drawer to stay open on Browse the News pages. This last change keeps the other news topics visible more often, giving people enticing things to click on. Hopefully the results will be good.</p>
+<p>Thanks, as always, to <a href="http://davenetics.com/" rel="external">Dave Pell</a> for trusting us to work on his baby. <a href="http://crowdfavorite.com">We</a> have a lot of fun building and using Addictomatic.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/08/06/addictomatic-refreshed/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>PhoneFactor 1.0</title>
+		<link>http://alexking.org/blog/2008/06/27/phonefactor-10</link>
+		<comments>http://alexking.org/blog/2008/06/27/phonefactor-10#comments</comments>
+		<pubDate>Fri, 27 Jun 2008 23:13:22 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/06/27/phonefactor-10</guid>
+		<description><![CDATA[PhoneFactor is a WordPress plugin that provides an additional layer of security when logging in to your WordPress site. It&#8217;s a pretty cool system. When you log in to your WordPress blog with PhoneFactor enabled, you receive a phone call asking you to press # to authorize. When you do so, you are logged in.&#8230;]]></description>
+				<content:encoded><![CDATA[<p>PhoneFactor is a <a href="http://wordpress.org/" rel="external">WordPress</a> plugin that provides an additional layer of security when logging in to your WordPress site.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/sets/72157605848461623/"><img src="http://farm4.static.flickr.com/3149/2616262594_5cf244979b_m.jpg" width="240" height="177" alt="Login" /></a></p>
+<p>It&#8217;s a pretty cool system. When you log in to your WordPress blog with PhoneFactor enabled, you receive a phone call asking you to press # to authorize. When you do so, you are logged in. If you do not, then the login attempt fails.</p>
+<p>Basically, this means someone needs to get your username, password <em>and</em> phone in order to log in to your WordPress site as you.</p>
+<p><a href="http://crowdfavorite.com">Crowd Favorite</a> worked with the <a href="http://phonefactor.com/" rel="external">PhoneFactor</a> team to build this integration on their API layer. This was a fun project for us &#8211; it&#8217;s always nice to enhance WordPress by integrating features from another service.</p>
+<p>Besides building the integration with the API to authenticate via phone, we also built the PhoneFactor registration step right into the WordPress admin so that the user wouldn&#8217;t have to leave the WordPress admin when activating the plugin and getting it set up. I think it&#8217;s a much better user experience.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/2615434383/" title="Registration by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3119/2615434383_9647b143f0_m.jpg" width="240" height="178" alt="Registration" /></a></p>
+<p>We integrated some instructional banners into the WordPress admin pages to let people know the next steps to getting things set up after activating the plugin. We also built in some more advanced user features like whitelisting IP addresses so that you don&#8217;t have to use PhoneFactor authentication if you&#8217;re logging in from your home machine.</p>
+<p>The download and more information are available at the <a href="http://wordpress.org/extend/plugins/phonefactor/">WordPress Plugin repository</a> on wordpress.org.</p>
+<p>Enjoy!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/06/27/phonefactor-10/feed</wfw:commentRss>
+		<slash:comments>38</slash:comments>
+		</item>
+		<item>
+		<title>OpenedHand Redesign</title>
+		<link>http://alexking.org/blog/2008/06/23/openedhand-redesign</link>
+		<comments>http://alexking.org/blog/2008/06/23/openedhand-redesign#comments</comments>
+		<pubDate>Mon, 23 Jun 2008 23:27:58 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/2008/06/23/openedhand-redesign</guid>
+		<description><![CDATA[Last fall Crowd Favorite had the opportunity to work with OpenedHand1 to redesign their web site. Their site is powered by WordPress and we did the design and created some custom theme features for them. This was a fairly straightforward build. We created several different designs, went through a few revisions, detailed the custom features&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Last fall <a href="http://crowdfavorite.com">Crowd Favorite</a> had the opportunity to work with <a href="http://o-hand.com/" rel="external">OpenedHand</a><sup><a href="#fn1214009280011n" id="fn1214009280011" class="footnote">1</a></sup> to redesign their web site. Their site is powered by <a href="http://wordpress.org/" rel="external">WordPress</a> and we did the design and created some custom theme features for them.</p>
+<p class="center"><a href="http://flickr.com/photos/alexkingorg/sets/72157605722308770/" title="OpenedHand"><img src="http://farm4.static.flickr.com/3191/2596787330_838d1edcd0_m.jpg" width="240" height="182" alt="Home" /></a></p>
+<p>This was a fairly straightforward build. We created several different designs, went through a few revisions, detailed the custom features that were needed, and got cranking on them. With OpenedHand being located in Europe, all development was remote and all communication was done via e-mail.</p>
+<p>Unlike some projects where we implement a design and configure it on their production server, in this case we created the theme for them and handed it off to them to set up. They are quite technical, so the configuration and set-up was not difficult for them and I was pleased that they were able to implement what we delivered without needing to ask a lot of questions. That indicates to me that we did a good job packaging and providing installation notes &#8211; things that are always a little hard to self-evaluate.</p>
+<p>The OpenedHand team also made a couple of minor changes on their own to what we delivered to them before they put the new site live. This was very gratifying to me as well.</p>
+<p>When you build things, you try to do so in such a way that they are easily maintained and modified. When your client is able to make changes without needing to ask for help, that&#8217;s generally a good sign that you&#8217;ve succeeded.</p>
+<ol class="footnotes">
+<li id="fn1214009280011n">They do some cool stuff, be sure to check them out. [<a href="#fn1214009280011">back</a>]</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2008/06/23/openedhand-redesign/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.374 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:52 -->
+
+<!-- Compression = gzip -->

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Monarchy</title>
+	<atom:link href="http://alexking.org/blog/topic/monarchy/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Hoodie</title>
+		<link>http://alexking.org/blog/2015/04/03/hoodie</link>
+		<comments>http://alexking.org/blog/2015/04/03/hoodie#comments</comments>
+		<pubDate>Fri, 03 Apr 2015 23:17:44 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Monarchy]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21506</guid>
+		<description><![CDATA[<p><a href="http://alexking.org/blog/2015/04/03/hoodie"><img width="510" height="510" src="http://alexking.org/wp-content/uploads/2015/04/16834872618_3dcb877c10_o-510x510.jpg" class="attachment-medium-img wp-post-image" alt="Monarchy hoodie" data-id="21507" /></a></p>
+Yes, I&#8217;m already sporting new swag. I love that you can order one-offs from CustomInk.1 Full disclosure, CustomInk has sponsored this site in the past.&#160;&#8617;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/blog/2015/04/03/hoodie"><img width="510" height="510" src="http://alexking.org/wp-content/uploads/2015/04/16834872618_3dcb877c10_o-510x510.jpg" class="attachment-medium-img wp-post-image" alt="Monarchy hoodie" data-id="21507" /></a></p>
+<p>Yes, I&#8217;m already sporting new swag. I love that you can order one-offs from <a href="http://www.customink.com/">CustomInk</a>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Full disclosure, CustomInk has sponsored this site in the past.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/03/hoodie/feed</wfw:commentRss>
+		<slash:comments>40</slash:comments>
+		</item>
+		<item>
+		<title>Returning to My Indy Roots</title>
+		<link>http://alexking.org/blog/2015/04/02/monarchy</link>
+		<comments>http://alexking.org/blog/2015/04/02/monarchy#comments</comments>
+		<pubDate>Thu, 02 Apr 2015 21:44:08 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Monarchy]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21435</guid>
+		<description><![CDATA[Back in September I went on medical leave at Crowd Favorite. That ended on March 15th and due to a number of reasons, I&#8217;m not going to be re-joining the team in my previous capacity. Instead, I will be an advisor to Crowd Favorite while I return to my independent developer roots.1 The largest factor&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Back in September I went on <a href="http://alexking.org/blog/2014/10/27/on-medical-leave">medical leave</a> at Crowd Favorite. That ended on March 15th and due to a number of reasons, I&#8217;m not going to be re-joining the team in my previous capacity. Instead, I will be an advisor to Crowd Favorite while I return to my independent developer roots.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>The largest factor in this decision was a desire to have complete control over what I&#8217;m putting my effort into. If you&#8217;re thinking that this kind of selfishness can be poisonous in a team atmosphere, I would agree with you whole-heartedly. Dealing with cancer has been a sharpener for me. I am more careful than ever about how I spend my time, and that doesn&#8217;t fit well into a team dynamic. No matter how great the team is.</p>
+<p><a href="http://monarchyllc.com/"><img src="http://alexking.org/wp-content/uploads/2015/03/monarchy-logo-510x266.png" alt="monarchy-logo" width="480" height="250" class="alignnone size-medium-img wp-image-21440" /></a></p>
+<p><strong><a href="http://monarchyllc.com/" title="Independent PHP development and consulting.">Monarchy</a></strong> is my new one-man shop. I am offering consulting, development, and UX design services. I&#8217;m only interested in touching enterprise-scale projects as a consultant or to fill a specific role.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I will also be working on some pet projects that have been relegated to the back burner over the years.</p>
+<p>While I love the team I helped build at Crowd Favorite and I look forward to their continued success, I&#8217;m also looking forward to transitioning away from the management and leadership role I had there and spending my time on the actual  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  hands-on  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  work.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I also expect to continue to contribute to a variety of Crowd Favorite&#8217;s Open Source projects.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+If you need a full-service agency for WordPress projects, <a href="http://crowdfavorite.com/contact/#project">talk to Crowd Favorite</a>.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the following threads: <a href="">Crowd Favorite</a>, <a href="http://alexking.org/blog/thread/life-events">Life Events</a>, <a href="http://alexking.org/blog/thread/career">Career</a> &#8211; ongoing stories on this site. View the thread timelines for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/02/monarchy/feed</wfw:commentRss>
+		<slash:comments>103</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.183 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:05 -->
+
+<!-- Compression = gzip -->

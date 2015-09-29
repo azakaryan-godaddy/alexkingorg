@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Mobile</title>
+	<atom:link href="http://alexking.org/blog/topic/mobile/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Nightly Charging Means No Sleep Tracking</title>
+		<link>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking</link>
+		<comments>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking#comments</comments>
+		<pubDate>Wed, 25 Feb 2015 05:53:34 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=21359</guid>
+		<description><![CDATA[As I plugged in my Garmin VivoSmart this morning for a couple of hours to give it its week-long plus battery cycle it occurred to me: if I had to take this off every night to charge it I wouldn&#8217;t be able to track my sleep the way I do now.&#160; Something to think about&#8230;]]></description>
+				<content:encoded><![CDATA[<p>As I plugged in my Garmin VivoSmart this morning for a couple of hours to give it its week-long plus battery cycle it occurred to me: if I had to take this off every night to charge it I wouldn&#8217;t be able to track my sleep the way I do now.&nbsp;</p>
+<p>Something to think about given the daily-charge battery cycle predicted for the Apple Watch.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>I&#8217;m liking the larger iPhone 6 screen more and mor&#8230;</title>
+		<link>http://alexking.org/blog/2014/10/07/20941</link>
+		<comments>http://alexking.org/blog/2014/10/07/20941#comments</comments>
+		<pubDate>Tue, 07 Oct 2014 16:19:52 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=20941</guid>
+		<description><![CDATA[
+<div style="font-size:1.5em; line-height:1.5em;">
+I&#8217;m liking the larger iPhone 6 screen more and more as my apps update to support the larger resolution.</div>
+
+]]></description>
+				<content:encoded><![CDATA[
+<div style="font-size:1.5em; line-height:1.5em;">
+<p>I&#8217;m liking the larger iPhone 6 screen more and more as my apps update to support the larger resolution.</p>
+</div>
+
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/07/20941/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>Confused by the Apple Watch</title>
+		<link>http://alexking.org/blog/2014/09/12/confused-by-the-apple-watch</link>
+		<comments>http://alexking.org/blog/2014/09/12/confused-by-the-apple-watch#comments</comments>
+		<pubDate>Fri, 12 Sep 2014 15:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20856</guid>
+		<description><![CDATA[I&#8217;ve been somewhat excited about smartwatches this year. I picked up a Pebble which I liked; but the function provided fails to outweigh its form. I followed the Android Wear announcements and nothing seemed compelling. Too big, too little battery life, too many features I don&#8217;t care about conspiring to result in a price tag&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been somewhat excited about smartwatches this year. I <a href="http://alexking.org/blog/2014/01/29/pebble-watch-micro-review">picked up a Pebble</a> which I liked; but the function provided fails to outweigh its form.</p>
+<p>I followed the Android Wear announcements and nothing seemed compelling. Too big, too little battery life, too many features I don&#8217;t care about conspiring to result in a price tag that <a href="http://alexking.org/blog/2014/07/07/20578">I felt was too high</a>.</p>
+<p>Enter the long rumored <del datetime="2014-09-09T23:00:22+00:00">iWatch</del> Apple Watch.</p>
+<p>Delivered with much fanfare yesterday, the Apple Watch was hailed by Apple CEO Tim Cook as the next new exciting product category for Apple. I watched the introduction. I read blog posts and tweets of excitement and anticipation by friends and folks I respect.</p>
+<p>I&#8217;m looking &#8211; trying to understand; but I don&#8217;t get it.</p>
+<p>Much of the criticism that I saw (and agreed with) regarding Android Wear was about tradeoffs. That trading bulkiness and battery life for a more robust device was a poor choice for something you wore on your wrist. Well, that and the devices lacking a certain design aesthetic. Reasonable people can disagree about the design aesthetic, but it&#8217;s clear that Apple and Google both see the watch as a full, new, app-capable platform.</p>
+<p>Both are currently bulky as they try to cram powerful capabilities into a small device profile. Both require (at least) daily charging.</p>
+<p>Android Wear&#8217;s critics called out a lack of functional benefit &#8211; you still need to pair it with a phone<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, and the watch doesn&#8217;t really do anything that the phone can&#8217;t/doesn&#8217;t already. The Apple Watch falls directly into that category (with some caveats for the new health tracking features in both platforms).</p>
+<p>Android Wear was also criticized for it&#8217;s high cost (necessitated by the choice to make it a first class device) and we know that it&#8217;s a device that is likely to be technically surpassed annually &#8211; like all of our mobile devices.</p>
+<p>While we don&#8217;t know the full price scale of the Apple Watch, we know it starts at $100 more than the $250 price point common on Android Wear devices. These aren&#8217;t going to be carrier-subsidized. If you want a new one, you&#8217;ll be shelling out the full amount each time.</p>
+<p>And my guess is that each upgrade is going to be really compelling for the foreseeable future. Better battery life. A slimmer profile. App compatibility with older devices (think iPad 1).</p>
+<p>While this is true for both sets of devices:</p>
+<blockquote class="twitter-tweet" width="480"><p>This is the bulkiest Apple Watch we’re likely to ever see.</p>
+<p>&mdash; Nick Arnott (@noir) <a href="https://twitter.com/noir/status/509412689282490368">September 9, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>(and you can add &#8220;worst battery life&#8221; and probably &#8220;most expensive&#8221; and &#8220;least capable&#8221; to that list as well), these are still the devices consumers are being asked to purchase now.</p>
+<p>With a big caveat for health tracking features (these are great, I want them, I&#8217;m glad they are in the platforms), I&#8217;m struggling to see why I want most of the Apple Watch&#8217;s offerings on my wrist when I already have them on the phone in my pocket.</p>
+<p><img src="http://www.quickmeme.com/img/59/5940114b57a48c126522c65b6fb0936a900871a0fa482eafabb9e9af07412764.jpg" alt="Yeah, yeah, but your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should." /></p>
+<p>Apple Watch is definitely a more fully-baked idea/platform than Android Wear<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. They&#8217;ve been working on this for quite some time. This may be what is appealing to some of the folks I (was surprised to) see so excited about the Apple Watch. I&#8217;m just really surprised to hear that people think they want this.</p>
+<p>I get the biggest capacity iPhone each year, in part because I load around 15,000 digital photos on it (+~1-2k/year) &#8211; the entirety of my photo library. Why do I also want a copy of these photos on my watch? I can see them better myself, and show them to others better using the larger device.</p>
+<p>Most people I know are suffering from communication overload already &#8211; do we need Yet Another Way of Messaging each other?</p>
+<p>I&#8217;m definitely intrigued by some of the tech (and can&#8217;t wait to play with the digital crown), but I&#8217;m also reminded that we have a loss of input fidelity with each reduction in device size. I&#8217;d rather write an email on my MacBook, iPad, iPhone &#8211; in that order.</p>
+<p>Watching the demo of how you launch an app on the phone made me cringe a little. Maybe it isn&#8217;t this bad in person, but it all looks very fiddly.</p>
+<p>But for me it really comes down to, &#8220;what do I want on my wrist?&#8221; I like being able to glance at notifications and then leave my phone in my pocket if it&#8217;s not something I&#8217;m going to act on immediately. I like having an activity/fitness tracker. I like glance-able access to information like the current temperature or next appointment. And that&#8217;s about it. I definitely don&#8217;t want another device I need to charge daily (though if it were compelling enough&#8230;).<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+<p>Maybe in a few years we&#8217;ll see a wide range of Apple Watch offerings. From simple (and cheaper) things resembling a Fitbit or Nike FuelBand to other higher end options. Maybe that&#8217;s the long term, more interesting play. But I still don&#8217;t see why I need a fully-functional computing platform on my wrist that piggybacks on the one in my pocket.</p>
+<p>Apple doesn&#8217;t do big new category launches lightly, What am I missing?</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Samsung&#8217;s most recent release, the <a href="http://www.extremetech.com/computing/188828-samsung-unveils-standalone-gear-s-3g-smartwatch-awesome-until-the-battery-runs-out-after-an-hour">Gear S</a>, does not need to be paired with a phone.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Samsung&#8217;s entry into all categories of Android Wear devices is in perfect contrast to the more fully-baked single offering from Apple.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:3">
+If the Pebble Steele can add reasonable activity data to healthkit (along with its week of battery life and simple notifications), then I think that is the smart watch that I currently find most compelling.&#160;<a href="#fnref:3" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/09/12/confused-by-the-apple-watch/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>&#8220;Wish we could say more&#8221;</title>
+		<link>http://alexking.org/blog/2014/09/09/wish-we-could-say-more</link>
+		<comments>http://alexking.org/blog/2014/09/09/wish-we-could-say-more#comments</comments>
+		<pubDate>Tue, 09 Sep 2014 14:23:31 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20851</guid>
+		<description><![CDATA[I&#8217;m looking forward to seeing my new phone and the wearable at today&#8217;s Apple event. The invite includes the tagline: Wish we could say more I&#8217;ve seen speculation that this refers to Siri, which could definitely make sense in the context of a wearable and what we&#8217;ve seen from Android. However, I&#8217;m going to guess&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m looking forward to seeing my new phone and the wearable at <a href="http://9to5mac.com/2014/08/28/apple-announces-special-event-for-september-9th-wish-we-could-say-more/">today&#8217;s Apple event</a>.</p>
+<p>The invite includes the tagline:</p>
+<blockquote><p>Wish we could say more</p></blockquote>
+<p>I&#8217;ve seen speculation that this refers to Siri, which could definitely make sense in the context of a wearable and what we&#8217;ve seen from Android. However, I&#8217;m going to guess this is a reference to significantly improved battery life in the iPhone; say more = talk time. We&#8217;ll know soon enough!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/09/09/wish-we-could-say-more/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>How I&#8217;d Make an iPad Pro</title>
+		<link>http://alexking.org/blog/2014/03/03/ipad-pro</link>
+		<comments>http://alexking.org/blog/2014/03/03/ipad-pro#comments</comments>
+		<pubDate>Mon, 03 Mar 2014 16:58:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Idea]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19590</guid>
+		<description><![CDATA[I&#8217;m all in on the iPad, but as noted previously I largely agree with Lukas Mathis that it&#8217;s currently a tool best used for consumption. That said, I also believe that the future of computing looks more like an iPad and less like a laptop for most normal users. Looking at how Apple has taken&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m all in on the iPad, but as <a href="http://alexking.org/blog/2014/03/03/windows-8-and-the-microsoft-surface">noted previously</a> I largely agree with Lukas Mathis that it&#8217;s currently a tool best used for consumption. That said, I also believe that the future of computing looks more like an iPad and less like a laptop for most  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  normal  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  users.</p>
+<p>Looking at how Apple has taken evolutionary steps with iOS as a platform and with the devices that run it, I think they could reasonably create a larger iPad that is exactly 2x the current iPad Air&#8217;s screen size. I&#8217;ll refer to this as the iPad Pro.</p>
+<p><a href="http://alexking.org/wp-content/uploads/2014/03/ipad-pro.png"><img src="http://alexking.org/wp-content/uploads/2014/03/ipad-pro.png" alt="ipad-pro" width="408" height="510" class="alignnone size-medium-img wp-image-19591" /></a></p>
+<p>(This sketch was created on an iPad Air using <a href="https://itunes.apple.com/us/app/notability/id360593530?mt=8">Notability</a> and a stylus.)</p>
+<p>This would allow current iPad apps to run at their native resolution in half of the screen, making it easy to run two apps side by side.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Two current iPad apps in portrait on a landscape oriented screen.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> Apps could be written to use the full screen width, and some would be great like this, but they would all need to be able to run at the current iPad resolution. This would allow all iPad apps to work in &#8220;dual screen&#8221; mode on the iPad Pro.</p>
+<p>The device would be just about the size of a 15&#8243; MacBook Pro screen (slightly less wide), which is quite reasonable to use on a lap and still portable. If they could maintain the width of the iPad Air while making the overall device about 1.5x the weight of the current iPad Air, I think that would work nicely.</p>
+<p>While this would be an evolutionary step for the iPad platform, I think this would significantly change the way people can use an iPad; making it quite a bit more realistic to <a href="http://online.wsj.com/news/articles/SB10001424052702303491404579390981100620274">replace a laptop with an iPad</a> for many people.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+The keyboard would take the full width when it is present, taking the same screen height it does now.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+How would this work when the iPad Pro was in portrait mode? I could see the apps rotating (like they do today) while maintaining their same screens split.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/03/ipad-pro/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>iPhone Cases</title>
+		<link>http://alexking.org/blog/2014/02/25/iphone-cases</link>
+		<comments>http://alexking.org/blog/2014/02/25/iphone-cases#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 22:51:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19567</guid>
+		<description><![CDATA[I&#8217;ve never had a case or bumper on any of the 6 iPhones I&#8217;ve owned. About a month ago I dropped my iPhone while I was stupidly holding it to take a picture in the same hand that also held the dog leash. It fell about 5 feet and landed corner first on the sidewalk;&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve never had a case or bumper on any of the 6 iPhones I&#8217;ve owned. About a month ago I dropped my iPhone while I was stupidly holding it to take a picture in the same hand that also held the dog leash. </p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/02/001-20140225-P1010996-510x284.jpg" alt="001-20140225-P1010996" width="480" height="267" class="alignnone size-medium-img wp-image-19570" /></p>
+<p>It fell about 5 feet and landed corner first on the sidewalk; dinging the corner pretty badly. </p>
+<p>The bottom edge was now uncomfortably rough when I held it in my hand to use it. </p>
+<p>I first tried the Apple leather case, then another. They made the phone feel bulky and hampered my ability to do edge-swipes as a back gesture. </p>
+<p>Yesterday I got a metal file and smoothed out the rough edge. </p>
+<p>I like my iPhone a little better when it&#8217;s naked.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/02/25/iphone-cases/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Waterlogue</title>
+		<link>http://alexking.org/blog/2014/02/07/waterlogue</link>
+		<comments>http://alexking.org/blog/2014/02/07/waterlogue#comments</comments>
+		<pubDate>Fri, 07 Feb 2014 20:37:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Photography]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19430</guid>
+		<description><![CDATA[<p><a href="http://alexking.org/blog/2014/02/07/waterlogue"><img width="510" height="382" src="http://alexking.org/wp-content/uploads/2014/02/20140207-133557-510x382.jpg" class="attachment-medium-img wp-post-image" alt="20140207-133557.jpg" data-id="19429" /></a></p>
+I&#8217;ve been seeing a lot of folks using Waterlogue recently. This is my first test image. Definitely fun to play around with, though it feels a bit like a fad/novelty. In other news, I&#8217;m successfully posting from my phone again.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/blog/2014/02/07/waterlogue"><img width="510" height="382" src="http://alexking.org/wp-content/uploads/2014/02/20140207-133557-510x382.jpg" class="attachment-medium-img wp-post-image" alt="20140207-133557.jpg" data-id="19429" /></a></p>
+<p>I&#8217;ve been seeing a lot of folks using <a href="https://itunes.apple.com/us/app/waterlogue/id764925064?mt=8">Waterlogue</a> recently. This is my first test image. Definitely fun to play around with, though it feels a bit like a fad/novelty.</p>
+<p>In other news, I&#8217;m successfully posting from my phone again.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/02/07/waterlogue/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Castro &#8211; The podcast client that thinks like I do</title>
+		<link>http://alexking.org/blog/2014/01/11/castro-podcast-app-review</link>
+		<comments>http://alexking.org/blog/2014/01/11/castro-podcast-app-review#comments</comments>
+		<pubDate>Sat, 11 Jan 2014 20:59:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19226</guid>
+		<description><![CDATA[I&#8217;ve been using Castro for the last month and I&#8217;m smitten. Finally, a podcast client that thinks about podcasts the way I do. Here is the simple list of things Castro does right: Omni-present audio controls. If I&#8217;m in the app, and a podcast is playing, I don&#8217;t need to change screens to get to&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been using <a href="http://castro.fm/">Castro</a> for the last month and I&#8217;m smitten. Finally, a podcast client that thinks about podcasts the way I do.</p>
+<p>Here is the simple list of things Castro does right:</p>
+<ol>
+<li>Omni-present audio controls. If I&#8217;m in the app, and a podcast is playing, I don&#8217;t need to change screens to get to the audio controls. Bonus points for having the best scrubber control I&#8217;ve used and sane integration with the system audio controls.</li>
+<li>Reliable auto-refresh and download of podcasts. I don&#8217;t want to have to think about it, I just want my audio when I&#8217;m ready for it.</li>
+<li>Simple navigation. There are podcasts and there are episodes. Done. You can easily get from a list of one to a list of the other and you can easily get from a podcast to it&#8217;s episodes and vice versa. Bonus points for supporting gestures.</li>
+</ol>
+<p>That&#8217;s it. No other app I&#8217;ve used has nailed these three things. Other podcast apps I&#8217;ve used (plus a couple I&#8217;m forgetting):</p>
+<ul>
+<li>Instacast</li>
+<li>Downcast</li>
+<li>Podcasts (Apple&#8217;s)</li>
+<li>Pod Wrangler</li>
+<li>Podcaster</li>
+</ul>
+<p>Yes, Castro also supports searching to add podcasts, using the feed URL in your clipboard if there is one, OPML import, per-feed speed settings, etc. All that stuff is gravy. It&#8217;s the day to day usage  that&#8217;s most important to me, and they&#8217;ve nailed it. And, it&#8217;s pretty.</p>
+<p>If your podcast usage is similar to mine, check out Castro. Don&#8217;t want to invest the $3? I&#8217;ll be happy to buy you a copy to try out. I want to support these guys so they keep building this thing.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/11/castro-podcast-app-review/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Rainbow iPhone Springboard</title>
+		<link>http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard</link>
+		<comments>http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard#comments</comments>
+		<pubDate>Wed, 17 Jul 2013 16:33:22 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Fun / Humor]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17805</guid>
+		<description><![CDATA[<p>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-01'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-01-160x120.png" class="attachment-thumb-img" alt="iphone-colors-01" data-id="17806" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-02'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-02-160x120.png" class="attachment-thumb-img" alt="iphone-colors-02" data-id="17807" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-03'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-03-160x120.png" class="attachment-thumb-img" alt="iphone-colors-03" data-id="17808" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-04'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-04-160x120.png" class="attachment-thumb-img" alt="iphone-colors-04" data-id="17809" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-05'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-05-160x120.png" class="attachment-thumb-img" alt="iphone-colors-05" data-id="17810" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-06'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-06-160x120.png" class="attachment-thumb-img" alt="iphone-colors-06" data-id="17811" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-07'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-07-160x120.png" class="attachment-thumb-img" alt="iphone-colors-07" data-id="17812" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-08'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-08-160x120.png" class="attachment-thumb-img" alt="iphone-colors-08" data-id="17813" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-09'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-09-160x120.png" class="attachment-thumb-img" alt="iphone-colors-09" data-id="17814" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-10'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-10-160x120.png" class="attachment-thumb-img" alt="iphone-colors-10" data-id="17815" /></a>
+</p>
+Behold, all of my apps, organized (loosely) by color. I&#8217;ve been wanting to do this for a while, but never wanted to invest the time or have to put everything back. With iOS 7 around the corner (bringing new icon styles), now it seemed as good a time as any to have a little fun.&#8230;]]></description>
+				<content:encoded><![CDATA[<p>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-01'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-01-160x120.png" class="attachment-thumb-img" alt="iphone-colors-01" data-id="17806" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-02'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-02-160x120.png" class="attachment-thumb-img" alt="iphone-colors-02" data-id="17807" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-03'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-03-160x120.png" class="attachment-thumb-img" alt="iphone-colors-03" data-id="17808" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-04'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-04-160x120.png" class="attachment-thumb-img" alt="iphone-colors-04" data-id="17809" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-05'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-05-160x120.png" class="attachment-thumb-img" alt="iphone-colors-05" data-id="17810" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-06'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-06-160x120.png" class="attachment-thumb-img" alt="iphone-colors-06" data-id="17811" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-07'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-07-160x120.png" class="attachment-thumb-img" alt="iphone-colors-07" data-id="17812" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-08'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-08-160x120.png" class="attachment-thumb-img" alt="iphone-colors-08" data-id="17813" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-09'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-09-160x120.png" class="attachment-thumb-img" alt="iphone-colors-09" data-id="17814" /></a>
+<a href='http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/iphone-colors-10'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2013/07/iphone-colors-10-160x120.png" class="attachment-thumb-img" alt="iphone-colors-10" data-id="17815" /></a>
+</p>
+<p>Behold, all of my apps, organized (loosely) by color.</p>
+<p>I&#8217;ve been wanting to do this for a while, but never wanted to invest the time or have to put everything back. With iOS 7 around the corner (bringing new icon styles), now it seemed as good a time as any to have a little fun. And I had a little time while <a href="http://alexking.org/blog/2013/05/31/cancer">getting my chemo</a> yesterday.</p>
+<p>I can&#8217;t find a damn thing, but I wanted to reorganize anyway. <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/17/rainbow-iphone-springboard/feed</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>Initial reaction to iOS 7</title>
+		<link>http://alexking.org/blog/2013/06/12/initial-reaction-to-ios-7</link>
+		<comments>http://alexking.org/blog/2013/06/12/initial-reaction-to-ios-7#comments</comments>
+		<pubDate>Thu, 13 Jun 2013 00:50:38 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17144</guid>
+		<description><![CDATA[I haven&#8217;t yet installed iOS7 on a test device, so these are henceforth disclaimed as knee-jerk reactions based on hearsay and screenshots. 8 months is a short time and lots has been done, more than I thought was possible. It&#8217;s a little too candy colored and simplistic for my taste, especially the icons. I expect&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I haven&#8217;t yet installed iOS7 on a test device, so these are henceforth disclaimed as knee-jerk reactions based on hearsay and screenshots.</p>
+<ul>
+<li>8 months is a short time and lots has been done, more than I thought was possible.</li>
+<li>It&#8217;s a little too candy colored and simplistic for my taste, especially the icons.</li>
+<li>I expect we&#8217;ll see some revisions before GM this fall.</li>
+<li>From what I hear from people who have already upgraded, the UX and interaction language is stellar &#8211; it feels good.</li>
+<li>It&#8217;s going to be jarring to move between the Apple apps that ship with iOS 7 and current 3rd party apps. The old ones will feel &#8220;broken&#8221; pretty fast.</li>
+<li>It seems like the handcuffs came off &#8211; so many obvious things have been added (quick access to settings, webOS style multi-tasking, ability to move NewsStand into a folder, auto-updating of apps and for the Mac the tabbed finder, better 2nd monitor support, etc.)</li>
+</ul>
+<p>I think I&#8217;m going to like it. I definitely think it&#8217;s going to look more at home on the white iPhone than the black.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/12/initial-reaction-to-ios-7/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>iPhone 5 WiFi Weirdness</title>
+		<link>http://alexking.org/blog/2013/03/04/iphone-5-wifi-weirdness</link>
+		<comments>http://alexking.org/blog/2013/03/04/iphone-5-wifi-weirdness#comments</comments>
+		<pubDate>Mon, 04 Mar 2013 23:02:41 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15954</guid>
+		<description><![CDATA[About a week ago my iPhone 5 started acting strangely with my home network. It appears to have stopped joining the WiFi network (my network connectivity has dropped to 3G/LTE with the expected latency and my battery life has suffered as you&#8217;d expect). Oddly, while it doesn&#8217;t show the WiFi icon in the top bar&#8230;]]></description>
+				<content:encoded><![CDATA[<p>About a week ago my iPhone 5 started acting strangely with my home network. It appears to have stopped joining the WiFi network (my network connectivity has dropped to 3G/LTE with the expected latency and my battery life has suffered as you&#8217;d expect).</p>
+<p>Oddly, while it doesn&#8217;t show the WiFi icon in the top bar it still shows the WiFi network as selected in one settings screen.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/03/iphone-settings-01-300x172.png" alt="iphone-settings-01" width="300" height="172" class="aligncenter size-medium wp-image-15959" /></p>
+<p>Though on the next settings screen it just spins and never shows the checkmark (and I can&#8217;t click the arrow to see the IP address, etc.).</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/03/iphone-settings-02-300x265.png" alt="iphone-settings-02" width="300" height="265" class="aligncenter size-medium wp-image-15960" />.</p>
+<p>Even more curious, while the iPhone doesn&#8217;t appear to be on the WiFi network it can still AirPlay to the AppleTVs on the network. I have no idea how.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/03/iphone-airplay-300x250.png" alt="iphone-airplay" width="300" height="250" class="aligncenter size-medium wp-image-15958" /></p>
+<p>I&#8217;ve tried rebooting the iPhone and router; &#8220;forgetting&#8221; the networks and re-adding them to the iPhone. None of our other iOS devices (including another iPhone 5) have this problem. Has anyone ever seen something like this before? Tips? Suggestions?</p>
+<p>UPDATE: <a href="http://alexking.org/blog/2013/03/10/iphone-5-wifi-weirdness-followup">See follow-up/solution here</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/03/04/iphone-5-wifi-weirdness/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>iOS is (Better) for Consumption</title>
+		<link>http://alexking.org/blog/2013/01/03/ios-better-for-consumption</link>
+		<comments>http://alexking.org/blog/2013/01/03/ios-better-for-consumption#comments</comments>
+		<pubDate>Thu, 03 Jan 2013 21:21:58 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13950</guid>
+		<description><![CDATA[I like iOS but even with the 10&#8243; iPad it&#8217;s a 90+% consumption device for me. I don&#8217;t write code. I don&#8217;t work on my blog post drafts.1 I end up reading things and not replying &#8211; creating a backlog of stuff that needs to be done/written/filed/etc. When I&#8217;m out of stuff to read I&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I like iOS but even with the 10&#8243; iPad it&#8217;s a 90+% consumption device for me. I don&#8217;t write code. I don&#8217;t work on my blog post drafts.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I end up reading things and not replying &#8211; creating a backlog of stuff that needs to be done/written/filed/etc. When I&#8217;m out of stuff to read I feel stuck. I don&#8217;t feel I can <em>do</em> things on an iOS devices like I can on a laptop.</p>
+<p>The only real exception to this is sketching wireframes on the iPad (in <a href="http://www.gingerlabs.com/cont/notability.php">Notability</a>). That I find quite satisfying.</p>
+<p>I wonder if this is a generational thing &#8211; are  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  kids today  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  able to do stuff on these devices I&#8217;m not? Or does everyone still need the platform to evolve a bit in this regard?</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I may try to force this a little more, in theory I should be able to.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/01/03/ios-better-for-consumption/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>On Paper</title>
+		<link>http://alexking.org/blog/2012/03/31/on-paper</link>
+		<comments>http://alexking.org/blog/2012/03/31/on-paper#comments</comments>
+		<pubDate>Sat, 31 Mar 2012 19:36:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13103</guid>
+		<description><![CDATA[Quite simply, Paper is the best app I&#8217;ve seen in a long time.1 It just turned my iPad from a device I leave at home for email, browsing and playing games to a business tool I want to have with me all the time. Over the last six months I&#8217;ve been using paper sketches more&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Quite simply, <a href="http://www.fiftythree.com/paper">Paper</a> is the best app I&#8217;ve seen in a long time.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> It just turned my iPad from a device I leave at home for email, browsing and playing games to a business tool I want to have with me <em>all the time</em>.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/03/001-20120331-IMG_0706-510x366.jpg" alt="Paper for iPad" title="Paper for iPad" width="510" height="366" class="aligncenter size-medium-img wp-image-13106" /></p>
+<p>Over the last six months I&#8217;ve been using paper sketches more and more to capture and communicate ideas; it&#8217;s been working really well. What hasn&#8217;t been working well is how I integrate these into my digital workflow.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I&#8217;m hoping that Paper will be my answer.</p>
+<p>For as good as Paper is now, there are still some pretty obvious areas in which it can expand &#8211; here&#8217;s a short list of things I&#8217;d dearly love to see.</p>
+<ol>
+<li><strong>Re-ordering of books</strong> &#8211; This is going to become more and more important to me over time. I&#8217;ll want my &#8220;active&#8221; books towards the front, etc. along with my &#8220;random ideas&#8221; book. Related: the ability to re-order pages within a book. </li>
+<li><strong>Export page to photo roll</strong> &#8211; Badly needed. I have a variety of tools that integrate with the photo roll, this is an easy stop-gap to allow other apps/services to interact with the content I create in Paper.</li>
+<li><strong>Mirror books to Dropbox</strong> &#8211; Allow me to specify a folder in Dropbox to use as my &#8220;Paper&#8221; folder, then create folders within that for each book and save a flattened export of each page into the appropriate book folders. I&#8217;m going to need my sketches on my laptop too. A similar approach could store the images in Evernote as well.</li>
+<li><strong>Portrait orientation support</strong> &#8211; Some ideas are vertical.</li>
+<li><strong>Setting for screen orientation when locked</strong> &#8211; This is a bit of a nit pick, but I prefer having the home button on my right since I&#8217;m right handed. When I have it on the left (in landscape mode), I inadvertently hit it with my left thumb while holding the iPad. I know it rotates when the screen orientation isn&#8217;t locked, but I use my iPad with the screen orientation locked much of the time.</li>
+<li><strong>iCloud sync</strong> &#8211; Lower priority, but even if it was just iPad to iPad sync I could see getting a second iPad to have at work just for Paper and as a test device.</li>
+</ol>
+<p>Most of these are pretty obvious requests, so I&#8217;m sure the smart folks at FiftyThree are already considering them in one form or another. I&#8217;m really excited to have a really good digital notebook and can&#8217;t wait to see what comes in future releases.</p>
+<p>I also love the way they decided to sell the app. You can download and use the app for free with no limitations on the number of books, pages, etc. you create. Instead, you have in-app purchases for different drawing tools (with the ability to test out each tool before you purchase). This is by far the best  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  trial  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  experience I&#8217;ve had on an iOS app and I bought all but one of the brushes within 5 minutes of launching the app for the first time.</p>
+<p>I have a Pogo sketch stylus that I got a few years ago to use with my iPad. I&#8217;ve never really liked it, and the results with Paper are &#8220;just OK&#8221;. It looks like they are recommending the Wacom Bamboo stylus, so Amazon will be delivering one of those to me this week. I&#8217;m optimistic that this will make a noticeable difference in consistency of the stylus performance.  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_fingerscrossed.gif" alt=":fingerscrossed:" class="wp-smiley" /> </p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+It&#8217;s up there with Reeder, TweetBot and Path for elegant and functional iOS interfaces.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I take a photo of the notebook page with my iPhone, which then leverages Photo Stream and eventually ends up in an iPhoto album, but it&#8217;s not ideal.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/03/31/on-paper/feed</wfw:commentRss>
+		<slash:comments>23</slash:comments>
+		</item>
+		<item>
+		<title>iPhone Location Services &#8220;Stuck On&#8221;</title>
+		<link>http://alexking.org/blog/2012/02/22/iphone-location-services-stuck-on</link>
+		<comments>http://alexking.org/blog/2012/02/22/iphone-location-services-stuck-on#comments</comments>
+		<pubDate>Thu, 23 Feb 2012 03:38:54 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=12686</guid>
+		<description><![CDATA[For the last few months just about every time I do anything on my iPhone that uses Location Services, I&#8217;ve had that icon come on and stay on. I couldn&#8217;t get it to go away unless I turned off Location Services entirely; and even then it would come right back as soon as I re-enabled&#8230;]]></description>
+				<content:encoded><![CDATA[<p>For the last few months just about every time I do anything on my iPhone that uses Location Services, I&#8217;ve had that icon come on and stay on. I couldn&#8217;t get it to go away unless I turned off Location Services entirely; and even then it would come right back as soon as I re-enabled it.</p>
+<p>I know how to go into the Settings and see what servies are using Location (look for the purple arrow next to the items in the list), but every time I checked there was no active app using Location. This evening I figured it out. Turns out there is another set of services that use Location &#8211; helpfully hidden under the System Services button.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/02/System-Services-1-200x300.png" alt="System Services" width="200" height="300" class="aligncenter size-medium wp-image-12689" /></p>
+<p>Once I finally <del>clicked</del> tapped through that item, I saw that Compass Calibration was actively using Location Services. Sonofa&#8230; so that&#8217;s the service that has been eating my battery for the last few months.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/02/Compass-Calibration-200x300.png" alt="Compass Calibration" width="200" height="300" class="aligncenter size-medium wp-image-12688" /></p>
+<p>It&#8217;s a useful service to be sure, but for now I&#8217;ve disabled it and am enjoying being able to blissfully launch apps like Maps (then hop back out of them) without having Location Services stay active and drain my battery down to zero.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/02/22/iphone-location-services-stuck-on/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iPad, Kindle Fire as Standalone Device</title>
+		<link>http://alexking.org/blog/2011/11/21/ipad-kindle-fire-as-standalone-device</link>
+		<comments>http://alexking.org/blog/2011/11/21/ipad-kindle-fire-as-standalone-device#comments</comments>
+		<pubDate>Tue, 22 Nov 2011 01:14:33 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=8012</guid>
+		<description><![CDATA[While the iPad *can* live as a stand-alone machine with iCloud, I still plug mine in every so often to load up photos, etc. As a contrast, the Kindle Fire didn&#8217;t even come with a connection cable (just a charger). I guess Amazon is backing up/hosting media in the cloud for me, no idea about&#8230;]]></description>
+				<content:encoded><![CDATA[<p>While the iPad *can* live as a stand-alone machine with iCloud, I still plug mine in every so often to load up photos, etc.</p>
+<p>As a contrast, the Kindle Fire didn&#8217;t even come with a connection cable (just a charger). I guess Amazon is backing up/hosting media in the cloud for me, no idea about backups of apps/settings. If I had more data on it I cared about, <a href="http://mjtsai.com/blog/2011/11/21/kindle-annotations-lost-in-book-update/">I&#8217;d be worried</a>.</p>
+<p>Definitely an interesting &#8220;tell&#8221; on the intended usage for the devices.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/11/21/ipad-kindle-fire-as-standalone-device/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.285 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:05 -->
+
+<!-- Compression = gzip -->

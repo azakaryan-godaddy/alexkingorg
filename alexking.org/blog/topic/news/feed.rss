@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; News</title>
+	<atom:link href="http://alexking.org/blog/topic/news/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>GameTonight? 2.0</title>
+		<link>http://alexking.org/blog/2013/08/29/gametonight-2-0</link>
+		<comments>http://alexking.org/blog/2013/08/29/gametonight-2-0#comments</comments>
+		<pubDate>Thu, 29 Aug 2013 16:32:07 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18172</guid>
+		<description><![CDATA[Spurred on by the discovery that all of the data sources I&#8217;d been using had disappeared, I spent yesterday frantically getting GameTonight? working again; and did so by finishing the 2.0 re-design. If there is a game tonight, then the background changes to an interior shot of the appropriate stadium/arena. When there isn&#8217;t a game,&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Spurred on by the discovery that <a href="http://alexking.org/blog/2013/08/28/gametonight-non-functional">all of the data sources I&#8217;d been using had disappeared</a>, I spent yesterday frantically getting <a href="http://gametonight.in">GameTonight?</a> working again; and did so by finishing the 2.0 re-design.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/08/001-20130829-IMG_3284-510x340.jpg" alt="GameTonight?" width="480" height="320" class="alignnone size-medium-img wp-image-18175" /></p>
+<p>If there is a game tonight, then the background changes to an interior shot of the appropriate stadium/arena. When there isn&#8217;t a game, then an empty stadium is shown. I think the resulting effect is pretty great. Click around through the different metro areas to see what I mean.</p>
+<p>It took a bit of effort to round up images<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> for every team in every metro area. Thanks to Andy for his help with the leg-work there.</p>
+<p>There are definitely a few bugs hanging around and a bit of polishing that still needs to happen &#8211; we&#8217;ll be continuing to touch stuff up over the next few days or so. If anyone has a favorite mobile web weather site<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> that allows linking directly to a zip code &#8211; please chime in. The weather links are functional but the site we&#8217;re linking too feels very outdated.</p>
+<p>We&#8217;re also planning to add support for New Orleans, Pittsburgh and New York &#8211; look for those soon.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+All Creative Commons licensed, of course, found on Flickr.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Sadly, I couldn&#8217;t get forecast.io to work for our needs.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/29/gametonight-2-0/feed</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+		<item>
+		<title>RAMP 1.2 and a RAMP Post ID Meta Conversion Plugin</title>
+		<link>http://alexking.org/blog/2013/07/17/ramp-1-2-and-a-ramp-post-meta-conversion-plugin</link>
+		<comments>http://alexking.org/blog/2013/07/17/ramp-1-2-and-a-ramp-post-meta-conversion-plugin#comments</comments>
+		<pubDate>Wed, 17 Jul 2013 16:15:19 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17818</guid>
+		<description><![CDATA[We released an update to RAMP yesterday to address a compatibility issue introduced in WordPress 3.5.2 as well as adding support for the post locking feature that will be arriving in WordPress 3.6 and addressing a few other issues. This is a recommended upgrade for all customers. We also released the RAMP Post ID Meta&#8230;]]></description>
+				<content:encoded><![CDATA[<p>We <a href="http://crowdfavorite.com/news/2013/07/ramp-1-2-released/">released an update</a> to <a href="http://crowdfavorite.com/wordpress/ramp/">RAMP</a> yesterday to address a compatibility issue introduced in WordPress 3.5.2 as well as adding support for the post locking feature that will be arriving in WordPress 3.6 and addressing a few other issues. This is a recommended upgrade for all customers.</p>
+<p><a href="http://crowdfavorite.com/news/2013/07/introducing-the-ramp-post-id-meta-translation-plugin/">We also released</a> the <a href="https://github.com/crowdfavorite/wp-ramp-postid-meta-translation">RAMP Post ID Meta Translation plugin (hosted on GitHub)</a> that should make RAMP even more useful for more complex sites. It gives you the ability to designate certain custom fields (by key) to be treated as post IDs and translated as part of the RAMP deploy process.</p>
+<p>This means if you have a plugin that is storing a post ID as post meta to indicate a relationship, or perhaps an additional image (attachment) ID as post meta, those can now be properly converted to point to the content deployed to your production site. This was probably the top requested feature for RAMP, so I&#8217;m thrilled to be able to make it available.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/ramp">RAMP</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/17/ramp-1-2-and-a-ramp-post-meta-conversion-plugin/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>GitHub Activity WordPress Plugin</title>
+		<link>http://alexking.org/blog/2013/07/16/github-activity-wordpress-plugin</link>
+		<comments>http://alexking.org/blog/2013/07/16/github-activity-wordpress-plugin#comments</comments>
+		<pubDate>Tue, 16 Jul 2013 13:29:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17757</guid>
+		<description><![CDATA[I wanted to better expose stuff I&#8217;m doing on GitHub that I may not be actvely blogging about1, so I decided to pull in my GitHub activity feed and show it in the Projects page sidebar. I created a WordPress plugin for this that includes a shortcode and sidebar widget. I&#8217;ve submitted it to WordPress.org,&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I wanted to better expose stuff I&#8217;m doing on GitHub that I may not be actvely blogging about<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, so I decided to pull in my GitHub activity feed and show it in the <a href="http://alexking.org/projects">Projects page</a> sidebar.</p>
+<p>I created a WordPress plugin for this that includes a shortcode and sidebar widget. I&#8217;ve submitted it to WordPress.org, but now there seems to be some sort of review process before it&#8217;s available there so you can <a href="https://github.com/alexkingorg/wp-github-activity/releases">download it from GitHub now</a>. I&#8217;ll post an update when/if it&#8217;s on WP.org.</p>
+<p>UPDATE: You can now <a href="http://wordpress.org/plugins/wp-github-activity/">grab this from WordPress.org</a>.</p>
+<p>There are some screenshot examples in the <a href="https://github.com/alexkingorg/wp-github-activity">main GitHub repo</a>, or (as previously mentioned) you can check it out in the sidebar of my <a href="http://alexking.org/projects">Projects page</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Of course, the real solution is to blog more but ambient data is handy.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/wp-github-activity">WP GitHub Activity</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/16/github-activity-wordpress-plugin/feed</wfw:commentRss>
+		<slash:comments>42</slash:comments>
+		</item>
+		<item>
+		<title>FavePersonal 1.3</title>
+		<link>http://alexking.org/blog/2013/07/03/favepersonal-1-3</link>
+		<comments>http://alexking.org/blog/2013/07/03/favepersonal-1-3#comments</comments>
+		<pubDate>Wed, 03 Jul 2013 21:38:42 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17421</guid>
+		<description><![CDATA[We&#8217;ve released an update to FavePersonal. In this release we&#8217;ve: implemented new archive views for image and video post formats updated Facebook posting so that images and videos are sent in a more &#8220;native&#8221; format to Facebook cleaned up spacing between posts on mobile devices changed our color set provider to ColourLovers fixed a number&#8230;]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve released an update to <a href="http://crowdfavorite.com/wordpress/themes/favepersonal/">FavePersonal</a>. In this release we&#8217;ve:</p>
+<ul>
+<li>implemented new archive views for <a href="http://alexking.org/blog/type/image">image</a> and <a href="http://alexking.org/blog/type/video">video</a> post formats</li>
+<li>updated Facebook posting so that images and videos are sent in a more &#8220;native&#8221; format to Facebook</li>
+<li>cleaned up spacing between posts on mobile devices</li>
+<li>changed our color set provider to ColourLovers</li>
+<li>fixed a number of niggling little bugs</li>
+</ul>
+<p>
+<a href='http://alexking.org/blog/2013/07/03/favepersonal-1-3/favepersonal-archive-image'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2013/07/favepersonal-archive-image-150x150.jpg" class="attachment-thumbnail" alt="Image Archives" data-id="17423" /></a>
+<a href='http://alexking.org/blog/2013/07/03/favepersonal-1-3/favepersonal-archive-video'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2013/07/favepersonal-archive-video-150x150.jpg" class="attachment-thumbnail" alt="Video Archives" data-id="17424" /></a>
+</p>
+<p>If you want to own your content while still engaging on Twitter and Facebook, using WordPress with the FavePersonal theme is a great way to go.</p>
+<p>Curious how FavePersonal holds up with lots of content? Browse around this site a bit. <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/personal">Personal Theme</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/03/favepersonal-1-3/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>Social 2.9.2</title>
+		<link>http://alexking.org/blog/2013/07/03/social-2-9-2</link>
+		<comments>http://alexking.org/blog/2013/07/03/social-2-9-2#comments</comments>
+		<pubDate>Wed, 03 Jul 2013 17:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17415</guid>
+		<description><![CDATA[We&#8217;ve pushed out an update to Social (version 2.9.2) with a couple of minor enhancements and bug fixes, as well as some new translations (French and Italian). This post is part of the project: Social. View the project timeline for more context on this post.]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve pushed out an update to <a href="http://wordpress.org/plugins/social/">Social</a> (version 2.9.2) with a couple of minor enhancements and bug fixes, as well as some new translations (French and Italian).</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/social">Social</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/03/social-2-9-2/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Capsule 1.1</title>
+		<link>http://alexking.org/blog/2013/06/18/capsule-1-1</link>
+		<comments>http://alexking.org/blog/2013/06/18/capsule-1-1#comments</comments>
+		<pubDate>Tue, 18 Jun 2013 17:59:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17290</guid>
+		<description><![CDATA[I&#8217;m very pleased to announce the release of Capsule v1.1 (and Capsule Server v1.1). In this release we added some pretty handy features along with addressing the usual array of 1.0-related issues. The download and an online demo are available on the Crowd Favorite website. Some of the highlights in the new version include: A&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2013/06/capsule-512-300x300.png" alt="capsule-512" width="300" height="300" class="aligncenter size-medium wp-image-17292" /></p>
+<p>I&#8217;m very pleased to announce the release of <a href="http://crowdfavorite.com/capsule/">Capsule</a> v1.1 (and Capsule Server v1.1). In this release we added some pretty handy features along with addressing the usual array of <a href="http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal">1.0</a>-related issues.</p>
+<p>The <a href="http://crowdfavorite.com/capsule/">download and an online demo</a> are available on the Crowd Favorite website.</p>
+<p>Some of the highlights in the new version include:</p>
+<ul>
+<li>A great icon, compliments of <a href="http://dribbble.com/matthewspiel">Matthew Spiel</a> &#8211; awesome for use as a <a href="http://fluidapp.com/">Fluid app</a> icon</li>
+<li>Keyboard shortcuts to navigate home (shift-h), create a new post (shift-n), and set focus to the search field (shift-f)</li>
+<li>A background queue for sending posts to Capsule Server (saves are no longer held up by the remote request) &#8211; requires Capsule Server 1.1</li>
+<li>The ability to map multiple local projects to a single project on Capsule Server</li>
+<li>An indicator to show which Capsule Server(s) a post has been pushed to</li>
+</ul>
+<p><img src="http://alexking.org/wp-content/uploads/2013/06/server-push-510x248.png" alt="server-push" width="480" height="233" class="aligncenter size-medium-img wp-image-17293" /></p>
+<p>We&#8217;ve also added some hooks and addressed a <a href="https://github.com/crowdfavorite/wp-capsule/issues?milestone=1&#038;state=closed">number of issues</a> relating to syntax highlighting, additional default display styling and formatting, etc.</p>
+<p>A big thank you to everyone who reported issues, suggested features and submitted patches. If you&#8217;re interested in contributing, please <a href="https://github.com/crowdfavorite/wp-capsule/">join us on GitHub</a>.</p>
+<hr />
+<p>Capsule is a developer&#8217;s code journal, implemented as a WordPress-based app. Think of it as a replacement for that text file you have open while you&#8217;re building things. Instead of throwing those artifacts away, easily tag and capture them for the future.</p>
+<hr />
+<p>And only 30 minutes later, version 1.1.1 fixes the missing JS in the build file (optimized.js).</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/capsule">Capsule</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/18/capsule-1-1/feed</wfw:commentRss>
+		<slash:comments>48</slash:comments>
+		</item>
+		<item>
+		<title>Twitter Tools 3.0.4: Twitter v1.1 API Compatibility</title>
+		<link>http://alexking.org/blog/2013/06/12/twitter-tools-3-0-4-v1-1-api</link>
+		<comments>http://alexking.org/blog/2013/06/12/twitter-tools-3-0-4-v1-1-api#comments</comments>
+		<pubDate>Wed, 12 Jun 2013 15:11:48 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17215</guid>
+		<description><![CDATA[I&#8217;ve released Twitter Tools version 3.0.4 which now uses the Twitter v1.1 API. Since Twitter has turned off the 1.0 API, this is pretty much a &#8220;must upgrade&#8221; situation. If Twitter Tools has been active for you over the last few days, you&#8217;ll need to do a little cleanup: enable the Tweet admin screens delete&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve released Twitter Tools version 3.0.4 which now uses the Twitter v1.1 API. Since Twitter has turned off the 1.0 API, this is pretty much a &#8220;must upgrade&#8221; situation.</p>
+<p>If Twitter Tools has been active for you over the last few days, you&#8217;ll need to do a little cleanup:</p>
+<ol>
+<li><a href="http://d.pr/i/qoaN">enable the Tweet admin screens</a></li>
+<li><a href="http://d.pr/i/kK4K">delete anything you don&#8217;t want (all of those &#8220;(no title)&#8221; ones, probably)</a></li>
+</ol>
+<p>Grab the code from <a href="https://github.com/crowdfavorite/wp-twitter-tools">GitHub</a> where active development occurs, or from <a href="http://wordpress.org/plugins/twitter-tools/">WordPress.org</a> where it is distributed.</p>
+<p>That should do it. As always post any weirdness you see in the <a href="http://wordpress.org/support/plugin/twitter-tools">support forums</a>. While I can&#8217;t provide individual support, I do look for any issues and reports that would indicate a bug that I can fix.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/twitter-tools">Twitter Tools</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/12/twitter-tools-3-0-4-v1-1-api/feed</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+		<item>
+		<title>Social 2.9.1</title>
+		<link>http://alexking.org/blog/2013/06/06/social-2-9-1</link>
+		<comments>http://alexking.org/blog/2013/06/06/social-2-9-1#comments</comments>
+		<pubDate>Thu, 06 Jun 2013 15:14:49 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17083</guid>
+		<description><![CDATA[We&#8217;ve released version 2.9.1 of Social; a WordPress plugin from MailChimp that gives you these great features: broadcasting your posts to Facebook and Twitter allows commenters on your site to log in with Facebook or Twitter allows comments on your site to be broadcast to Facebook or Twitter pulls in reactions from Facebook and Twitter&#8230;]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve released version 2.9.1 of <a href="http://wordpress.org/plugins/social">Social</a>; a WordPress plugin from <a href="http://mailchimp.com">MailChimp</a> that gives you these great features:</p>
+<ol>
+<li>broadcasting your posts to Facebook and Twitter</li>
+<li>allows commenters on your site to log in with Facebook or Twitter</li>
+<li>allows comments on your site to be broadcast to Facebook or Twitter</li>
+<li>pulls in reactions from Facebook and Twitter as comments on your blog posts</li>
+</ol>
+<p>The thing I love most about Social is the way it allows me to post on my site (and own my data), but still interact with my friends on Facebook and Twitter.</p>
+<p>All of these features are optional and can be enabled/disabled as necessary. Set-up is nice and easy &#8211; there is no need to log in as a developer and create a Facebook or Twitter app; you just log in and go.</p>
+<p>Version 2.9.1 brings the following changes:</p>
+<ul>
+<li>Support for threaded comments on Facebook pages</li>
+<li>New setting for which post types Social&#8217;s broadcasting should be enabled for</li>
+<li>Likes and RTs are no longer auto-approved (can be re-enabled if desired, see the <a href="http://wordpress.org/plugins/social/faq/">FAQ</a>)</li>
+<li>Load avatars from Facebook and Twitter via https</li>
+<li>Address issues with high byte characters</li>
+<li>Work around a bug in the Local Avatars plugin</li>
+<li>Add a few language localizations</li>
+</ul>
+<p>It&#8217;s a great update, give it a try. Enjoy!</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/social">Social</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/06/social-2-9-1/feed</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		</item>
+		<item>
+		<title>GameTonight, now with Event Times</title>
+		<link>http://alexking.org/blog/2013/05/09/gametonight-now-with-event-times</link>
+		<comments>http://alexking.org/blog/2013/05/09/gametonight-now-with-event-times#comments</comments>
+		<pubDate>Thu, 09 May 2013 20:47:35 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16830</guid>
+		<description><![CDATA[I&#8217;ve updated GameTonight to show the time of the event. This is also included in the JSON API and Status Board output. No guarantees that the event times are correct, but they are faithfully represented from the data feed. This is something that I put off for three years because I was having all sorts&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve updated <a href="http://gametonight.in">GameTonight</a> to show the time of the event. This is also included in the JSON API and <a href="http://alexking.org/blog/2013/04/28/gametonight-for-status-board">Status Board</a> output. No guarantees that the event times are correct, but they are faithfully represented from the data feed.</p>
+<p>This is something that I put off for <a href="http://alexking.org/blog/2010/04/08/is-there-a-game-tonight">three years</a> because I was having all sorts of weirdness with time calculations on my local machine vs. the server GameTonight is running on. Thanks to <a href="https://twitter.com/hildjj">Joe</a> and his <del>incessant nagging</del> constant encouragement, I slogged through the necessary debugging this morning and finally got things set.</p>
+<p>I know enough to know that whenever you&#8217;re working with dates and times, you want to do everything in GMT then convert out to a local timezone as a very last step. I also know that you probably want your app code to run in GMT rather than looking at the server&#8217;s timezone.</p>
+<p>In trying to be careful about doing these things right, I learned a bunch of things that didn&#8217;t work. Ultimately the issue was with how <code>mktime()</code>, <code>gmmktime()</code>, <code>gmdate()</code> and <code>date()</code> do or do not use the timezone declared for the app vs. the server&#8217;s timezone.</p>
+<p>Pro tip: use these in pairs (<code>gmmktime()</code> goes with <code>gmdate()</code> while <code>mktime()</code> goes with <code>date()</code>) and create useful logging functions to test their output on various machines/servers. Or not, your mileage may vary.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/05/09/gametonight-now-with-event-times/feed</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+		</item>
+		<item>
+		<title>GameTonight for Status Board</title>
+		<link>http://alexking.org/blog/2013/04/28/gametonight-for-status-board</link>
+		<comments>http://alexking.org/blog/2013/04/28/gametonight-for-status-board#comments</comments>
+		<pubDate>Sun, 28 Apr 2013 17:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16657</guid>
+		<description><![CDATA[GameTonight now creates a module for Panic&#8217;s excellent Status Board iPad app. The URL is simple, add &#8216;/statusboard&#8217; to any metro URL or, while on your iPad, click the link at the bottom of each GameTonight page to install the current metro in Status Board. Example: http://gametonight.in/denver/statusboard Here&#8217;s what you get: It currently looks best&#8230;]]></description>
+				<content:encoded><![CDATA[<p>GameTonight now creates a module for <a href="http://panic.com/statusboard/">Panic&#8217;s excellent Status Board</a> iPad app. The URL is simple, add &#8216;/statusboard&#8217; to any metro URL or, while on your iPad, click the link at the bottom of each GameTonight page to install the current metro in Status Board. Example:</p>
+<p><code>http://gametonight.in/denver<strong>/statusboard</strong></code></p>
+<p>Here&#8217;s what you get:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/gt-yes.jpg" alt="Game Tonight: Yes" width="394" height="266" class="aligncenter size-full wp-image-16661" /></p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/gt-no.jpg" alt="Game Tonight: No" width="394" height="266" class="aligncenter size-full wp-image-16660" /></p>
+<p>It currently looks best at a minimum size 4&#215;4 units, but it probably wouldn&#8217;t be hard to add some media queries to support down to a 1&#215;4+ ticker-style display. We&#8217;ll see if there&#8217;s demand.</p>
+<hr />
+<p>I actually created a web app similar to Status Board a few years back that I called GlanceBoard. I had modules for traffic, weather, GameTonight, Twitter, etc., but was missing a good way to do layout and never got around to releasing it. I&#8217;m thrilled to completely mothball that project and use Status Board instead.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/04/28/gametonight-for-status-board/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>Capsule, The Developer&#8217;s Code Journal</title>
+		<link>http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal</link>
+		<comments>http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal#comments</comments>
+		<pubDate>Wed, 24 Apr 2013 18:26:31 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16534</guid>
+		<description><![CDATA[I&#8217;m very pleased today to announce the release of Capsule, the developer&#8217;s code journal. Capsule replaces the scratch document you have open when you&#8217;re coding. Instead of throwing away those notes, code snippets, API responses, ad-hoc todo lists, and outlines, Capsule creates an archive of your development artifacts. Capsule is a free, Open Source (GPL)&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m very pleased today to announce the release of <a href="http://crowdfavorite.com/capsule/">Capsule</a>, the developer&#8217;s code journal.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/capsule-510x185.jpg" alt="Capsule" width="480" height="174" class="aligncenter size-medium-img wp-image-16575" /></p>
+<p>Capsule replaces the scratch document you have open when you&#8217;re coding. Instead of throwing away those notes, code snippets, API responses, ad-hoc todo lists, and outlines, Capsule creates an archive of your development artifacts.</p>
+<p>Capsule is a free, Open Source (GPL) product. We chose to build it as a WordPress-based app. I&#8217;m <a href="http://wpengine.com/2013/03/alex-king-on-the-maturity-of-wordpress/">on record</a> saying that WordPress isn&#8217;t a great general purpose app platform but it&#8217;s ideal for journaling apps; and I&#8217;m very pleased we were able to use it for Capsule.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/tags-510x218.jpg" alt="tags" width="480" height="205" class="aligncenter size-medium-img wp-image-16573" /></p>
+<p>With Capsule you&#8217;re using a web app, not managing a traditional WordPress website. You never need to go into the WordPress admin to manage your content &#8211; the code editor loads right in the front-end and you create and edit posts inline.</p>
+<blockquote><p>
+  Metadata is a love note to the future.
+</p></blockquote>
+<p>You designate projects and add tags via simple @project and #hashtag syntax directly in the content. No fiddly checkbox selection or choosing from dropdown menus. It&#8217;s the freedom and simplicity of a text file with the future benefits of metadata.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/filter-510x218.jpg" alt="filter" width="480" height="205" class="aligncenter size-medium-img wp-image-16571" /></p>
+<p>Read on for more about how Capsule works and the hows and whys of various features (and how you can use Capsule Server as a collaboration hub). More of a &#8220;try it for yourself&#8221; person? Jump over to the <a href="http://demo.crowdfavorite.com/capsule/">online demo</a> and try it out. Or you can <a href="http://crowdfavorite.com/capsule/">download</a> it (or <a href="https://github.com/crowdfavorite/wp-capsule">grab the code from GitHub</a>) and set it up for yourself. We created Capsule as a WordPress theme &#8211; simply <a href="http://codex.wordpress.org/Using_Themes">install it as usual</a> and you&#8217;re set to go.</p>
+<hr />
+<p>The idea for Capsule started about a year ago when my friend and Crowd Favorite alumni <a href="https://twitter.com/gordonbrander">Gordon</a> tweeted this out:</p>
+<blockquote class="twitter-tweet" width="480"><p>Keeping a dev diary has been really helpful.Start each day with a fresh .txt. Jot down TODOs, notes, decisions, things learned, as I go.</p>
+<p>&mdash; Gordon Brander (@gordonbrander) <a href="https://twitter.com/gordonbrander/status/189397714184835073">April 9, 2012</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>The idea of a code journal resonated with me immediately. I&#8217;ve been blogging for more than ten years here, and the act of journaling &#8211; of writing things down &#8211; definitely helps with introspection and to cement important lessons.</p>
+<p>At <a href="http://crowdfavorite.com">Crowd Favorite</a> we believe in the craftsman approach to web development. We believe in constantly learning and sharing knowledge. The idea of a code journal seemed like an obvious and useful tool.</p>
+<p>Gordon talked about using text files, but I wasn&#8217;t sold on that implementation. I wanted a system that had the simplicity of using text files, but I also wanted to be able to add some structured data to make it easier to find my notes again later.</p>
+<p>I like thinking about how systems and apps can work and fit together. The more I thought about the idea of a code journal, the more I realized that the information I would be recording about what I was building would be useful information to share with my colleagues. Likewise, what they recorded during their development would be interesting and useful for me and other team members. And it just so happens that my team and I are pretty handy with this little Open Source system that&#8217;s designed for journaling&#8230;</p>
+<p>We brainstormed about how we&#8217;d want to use the system and firmed up a feature set. These included:</p>
+<ul>
+<li>must be incredibly low friction (it will be competing with using text files)</li>
+<li>no titles for entries (titles are friction)</li>
+<li>a good code (text) editor (after all, this is a developer code journal)</li>
+<li>ability to designate an entry as being part of a specific project</li>
+<li>ability to add tags (keywords) to entries</li>
+<li>ability to keep some entries private, but share appropriate entries with the rest of the team</li>
+</ul>
+<p>As a daily user of Capsule, I&#8217;m proud to say we&#8217;ve accomplished this goal and I&#8217;m very pleased with the smoothness of the user experience.</p>
+<p>While we are releasing version 1.0 today, we&#8217;ve had a functional version Capsule on our <a href="https://github.com/crowdfavorite">GitHub</a> since early May of last year and I&#8217;ve been using it while we&#8217;ve been building it. As we&#8217;ve been implementing features, we&#8217;ve also tweaked the design and implementation based on our actual usage. It&#8217;s always handy to be your own use case.</p>
+<h2>Capsule Server: Use Capsule With Your Team</h2>
+<p>We&#8217;re actually releasing two products today, Capsule and <a href="http://crowdfavorite.com/capsule/#server">Capsule Server</a>. Capsule is the code journal that each developer can set up for themselves. Capsule Server is a collaboration hub that can accept Capsule entries and make them available to other team members.</p>
+<p>I really like the way Capsule and Capsule Server interact. Developers can connect their Capsule install to as many Capsule Servers as they like. They can choose which entries get shared to which Capsule Servers, and which entries stay private &#8211; all of this with the same no-friction approach that makes it so easy to include useful metadata in Capsule entries.</p>
+<p>When you set up a Capsule Server, you define the projects for that Server. When you connect to a Capsule Server, you can chose how to map your local projects to the Capsule Server&#8217;s projects. Any entries for projects that are mapped to a Capsule Server are replicated to that Capsule Server whenever they are saved.</p>
+<p>Imagine that WordPress set up a Capsule Server for core development. Perhaps another for plugin development. I could connect to both of those, plus the Crowd Favorite Capsule Server. I would still be journaling in one place, with one tool, but I&#8217;d be sharing my notes with all the various folks I want to collaborate with.</p>
+<p>I think Capsule an excellent solution to a problem many of us don&#8217;t even know we have. I hope that it will become a valuable tool for you and your development team.</p>
+<p>Enjoy!</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/capsule">Capsule</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal/feed</wfw:commentRss>
+		<slash:comments>200</slash:comments>
+		</item>
+		<item>
+		<title>GameTonight Now Understands MLB Preseason</title>
+		<link>http://alexking.org/blog/2013/03/22/gametonight-now-understands-mlb-preseason</link>
+		<comments>http://alexking.org/blog/2013/03/22/gametonight-now-understands-mlb-preseason#comments</comments>
+		<pubDate>Fri, 22 Mar 2013 20:34:51 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16298</guid>
+		<description><![CDATA[If you rely on GameTonight, you&#8217;ll be happy to know that it now understands the MLB pre-season schedule. The Grapefruit and Cactus league games should no longer be causing a &#8220;Yes&#8221; response when you check to see if there is a game tonight in your metro. Example: Denver This post is part of the project:&#8230;]]></description>
+				<content:encoded><![CDATA[<p>If you rely on <a href="http://gametonight.in/">GameTonight</a>, you&#8217;ll be happy to know that it now understands the MLB pre-season schedule. The Grapefruit and Cactus league games should no longer be causing a &#8220;Yes&#8221; response when you check to see if there is a game tonight in your metro.</p>
+<p>Example: <a href="http://gametonight.in/denver">Denver</a></p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/03/22/gametonight-now-understands-mlb-preseason/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Announcing Threads</title>
+		<link>http://alexking.org/blog/2013/03/17/announcing-threads</link>
+		<comments>http://alexking.org/blog/2013/03/17/announcing-threads#comments</comments>
+		<pubDate>Sun, 17 Mar 2013 21:35:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16176</guid>
+		<description><![CDATA[I&#8217;ve just released an initial beta of Threads, a WordPress plugin I&#8217;ve been working on for about a year. The idea is simple: show posts that comprise a single overall story/topic in a timeline. Then link to that timeline from the posts so that your readers have a chance to get more historical context about&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2013/03/threads-timeline-510x382.jpg" alt="threads-timeline" width="480" height="359" class="aligncenter size-medium-img wp-image-16181" /></p>
+<p>I&#8217;ve just released an initial beta of <a href="http://wordpress.org/extend/plugins/threads/">Threads</a>, a WordPress plugin I&#8217;ve been working on for about a year. The idea is simple: show posts that comprise a single overall story/topic in a timeline. Then link to that timeline from the posts so that your readers have a chance to get more historical context about a post without you having to link back to 20 previous posts.</p>
+<p>Here are some example threads:</p>
+<ul>
+<li><a href="http://alexking.org/blog/thread/social">Social</a></li>
+<li><a href="http://alexking.org/blog/thread/hard-drive-recovery">My Hard Drive Recovery Saga</a></li>
+<li><a href="http://alexking.org/blog/thread/twitter-tools">Twitter Tools</a></li>
+<li><a href="http://alexking.org/blog/thread/passwords">Passwords</a></li>
+<li><a href="http://alexking.org/blog/thread/weight-loss">Weight Loss</a></li>
+</ul>
+<p>As you can see on this site, the thread timeline is responsive and retina/HiDPI ready. Also included is a sidebar widget to show recently active threads and a shortcode so that you can embed a thread timeline in a page.</p>
+<p>Give it a spin &#8211; I hope it works out well for you!</p>
+<p>A quick note about support: As this is a free plugin released under the GPL I am offering only &#8220;Product Support&#8221; for this plugin. That means I will do my best to fix bugs and usabiity issues that are posted on the <a href="http://wordpress.org/support/">WordPress support forums</a>. Contrast this with &#8220;User Support&#8221; which we offer for all of <a href="http://crowdfavorite.com">Crowd Favorite</a>&#8216;s commercial products. With &#8220;User Support&#8221; we do our best to troubleshoot and address each customer&#8217;s issues.</p>
+<p>Developers, contributions are welcome on <a href="https://github.com/crowdfavorite/wp-threads">GitHub</a>.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/threads">Threads</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/03/17/announcing-threads/feed</wfw:commentRss>
+		<slash:comments>55</slash:comments>
+		</item>
+		<item>
+		<title>Social 2.8</title>
+		<link>http://alexking.org/blog/2013/03/01/social-2-8</link>
+		<comments>http://alexking.org/blog/2013/03/01/social-2-8#comments</comments>
+		<pubDate>Sat, 02 Mar 2013 00:12:06 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15918</guid>
+		<description><![CDATA[Social 2.8 (courtesy of MailChimp) was released today. This release was primarily to change over to using version 1.1 of Twitter&#8217;s API. Why should you care? Well, for one thing &#8211; the 1.0 API was starting to break and not get repaired in places. For example, you might have noticed that Social was no longer&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://wordpress.org/extend/plugins/social/">Social 2.8</a> (courtesy of <a href="http://mailchimp.com">MailChimp</a>) was released today. This release was primarily to change over to using version 1.1 of Twitter&#8217;s API.</p>
+<p>Why should you care? Well, for one thing &#8211; the 1.0 API was starting to break and not get repaired in places. For example, you might have noticed that Social was no longer reliably finding tweets that referenced your posts by URL. This was due to a breakage in Twitter&#8217;s 1.0 search API. However, it works fine in the 1.1 API &#8211; now that is &#8220;fixed&#8221;. Yay!</p>
+<p>So we&#8217;re pleased to be on Twitter&#8217;s 1.1 API, and the great folks at MailChimp have made some additional changes to the Social Proxy to make it easier for us to maintain Twitter API compatibility going forward.</p>
+<p>We also threw in a couple of little bug fixes, check out the <a href="http://wordpress.org/extend/plugins/social/changelog/">changelog</a> in the README for details.</p>
+<p>Enjoy!</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/social">Social</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/03/01/social-2-8/feed</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+		<item>
+		<title>Fullscreen Editor Preview Button for WordPress</title>
+		<link>http://alexking.org/blog/2013/01/22/fullscreen-editor-preview-button-wordpress</link>
+		<comments>http://alexking.org/blog/2013/01/22/fullscreen-editor-preview-button-wordpress#comments</comments>
+		<pubDate>Tue, 22 Jan 2013 22:53:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15671</guid>
+		<description><![CDATA[I updated my fullscreen editor preview button plugin for WordPress 3.5 and decided to release it as a plugin on WordPress.org. Mainly, this meant writing a README (and creating a proper repo for it on GitHub). This is a simple one-trick-pony plugin &#8211; it adds a Preview button to the fullscreen editor toolbar. Nothing more,&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I updated my <a href="http://alexking.org/blog/2012/07/06/wordpress-fullscreen-preview-button">fullscreen editor preview button plugin</a> for WordPress 3.5 and decided to <a href="http://wordpress.org/extend/plugins/fullscreen-preview-button/">release it as a plugin on WordPress.org</a>. Mainly, this meant writing a README (and creating a <a href="https://github.com/alexkingorg/wp-fullscreen-preview-button">proper repo for it on GitHub</a>).</p>
+<p><a href="http://wordpress.org/extend/plugins/fullscreen-preview-button/"><img src="http://alexking.org/wp-content/uploads/2013/01/fullscreen-editor-preview.png" alt="Fullscreen Editor Preview Button Screenshot" width="562" height="283" class="aligncenter size-full wp-image-15744" /></a></p>
+<p>This is a simple one-trick-pony plugin &#8211; it adds a Preview button to the fullscreen editor toolbar. Nothing more, nothing less. If you&#8217;ve been up late at night pining away for this feature, this plugin is your new best friend.</p>
+<p>Enjoy!</p>
+<p>A quick note about support: As this is a free plugin released under the GPL I am offering only &#8220;Product Support&#8221; for this plugin. That means I will do my best to fix bugs and usabiity issues. Contrast this with &#8220;User Support&#8221; which we offer for all of <a href="http://crowdfavorite.com">Crowd Favorite</a>&#8216;s commercial products. With &#8220;User Support&#8221; we do our best to troubleshoot and address each customer&#8217;s issues.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/fullscreen-preview-button">Fullscreen Preview Button</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/01/22/fullscreen-editor-preview-button-wordpress/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.374 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:43:21 -->
+
+<!-- Compression = gzip -->

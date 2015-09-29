@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Reviews</title>
+	<atom:link href="http://alexking.org/blog/topic/reviews/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Very Pleased with WebFaction + Hover</title>
+		<link>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover</link>
+		<comments>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover#comments</comments>
+		<pubDate>Wed, 27 May 2015 19:25:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21867</guid>
+		<description><![CDATA[A little while back I buckled down and did some much needed restructuring of my domain registration and web hosting. I made the decision to let more than half of my domains expire, and moved all of the domains I was not letting lapse to Hover.1 I&#8217;m down to 17 domains from over 100. Of&#8230;]]></description>
+				<content:encoded><![CDATA[<p>A little while back I buckled down and did some much needed restructuring of my domain registration and web hosting. I made the decision to let more than half of my domains expire, and moved all of the domains I was not letting lapse to <a href="https://hover.com/kIFVm8sb">Hover</a>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I&#8217;m down to 17 domains from over 100. Of those 7 are of the &#8220;personal name&#8221; variety for me and other family members. Another 3 are for current or previous businesses. And the rest are for various projects.</p>
+<p>I&#8217;ve been very pleased with Hover. I used their valet service to transfer a number of domains from GoDaddy and it was as seamless an experience as you could hope for. I&#8217;ve since registered a handful of domains with Hover for a new project I&#8217;m working on and I have absolutely loved the quick and easy checkout experience. It works great from a mobile browser as well. Inspiration often seems to strike when I&#8217;ve only got my phone with me. Recommended.</p>
+<p>I also <a href="https://alexking.org/blog/2015/02/25/hosted-on-webfaction">moved all of my websites</a> to <a href="https://www.webfaction.com/?aid=78593">WebFaction</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and have been thrilled with the speed with which my sites now load. Their control panel is a little different than the standard CPanel and has a few little quirks, but I&#8217;ve come to like it. Instead of creating a website that becomes the container for the domain, files, database, etc. you create websites/web apps then pair them with domains, databases, etc. Their support has been quick to provide answers to the few questions I&#8217;ve had, and I&#8217;ve reached the point of confidence where I am pleased that things  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  just work  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  and I don&#8217;t have to think about them.</p>
+<p>This post was prompted by an email I received today from the WebFaction folks asking if I could tweet out some honest feedback about their service now that I&#8217;ve been a customer for a few months. I&#8217;m quite satisfied with it, and figured a more thorough endorsement of them (and Hover<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>) might be useful to others. As a tech community we are quick to complain when we are having trouble with a service; it&#8217;s nice to take a moment and celebrate services that are treating us well.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+That&#8217;s a referral link &#8211; I get a kick-back if you sign up using it.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Yup, another referral link to give me a kickback.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:3">
+The two are conjoined for me since I made the switch to both of them as part of a single &#8220;get this stuff organized&#8221; process.&#160;<a href="#fnref:3" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>In Praise of BackupBuddy</title>
+		<link>http://alexking.org/blog/2015/03/15/backupbuddy</link>
+		<comments>http://alexking.org/blog/2015/03/15/backupbuddy#comments</comments>
+		<pubDate>Sun, 15 Mar 2015 20:05:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21405</guid>
+		<description><![CDATA[I&#8217;m thrilled with my new hosting set-up for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of BackupBuddy from iThemes. 5 minutes later I had BackupBuddy installed, with&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m thrilled with my <a href="https://alexking.org/blog/2015/02/25/hosted-on-webfaction">new hosting set-up</a> for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of <a href="https://ithemes.com/purchase/backupbuddy/">BackupBuddy from iThemes</a>.</p>
+<p>5 minutes later I had BackupBuddy installed, with a nightly job configured to do a full export of my database and store the last 10 days of backups in my Dropbox account.</p>
+<p>Sure, I could have written the code to do this myself. It&#8217;s always tempting to do-it-yourself when you know you <em>can</em> do something. The key is to ask yourself if you <em>should</em> do something. It would have taken much more than 5 minutes to get even a simple backup script written and configured; and I definitely wouldn&#8217;t have had the storage and and automation options that BackupBuddy provides out of the box.</p>
+<p>If you need hassle-free backups for your self-hosted WordPress site<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, give BackupBuddy a try.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+If you have a website, <em>please</em> make sure you have an automated backup system, and that you&#8217;ve tested your backups to make sure they actually work.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/15/backupbuddy/feed</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Casual iPhone Earbuds (w/ Mic)</title>
+		<link>http://alexking.org/blog/2014/10/13/casual-iphone-earbuds</link>
+		<comments>http://alexking.org/blog/2014/10/13/casual-iphone-earbuds#comments</comments>
+		<pubDate>Mon, 13 Oct 2014 15:18:07 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20950</guid>
+		<description><![CDATA[The ear buds that Apple provides with the iPhone have always fallen out of my ears. I embarked on a journey of discovery recently and tested out a set of Panasonics and a set of Samsungs. Both work well and are under $15. I&#8217;m littering them in strategic places around the house and in my&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2014/10/001-20141012-P1040192-510x223.jpg" alt="001-20141012-P1040192" width="480" height="209" class="alignnone size-medium-img wp-image-20960" /></p>
+<p>The ear buds that Apple provides with the iPhone have always fallen out of my ears. I embarked on a  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  <a href="http://alexking.org/blog/2014/09/10/20859">journey of discovery</a>  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  recently and tested out a set of <a href="http://www.amazon.com/gp/product/B00E4LGU1Y/">Panasonics</a> and a <a href="http://www.amazon.com/Samsung-Replacement-EH64AVFWE-Premium-Headset/dp/B007C5S3AU/">set of Samsungs</a>. Both work well and are under $15. I&#8217;m littering them in strategic places around the house and in my various bags for convenience.</p>
+<p>However, I just tried a different solution that I think may be my favorite for phone calls: the Apple ear buds with <a href="http://earhoox.com/">Earhoox</a> (<a href="http://www.amazon.com/Earhoox-EarPods-Compatible-iPhone-White/dp/B00L1GWZWI/">Amazon link</a>). These add a Bose QC 20-style fin to the Apple earbuds which gives them a comfortable and secure fit. They are not a full in-ear solution like the Panasonic and Samsung sets, which means you can hear yourself talk when you&#8217;re on a phone call.</p>
+<p>For listening to podcasts (but still being able to take a call when needed) I like the full in-ear options.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> When I&#8217;m reaching for headphones to make a call, I&#8217;m going to the Earhoox.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+For listening to music, I definitely recommend higher quality options.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/13/casual-iphone-earbuds/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Siri, Still Not a Competent Digital Assistant</title>
+		<link>http://alexking.org/blog/2014/07/06/siri-still-sucks</link>
+		<comments>http://alexking.org/blog/2014/07/06/siri-still-sucks#comments</comments>
+		<pubDate>Sun, 06 Jul 2014 16:25:04 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20572</guid>
+		<description><![CDATA[So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago. Me: What is a good place for lunch between here and {my destination}? Siri: This restaurant is near you: {restaurant info} (double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago.</p>
+<p>Me: What is a good place for lunch between here and {my destination}?</p>
+<p>Siri: This restaurant is near you: {restaurant info}</p>
+<p>(double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in the wrong direction by a good 20 minutes)</p>
+<p>Me: That restaurant isn&#8217;t between me and {my destination}. </p>
+<p>Siri: It is about 120 miles to {my destination}. </p>
+<p>*sigh*</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/06/siri-still-sucks/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Standing in the Shadows of Motown</title>
+		<link>http://alexking.org/blog/2014/07/02/standing-in-the-shadows-of-motown</link>
+		<comments>http://alexking.org/blog/2014/07/02/standing-in-the-shadows-of-motown#comments</comments>
+		<pubDate>Wed, 02 Jul 2014 15:50:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Music]]></category>
+		<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4785</guid>
+		<description><![CDATA[I watched this documentary a little while back and loved it. Check it out if you haven&#8217;t already caught it.]]></description>
+				<content:encoded><![CDATA[<p>I watched <a href="http://www.imdb.com/title/tt0314725/">this documentary</a> a little while back and loved it. Check it out if you haven&#8217;t already caught it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/02/standing-in-the-shadows-of-motown/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A Weekend with a Pebble</title>
+		<link>http://alexking.org/blog/2014/01/29/pebble-watch-micro-review</link>
+		<comments>http://alexking.org/blog/2014/01/29/pebble-watch-micro-review#comments</comments>
+		<pubDate>Wed, 29 Jan 2014 23:08:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19349</guid>
+		<description><![CDATA[Curious about how a smart watch might fit into my life, I picked up a Pebble on eBay right before heading out to WordCamp PHX. It was surprisingly useful in a few different situations: When hanging out chatting with people, it was a lot easier to glance at my wrist to see if that buzz&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2014/01/001-20140128-IMG_5216-510x382.jpg" alt="Pebble" width="480" height="359" class="alignnone size-medium-img wp-image-19350" /></p>
+<p>Curious about <a href="http://alexking.org/blog/2014/01/07/what-would-i-use-a-smart-watch-for">how a smart watch might fit into my life</a>, I picked up a Pebble on eBay right before heading out to WordCamp PHX. It was surprisingly useful in a few different situations:</p>
+<ul>
+<li>When hanging out chatting with people, it was a lot easier to glance at my wrist to see if that buzz was a text message I needed to respond to (perhaps to coordinate where to meet, etc.) vs. a tweet, etc. that I could safely ignore until later. Not taking my phone out of my pocket for each buzz seemed more polite and made me more present.</li>
+<li>Having the buzz happen on my wrist caused me to catch a few more alerts as well. When I&#8217;m not wearing jeans, it miss my phone buzzing more often than I&#8217;d like. I used to use a belt-clipped holster like I did in my BlackBerry days to avoid this, but gave it up a few years ago. </li>
+<li>Being able to glance down at the weather was a nice alternative to pulling out my phone, navigating to the weather app, and waiting for it to load.</li>
+</ul>
+<p>I&#8217;m not wearing it as a daily watch; I have a traditional watch that I prefer. But I do think I will bring out the Pebble for situations where I&#8217;m likely to be involved in a lot of communication.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/29/pebble-watch-micro-review/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Castro &#8211; The podcast client that thinks like I do</title>
+		<link>http://alexking.org/blog/2014/01/11/castro-podcast-app-review</link>
+		<comments>http://alexking.org/blog/2014/01/11/castro-podcast-app-review#comments</comments>
+		<pubDate>Sat, 11 Jan 2014 20:59:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19226</guid>
+		<description><![CDATA[I&#8217;ve been using Castro for the last month and I&#8217;m smitten. Finally, a podcast client that thinks about podcasts the way I do. Here is the simple list of things Castro does right: Omni-present audio controls. If I&#8217;m in the app, and a podcast is playing, I don&#8217;t need to change screens to get to&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been using <a href="http://castro.fm/">Castro</a> for the last month and I&#8217;m smitten. Finally, a podcast client that thinks about podcasts the way I do.</p>
+<p>Here is the simple list of things Castro does right:</p>
+<ol>
+<li>Omni-present audio controls. If I&#8217;m in the app, and a podcast is playing, I don&#8217;t need to change screens to get to the audio controls. Bonus points for having the best scrubber control I&#8217;ve used and sane integration with the system audio controls.</li>
+<li>Reliable auto-refresh and download of podcasts. I don&#8217;t want to have to think about it, I just want my audio when I&#8217;m ready for it.</li>
+<li>Simple navigation. There are podcasts and there are episodes. Done. You can easily get from a list of one to a list of the other and you can easily get from a podcast to it&#8217;s episodes and vice versa. Bonus points for supporting gestures.</li>
+</ol>
+<p>That&#8217;s it. No other app I&#8217;ve used has nailed these three things. Other podcast apps I&#8217;ve used (plus a couple I&#8217;m forgetting):</p>
+<ul>
+<li>Instacast</li>
+<li>Downcast</li>
+<li>Podcasts (Apple&#8217;s)</li>
+<li>Pod Wrangler</li>
+<li>Podcaster</li>
+</ul>
+<p>Yes, Castro also supports searching to add podcasts, using the feed URL in your clipboard if there is one, OPML import, per-feed speed settings, etc. All that stuff is gravy. It&#8217;s the day to day usage  that&#8217;s most important to me, and they&#8217;ve nailed it. And, it&#8217;s pretty.</p>
+<p>If your podcast usage is similar to mine, check out Castro. Don&#8217;t want to invest the $3? I&#8217;ll be happy to buy you a copy to try out. I want to support these guys so they keep building this thing.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/11/castro-podcast-app-review/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>CarbonFin Outliner for iOS</title>
+		<link>http://alexking.org/blog/2013/11/13/carbonfin-outliner-for-ios</link>
+		<comments>http://alexking.org/blog/2013/11/13/carbonfin-outliner-for-ios#comments</comments>
+		<pubDate>Wed, 13 Nov 2013 20:09:02 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18734</guid>
+		<description><![CDATA[I decided I wanted an outliner I can use on my iPad to organize discussion topics for WordCamp Denver panel this weekend. I ended up finding CarbonFin which so far does everything I needed: hierarchy easy reorganization mark things &#8220;done&#8221; without removing/hiding them import and export sync with a web app (the web app is&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I decided I wanted an outliner I can use on my iPad to organize discussion topics for WordCamp Denver panel this weekend. I ended up finding <a href="http://carbonfin.com/">CarbonFin</a> which so far does everything I needed:</p>
+<ul>
+<li>hierarchy</li>
+<li>easy reorganization</li>
+<li>mark things &#8220;done&#8221; without removing/hiding them</li>
+<li>import and export</li>
+<li>sync with a web app (the web app is pretty decent)</li>
+</ul>
+<p>I think it will let me &#8220;work through my list&#8221; with the panel while making it easy to track progress and be flexible to react to the organic discussion. So yeah, there&#8217;s an app for that.</p>
+<p>Recommended.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/11/13/carbonfin-outliner-for-ios/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>The Year Without Pants</title>
+		<link>http://alexking.org/blog/2013/09/17/the-year-without-pants</link>
+		<comments>http://alexking.org/blog/2013/09/17/the-year-without-pants#comments</comments>
+		<pubDate>Tue, 17 Sep 2013 17:55:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18285</guid>
+		<description><![CDATA[Scott Berkun has captured some great ideas and observations in this first-person narrative that recounts his time at Automattic, the company behind WordPress.com. I found Scott&#8217;s story to be interesting and self-aware; an introspective and honest account of how his team operated. I am fortunate to be friends (or at least friendly) with many of&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2013/09/YWP-lowres.jpg" alt="Cover" width="300" height="447" class="alignnone size-full wp-image-18287" /></p>
+<p>Scott Berkun has captured some great ideas and observations in <a href="http://scottberkun.com/2013/on-sale-now-the-year-without-pants/">this first-person narrative</a> that recounts his time at Automattic, the company behind WordPress.com.</p>
+<p>I found Scott&#8217;s story to be interesting and self-aware; an introspective and honest account of how his team operated. I am fortunate to be friends (or at least friendly) with many of the people mentioned in the book. Scott&#8217;s characterizations of them, their personalities and humor struck me due to their accuracy with my own experiences. This made it easy for me to fully embrace what I was reading.</p>
+<p>I love it when people are able to be intentional and think critically about what they are doing.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I find that I can always learn something from these people. It&#8217;s also the first book I know of that has a <a href="http://bit.ly/moviepants">movie trailer</a>.</p>
+<p>Recommended.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+This is something I attempt to strongly encourage within <a href="http://crowdfavorite.com">my team</a>.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/17/the-year-without-pants/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Quip</title>
+		<link>http://alexking.org/blog/2013/08/02/quip</link>
+		<comments>http://alexking.org/blog/2013/08/02/quip#comments</comments>
+		<pubDate>Fri, 02 Aug 2013 17:32:36 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17950</guid>
+		<description><![CDATA[I&#8217;ve been using Quip for the last few days and really liking it. The ability to move between devices1 without friction has allowed me to work on some medium-form pieces at times/places I wouldn&#8217;t have without it. I&#8217;ve also used it to get feedback on various content drafts, which has worked nicely. So far it&#8217;s&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been using <a href="http://quip.com">Quip</a> for the last few days and really liking it. The ability to move between devices<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> without friction has allowed me to work on some medium-form pieces at times/places I wouldn&#8217;t have without it. I&#8217;ve also used it to get feedback on various content drafts, which has worked nicely.</p>
+<p>So far it&#8217;s a compliment to WordPress for me, but I can see more and more of my medium-form content getting written in Quip first before publishing it in WordPress. I think WordPress is due for a great, simple collaborative writing plugin<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and I&#8217;d say that Quip is a pretty good model to follow.</p>
+<p>Check it out if you haven&#8217;t already, it&#8217;s really well executed &#8211; especially for a 1.0.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Web and iOS for now.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Something with fewer features than <a href="http://wordpress.org/plugins/edit-flow/">Edit Flow</a> &#8211; I&#8217;ve looked at a few, but shout out if you know of one you love.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/02/quip/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Full Webpage Screenshots</title>
+		<link>http://alexking.org/blog/2013/07/18/full-webpage-screenshots</link>
+		<comments>http://alexking.org/blog/2013/07/18/full-webpage-screenshots#comments</comments>
+		<pubDate>Thu, 18 Jul 2013 14:09:45 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17761</guid>
+		<description><![CDATA[A few folks have asked how I took the full-page screenshots I put into this Flickr set. Very simple: Paparazzi on Mac (I donated) Barry on iOS Great examples of &#8220;do one thing, do it well&#8221; apps. Recommended.]]></description>
+				<content:encoded><![CDATA[<p>A few folks have asked how I took the full-page screenshots I put into <a href="http://www.flickr.com/photos/alexkingorg/sets/72157634631433509/">this Flickr set</a>.</p>
+<p>Very simple:</p>
+<ul>
+<li><a href="https://derailer.org/paparazzi/">Paparazzi</a> on Mac (I donated)</li>
+<li><a href="http://barryapp.com/">Barry</a> on iOS</li>
+</ul>
+<p>Great examples of &#8220;do one thing, do it well&#8221; apps. Recommended.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/18/full-webpage-screenshots/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Feed Reading: Feedly + Newsify</title>
+		<link>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify</link>
+		<comments>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify#comments</comments>
+		<pubDate>Mon, 08 Jul 2013 00:12:31 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17451</guid>
+		<description><![CDATA[Before Google Reader shut down I had been using Reeder on the Mac, iPhone and iPad. Since the shut down I&#8217;ve tried a few options, and so far the combination that feels best to be is Feedly on the desktop (via web) and Newsify on iPhone and iPad (it&#8217;s a universal app). I haven&#8217;t used&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Before Google Reader shut down I had been using <a href="http://reederapp.com/">Reeder</a> on the Mac, iPhone and iPad. Since the shut down I&#8217;ve tried a few options, and so far the combination that feels best to be is <a href="http://feedly.com/">Feedly</a> on the desktop (via web) and <a href="http://newsify.co/">Newsify</a> on iPhone and iPad (it&#8217;s a universal app).</p>
+<p>I haven&#8217;t used a web-based feed reader since <a href="http://alexking.org/blog/topic/feedlounge">FeedLounge</a> shuttered, so I&#8217;ve been a bit surprised to be satisfied with the Feedly web app. I never got comfortable with Google Reader as a web app. So far, it&#8217;s working out &#8211; and opening up items in new tabs feels nicely at home in the browser.</p>
+<p>I quickly came to prefer Newsify over Feedly&#8217;s iOS app as the gestures and features map pretty closely to those I had been accustomed to in Reeder. Poke around in the settings to get it set up as you want &#8211; the final step for me was setting &#8220;tap and hold&#8221; to &#8220;mark as read&#8221;.</p>
+<p>What are you using for your feed reading?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>The New Kingmakers</title>
+		<link>http://alexking.org/blog/2013/01/13/the-new-kingmakers</link>
+		<comments>http://alexking.org/blog/2013/01/13/the-new-kingmakers#comments</comments>
+		<pubDate>Sun, 13 Jan 2013 18:54:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15645</guid>
+		<description><![CDATA[It&#8217;s rare that I get through a book quickly. I read lots of articles and technical documents, but when choosing between dedicating time to read something or build something, I nearly always choose to build something. The exception is when Steve publishes a book. I&#8217;ve been &#8220;in the trenches&#8221; for much of the time period&#8230;]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s rare that I get through a book quickly. I read lots of articles and technical documents, but when choosing between dedicating time to read something or build something, I nearly always choose to build something.</p>
+<p>The exception is when <a href="http://redmonk.com/sogrady/2013/01/09/the-new-kingmakers-the-book/">Steve publishes a book</a>.</p>
+<p><a href="http://thenewkingmakers.com/"><img src="http://alexking.org/wp-content/uploads/2013/01/newkingmakers-larger-198x300.jpg" alt="The New Kingmakers (book cover)" width="198" height="300" class="aligncenter size-medium wp-image-15649" /></a></p>
+<p>I&#8217;ve been &#8220;in the trenches&#8221; for much of the time period covered by the book and I&#8217;ve known Steve for the last 9 of those years. Between my own experience, conversations with Steve and reading <a href="http://redmonk.com/sogrady/">his blog</a>, I was at least casually familiar with many of the ideas in the book.</p>
+<p>Steve has been banging the &#8220;developer drum&#8221; as long as I&#8217;ve known him. When he first described <a href="http://redmonk.com">RedMonk</a> to me as a &#8220;developer focused&#8221; company, I didn&#8217;t get what he meant. Over the years, I&#8217;ve slowly understood.</p>
+<p><a href="http://thenewkingmakers.com/"><em>The New Kingmakers</em></a> takes those ideas and makes them accessible to everyone. Steve presents ideas, statistics and anecdotes and connects those dots clearly to draw an easy-to-understand picture of the tech landscape. The book is well-written, concise and full of meat.</p>
+<p>If you work in technology, are interested in the future of business or just want to better understand what is going on with the tech companies you hear about in the news everyday you need to read <em>The New Kingmakers</em>.</p>
+<p>You can get the book free from <a href="http://newrelic.com/kingmakers">New Relic</a>. If you already have a New Relic account, ask them and they will send you the download link.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/01/13/the-new-kingmakers/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Notes on FoldingText</title>
+		<link>http://alexking.org/blog/2012/11/04/notes-on-foldingtext</link>
+		<comments>http://alexking.org/blog/2012/11/04/notes-on-foldingtext#comments</comments>
+		<pubDate>Sun, 04 Nov 2012 17:48:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15006</guid>
+		<description><![CDATA[UPDATE: There&#8217;s a nice customer support forum for FoldingText that I found after writing this post &#8211; lots of great info there. I&#8217;ve updated the content here accordingly. I&#8217;ve been trying out FoldingText for the last couple of weeks and have found it to be a good general purpose writing and note-taking tool for me.&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2012/11/001-20121104-IMG_2875-510x381.jpg" alt="Folding Text" width="480" height="358" class="alignnone size-medium-img wp-image-15018" /></p>
+<p>UPDATE: There&#8217;s a nice <a href="http://support.foldingtext.com/">customer support forum for FoldingText</a> that I found after writing this post &#8211; lots of great info there. I&#8217;ve updated the content here accordingly.</p>
+<p>I&#8217;ve been trying out <a href="http://www.foldingtext.com/">FoldingText</a> for the last couple of weeks and have found it to be a good general purpose writing and note-taking tool for me. <a href="http://barebones.com/products/bbedit/">BBEdit</a>, my code editor of choice, already gave me the ability to &#8220;fold&#8221; blocks of Markdown like FoldingText does, but I prefer to do my non-code writing in a larger font (easily switching font-sizes is one of the few things BBEdit doesn&#8217;t do well). It&#8217;s effectively replaced IA Writer for me &#8211; my previous tool for this job.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Besides general note taking, I&#8217;ve been using FoldingText to prepare my presentation for <a href="http://pressnomics.com/">Pressnomics</a> and have found it to be a good tool for outlining and navigating a larger content document.</p>
+<p>A couple of tips:</p>
+<ol>
+<li>By default FoldingText saves files with a .ft extension. None of my iOS Dropbox text editors will open files with this extention (including Hog Bay&#8217;s own <a href="http://www.hogbaysoftware.com/products/plaintext">PlainText</a>), but if you just want to view the file on iOS you can use the Dropbox app itself.</li>
+<li>I was surprised to see that FoldingText is a webkit app. <del datetime="2012-11-04T18:24:25+00:00">If you want to change the default template content (for example, to have new files open without any help text), you can edit the template found at: <code>FoldingText.app/Contents/Resources/en.lproj/Welcome.md</code>.</del> You can <a href="http://support.foldingtext.com/discussions/problems/246-remove-default-text-when-starting-a-new-document">disable the default content via terminal command</a>.</li>
+<li><del datetime="2012-11-04T17:57:34+00:00">If you wish to customize the styling of the editor itself, you can make changes to the CSS files: <code>FoldingText.app/Contents/Resources/javascript-dom-build/css/</code> I chose to set my line-height to 140% (line 14 of editor.css).</del> Looks like <a href="http://support.foldingtext.com/kb/frequently-asked-questions/how-do-i-create-a-new-foldingtext-theme">theming is on the way</a>!</li>
+</ol>
+<p>As I don&#8217;t see an API for FoldingText themes (yet?<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>), expect to lose any changes you make in the next upgrade &#8211; you should keep a copy of your changed files somewhere so you can re-apply the changes after upgrading. It&#8217;s also very much a <strong>use at your own risk</strong> situation; if you don&#8217;t like the results of your edits you can always reinstall the app.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I still use nvALT on the Mac for general notes, I am using FoldingText for &#8220;one off&#8221; documents and for authoring longer content where I utilize the folding feature. If I could embed the FT editor within nvALT, I&#8217;d probably use that full time.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+One reason for making FoldingText a webkit app would be to support theming using CSS.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/11/04/notes-on-foldingtext/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>On Paper</title>
+		<link>http://alexking.org/blog/2012/03/31/on-paper</link>
+		<comments>http://alexking.org/blog/2012/03/31/on-paper#comments</comments>
+		<pubDate>Sat, 31 Mar 2012 19:36:47 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13103</guid>
+		<description><![CDATA[Quite simply, Paper is the best app I&#8217;ve seen in a long time.1 It just turned my iPad from a device I leave at home for email, browsing and playing games to a business tool I want to have with me all the time. Over the last six months I&#8217;ve been using paper sketches more&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Quite simply, <a href="http://www.fiftythree.com/paper">Paper</a> is the best app I&#8217;ve seen in a long time.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> It just turned my iPad from a device I leave at home for email, browsing and playing games to a business tool I want to have with me <em>all the time</em>.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/03/001-20120331-IMG_0706-510x366.jpg" alt="Paper for iPad" title="Paper for iPad" width="510" height="366" class="aligncenter size-medium-img wp-image-13106" /></p>
+<p>Over the last six months I&#8217;ve been using paper sketches more and more to capture and communicate ideas; it&#8217;s been working really well. What hasn&#8217;t been working well is how I integrate these into my digital workflow.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I&#8217;m hoping that Paper will be my answer.</p>
+<p>For as good as Paper is now, there are still some pretty obvious areas in which it can expand &#8211; here&#8217;s a short list of things I&#8217;d dearly love to see.</p>
+<ol>
+<li><strong>Re-ordering of books</strong> &#8211; This is going to become more and more important to me over time. I&#8217;ll want my &#8220;active&#8221; books towards the front, etc. along with my &#8220;random ideas&#8221; book. Related: the ability to re-order pages within a book. </li>
+<li><strong>Export page to photo roll</strong> &#8211; Badly needed. I have a variety of tools that integrate with the photo roll, this is an easy stop-gap to allow other apps/services to interact with the content I create in Paper.</li>
+<li><strong>Mirror books to Dropbox</strong> &#8211; Allow me to specify a folder in Dropbox to use as my &#8220;Paper&#8221; folder, then create folders within that for each book and save a flattened export of each page into the appropriate book folders. I&#8217;m going to need my sketches on my laptop too. A similar approach could store the images in Evernote as well.</li>
+<li><strong>Portrait orientation support</strong> &#8211; Some ideas are vertical.</li>
+<li><strong>Setting for screen orientation when locked</strong> &#8211; This is a bit of a nit pick, but I prefer having the home button on my right since I&#8217;m right handed. When I have it on the left (in landscape mode), I inadvertently hit it with my left thumb while holding the iPad. I know it rotates when the screen orientation isn&#8217;t locked, but I use my iPad with the screen orientation locked much of the time.</li>
+<li><strong>iCloud sync</strong> &#8211; Lower priority, but even if it was just iPad to iPad sync I could see getting a second iPad to have at work just for Paper and as a test device.</li>
+</ol>
+<p>Most of these are pretty obvious requests, so I&#8217;m sure the smart folks at FiftyThree are already considering them in one form or another. I&#8217;m really excited to have a really good digital notebook and can&#8217;t wait to see what comes in future releases.</p>
+<p>I also love the way they decided to sell the app. You can download and use the app for free with no limitations on the number of books, pages, etc. you create. Instead, you have in-app purchases for different drawing tools (with the ability to test out each tool before you purchase). This is by far the best  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  trial  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  experience I&#8217;ve had on an iOS app and I bought all but one of the brushes within 5 minutes of launching the app for the first time.</p>
+<p>I have a Pogo sketch stylus that I got a few years ago to use with my iPad. I&#8217;ve never really liked it, and the results with Paper are &#8220;just OK&#8221;. It looks like they are recommending the Wacom Bamboo stylus, so Amazon will be delivering one of those to me this week. I&#8217;m optimistic that this will make a noticeable difference in consistency of the stylus performance.  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_fingerscrossed.gif" alt=":fingerscrossed:" class="wp-smiley" /> </p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+It&#8217;s up there with Reeder, TweetBot and Path for elegant and functional iOS interfaces.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I take a photo of the notebook page with my iPhone, which then leverages Photo Stream and eventually ends up in an iPhoto album, but it&#8217;s not ideal.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/03/31/on-paper/feed</wfw:commentRss>
+		<slash:comments>23</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.246 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:16 -->
+
+<!-- Compression = gzip -->

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Code</title>
+	<atom:link href="http://alexking.org/blog/topic/code/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Disable Submit Button After a Form is Submitted</title>
+		<link>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery</link>
+		<comments>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery#comments</comments>
+		<pubDate>Sun, 17 May 2015 21:42:19 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21821</guid>
+		<description><![CDATA[Once a user has submitted a form, you generally don&#8217;t want them to submit it a second time.1 A nice way to handle this is to disable the submit button once the form has been submitted, while replacing the text in the submit button with a message to let the user know that their desired&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Once a user has submitted a form, you generally don&#8217;t want them to submit it a second time.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> A nice way to handle this is to disable the submit button once the form has been submitted, while replacing the text in the submit button with a message to let the user know that their desired action has been taken.</p>
+<p>Here is a little code that will disable the submit button and display that nice message:</p>
+<p><script src="https://gist.github.com/62c55e65a35250512335.js"></script><noscript><p>View the code on <a href="https://gist.github.com/62c55e65a35250512335">Gist</a>.</p></noscript></p>
+<p>And here is a <a href="http://jsfiddle.net/kwx5Lkqr/">JS Fiddle to play around with</a>.</p>
+<p>Set the message to display by setting a data attribute on the submit button. If the data attribute isn&#8217;t set, we don&#8217;t do anything. This is a good safeguard against unexpected functionality, but if you want to disable the button for all forms anyway you can do so with a little code tweak.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Some folks insist on double-clicking on the web.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sane Laravel 5 Mail Example</title>
+		<link>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code</link>
+		<comments>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code#comments</comments>
+		<pubDate>Thu, 07 May 2015 05:29:23 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21776</guid>
+		<description><![CDATA[For some reason, the example code in the Laravel docs for their Mail feature neglect to show how to pass defined variables into the closure. Here is something a little more useful. View the code on Gist.]]></description>
+				<content:encoded><![CDATA[<p>For some reason, the example code in the <a href="http://laravel.com/docs/5.0/mail">Laravel docs for their Mail feature</a> neglect to show how to pass defined variables into the closure. Here is something a little more useful.</p>
+<p><script src="https://gist.github.com/d2923deeea1b0076d07a.js"></script><noscript><p>View the code on <a href="https://gist.github.com/d2923deeea1b0076d07a">Gist</a>.</p></noscript></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Submit a Form on Command + Enter from Textarea with jQuery</title>
+		<link>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea</link>
+		<comments>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea#comments</comments>
+		<pubDate>Mon, 27 Apr 2015 17:36:35 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21673</guid>
+		<description><![CDATA[I&#8217;m a big fan of keyboard control in productivity applications. I love being able to type my changes/additions and submit them without needing to tab around too much, or gasp grab the mouse. I&#8217;m not the only one who feels this way. David Walsh has a great post explaining how to submit web forms with&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m a big fan of keyboard control in productivity applications. I love being able to type my changes/additions and submit them without needing to tab around too much, or <em>gasp</em> grab the mouse. I&#8217;m not the only one who feels this way. David Walsh has a great post explaining <a href="http://davidwalsh.name/command-enter-submit-forms">how to submit web forms with Command+Enter</a>. However, for my needs I needed to tweak this a little:</p>
+<ol>
+<li>I only want Command+Enter to submit the form if I&#8217;m in a textarea.</li>
+<li>I need the form submission to play nicely with AJAX requests, specifically when using jQuery delegates to catch the form submission. In David&#8217;s example code, the <code>submit()</code> was firing before the delegate could catch the event and <code>preventDefault()</code> on it.</li>
+</ol>
+<p>Luckily it was quite simple to adapt his code for my needs.</p>
+<p><script src="https://gist.github.com/03bcc2004c0bc9145e23.js"></script><noscript><p>View the code on <a href="https://gist.github.com/03bcc2004c0bc9145e23">Gist</a>.</p></noscript></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Setting the wp_remote_get() User Agent</title>
+		<link>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get</link>
+		<comments>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get#comments</comments>
+		<pubDate>Fri, 24 Apr 2015 00:19:48 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21651</guid>
+		<description><![CDATA[I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working: $response = wp_remote_get($url, array( &#160;&#160;'timeout' => 20, &#160;&#160;'User-Agent'&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>Thankfully, <a href="http://ottopress.com">Otto</a> spotted my problem. The `user-agent` key needs to be lowercase so that it is picked up properly by the WordPress core code. This works:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'<b>u</b>ser-<b>a</b>gent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>And there you have it. It&#8217;s always nice to have an extra set of eyes on some code.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>SASS Variables for Selectors</title>
+		<link>http://alexking.org/blog/2013/08/22/sass-variables-for-selectors</link>
+		<comments>http://alexking.org/blog/2013/08/22/sass-variables-for-selectors#comments</comments>
+		<pubDate>Thu, 22 Aug 2013 21:34:16 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18071</guid>
+		<description><![CDATA[I&#8217;ve been getting friendly with SASS as Crowd Favorite has standardized on that for our CSS pre-processing. Today I was excited to learn1 I can use variables for selectors (and for property names, etc.) as well as for property values (the common usage). View the code on Gist. I&#8217;m going to really like this for&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been getting friendly with SASS as <a href="http://crowdfavorite.com">Crowd Favorite</a> has standardized on that for our CSS pre-processing. Today I was excited to learn<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I can use <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#interpolation_">variables for selectors</a> (and for property names, etc.) as well as for property values (the common usage).</p>
+<p><script src="https://gist.github.com/6313067.js"></script><noscript><p>View the code on <a href="https://gist.github.com/6313067">Gist</a>.</p></noscript></p>
+<p>I&#8217;m going to really like this for <code>A</code> tags, etc.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Thanks <a href="https://twitter.com/rkunboxed">Rona</a>!&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/22/sass-variables-for-selectors/feed</wfw:commentRss>
+		<slash:comments>27</slash:comments>
+		</item>
+		<item>
+		<title>My Content-Powered Projects Page</title>
+		<link>http://alexking.org/blog/2013/07/15/content-powered-projects-page</link>
+		<comments>http://alexking.org/blog/2013/07/15/content-powered-projects-page#comments</comments>
+		<pubDate>Mon, 15 Jul 2013 16:33:29 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17747</guid>
+		<description><![CDATA[As alluded to earlier, I&#8217;ve cleaned up my projects page which is now powered by a new taxonomy, custom post type and the content I&#8217;ve generated here over the last decade plus. Turns out, I&#8217;ve generated quite a few projects. I&#8217;m not completely done creating and managing the content, but I&#8217;m pretty happy with the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>As <a href="http://alexking.org/blog/2013/07/07/reorganizing">alluded to earlier</a>, I&#8217;ve cleaned up my <a href="http://alexking.org/projects">projects page</a> which is now powered by a new taxonomy, custom post type and the content I&#8217;ve generated here over the last decade plus. Turns out, I&#8217;ve generated quite a few projects. <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/07/projects-page-crop-510x382.png" alt="projects-page-crop" width="480" height="359" class="aligncenter size-medium-img wp-image-17781" /></p>
+<p>I&#8217;m not completely done creating and managing the content, but I&#8217;m pretty happy with the improvement. I&#8217;ve tried to group them in ways that are useful &#8211; especially calling out projects that are no longer active<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+<p>You can see a comparison of the old and new pages in <a href="http://www.flickr.com/photos/alexkingorg/sets/72157634631433509/">this Flickr set</a>.</p>
+<p>So what did I do and how did I do it?</p>
+<p><span id="more-17747"></span></p>
+<p><em>Note: This was written against a pre-release version of WordPress 3.6</em></p>
+<h3>1. Create a Projects Taxonomy (and Post Type)</h3>
+<p>I created two new taxonomies to power the Projects page.</p>
+<ol>
+<li>Projects: the names of my various projects.</li>
+<li>Project Groups: to group my projects into buckets.</li>
+</ol>
+<p><script src="https://gist.github.com/5991273.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991273">Gist</a>.</p></noscript></p>
+<p>I then used the <a href="http://crowdfavorite.com">Crowd Favorite</a> <a href="https://github.com/crowdfavorite/wp-tax-post-binding">taxonomy-to-post binding plugin</a> plugin to create a Project post type that is effectively a child of the Projects taxonomy. This way I will be able to add content, terms, featured images, etc. to my projects (in a very forward compatible way).</p>
+<p><script src="https://gist.github.com/5991284.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991284">Gist</a>.</p></noscript></p>
+<h3>2. Convert existing Categories and Threads to Projects</h3>
+<p>In my existing content structures I had both categories and <a href="http://alexking.org/project/threads">threads</a> that were dedicated to specific projects. I needed to convert those relationships to the new projects taxonomy I&#8217;d created.</p>
+<p>Changing the categories was straightforward, but there was a little more work for the threads because I needed to convert the related post types as well. I did separate SQL queries to get the various category and thread ids I needed to convert.</p>
+<p><script src="https://gist.github.com/5991297.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991297">Gist</a>.</p></noscript></p>
+<p>Once everything was converted, I then ran a little code to save each term via the WordPress API so that the associated project post types content would be created (via the tax-post-binding library).</p>
+<p><script src="https://gist.github.com/5991324.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991324">Gist</a>.</p></noscript></p>
+<p>The existing terms are now fully converted to projects.</p>
+<h3>3. Create New Projects (with meta data)</h3>
+<p>Now that I had converted the existing categories and threads to projects, it was time to create the rest of the projects. I ended up creating a big array with lots of meta data so that I could run and test this locally, then replay it all on my live site.</p>
+<p>This code creates the new project groups taxonomy terms, the new project terms, and adds meta data to the associated project post types.</p>
+<p><script src="https://gist.github.com/5991315.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991315">Gist</a>.</p></noscript></p>
+<p>I truncated that quite a bit as I inserted a <em>lot</em> of projects.</p>
+<h3>4. Assign Existing Posts to Projects</h3>
+<p>At this point we have all of our project terms and post types created, it&#8217;s time to use them.</p>
+<p>Finding the posts I wanted to put into each project wasn&#8217;t an exact science. I basically created a projects list, then did searches on my site to find the posts relevant to that project. Then I manually selected the post IDs for those posts, and put them into a big array.</p>
+<p><script src="https://gist.github.com/5991399.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991399">Gist</a>.</p></noscript></p>
+<p>I didn&#8217;t select the posts programatically because there&#8217;s a bit more nuance to choosing what is and isn&#8217;t applicable to a project than just a keyword search.</p>
+<p>As part of that process, I also added a &#8220;Projects&#8221; category to all of these posts. I use this to show links to the latest posts across all projects on the new page. I needed to add this category to all of the converted categories and threads too.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+<p><script src="https://gist.github.com/5991415.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991415">Gist</a>.</p></noscript></p>
+<h3>5. Expose the New Data to Create the Projects Page</h3>
+<p>With all of my data set up, the last step was to expose it to power the projects page. I decided to do this by creating a shortcode that would output the projects by group.</p>
+<p><script src="https://gist.github.com/5991434.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991434">Gist</a>.</p></noscript></p>
+<p>This has a bit too much of a mix of template and presentation for my liking, but it works and refactoring it is pretty low on my list at this point. Next time I mess with that code, I&#8217;ll probably clean it up a bit.</p>
+<h3>6. Project Page</h3>
+<p>The final step in the process was to customize the output of the individual project page. I am outputting the description, related links and featured image from the bound post type, and I converted some of my Threads plugin code to show a timeline of posts in &#8220;newest first&#8221; order. I also added a &#8220;this post is part of a project&#8221; banner to the individual posts, again borrowing the code from the Threads plugin.</p>
+<p>Here&#8217;s <a href="http://alexking.org/project/social">an example</a>.</p>
+<h3>Conclusion</h3>
+<p>I feel like the new <a href="http://alexking.org/projects">projects page</a> is a better representation of my projects, and will be more meaningful and maintainable in the future than the old static page was. It will also reward me for blogging more frequently by being more up to date as a result.</p>
+<p>All good things.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+More on this in a future post.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I probably could have done this earlier in the process, but didn&#8217;t think of the feature I wanted it for until later.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/15/content-powered-projects-page/feed</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>How to Create a WordPress Plugin so it can be Included in a Theme</title>
+		<link>http://alexking.org/blog/2012/07/11/wordpress-plugin-theme-compatible</link>
+		<comments>http://alexking.org/blog/2012/07/11/wordpress-plugin-theme-compatible#comments</comments>
+		<pubDate>Wed, 11 Jul 2012 20:23:53 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13878</guid>
+		<description><![CDATA[I recently posted about how to include a plugin in a WordPress theme properly. Here I will touch on the converse &#8211; how to make sure your plugin will work nicely if it is loaded by a theme. My general approach to development is to create discreet features that can interact with each other in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I recently posted about how to <a href="http://alexking.org/blog/2012/07/09/include-plugin-in-wordpress-theme">include a plugin in a WordPress theme properly</a>. Here I will touch on the converse &#8211; how to make sure your plugin will work nicely if it is loaded by a theme.</p>
+<p>My general approach to development is to create discreet features that can interact with each other in elegant ways. By keeping each set of features small, they are simpler by design and implementation &#8211; this makes both them less prone to bugs and easier to reuse. You can see this approach in action in many of <a href="http://crowdfavorite.com/wordpress/">Crowd Favorite&#8217;s WordPress products</a>. For example we created our <a href="http://alexking.org/blog/2011/10/25/wordpress-post-formats-admin-ui">Admin Post Formats UI</a> as a library that can be easily reused rather than coding that feature into our FavePersonal theme directly.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Another example, <a href="http://crowdfavorite.com/wordpress/carrington-build/">Carrington Build</a> includes a plugin to enables translation of it&#8217;s data when being pushed from staging to production by <a href="http://crowdfavorite.com/wordpress/ramp/">RAMP</a>.</p>
+<p>If you start with the mindset of &#8220;I&#8217;m creating code to implement a feature, and this code should be as re-usable as possible&#8221;, then you&#8217;re already in good shape.</p>
+<p>Here are some specific things to consider:</p>
+<ol>
+<li><strong>Don&#8217;t use activation or deactivation hooks.</strong> There are actually lots of reasons why these are a bad idea, including multi-site considerations, upgrade considerations, etc. Instead, pick an opportune time to do a lightweight check to see if your plugin set-up needs to be run (perhaps check the existence of one of your settings &#8211; perhaps an &#8220;installed version&#8221; setting) and do the work you need to do at that time. Remember, you want to do these checks in admin hooks rather than front-end hooks &#8211; you don&#8217;t want to add unnecessary overhead to every public page load and you want to avoid race conditions.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></li>
+<li><strong>Don&#8217;t reply on your code running prior to all code being loaded.</strong> Hook in at <code>wp_loaded</code> (previously this was done at <code>init</code>) to do any set-up work, etc. The only situation where this might not be possible is if you need to <a href="http://alexking.org/blog/2012/07/09/include-plugin-in-wordpress-theme#comment-220953">override a pluggable function</a>, but the types of plugins that need to do this are (in my experience) less likely to be the type of plugin included in a theme.</li>
+<li><strong>Don&#8217;t rely on settings existing in the database.</strong> This ties in with the first consideration as I often see default settings written to the database as part of the activation process. I take the approach of creating an accessor function in my plugin that holds a set of defaults for settings. Here&#8217;s some example code:</li>
+</ol>
+<p><script src="https://gist.github.com/3079382.js"></script><noscript><p>View the code on <a href="https://gist.github.com/3079382">Gist</a>.</p></noscript></p>
+<p>It&#8217;s also worth noting that all <a href="http://vip.wordpress.com/">WordPress.com VIP sites</a> load plugins by including them within the theme code. If you&#8217;re writing code that might end up on this infrastructure, you&#8217;ll be glad that you followed the steps above.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Same with the Colors feature, Carrington Core, etc.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Running in the admin reduces the risk of this, but doesn&#8217;t negate it.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/post-formats-admin-ui">Post Formats Admin UI</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/07/11/wordpress-plugin-theme-compatible/feed</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		</item>
+		<item>
+		<title>The Right Way to Include a Plugin in a WordPress Theme</title>
+		<link>http://alexking.org/blog/2012/07/09/include-plugin-in-wordpress-theme</link>
+		<comments>http://alexking.org/blog/2012/07/09/include-plugin-in-wordpress-theme#comments</comments>
+		<pubDate>Mon, 09 Jul 2012 15:29:16 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13836</guid>
+		<description><![CDATA[In our FavePersonal theme we integrated the excellent Social plugin from MailChimp and included an option to turn it on or off. Most importantly we did it in a way that still allows the Social plugin to be installed and updated independently. We made sure that we implemented this in a manner that: respected users&#8217;&#8230;]]></description>
+				<content:encoded><![CDATA[<p>In our <a href="http://crowdfavorite.com/wordpress/themes/favepersonal/">FavePersonal theme</a> we integrated the excellent <a href="http://wordpress.org/extend/plugins/social/">Social plugin</a> from <a href="http://mailchimp.com">MailChimp</a> and included an option to turn it on or off. Most importantly we did it in a way that still allows the Social plugin to be installed and updated independently. We made sure that we implemented this in a manner that:</p>
+<ol>
+<li>respected users&#8217; expectations</li>
+<li>allowed users to manage the plugin independently of the theme</li>
+</ol>
+<p>I thought it might be useful to outline the approach we used in a little detail in case others might want to do something similar.</p>
+<p>At <a href="http://crowdfavorite.com">Crowd Favorite</a> we believe strongly in the <a href="http://en.wikipedia.org/wiki/Principle_of_least_astonishment">principle of least astonishment</a>. WordPress users expect to be able to download and install plugins whenever they see something that looks interesting. We wanted to make sure that we didn&#8217;t impede this process. So even though FavePersonal includes the Social plugin, we wanted to make sure we accounted for situations where Social was already installed on a site before FavePersonal was activated; as well as handling a situation where someone installs and activates the Social plugin once FavePersonal is already installed.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<h2>Foundation</h2>
+<p>When including a plugin in a theme, the main thing you want to avoid is a situation where the same PHP code is processed twice. This will trigger a fatal error (often times resulting in the white screen of death). In other words, don&#8217;t just <code>include()</code> the plugin in your theme. If someone already has that plugin activated on their site, you&#8217;d have the &#8220;loaded twice&#8221; issue (and your site would crash).</p>
+<p>To avoid this situation, it&#8217;s useful to look at the WordPress load process (in wp-settings.php, referencing WP 3.4.1). The first thing WordPress does is <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L108">load in its core functionality</a>:</p>
+<pre><code>// Load most of WordPress.
+require( ABSPATH . WPINC . '/class-wp-walker.php' );
+require( ABSPATH . WPINC . '/class-wp-ajax-response.php' );
+require( ABSPATH . WPINC . '/formatting.php' );
+require( ABSPATH . WPINC . '/capabilities.php' );
+require( ABSPATH . WPINC . '/query.php' );
+require( ABSPATH . WPINC . '/theme.php' );
+[...]
+</code></pre>
+<p>This is followed by the <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L160">loading of MU (Must Use) plugins</a>; these are plugins that are placed into the wp-content/mu-plugins directory and cannot be managed from the Plugins screen.</p>
+<pre><code>// Load must-use plugins.
+foreach ( wp_get_mu_plugins() as $mu_plugin ) {
+    include_once( $mu_plugin );
+}
+unset( $mu_plugin );
+</code></pre>
+<p>You&#8217;ll see the standard plugins loaded <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L196">on line 196</a>:</p>
+<pre><code>// Load active plugins.
+foreach ( wp_get_active_and_valid_plugins() as $plugin )
+    include_once( $plugin );
+unset( $plugin );
+</code></pre>
+<p>and <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L282">on line 282</a> you&#8217;ll see the theme&#8217;s <code>functions.php</code> file loaded, along with any parent theme (if your theme is a child theme):</p>
+<pre><code>// Load the functions for the active theme, for both parent and child theme if applicable.
+if ( ! defined( 'WP_INSTALLING' ) || 'wp-activate.php' === $pagenow ) {
+    if ( TEMPLATEPATH !== STYLESHEETPATH &amp;&amp; file_exists( STYLESHEETPATH . '/functions.php' ) )
+        include( STYLESHEETPATH . '/functions.php' );
+    if ( file_exists( TEMPLATEPATH . '/functions.php' ) )
+        include( TEMPLATEPATH . '/functions.php' );
+}
+</code></pre>
+<p><a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L290">Right after that</a>, you&#8217;ll see the following action:</p>
+<pre><code>do_action( 'after_setup_theme' );
+</code></pre>
+<p>Ok, now we have all the bits of the process we need to understand to properly conditionally include a plugin from a theme. So let&#8217;s do it.</p>
+<h2>Implementation</h2>
+<p>Since the theme is loading in last, we can use that to our advantage. If the plugin has been installed separately as a plugin (and not as part of the theme), we will be able to see that it is active. If it is already active, we don&#8217;t want to load it again a second time.</p>
+<p><script src="https://gist.github.com/3060451.js"></script><noscript><p>View the code on <a href="https://gist.github.com/3060451">Gist</a>.</p></noscript></p>
+<p>In our FavePersonal theme we added an additional check in the <code>if</code> statement to see if the setting to activate the Social plugin was turned on. This allows us to avoid loading the plugin if the site owner has decided to disable this functionality.</p>
+<p>There you have it &#8211; very simple, the plugin will only be loaded by the theme if it hasn&#8217;t been activated separately as a plugin, and the plugin is properly in place before <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L302"><code>init</code></a> or <a href="http://core.trac.wordpress.org/browser/tags/3.4.1/wp-settings.php#L323"><code>wp_loaded</code></a> (where plugins commonly do set-up work).</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Or perhaps a situation where someone: activates the FavePersonal theme, finds that they like the features of Social, changes to a new theme and installs/activates the Social plugin, then switches back to the FavePersonal theme (while the Social plugin is still active).&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the following projects: <a href="http://alexking.org/project/personal">Personal Theme</a>, <a href="http://alexking.org/project/social">Social</a>. View the project timelines for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/07/09/include-plugin-in-wordpress-theme/feed</wfw:commentRss>
+		<slash:comments>34</slash:comments>
+		</item>
+		<item>
+		<title>Add a Preview Button to the Fullscreen Editor in WordPress</title>
+		<link>http://alexking.org/blog/2012/07/06/wordpress-fullscreen-preview-button</link>
+		<comments>http://alexking.org/blog/2012/07/06/wordpress-fullscreen-preview-button#comments</comments>
+		<pubDate>Fri, 06 Jul 2012 23:57:33 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13857</guid>
+		<description><![CDATA[I really like the fullscreen editor in WordPress. I use it nearly all of the time when composing long-form content, often in conjunction with the excellent Markdown on Save plugin by Mark Jaquith. It has always bugged me that there wasn&#8217;t a Preview button in the fullscreen mode toolbar. Problem solved. Here&#8217;s the code. View&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I really like the fullscreen editor in WordPress. I use it nearly all of the time when composing long-form content, often in conjunction with the excellent <a href="http://wordpress.org/extend/plugins/markdown-on-save/">Markdown on Save</a> plugin by <a href="http://markjaquith.com/">Mark Jaquith</a>. It has always bugged me that there wasn&#8217;t a Preview button in the fullscreen mode toolbar.</p>
+<p>Problem solved.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/07/fullscreen-preview-button-510x323.png" alt="fullscreen-preview-button" width="510" height="323" class="alignnone size-medium-img wp-image-13873" /></p>
+<p>Here&#8217;s the code.</p>
+<p><script src="https://gist.github.com/3062569.js"></script><noscript><p>View the code on <a href="https://gist.github.com/3062569">Gist</a>.</p></noscript></p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/fullscreen-preview-button">Fullscreen Preview Button</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/07/06/wordpress-fullscreen-preview-button/feed</wfw:commentRss>
+		<slash:comments>22</slash:comments>
+		</item>
+		<item>
+		<title>Anonomize Non-Public WordPress User Data</title>
+		<link>http://alexking.org/blog/2011/10/10/anonomize-non-public-wordpress-user-data</link>
+		<comments>http://alexking.org/blog/2011/10/10/anonomize-non-public-wordpress-user-data#comments</comments>
+		<pubDate>Mon, 10 Oct 2011 22:27:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=7539</guid>
+		<description><![CDATA[If you need to remove non-public user data from a WordPress database, these SQL queries should do the trick for you: View the code on Gist. Note that if you have plugins, etc. that store additional user data in user meta you might need to clear those out as well.]]></description>
+				<content:encoded><![CDATA[<p>If you need to remove non-public user data from a WordPress database, these SQL queries should do the trick for you:</p>
+<p><script src="https://gist.github.com/1267715.js"></script><noscript><p>View the code on <a href="https://gist.github.com/1267715">Gist</a>.</p></noscript></p>
+<p>Note that if you have plugins, etc. that store additional user data in user meta you might need to clear those out as well.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/10/10/anonomize-non-public-wordpress-user-data/feed</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>bbcurl: view source in BBEdit</title>
+		<link>http://alexking.org/blog/2011/08/18/bbcurl-view-source-in-bbedit</link>
+		<comments>http://alexking.org/blog/2011/08/18/bbcurl-view-source-in-bbedit#comments</comments>
+		<pubDate>Thu, 18 Aug 2011 06:58:34 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=6772</guid>
+		<description><![CDATA[A super simple bash function for opening the source of a URL in BBEdit. View the code on Gist. Enhancements/improvements gladly accepted.]]></description>
+				<content:encoded><![CDATA[<p>A super simple bash function for opening the source of a URL in BBEdit.</p>
+<p><script src="https://gist.github.com/1153459.js"></script><noscript><p>View the code on <a href="https://gist.github.com/1153459">Gist</a>.</p></noscript></p>
+<p>Enhancements/improvements gladly accepted.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/08/18/bbcurl-view-source-in-bbedit/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.356 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:51 -->
+
+<!-- Compression = gzip -->

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: We&#8217;ve Made Web Development Complicated</title>
+	<atom:link href="http://alexking.org/blog/2015/05/14/web-development-now-complicated/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Wed, 26 Aug 2015 20:55:29 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>By: tomnora</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-628924</link>
+		<dc:creator><![CDATA[tomnora]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2015 19:58:30 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-628924</guid>
+		<description><![CDATA[this guy @alexkingorg captured what I&#039;ve been complaining about. Configurators for configurators. git gulp grunt https://t.co/aOgiiynrL1]]></description>
+		<content:encoded><![CDATA[<p>this guy @alexkingorg captured what I&#8217;ve been complaining about. Configurators for configurators. git gulp grunt <a href="https://t.co/aOgiiynrL1" rel="nofollow">https://t.co/aOgiiynrL1</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Anne</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-628576</link>
+		<dc:creator><![CDATA[Anne]]></dc:creator>
+		<pubDate>Thu, 06 Aug 2015 21:16:48 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-628576</guid>
+		<description><![CDATA[Exactly. Web development has become overly complicated when it doesn&#039;t need to be. But no one will hire me anymore, so what do I know?]]></description>
+		<content:encoded><![CDATA[<p>Exactly. Web development has become overly complicated when it doesn&#8217;t need to be. But no one will hire me anymore, so what do I know?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: David Lyons</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-627102</link>
+		<dc:creator><![CDATA[David Lyons]]></dc:creator>
+		<pubDate>Sun, 21 Jun 2015 11:36:36 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-627102</guid>
+		<description><![CDATA[I had exactly the same felling, just a year ago I had my simple ORM, my own simple CMS, my simple include libs (strings, mails, database, auth, etc)
+
+And a friend of my told me to use Laravel, and was impressed with the ORM and the libs included (sorry now name packages or whatever they decided to invent to name things that allready exists before). 
+
+So now I&#039;ve to say that my development speed whent down because of fighting with... Ops something whent wrong or error in line 140394 or Carbon date not in correct format, etc.... In one side is good all this new stuff but one the other hand you have to be reading documentation almost for every step you do and you find yourself fixing problems that you had allready overcome year ago.
+
+Programming paradoxes!!! :)]]></description>
+		<content:encoded><![CDATA[<p>I had exactly the same felling, just a year ago I had my simple ORM, my own simple CMS, my simple include libs (strings, mails, database, auth, etc)</p>
+<p>And a friend of my told me to use Laravel, and was impressed with the ORM and the libs included (sorry now name packages or whatever they decided to invent to name things that allready exists before). </p>
+<p>So now I&#8217;ve to say that my development speed whent down because of fighting with&#8230; Ops something whent wrong or error in line 140394 or Carbon date not in correct format, etc&#8230;. In one side is good all this new stuff but one the other hand you have to be reading documentation almost for every step you do and you find yourself fixing problems that you had allready overcome year ago.</p>
+<p>Programming paradoxes!!! <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: vapostolski</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-627145</link>
+		<dc:creator><![CDATA[vapostolski]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2015 17:15:01 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-627145</guid>
+		<description><![CDATA[#truestory We’ve Made Web Development Complicated http://t.co/fcs1UqSfA5]]></description>
+		<content:encoded><![CDATA[<p>#truestory We’ve Made Web Development Complicated <a href="http://t.co/fcs1UqSfA5" rel="nofollow">http://t.co/fcs1UqSfA5</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: formidableinc</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-626562</link>
+		<dc:creator><![CDATA[formidableinc]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2015 07:49:38 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-626562</guid>
+		<description><![CDATA[Le web, c&#039;est compliqué. (C&#039;est pour ça qu&#039;il y a des formations et des pro). http://t.co/Y3n1ew1f4s]]></description>
+		<content:encoded><![CDATA[<p>Le web, c&#8217;est compliqué. (C&#8217;est pour ça qu&#8217;il y a des formations et des pro). <a href="http://t.co/Y3n1ew1f4s" rel="nofollow">http://t.co/Y3n1ew1f4s</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: markyhesketh</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625969</link>
+		<dc:creator><![CDATA[markyhesketh]]></dc:creator>
+		<pubDate>Fri, 05 Jun 2015 16:05:09 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625969</guid>
+		<description><![CDATA[Yep. &quot;We’ve Made Web Development Complicated&quot; http://t.co/aIJq1pIUmm]]></description>
+		<content:encoded><![CDATA[<p>Yep. &#8220;We’ve Made Web Development Complicated&#8221; <a href="http://t.co/aIJq1pIUmm" rel="nofollow">http://t.co/aIJq1pIUmm</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: WeAreWCC</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625971</link>
+		<dc:creator><![CDATA[WeAreWCC]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2015 18:01:12 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625971</guid>
+		<description><![CDATA[Word. We’ve Made Web Development Complicated: http://t.co/Ulp5GvgZ0O #webdev]]></description>
+		<content:encoded><![CDATA[<p>Word. We’ve Made Web Development Complicated: <a href="http://t.co/Ulp5GvgZ0O" rel="nofollow">http://t.co/Ulp5GvgZ0O</a> #webdev</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: nturbanov</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625201</link>
+		<dc:creator><![CDATA[nturbanov]]></dc:creator>
+		<pubDate>Wed, 27 May 2015 07:16:17 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625201</guid>
+		<description><![CDATA[This.
+http://t.co/v7FISD55AD]]></description>
+		<content:encoded><![CDATA[<p>This.<br />
+<a href="http://t.co/v7FISD55AD" rel="nofollow">http://t.co/v7FISD55AD</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: perezpardojc</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625175</link>
+		<dc:creator><![CDATA[perezpardojc]]></dc:creator>
+		<pubDate>Tue, 26 May 2015 11:50:06 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625175</guid>
+		<description><![CDATA[We’ve Made Web Development Complicated https://t.co/5d540QoQuc Thanks @alexkingorg]]></description>
+		<content:encoded><![CDATA[<p>We’ve Made Web Development Complicated <a href="https://t.co/5d540QoQuc" rel="nofollow">https://t.co/5d540QoQuc</a> Thanks @alexkingorg</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jeffikus</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625019</link>
+		<dc:creator><![CDATA[jeffikus]]></dc:creator>
+		<pubDate>Mon, 25 May 2015 11:10:03 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625019</guid>
+		<description><![CDATA[Thought provoking article about software development in general on the web http://t.co/027OUSJrdd]]></description>
+		<content:encoded><![CDATA[<p>Thought provoking article about software development in general on the web <a href="http://t.co/027OUSJrdd" rel="nofollow">http://t.co/027OUSJrdd</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: gilbitron</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-625021</link>
+		<dc:creator><![CDATA[gilbitron]]></dc:creator>
+		<pubDate>Sun, 24 May 2015 14:08:01 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-625021</guid>
+		<description><![CDATA[We’ve Made Web Development Complicated http://t.co/vUoT8TiQWs]]></description>
+		<content:encoded><![CDATA[<p>We’ve Made Web Development Complicated <a href="http://t.co/vUoT8TiQWs" rel="nofollow">http://t.co/vUoT8TiQWs</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Verasseti</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-624736</link>
+		<dc:creator><![CDATA[Verasseti]]></dc:creator>
+		<pubDate>Fri, 22 May 2015 14:27:37 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-624736</guid>
+		<description><![CDATA[Have We Made #WebDevelopment Complicated http://t.co/3xwc84DLKx http://t.co/CGK7pSEVNh via @alexkingorg]]></description>
+		<content:encoded><![CDATA[<p>Have We Made #WebDevelopment Complicated <a href="http://t.co/3xwc84DLKx" rel="nofollow">http://t.co/3xwc84DLKx</a> <a href="http://t.co/CGK7pSEVNh" rel="nofollow">http://t.co/CGK7pSEVNh</a> via @alexkingorg</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: jesperfj</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-624366</link>
+		<dc:creator><![CDATA[jesperfj]]></dc:creator>
+		<pubDate>Sat, 16 May 2015 19:18:57 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-624366</guid>
+		<description><![CDATA[Impressive list of tech needed for web dev: http://t.co/v0esEVB3VP. @heroku takes a lot of this pain away]]></description>
+		<content:encoded><![CDATA[<p>Impressive list of tech needed for web dev: <a href="http://t.co/v0esEVB3VP" rel="nofollow">http://t.co/v0esEVB3VP</a>. @heroku takes a lot of this pain away</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: tchappui</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-624367</link>
+		<dc:creator><![CDATA[tchappui]]></dc:creator>
+		<pubDate>Sat, 16 May 2015 15:48:32 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-624367</guid>
+		<description><![CDATA[We’ve Made Web Development Complicated http://t.co/Rn6Hwu0xFh]]></description>
+		<content:encoded><![CDATA[<p>We’ve Made Web Development Complicated <a href="http://t.co/Rn6Hwu0xFh" rel="nofollow">http://t.co/Rn6Hwu0xFh</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: dberkholz</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comment-624251</link>
+		<dc:creator><![CDATA[dberkholz]]></dc:creator>
+		<pubDate>Sat, 16 May 2015 04:24:39 +0000</pubDate>
+		<guid isPermaLink="false">http://alexking.org/?p=21793#comment-624251</guid>
+		<description><![CDATA[@sogrady @alexkingorg: There&#039;s an argument to be made that new languages become popular because nobody&#039;s had the time to complexify them yet]]></description>
+		<content:encoded><![CDATA[<p>@sogrady @alexkingorg: There&#8217;s an argument to be made that new languages become popular because nobody&#8217;s had the time to complexify them yet</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.201 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:00:50 -->
+
+<!-- Compression = gzip -->

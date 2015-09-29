@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /donor_list.php
+Disallow: /trac
+Disallow: /punbb14
+Allow: /trac/timeline
+Allow: /trac/ticket
+Allow: /trac/changeset
+Allow: /trac/roadmap

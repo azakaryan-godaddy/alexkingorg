@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Idea</title>
+	<atom:link href="http://alexking.org/blog/topic/idea/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>How I&#8217;d Make an iPad Pro</title>
+		<link>http://alexking.org/blog/2014/03/03/ipad-pro</link>
+		<comments>http://alexking.org/blog/2014/03/03/ipad-pro#comments</comments>
+		<pubDate>Mon, 03 Mar 2014 16:58:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Idea]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19590</guid>
+		<description><![CDATA[I&#8217;m all in on the iPad, but as noted previously I largely agree with Lukas Mathis that it&#8217;s currently a tool best used for consumption. That said, I also believe that the future of computing looks more like an iPad and less like a laptop for most normal users. Looking at how Apple has taken&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m all in on the iPad, but as <a href="http://alexking.org/blog/2014/03/03/windows-8-and-the-microsoft-surface">noted previously</a> I largely agree with Lukas Mathis that it&#8217;s currently a tool best used for consumption. That said, I also believe that the future of computing looks more like an iPad and less like a laptop for most  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  normal  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  users.</p>
+<p>Looking at how Apple has taken evolutionary steps with iOS as a platform and with the devices that run it, I think they could reasonably create a larger iPad that is exactly 2x the current iPad Air&#8217;s screen size. I&#8217;ll refer to this as the iPad Pro.</p>
+<p><a href="http://alexking.org/wp-content/uploads/2014/03/ipad-pro.png"><img src="http://alexking.org/wp-content/uploads/2014/03/ipad-pro.png" alt="ipad-pro" width="408" height="510" class="alignnone size-medium-img wp-image-19591" /></a></p>
+<p>(This sketch was created on an iPad Air using <a href="https://itunes.apple.com/us/app/notability/id360593530?mt=8">Notability</a> and a stylus.)</p>
+<p>This would allow current iPad apps to run at their native resolution in half of the screen, making it easy to run two apps side by side.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Two current iPad apps in portrait on a landscape oriented screen.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> Apps could be written to use the full screen width, and some would be great like this, but they would all need to be able to run at the current iPad resolution. This would allow all iPad apps to work in &#8220;dual screen&#8221; mode on the iPad Pro.</p>
+<p>The device would be just about the size of a 15&#8243; MacBook Pro screen (slightly less wide), which is quite reasonable to use on a lap and still portable. If they could maintain the width of the iPad Air while making the overall device about 1.5x the weight of the current iPad Air, I think that would work nicely.</p>
+<p>While this would be an evolutionary step for the iPad platform, I think this would significantly change the way people can use an iPad; making it quite a bit more realistic to <a href="http://online.wsj.com/news/articles/SB10001424052702303491404579390981100620274">replace a laptop with an iPad</a> for many people.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+The keyboard would take the full width when it is present, taking the same screen height it does now.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+How would this work when the iPad Pro was in portrait mode? I could see the apps rotating (like they do today) while maintaining their same screens split.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/03/ipad-pro/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>A &#8220;Writing&#8221; Desktop</title>
+		<link>http://alexking.org/blog/2013/09/11/a-writing-desktop</link>
+		<comments>http://alexking.org/blog/2013/09/11/a-writing-desktop#comments</comments>
+		<pubDate>Wed, 11 Sep 2013 17:27:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Idea]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18241</guid>
+		<description><![CDATA[I often find myself in a situation where I need to interrupt my development to focus on writing something; but I don&#8217;t want to screw up my development environment (open apps, browsers, consoles, terminal windows, etc.). I used to use OS X&#8217;s Hide Others command (Command+Option+H) from the Application Menu, but recently I&#8217;m trying a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I often find myself in a situation where I need to interrupt my development to focus on writing something; but I don&#8217;t want to screw up my development environment (open apps, browsers, consoles, terminal windows, etc.).</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/09/Screen-Shot-2013-09-08-at-12.00.31-PM-510x397.png" alt="Writing Desktop" width="480" height="373" class="alignnone size-medium-img wp-image-18258" /></p>
+<p>I used to use OS X&#8217;s Hide Others command (Command+Option+H) from the Application Menu, but recently I&#8217;m trying a new approach. When I need to write, I create a new Desktop (using <a href="http://support.apple.com/kb/ht4689">Mission Control</a>) and put just the document/app/window I&#8217;m working on there.</p>
+<p>This allows me to  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  pause  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  what I&#8217;m working on and focus on something else while I need to, then I can kill the extra Desktop and get right back to what I was doing with my development environment still intact.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/11/a-writing-desktop/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Stickies as Visual Organizer</title>
+		<link>http://alexking.org/blog/2013/09/10/stickies-as-visual-organizer</link>
+		<comments>http://alexking.org/blog/2013/09/10/stickies-as-visual-organizer#comments</comments>
+		<pubDate>Tue, 10 Sep 2013 16:30:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Idea]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18243</guid>
+		<description><![CDATA[For the last few months I&#8217;ve been trying something new to visually organize my priorities. I&#8217;m using the built-in OS X Stickies app as a visual organizer. I have a separate desktop that I use just as a Stickies board. It&#8217;s easy for me to switch over to it as needed when I want a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>For the last few months I&#8217;ve been trying something new to visually organize my priorities. I&#8217;m using the built-in OS X Stickies app as a visual organizer.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/09/stickies-board-510x318.jpg" alt="stickies-board" width="480" height="299" class="alignnone size-medium-img wp-image-18252" /></p>
+<p>I have a separate desktop that I use just as a Stickies board. It&#8217;s easy for me to switch over to it as needed when I want a bird&#8217;s eye view of everything I have going on. The way I organize the Stickies makes sense to me &#8211; you&#8217;ll likely have your own method.</p>
+<p>When you have lots of <a href="http://alexking.org/projects">projects</a>, it can be hard to prioritize all of the things you need to do. I&#8217;ve created a sticky for each project where I jot notes for the next few things I want to work on, and move them around into current priority order. This allows me to focus on my top priority with visual reassurance that other things aren&#8217;t forgotten, they just aren&#8217;t being worked on right now.</p>
+<p>Give it a try.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/10/stickies-as-visual-organizer/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.293 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:02 -->
+
+<!-- Compression = gzip -->

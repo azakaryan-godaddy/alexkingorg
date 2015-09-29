@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Business</title>
+	<atom:link href="http://alexking.org/blog/topic/business/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Returning to My Indy Roots</title>
+		<link>http://alexking.org/blog/2015/04/02/monarchy</link>
+		<comments>http://alexking.org/blog/2015/04/02/monarchy#comments</comments>
+		<pubDate>Thu, 02 Apr 2015 21:44:08 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Monarchy]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21435</guid>
+		<description><![CDATA[Back in September I went on medical leave at Crowd Favorite. That ended on March 15th and due to a number of reasons, I&#8217;m not going to be re-joining the team in my previous capacity. Instead, I will be an advisor to Crowd Favorite while I return to my independent developer roots.1 The largest factor&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Back in September I went on <a href="http://alexking.org/blog/2014/10/27/on-medical-leave">medical leave</a> at Crowd Favorite. That ended on March 15th and due to a number of reasons, I&#8217;m not going to be re-joining the team in my previous capacity. Instead, I will be an advisor to Crowd Favorite while I return to my independent developer roots.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>The largest factor in this decision was a desire to have complete control over what I&#8217;m putting my effort into. If you&#8217;re thinking that this kind of selfishness can be poisonous in a team atmosphere, I would agree with you whole-heartedly. Dealing with cancer has been a sharpener for me. I am more careful than ever about how I spend my time, and that doesn&#8217;t fit well into a team dynamic. No matter how great the team is.</p>
+<p><a href="http://monarchyllc.com/"><img src="http://alexking.org/wp-content/uploads/2015/03/monarchy-logo-510x266.png" alt="monarchy-logo" width="480" height="250" class="alignnone size-medium-img wp-image-21440" /></a></p>
+<p><strong><a href="http://monarchyllc.com/" title="Independent PHP development and consulting.">Monarchy</a></strong> is my new one-man shop. I am offering consulting, development, and UX design services. I&#8217;m only interested in touching enterprise-scale projects as a consultant or to fill a specific role.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> I will also be working on some pet projects that have been relegated to the back burner over the years.</p>
+<p>While I love the team I helped build at Crowd Favorite and I look forward to their continued success, I&#8217;m also looking forward to transitioning away from the management and leadership role I had there and spending my time on the actual  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  hands-on  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  work.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I also expect to continue to contribute to a variety of Crowd Favorite&#8217;s Open Source projects.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+If you need a full-service agency for WordPress projects, <a href="http://crowdfavorite.com/contact/#project">talk to Crowd Favorite</a>.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the following threads: <a href="">Crowd Favorite</a>, <a href="http://alexking.org/blog/thread/life-events">Life Events</a>, <a href="http://alexking.org/blog/thread/career">Career</a> &#8211; ongoing stories on this site. View the thread timelines for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/02/monarchy/feed</wfw:commentRss>
+		<slash:comments>103</slash:comments>
+		</item>
+		<item>
+		<title>Work Backwards</title>
+		<link>http://alexking.org/blog/2014/03/20/work-backwards</link>
+		<comments>http://alexking.org/blog/2014/03/20/work-backwards#comments</comments>
+		<pubDate>Thu, 20 Mar 2014 15:46:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19576</guid>
+		<description><![CDATA[Relating to yesterday&#8217;s post on inertia, I wanted to pass on another nugget I&#8217;ve learned about how to approach and define problems: working backwards. I&#8217;ve found this to be useful in both technical and business situations and I use it all the time. Basically, start with the end result you want, and figure out how&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Relating to <a href="http://alexking.org/blog/2014/03/19/just-start">yesterday&#8217;s post on inertia</a>, I wanted to pass on another nugget I&#8217;ve learned about how to approach and define problems: working backwards. I&#8217;ve found this to be useful in both technical and business situations and I use it all the time.</p>
+<p>Basically, start with the end result you want, and figure out how to get there from here. If you can&#8217;t define the desired outcome, then step one is getting to that point.</p>
+<p>On the technical side, this helps you define APIs, payloads, caching approaches, and overall application structure.</p>
+<p>On the business side it can help you frame language for positioning, clarify sales language for potential customers, and help you create more useful documentation for your customers.</p>
+<p>Give it a try &#8211; see if it works for you.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/20/work-backwards/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Every New Hire Has Three Jobs</title>
+		<link>http://alexking.org/blog/2014/03/17/every-new-hire-has-three-jobs</link>
+		<comments>http://alexking.org/blog/2014/03/17/every-new-hire-has-three-jobs#comments</comments>
+		<pubDate>Mon, 17 Mar 2014 15:43:54 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19613</guid>
+		<description><![CDATA[At Crowd Favorite we&#8217;re getting ready to hire several developers. I&#8217;ve been told that our on-boarding process can be stressful, but I&#8217;ve also been told that this is the case for most high performing teams. I&#8217;d like to smooth the path a little for our new hires, so I&#8217;m going to try a new approach.&#8230;]]></description>
+				<content:encoded><![CDATA[<p>At <a href="http://crowdfavorite.com">Crowd Favorite</a> we&#8217;re getting ready to hire several developers. I&#8217;ve been told that our on-boarding process can be stressful, but I&#8217;ve also been told that this is the case for most high performing teams. I&#8217;d like to smooth the path a little for our new hires, so I&#8217;m going to try a new approach.</p>
+<p>Early on in the interview process I&#8217;m going to try to put a voice to things that are too often assumed and not explicitly discussed often enough. Specifically, that <em>each new hire will have two additional jobs</em> that come along with the job they are being hired for.</p>
+<h3>Job #1: Learn everything about how the team does things and why.</h3>
+<p>This means combing through the intranet and reading about historical decisions, talking to your colleagues and asking a bunch of questions (some of which may feel &#8220;dumb&#8221;), and learning everything you can about current processes. It means keeping an open mind, even when things seem silly, and asking questions about those situations.</p>
+<p>It means learning which team member is the &#8220;go to&#8221; for various things, learning differing communication styles and systems, and figuring out how to be efficient within a new toolset. This can take 3-6 months; if you&#8217;re in month 9 and still struggling, that&#8217;s a concern and you need to talk to someone about it.</p>
+<h3>Job #2: Contribute by doing what you were hired to do.</h3>
+<p>This is the easiest bit &#8211; it&#8217;s the straightforward part of the gig. Here&#8217;s a project, help us build it. Along the way, make sure you&#8217;re learning and leveraging your knowledge of how the team works so that you make the jobs of the people around you easier. This means having empathy for the people whose work collides with your own; and reaching out to them in a helpful way in the areas where your work meets.</p>
+<p>You&#8217;ll be asked to do this from day one, but you&#8217;ll struggle with it at first. It should become easier as you work through Job #1.</p>
+<h3>Job #3: Redefine your job based on your experience and unique perspective.</h3>
+<p>Once you know how the team works and you&#8217;re confident doing your job and supporting those around you, it&#8217;s time to take the next step. This might take 6 months, or it might take 2 years, but you should aspire to take your knowledge and experience and improve the way your job is executed.</p>
+<p>This may mean proposing new processes, spearheading new training programs in areas that were important but neglected, creating new documentation and resources for important but occasionally accessed information, and working with your colleagues to understand how you can better support them.</p>
+<p>In a nutshell, how can you make your role and yourself more valuable to team? What this means will be largely up to you.</p>
+<p>And that&#8217;s what we want &#8211; each team member contributing to do their job and improve the team. We want every team member to succeed, which means we need them to succeed three jobs. We&#8217;ll see if this helps.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/17/every-new-hire-has-three-jobs/feed</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+		<item>
+		<title>Lessons From Inbox Zero</title>
+		<link>http://alexking.org/blog/2014/03/14/lessons-from-inbox-zero</link>
+		<comments>http://alexking.org/blog/2014/03/14/lessons-from-inbox-zero#comments</comments>
+		<pubDate>Fri, 14 Mar 2014 16:14:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19611</guid>
+		<description><![CDATA[I&#8217;m a month in on INBOX ZERO. It&#8217;s been a good experience. I spend less time staring at a list of things I need to deal with at some point and am only looking at new things that need attention. I like not having a backlog of things sitting on my shoulders weighing me down.&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m a month in on INBOX ZERO. It&#8217;s been a good experience.</p>
+<p>I spend less time staring at a list of things I need to deal with at some point and am only looking at new things that need attention. I like not having a backlog of things sitting on my shoulders weighing me down.</p>
+<p>I&#8217;ve also had to break myself of the &#8220;switching to the inbox for a distraction&#8221; habit, but that&#8217;s definitely a good thing. I still peek over at my dock for an unread indicator, but that&#8217;s definitely a habit improvement &#8211; even a small one. It keeps me more focused on the task at hand.</p>
+<p>The main discipline to making this work seems to be making hard decisions about what needs to happen with something. It helps to force yourself to make these decisions instead of kicking the can down the road.</p>
+<p>Also, I&#8217;ve had to accept that some emails/actions require a laptop. I&#8217;d love to keep my inbox clean from my mobile devices, but they are sometimes only sufficient for triage.</p>
+<p>I&#8217;m going to see if I can keep it up for another month.  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_fingerscrossed.gif" alt=":fingerscrossed:" class="wp-smiley" /> </p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/14/lessons-from-inbox-zero/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>On Selling Crowd Favorite</title>
+		<link>http://alexking.org/blog/2014/02/17/on-selling-crowd-favorite</link>
+		<comments>http://alexking.org/blog/2014/02/17/on-selling-crowd-favorite#comments</comments>
+		<pubDate>Mon, 17 Feb 2014 20:19:08 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19486</guid>
+		<description><![CDATA[On Friday Karim and I signed the final papers to bring my Crowd Favorite team together with his VeloMedia team. Whew! I&#8217;ve told the story of how I came to build Crowd Favorite countless times. I tell it on podcasts and in on-stage interviews, to candidates during the recruitment and interview process, to folks who&#8230;]]></description>
+				<content:encoded><![CDATA[<p>On Friday Karim and I signed the final papers to <a href="http://crowdfavorite.com/blog/2014/02/velomedia-and-crowd-favorite-join-forces/">bring my Crowd Favorite team together with his VeloMedia team</a>. Whew!</p>
+<hr />
+<p>I&#8217;ve told the story of how I came to build Crowd Favorite countless times. I tell it on podcasts and in on-stage interviews, to candidates during the recruitment and interview process, to folks who are just starting out creating their businesses &#8211; it&#8217;s a leading plot line in the story of the last decade of my life.</p>
+<p>I spent 5 years working at startups in the Bay Area during the first boom and bust. One startup succeeded, the other fizzled. During that time I saw many companies rise and fall, I saw acquisitions and exits, mergers and failures. I grew weary of the attitude that was so pervasive in the Bay Area; one that focused so much on raising capital and building towards an exit. I wanted to actually build stuff; not create perceived value to capitalize on.</p>
+<p>At the end of 2003 my wife and I decided to leave the Bay Area. We chose Denver, sold our townhouse, and moved.</p>
+<p>Instead of looking for a new job in the Denver area, I decided to go independent and start building software of my own. This also afforded me the opportunity to be active in the fledgling WordPress community.</p>
+<p>By 2007, WordPress had matured to the point that a demand for professional services was growing. I did a few WordPress gigs and started to see demand for more than I could provide as an individual. I didn&#8217;t want to miss out on some of the cool projects I was seeing, so I decided to try <a href="http://alexking.org/blog/2007/05/21/introducing-eric-miller">bringing on another developer to help</a>. By the end of the year we had expanded to a team of 4. Over the next 6 years we grew, slowly and intentionally, to a team of 15.</p>
+<hr />
+<p>While working with my team, we figured stuff out and expanded our capabilities. I had no formal training in business or management, and we did a lot of experimenting and learning on the fly. Often things worked out well, sometimes we learned lessons the hard way. But we were careful to take away something of value from each experience.</p>
+<p>I had been active within the WordPress community and various other &#8220;birds of a feather&#8221; developer-centric communities and events for years, but I had rarely<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> engaged with other digital agency owners in the same capacity.</p>
+<p>I believe Crowd Favorite was the first WordPress-focused agency. This has had many benefits, but also a few drawbacks. Having been established a couple of years ahead of most shops in the WordPress community, we were trailblazing on our own. When sharing stories with other shops in the WordPress community, the topics would frequently be things my team and I had already solved or moved past. As it turns out, this was extremely limiting.</p>
+<p>Last summer I had the opportunity to go to <a href="http://ownercamp.com/">OwnerCamp</a> and it was a revelation.</p>
+<p>OwnerCamp opened my eyes to the greater digital agency landscape. 6+ years may have been old within the WordPress community, but here I was meeting folks who had been running shops for 10-15 years. In the course of a few days, my understanding of what Crowd Favorite could become exploded.</p>
+<p>I saw how much I still had to learn, and I had a few key takeaways from that experience and the few weeks of thinking that followed.</p>
+<ol>
+<li>With my previously limited vision, I felt that we were close to being established and complete. We had chosen to settle into a comfortable space and were refining things rather than taking next steps. I could now see a map for the future of Crowd Favorite that showed us not even at the halfway point.</li>
+<li>I recognized that taking these next steps would require moving the company beyond my own limitations. We were good at taking on a new challenge, figuring it out as we went, then learning from the experience and refining the process but I wasn&#8217;t sure that was the right way to move ahead at this point. I&#8217;ll come back to this below.</li>
+<li>Most of the other agencies I met operated as a partnership. It can be lonely at the top regardless of the size of the hill. It also showed me that there other shops doing interesting work and being just as thoughtful about how they went about it as we were.</li>
+</ol>
+<p>Armed with a new perspective, I had some choices to make.</p>
+<hr />
+<p>Like most shops in the WordPress community (and many of the shops I met at OwnerCamp), Crowd Favorite evolved into a business based on individual reputation and subsequent team execution. We were designers and developers solving problems, and we were very good at that part of the job.</p>
+<p>But it turns out there are other parts of the job. Larger clients and organizations have certain expectations about how your team will interact with them. Account and client management, training and on-going support, documentation and final delivery packaging; all of these things require expertise and attention if you want to do them well. And then there are the internal challenges. Making sure employees are happy, challenged and can see a future for themselves within your organization. And of course, watching the bottom line.</p>
+<p>When Karim and I started talking in earnest last fall it was quickly apparent that we were building towards the same goal, but from opposite and complimentary perspectives. We shared the same values and ideals of building something sustainable and focusing on employee and team health and success, and we were creating teams that championed our own strengths. Crowd Favorite was mature on the technical side, while VeloMedia could deliver to top tier clients on the business side. The opportunity to bring the teams together was easy and obvious.</p>
+<p>I could see where I wanted Crowd Favorite to go, and the things we needed to learn and improve were the same things VeloMedia was already doing well. Sure, we could take a few years to learn these lessons on our own. I knew we could do it, but we&#8217;d certainly have hiccups along the way (and occasionally a client would suffer because of them). Also, I knew this area was not my strength. Would I be able to effectively lead the team through this process?</p>
+<p>The alternative was much more appealing. Come together with an established and successful business-side team and jump ahead of that process by a few years. This is what we chose to do. It also has a pleasant side-effect of allowing me to focus on the stuff that I&#8217;m most excited about; I&#8217;m stepping into the CTO role.</p>
+<p>I ask each person on my team think critically, bring new ideas to the table, and always strive to improve our approach, process and execution. As we bring the companies together, we are doing exactly that. Things are changing and evolving. Some things that have been easy will be harder for a while as we work through them. Some things that were a struggle are suddenly easier. We&#8217;re on a great path, and I can&#8217;t wait to see where we are in a few months.</p>
+<p>I created Crowd Favorite out of a desire to build something of lasting value. That hasn&#8217;t changed. My decision to sell the business to VeloMedia is not about an  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  exit  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" /> , it&#8217;s about taking the next step.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I did organize a weekend retreat with a few good friends to talk shop over the summer of 2011.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the following threads: <a href="http://alexking.org/blog/thread/career">Career</a>, <a href="">Crowd Favorite</a> &#8211; ongoing stories on this site. View the thread timelines for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/02/17/on-selling-crowd-favorite/feed</wfw:commentRss>
+		<slash:comments>64</slash:comments>
+		</item>
+		<item>
+		<title>Institutional Knowledge</title>
+		<link>http://alexking.org/blog/2013/10/22/institutional-knowledge</link>
+		<comments>http://alexking.org/blog/2013/10/22/institutional-knowledge#comments</comments>
+		<pubDate>Tue, 22 Oct 2013 21:30:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18551</guid>
+		<description><![CDATA[Don&#8217;t underestimate the value of your team&#8217;s (collective) experience. When new folks come on board you can tell them how you do things and why you do things certain ways. You can share historical anecdotes about the reasons things are done these ways, but there is no way for those new hires to actually have&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Don&#8217;t underestimate the value of your team&#8217;s (collective) experience.</p>
+<p>When new folks come on board you can tell them how you do things and why you do things certain ways. You can share historical anecdotes about the reasons things are done these ways, but there is no way for those new hires to actually have the experiences that led to the decisions/policies/processes. They don&#8217;t get the opportunity to self-realize the lessons in the way that really drives them home.</p>
+<p>There is also a huge amount of value in a breadth of knowledge about what the team has accomplished. At <a href="http://crowdfavorite.com">Crowd Favorite</a> we have multiple small dev teams working on multiple projects at any given time. Lots of things are being learned, tested and built. We have &#8220;tech lunches&#8221; every two weeks (we had one today) to discuss these lessons with each other in an attempt to share that information as widely as possible.</p>
+<p>I am reminded of this scene from Groundhog Day where Phil supposes, &#8220;Maybe [God]&#8217;s not omnipotent; he&#8217;s just been around so long he knows everything.&#8221;</p>
+<p><iframe width="480" height="270" src="http://www.youtube.com/embed/uw63_YyNsF4?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>The longer someone has been with your team, the more their value grows. Not just because of their capabilities and role in your company&#8217;s culture, but also because of their experiences and knowledge of the history of what you&#8217;ve done.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/10/22/institutional-knowledge/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Define the Problem Instead of Suggesting a Solution</title>
+		<link>http://alexking.org/blog/2013/10/18/define-the-problem</link>
+		<comments>http://alexking.org/blog/2013/10/18/define-the-problem#comments</comments>
+		<pubDate>Fri, 18 Oct 2013 23:41:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18540</guid>
+		<description><![CDATA[Life lesson from running a digital agency: When asking for help, focus your efforts on defining the problem instead of suggesting a solution. The person you&#8217;re asking for help from may have solutions you&#8217;ve never considered. If my recent experience is any measure, it works equally well when asking a hotel concierge for help getting&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Life lesson from running a digital agency:</p>
+<blockquote><p>When asking for help, focus your efforts on defining the problem instead of suggesting a solution. The person you&#8217;re asking for help from may have solutions you&#8217;ve never considered.</p></blockquote>
+<p>If my recent experience is any measure, it works equally well when asking a hotel concierge for help getting to a destination<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> and getting team members to think creatively about solving a problem<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. And boy do I love it when one of our clients comes to us with a well defined problem.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Try &#8220;I need to get to [Destination X]&#8221;, not &#8220;Can you call me a cab?&#8221;.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Try &#8220;We want to make sure we communicate [X] to our users.&#8221; not &#8220;Try putting a sidebar on the site that says [X].&#8221;&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/10/18/define-the-problem/feed</wfw:commentRss>
+		<slash:comments>29</slash:comments>
+		</item>
+		<item>
+		<title>Your Team is Your Product</title>
+		<link>http://alexking.org/blog/2013/10/10/your-team-is-your-product</link>
+		<comments>http://alexking.org/blog/2013/10/10/your-team-is-your-product#comments</comments>
+		<pubDate>Thu, 10 Oct 2013 20:28:59 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18231</guid>
+		<description><![CDATA[I read with interest the path that Peter took in learning about a SAAS business vs. his consulting business. Having experience in both types of businesses there wasn&#8217;t too much that was unexpected for me here, but reading a well thought out exploration of a situation is often results in clarifying ideas for me. In&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I read with interest the <a href="http://www.barrelny.com/blog/projectflow-hard-learned-lessons-from-building-a-product/">path that Peter took</a> in learning about a SAAS business vs. his consulting business. Having experience in both types of businesses there wasn&#8217;t too much that was unexpected for me here, but reading a well thought out exploration of a situation is often results in clarifying ideas for me.</p>
+<p>In this case, it reminded me of a realization I made a few years ago.</p>
+<blockquote>
+<p><em>When you run a services business,<br />
+  your team is your product.</em></p>
+</blockquote>
+<p>What are things you need to do to your product?</p>
+<ul>
+<li><strong>Create new features</strong> &#8211; Adding new capabilities is important. Frequently this is hiring or training, could also be implementing new tools or processes.</li>
+<li><strong>User testing</strong> &#8211; Features that seem like a great idea in theory sometimes bomb in practice and need to be reconsidered.</li>
+<li><strong>Fix bugs</strong> &#8211; Correct bad behaviors or practices. Be sure to do this before other features end up working around/relying on certain bugs.</li>
+<li><strong>Identify edge-cases</strong> &#8211; Things that probably should be addressed someday but don&#8217;t cause problems most of the time. Be careful that these don&#8217;t become bugs.</li>
+<li><strong>Re-architecting</strong> &#8211; From time to time it makes sense to reorganize the team, including firing unfixable bugs.</li>
+<li><strong>Scaling</strong> &#8211; Always hard. Identify bottlenecks and work to resolve them. Prioritize this work to make sure you have the necessary capacity.</li>
+<li><strong>Load-balancing</strong> &#8211; Scheduling and planning to make sure people are challenged but not overwhelmed.</li>
+<li><strong>Release new versions</strong> &#8211; Make it clear when significant changes happen and celebrate when you reach new milestones.</li>
+</ul>
+<p>You are never done building your product. It grows, matures, and evolves. As your product changes, make sure that you are constantly re-evaluating and critically considering how well it is functioning to do the work you need it to.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="">Crowd Favorite</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/10/10/your-team-is-your-product/feed</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+		<item>
+		<title>You Can&#8217;t Avoid Talking About Money</title>
+		<link>http://alexking.org/blog/2013/09/23/you-cant-avoid-talking-about-money</link>
+		<comments>http://alexking.org/blog/2013/09/23/you-cant-avoid-talking-about-money#comments</comments>
+		<pubDate>Mon, 23 Sep 2013 18:54:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18389</guid>
+		<description><![CDATA[I read this article in A List Apart with interest. Value based pricing vs. time and materials billing a topic that sparked a passionate conversation at OwnerCamp a few months back, and it&#8217;s one that I&#8217;ve been thinking a good deal about on my own as well. At a certain budget size, I think the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I read <a href="http://alistapart.com/column/pricing-underpins-everything-you-do">this article in A List Apart</a> with interest. Value based pricing vs. time and materials billing a topic that sparked a passionate conversation at <a href="http://ownercamp.com/">OwnerCamp</a> a few months back, and it&#8217;s one that I&#8217;ve been thinking a good deal about on my own as well.</p>
+<p>At a certain budget size, I think the way you bill a client starts to matter less. Value-based pricing is ultimately reflective of an hourly rate somewhere in the calculations and if you bill hourly you still need to provide overall project estimates. The client is signing off on a large chunk of money for what you are going to design/build/maintain for them. The important thing is how the billing approach affects the relationship that you have with the client.</p>
+<p>At <a href="http://crowdfavorite.com">Crowd Favorite</a> we believe it&#8217;s important to take an active role as a development partner in the projects we undertake with our clients. We bring up new ideas, propose approaches, etc. &#8211; all things that tend to make a project better, but also often result in changes to priorities, scope and yes, fees.</p>
+<p>I like our approach. I think it works well for our clients as they benefit from the combined experience of people that make the web on a daily basis. I think it works well for our team as they are fully engaged on our projects; not simply implementing someone else&#8217;s ideas/design/etc. The question I struggle with is &#8220;what is the best way to make the necessary business/contract part of the project complementary to this approach?&#8221;</p>
+<p>If you go with value based pricing (a fixed rate for a fixed set of features) each new idea results in a change order/contract addendum that often has to go through legal sign-off, etc. on top of the stakeholders approval. The other approach is a time &#038; materials project (billed hourly, weekly, etc.) with estimates and (hopefully) loosely defined project goals within the legal documents.</p>
+<p>I feel the T&#038;M approach provides more flexibility to make course adjustments for new ideas, new priorities and new approaches as the project progresses. That said, you still need to be proactive and update the client with revised estimates whenever things change that would impact the overall cost of the project.</p>
+<p>With any approach you take, you still have to have direct conversations with your client about costs. The cost of doing something is part of their decision making process, and there is no way to avoid that.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/23/you-cant-avoid-talking-about-money/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Email Reply Checklist</title>
+		<link>http://alexking.org/blog/2013/08/14/email-reply-checklist</link>
+		<comments>http://alexking.org/blog/2013/08/14/email-reply-checklist#comments</comments>
+		<pubDate>Wed, 14 Aug 2013 16:08:19 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17996</guid>
+		<description><![CDATA[Stuck on how to reply to an email? Here&#8217;s the mental checklist I use: Re-read the email a second time, without an emotion reaction. What was the real purpose of the incoming email? (informative, question, request for action, express frustration/anger/etc.) What type of response is needed? (simple reply, take some action then reply, ask for&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Stuck on how to reply to an email? Here&#8217;s the mental checklist I use:</p>
+<ol>
+<li>Re-read the email a second time, without an emotion reaction.</li>
+<li>What was the real purpose of the incoming email? (informative, question, request for action, express frustration/anger/etc.)</li>
+<li>What type of response is needed? (simple reply, take some action then reply, ask for phone call/clarification, etc.)</li>
+<li>What tone should the response have? (helpful, apologetic, friendly, frustrated, etc.)</li>
+<li>Outline key points to make</li>
+<li>Draft and send</li>
+</ol>
+<p>What is your mental checklist?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/14/email-reply-checklist/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Motivated or Creepy?</title>
+		<link>http://alexking.org/blog/2012/10/21/motivated-or-creepy</link>
+		<comments>http://alexking.org/blog/2012/10/21/motivated-or-creepy#comments</comments>
+		<pubDate>Sun, 21 Oct 2012 22:42:06 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14829</guid>
+		<description><![CDATA[I definitely appreciate motivated job applicants (the more effort you show in your application, the more time we are likely to invest with you), but if you walk into a small development shop without an invitation or appointment it&#8217;s not likely to go the way you hoped. People are busy doing stuff and there likely&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I definitely appreciate motivated job applicants (the more effort you show in your application, the more time we are likely to invest with you), but if you walk into a small development shop without an invitation or appointment it&#8217;s not likely to go the way you hoped. People are busy doing stuff and there likely isn&#8217;t an in-house recruiter or similar to meet with you.</p>
+<p>To paraphrase one of my colleagues, it&#8217;s like sending someone a note on an online dating site then showing up the next day at their house.</p>
+<p>Yeah, awkward.</p>
+<p>(It&#8217;s happened several times in the past few months.)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/10/21/motivated-or-creepy/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Kindle Lending Library = Trojan Horse</title>
+		<link>http://alexking.org/blog/2011/11/03/kindle-lending-library-trojan-horse</link>
+		<comments>http://alexking.org/blog/2011/11/03/kindle-lending-library-trojan-horse#comments</comments>
+		<pubDate>Thu, 03 Nov 2011 14:47:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=7869</guid>
+		<description><![CDATA[The Amazon Kindle Lending Library is quite a perk for Prime subscribers: a free book rental every month. This, along with the free streaming video they added a little while back makes Prime even more compelling. Amazon&#8217;s not dumb, they know when people sign up for Prime they stop shopping elsewhere. Any perk that gets&#8230;]]></description>
+				<content:encoded><![CDATA[<p>The <a href="http://www.amazon.com/gp/feature.html/?docId=1000739811">Amazon Kindle Lending Library</a> is quite a perk for Prime subscribers: a free book rental every month. This, along with the <a href="http://arstechnica.com/media/news/2011/02/amazon-takes-on-netflix-with-movie-streaming-service-for-prime.ars">free streaming video</a> they added a little while back makes Prime even more compelling.</p>
+<p>Amazon&#8217;s not dumb, they know when people sign up for Prime they <a href="http://alexking.org/blog/2005/09/28/amazon-prime">stop shopping elsewhere</a>. Any perk that gets people to sign up for Prime is a big win for Amazon. However, the lending library has another, more subtle, twist to it.</p>
+<p>My wife and I each have a Kindle and both Kindles are connected to a single Amazon (Prime) account. With the Lending Library we can only have one rented book out at a time (you have to <a href="http://www.amazon.com/gp/help/customer/display.html/ref=hp_200757120_return?nodeId=200757120#return">return the previous one before you rent the next one</a>). If we were reading one book a month for free, that would be a savings of ~$120/year. A second Prime membership costs only $80/year.</p>
+<p>You can see how this feature will incent some families to add another Prime membership.</p>
+<p>Once you have your Kindle set up on your own Prime membership, that is also the account where your new book purchases will go &#8211; each person will have their own book library. It perpetuates the need to maintain the separate account.</p>
+<p>Is the Lending Library a great perk for Prime customers? Absolutely. Will it also benefit Amazon? Of course. And on several fronts.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/11/03/kindle-lending-library-trojan-horse/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.334 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:51 -->
+
+<!-- Compression = gzip -->

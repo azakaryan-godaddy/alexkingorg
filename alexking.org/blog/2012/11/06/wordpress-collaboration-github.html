@@ -1,0 +1,1640 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>Collaborative WordPress Development on GitHub : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Collaborative WordPress Development on GitHub Comments Feed" href="http://alexking.org/blog/2012/11/06/wordpress-collaboration-github/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="New Rule: Every Desktop Design Has To Go Finger-Friendly" href="http://alexking.org/blog/2012/11/05/new-rule-every-desktop-design-has-to-go-finger-friendly">
+<link rel="next" title="Putting the finishing touches on my slides for Pre…" href="http://alexking.org/blog/2012/11/07/15093">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="wordpress-collaboration-github.html">
+<link rel="shortlink" href="http://alexking.org/?p=15075">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Collaborative WordPress Development on GitHub">
+<meta property="og:url" content="http://alexking.org/blog/2012/11/06/wordpress-collaboration-github">
+<meta property="og:description" content="Last night I started integrating one of Dougal‘s plugins into a little WordPress-based app I’m building to help me keep track of HR/benefits related requests for my team. Since I’...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2012/11/06/wordpress-collaboration-github">
+<meta name="twitter:title" content="Collaborative WordPress Development on GitHub">
+<meta name="twitter:description" content="Last night I started integrating one of Dougal's plugins into a little WordPress-based app I'm building to help me keep track of HR/benefits related requests for my team. Since I'm building the app as a theme, I dropped the plugin into the theme. It worked great, except the path to the CSS file wasn't correct (since the code wasn't living in the plugins directory). A quick poke around and I found the GitHub repo for">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-15075 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-15075" class="clearfix post-15075 post type-post status-publish format-standard hentry category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="wordpress-collaboration-github.html" title="Permalink to Collaborative WordPress Development on GitHub" rel="bookmark">Collaborative WordPress Development on GitHub</a></h1>
+		<time class="entry-date" datetime="2012-11-06T11:48:25+00:00" pubdate=""> November 6, 2012</time>
+	</header>
+	<div class="entry-content">
+<p>Last night I started integrating <a href="http://dougal.gunters.org/plugins/documents-shortcode/">one of</a> <a href="http://dougal.gunters.org/">Dougal</a>‘s plugins into a little <a href="https://github.com/crowdfavorite/wp-hr-log">WordPress-based app</a> I’m building to help me keep track of HR/benefits related requests for <a href="http://crowdfavorite.com">my team</a>.</p>
+<p>Since I’m building the app as a theme, I dropped the plugin into the theme. It worked great, except the path to the CSS file wasn’t correct (since the code wasn’t living in the plugins directory). A quick poke around and I found the <a href="https://github.com/dougalcampbell/documents-shortcode">GitHub repo for the plugin</a>, which I quickly <a href="https://github.com/alexkingorg/documents-shortcode">forked</a>, <a href="https://github.com/alexkingorg/documents-shortcode/commit/6bb765f753d8f44c04b5e788b127387292ee2f73">patched (by adding a filter)</a>, and <a href="https://github.com/dougalcampbell/documents-shortcode/pull/1">submitted back as a pull request</a>. This morning Dougal accepted the pull request. Done and done.</p>
+<p>At the WordPress Community Summit I participated in a session about plugin continuity and development (see <a href="http://make.wordpress.org/summit/2012/10/29/summary-of-afternoon-discussions/">Abandoned Plugins</a>). It naturally included discussion about how the various developers there build their plugins. Most<sup id="fnref:1"><a href="wordpress-collaboration-github.html#fn:1" rel="footnote">1</a></sup> of those present are hosting their primary development on GitHub and checking them in to the SVN repo on WordPress.org as a packaging step for distribution.</p>
+<p>This is why. There just isn’t a WordPress community owned property that allows for this type of developer collaboration. I think it makes sense for the plugin and theme repositories on WordPress.org to adopt a “GitHub URL” meta property for projects.<sup id="fnref:2"><a href="wordpress-collaboration-github.html#fn:2" rel="footnote">2</a></sup> Until they do, I’m going to start adding it prominently to the README when I release new versions of my plugins.</p>
+<p>Fellow WordPress developers, please collaborate on my plugins on GitHub. Most of them are under the <a href="https://github.com/crowdfavorite">Crowd Favorite account</a>, a handful are on <a href="https://github.com/alexkingorg">my account</a>.</p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn:1">
+I didn’t take exact numbers, but the show of hands was pretty overwhelming if I remember correctly. I believe <a href="http://mitcho.com/">Mitcho</a>‘s exact comment was “I’m going to cry”.&nbsp;<a href="wordpress-collaboration-github.html#fnref:1" rev="footnote">↩</a>
+</li>
+<li id="fn:2">
+I should write up some of my other ideas for investing in the WP.org community soon.&nbsp;<a href="wordpress-collaboration-github.html#fnref:2" rev="footnote">↩</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the thread: <a href="../../../thread/version-control.html">Version Control</a> – an ongoing story on this site. View the thread timeline for more context on this post.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="wordpress-collaboration-github.html#comments">50 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="wordpress-collaboration-github.html#" rel="social-all"><span>50 Replies</span></a></li>
+			<li class="social-wordpress"><a href="wordpress-collaboration-github.html#" rel="wordpress"><span>22 Comments</span></a></li>
+			<li class="social-twitter"><a href="wordpress-collaboration-github.html#" rel="social-twitter"><span>28 Tweets</span></a></li>
+			<li class="social-facebook"><a href="wordpress-collaboration-github.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="wordpress-collaboration-github.html#" rel="social-pingback"><span>0 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was January 1, 2013</div><div id="social-items-wrapper"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/vanpop/status/265896435399135232" title="vanpop retweeted this"><img src="http://pbs.twimg.com/profile_images/598217501344829440/0TlTsCGv_bigger.jpg" width="24" height="24" alt="vanpop retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/geekcode/status/265906645454946305" title="geekcode retweeted this"><img src="http://pbs.twimg.com/profile_images/2778765012/1ded7889acf754782539a059a159768d_bigger.png" width="24" height="24" alt="geekcode retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/dougal/status/265944421365866496" title="dougal retweeted this"><img src="http://pbs.twimg.com/profile_images/2927767663/76f37424e7590727171537a2b77ae1c1_bigger.jpeg" width="24" height="24" alt="dougal retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/dimensionmedia/status/265944659870752768" title="dimensionmedia retweeted this"><img src="http://pbs.twimg.com/profile_images/609371390039490560/xGRIV0Ok_bigger.jpg" width="24" height="24" alt="dimensionmedia retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/WordPressPower/status/265967785673363457" title="WordPressPower retweeted this"><img src="http://pbs.twimg.com/profile_images/2545698048/4yd5oplovdzlm0mz93nu_bigger.png" width="24" height="24" alt="WordPressPower retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/blondishnet/status/286084315161427968" title="blondishnet retweeted this"><img src="http://pbs.twimg.com/profile_images/535556293663023104/aS3o0hma_bigger.jpeg" width="24" height="24" alt="blondishnet retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/WPMigrations/status/286084650592518144" title="WPMigrations retweeted this"><img src="http://pbs.twimg.com/profile_images/456393931979112448/MhQ0563E_bigger.png" width="24" height="24" alt="WPMigrations retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-304672">
+<div class="social-comment-inner social-clearfix" id="comment-304672">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/472884550712836096/leWyyPlO_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/jaredatch" rel="265895497682804736 external nofollow" class="url">@jaredatch</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/jaredatch/status/265895497682804736" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304672" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>RT @alexkingorg: Collaborative WordPress Development on GitHub <a href="http://t.co/KER1ldZi" rel="nofollow">http://t.co/KER1ldZi</a> – completely agree</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304672 -->
+<ul class="social-children">
+<li class="social-twitter odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-304674">
+<div class="social-comment-inner social-clearfix" id="comment-304674">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/531846388636598272/m4rs9a3t_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/zamoose" rel="265899084349595648 external nofollow" class="url">@zamoose</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/zamoose/status/265899084349595648" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304674" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@jaredatch @alexkingorg Except then I have to check in to Bitbucket, Github AND <a href="http://t.co/XgKzVXNZ" rel="nofollow">http://t.co/XgKzVXNZ</a>. Maybe make it a DVCS URL?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304674 -->
+<ul class="social-children">
+<li class="social-twitter even depth-3 social-comment social-clearfix social-twitter" id="li-comment-304675">
+<div class="social-comment-inner social-clearfix" id="comment-304675">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/472884550712836096/leWyyPlO_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/jaredatch" rel="265901288728981505 external nofollow" class="url">@jaredatch</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/jaredatch/status/265901288728981505" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304675" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@zamoose thats a good point, but I think the assumption is most people use GH as a collaboration tool /cc @alexkingorg</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304675 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-304673">
+<div class="social-comment-inner social-clearfix" id="comment-304673">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/597804453446553600/ldNbt6xo_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/norcross" rel="265898825850449921 external nofollow" class="url">@norcross</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/norcross/status/265898825850449921" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304673" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg I love your idea about the Github URL for plugins, but one thing: you can’t follow an organization on Github</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304673 -->
+<ul class="social-children">
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-304676">
+<div class="social-comment-inner social-clearfix" id="comment-304676">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/472884550712836096/leWyyPlO_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/jaredatch" rel="265902001928404994 external nofollow" class="url">@jaredatch</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/jaredatch/status/265902001928404994" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304676" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@norcross but groups still have repos, like <a href="https://t.co/04HaBysf" rel="nofollow">https://t.co/04HaBysf</a>. I imagine you would list your repo URL for each plugin /cc @alexkingorg</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304676 -->
+<ul class="social-children">
+<li class="social-twitter odd alt depth-3 social-comment social-clearfix social-twitter" id="li-comment-304677">
+<div class="social-comment-inner social-clearfix" id="comment-304677">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/597804453446553600/ldNbt6xo_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/norcross" rel="265903367707062272 external nofollow" class="url">@norcross</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/norcross/status/265903367707062272" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304677" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@jaredatch @alexkingorg that’s correct. I was just noting in his post where he said ‘come collaborate with us’.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304677 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304660">
+<div class="social-comment-inner social-clearfix" id="comment-304660">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304660" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Uh huh… Come up with a good solution to using Git on Windows, and then you have something. I don’t use Git or GitHub, specifically because the entire experience is basically terrible on Windows machines.</p>
+<p>– Command line Git uses CygWin, which everybody will agree with is total junk.<br>
+– TortoiseGit just flat out doesn’t work, as far as I can tell. They may have improved it recently, I haven’t checked in a few months.<br>
+– GitHub’s own app works, but it’s like source-control-for-children and not a real developer tool. It’s more of a bad-joke than anything useful.</p>
+<p>The main problem I have with GitHub in particular is that they want you to use their website for most things. I have a problem with that sort of centralization, in that I don’t want to use a webpage to do developer tasks, I want to use my IDE of choice, or native apps on my system. It doesn’t help that I dislike the overall design of github.com, I grant you. It’s far too Mac-like for my tastes.</p>
+<p>BTW, anybody who replies with “use a different operating system” will simply be ignored. I like my development environment, and most of that is on Windows. I’m not going to change my dev environment for any source-control mechanism, or any website. It’s up to them to change to accommodate me (and the 95% of the rest of the world not using Macs for development), IMO.</p>
+<p>If you develop on GitHub, then that’s fine. But your only contributors will be other people using GitHub, which doesn’t include me because GitHub, IMO, sucks rocks as a developer tool. I’ve been writing code professionally for the better part of 20 years now, and if they are only planning to cater to the new-age hippy-dippy mac nerds, then that’s fine, but don’t expect the world to change around it. As far as I’m concerned, GitHub is just a flash-in-the-pan. Remember SourceForge? Or code.google? Or the half-dozen other open-source-control systems that have come and gone? GitHub ain’t got anything special that I can see.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304660 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-2 social-comment social-clearfix social-wordpress" id="li-comment-305006">
+<div class="social-comment-inner social-clearfix" id="comment-305006">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/69fc0e63af6afad5015d2a632a91ec49?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/69fc0e63af6afad5015d2a632a91ec49?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://campino2k.de" rel="external nofollow" class="url">Chris</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305006" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Tried SmartGit?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305006 -->
+</li><!-- #comment-## -->
+<li class="wordpress even depth-2 social-comment social-clearfix social-wordpress" id="li-comment-305084">
+<div class="social-comment-inner social-clearfix" id="comment-305084">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9d5d6abc8894300f88f82b2df42a5faf?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9d5d6abc8894300f88f82b2df42a5faf?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://jasonpenney.net/" rel="external nofollow" class="url">Jason Penney</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305084" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Otto,</p>
+<p>I’ll admit I don’t use it on a daily basis, but I found <a href="http://code.google.com/p/gitextensions/" rel="nofollow">Git Extensions</a> to be a good option for Windows.  It gives you explorer integration, Visual Studio integration, and command line (via MSysGit, which is a non-cygwin git environment for Windows).</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305084 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304666">
+<div class="social-comment-inner social-clearfix" id="comment-304666">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304666" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Also, as far as WordPress.org goes, I’d much rather improve upon tools on our own site, instead of essentially outsourcing development to some site that frankly I don’t think is reliable. How many times has GitHub just gone completely offline in the past year and stopped a bunch of developers from getting their job done? 4? 5?</p>
+<p>If you want to talk about building and improving tools for development and collaboration on WordPress.org, then I’m happy to join in on that conversation. But the moment you mention integrating with GitHub, then you’ve just gutted that conversation entirely.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304666 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304681">
+<div class="social-comment-inner social-clearfix" id="comment-304681">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304681" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Otto, I understand where you’re coming from but it’s pretty clear that many developers disagree with your opinion of GitHub. The opinion of many developers is that GitHub is providing better tools than WP.org *right now*, and developers are using it accordingly.</p>
+<p>I think building better tools on WP.org is a great idea, but it doesn’t change the current tool state, or the fact that more and more WP devs are working together on GitHub in ways they weren’t able to before.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304681 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-2 social-comment social-clearfix social-wordpress" id="li-comment-304687">
+<div class="social-comment-inner social-clearfix" id="comment-304687">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottodestruct.com" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304687" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I understand that many disagree. That’s not my point. My point is that if you want to talk about improving or creating existing tools, then I’d love to help. If you want to talk about using GitHub instead of creating better tools, then I’m against that, and will adamantly argue against it, until such time as Git in general is *usable* by the majority.</p>
+<p>You’re only seeing the results from a very small subset of developers, and frankly I’m not really interested in improving things just for “people who use GitHub”. I would rather take a wider scope, and improve things for *everybody*.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304687 -->
+<ul class="social-children">
+<li class="wordpress byuser comment-author-alex bypostauthor even depth-3 social-comment social-clearfix social-wordpress" id="li-comment-304692">
+<div class="social-comment-inner social-clearfix" id="comment-304692">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304692" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Small sample size, but using GitHub was the majority among the group of developers in the plugin discussion at #wpcs.</p>
+<p>I’m not arguing against better tools for WP.org, I’m arguing for using better tools available now. When/if the WP.org tools improve that will be an entirely different discussion.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304692 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-4 social-comment social-clearfix social-wordpress" id="li-comment-304696">
+<div class="social-comment-inner social-clearfix" id="comment-304696">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304696" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Yes, and something like 85-90% of them used Mac’s too. Does that mean that Mac’s are used by 85-90% of the population?</p>
+<p>Limited sample size, skewed dataset.</p>
+<p>If you are arguing for using tools that exist now, then that is identical to an argument against creating better ones. There is a limited amount of developer time and brainpower going into wp.org. Should we focus on making it better for a very small subset of developers, or focus on making better tools that works with a wider range of people (including non-developers) and thus creating a better way to do things overall? Pick one, we don’t have the capacity for both at once.</p>
+<p>Also note that there are only approximately 20,000 or so developers who have ever contributed any code to WordPress.org, ever, period, in all of time and space. Plugins, themes, and core. The other 1,998,000 user accounts were not made by developers. What of them? Should we be shunting them to your GitHub bug tracking system, or making a decent bug tracking system on .org? Should we outsource the support forums too? </p>
+<p>Every time I hear somebody say we should use GitHub, what I really hear is that they don’t want to use WordPress.org, nor are they interested in improving it. So the sub-context I see to your post really is: “I’m not interested in making things better, I just want to use what I know.” And that’s really a shame. </p>
+<p>Point out improvements: yes.<br>
+Point out places to fix things: yes.<br>
+Point out other sites and say we should use them instead: no.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304696 -->
+<ul class="social-children">
+<li class="wordpress byuser comment-author-alex bypostauthor even depth-5 social-comment social-clearfix social-wordpress" id="li-comment-304700">
+<div class="social-comment-inner social-clearfix" id="comment-304700">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304700" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote>
+<p>Limited sample size, skewed dataset.</p>
+</blockquote>
+<p>They did include some of the more active plugin developers in the community.</p>
+<blockquote>
+<p>If you are arguing for using tools that exist now, then that is identical to an argument against creating better ones.</p>
+</blockquote>
+<p>I completely reject this premise. I am quite capable of using existing tools while working to build new/better ones. I do this everyday.</p>
+<blockquote>
+<p>Also note that there are only approximately 20,000 or so developers who have ever contributed any code to WordPress.org, ever, period, in all of time and space. Plugins, themes, and core. The other 1,998,000 user accounts were not made by developers. What of them? </p>
+</blockquote>
+<p>I don’t think they are likely to submit pull requests or contribute patches.</p>
+<blockquote>
+<p>Should we be shunting them to your GitHub bug tracking system, or making a decent bug tracking system on .org? Should we outsource the support forums too?</p>
+</blockquote>
+<p>Unrelated issues do not strengthen your argument.</p>
+<blockquote>
+<p>Every time I hear somebody say we should use GitHub, what I really hear is that they don’t want to use WordPress.org, nor are they interested in improving it. So the sub-context I see to your post really is: “I’m not interested in making things better, I just want to use what I know.” And that’s really a shame.</p>
+</blockquote>
+<p>I certainly can’t control what you hear, but that’s not what I’m saying. I’ve been using SVN with WordPress <a href="http://mzaweb.github.com/wordpress-trunk-gitstats/authors.html" rel="nofollow">since 2003</a> and started using GitHub actively just a few years back. I learned how to use GitHub because of the benefits it offers. That doesn’t have any bearing on my feeling towards better WP.org tools.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304700 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress odd alt depth-4 social-comment social-clearfix social-wordpress" id="li-comment-304702">
+<div class="social-comment-inner social-clearfix" id="comment-304702">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304702" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Also note that other improvements for .org that were discussed are far more important, IMO, and will make this sort of argument somewhat futile in the medium-long run. </p>
+<p>For example, it’s being discussed how to make more of the WordPress.org website itself open-source. As this happens, then there will be the ability for more people to contribute changes to WordPress.org, instead of having basically 3-5 people capable of working on the code. In which case, maybe you can argue your changes to support that sort of thing there, and others can help out with improving other things, same as with core.</p>
+<p>Naturally, open-sourcing .org’s code is a big job, and will take some time to check for security issues, hide passwords, things of that nature. A fair amount of this work will lead to improvements in .org’s code even before other contributors start rolling in. It’s a game-changing idea, honestly. So in the long-run, we won’t have this argument on your blog, we’ll have it on a dotorg trac. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304702 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress even thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304703">
+<div class="social-comment-inner social-clearfix" id="comment-304703">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/81717a172b6918071fbea1a52483294b?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/81717a172b6918071fbea1a52483294b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://dougal.gunters.org/" rel="external nofollow" class="url">Dougal Campbell</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304703" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>First of all, thanks — I was excited to get my first pull-request! It was something I had planned to do eventually, anyways (in one form or another — still thinking about changing from background-images in CSS to actual img tags, and making the icon directory a filterable option).</p>
+<p>The documents-shortcode plugin is the first WordPress plugin I’ve hosted on GitHub (dual-hosted in the WP svn repo via git-svn). And other than the initial commit, this was the first time I had revisited the process of updating it in both git and svn. And let me tell you, the experience is not pretty. A couple of the steps doing the git/svn updates were slooooow. I think in the future, I’ll just use git on its own, and export changes to a separate svn checkout. I need to see what I can do to make that sort of process more automated and less prone to errors.</p>
+<p>@otto: I can see where you’re coming from. If the git toolchain for Windows sucks, that’s leaving a lot of people to swing in the wind. I hope it improves soon. Obviously, moving any “official” hosting of WP assets to GitHub is unlikely anytime in the foreseeable future. But I hope that the idea of a supported plugin header for an alternate repo location is something that can be worked out.</p>
+<p>I do have to say that receiving a pull request, being able to very easily review the patch, and accept it, is a pleasant experience. As opposed to receiving an email, with a patch attached, having to export the patch, and apply the patch manually, as I’ve done in the past with svn.</p>
+<p>The team at my day-job has recently gone through the switch from svn to git. There were some bumps early on, but now that I have a better handle on branching and merging in git, it’s great. In svn, I always feared branching and merging.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304703 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-2 social-comment social-clearfix social-wordpress" id="li-comment-304709">
+<div class="social-comment-inner social-clearfix" id="comment-304709">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304709" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Dougal: Most of the guidelines I’ve seen for doing git-&gt;svn involve, basically, pushing every git change to SVN, when that’s totally not necessary for our system. What you really only need to do is to push the latest version to SVN. The plugins SVN doesn’t need every little change you made in git, just the latest version. Which is why a rebase and squash is your friend.</p>
+<p><a href="http://stackoverflow.com/questions/1170221/squashing-or-editing-some-commits-before-doing-git-svn-dcommit" rel="nofollow">http://stackoverflow[...]-svn-dcommit</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304709 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even depth-2 social-comment social-clearfix social-wordpress" id="li-comment-304719">
+<div class="social-comment-inner social-clearfix" id="comment-304719">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304719" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>I need to see what I can do to make that sort of process more automated and less prone to errors.</p></blockquote>
+<p>Dougal, I’ve done this two ways:</p>
+<p>1. Have both .svn and .git folders in your local copy and commit to both places. Aaron Campbell said he does this as well. I only commit to WP.org for releases (GitHub gets all commits).<br>
+2. Use a file merge tool to sync your local Git copy to your local SVN checkout, then commit to SVN. I do this more frequently and find the review step useful as part of packaging.</p>
+<p>I haven’t tried this yet, but several folks have been working on the “automation” piece. Here’s <a href="https://gist.github.com/3370015" rel="nofollow">my fork of Dan Cameron’s script</a>.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304719 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress odd alt thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304705">
+<div class="social-comment-inner social-clearfix" id="comment-304705">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304705" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>I don’t think they are likely to submit pull requests or contribute patches.</p></blockquote>
+<p>*I* can’t submit pull-requests or contribute patches to your code, right now. You’re already limiting your audience, in a greater amount than I believe you realize.</p>
+<blockquote><p>I’ve been using SVN with WordPress since 2003 and started using GitHub actively just a few years back. I learned how to use GitHub because of the benefits it offers. That doesn’t have any bearing on my feeling towards better WP.org tools.</p></blockquote>
+<p>Clearly it does, because as you state in the post: “I think it makes sense for the plugin and theme repositories on WordPress.org to adopt a “GitHub URL” meta property for projects.”</p>
+<p>I don’t think that makes sense, and I think that that takes time/energy/effort away from improving and creating something better. That’s the line I really take issue with. You want .org to support a third-party service for doing development work. You want to outsource that part of our system to them. That’s a big job, and I’d rather spend energy on keeping things on .org instead of putting them onto some untrustworthy service that I can’t even reasonably use within my own development environment.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304705 -->
+<ul class="social-children">
+<li class="wordpress even depth-2 social-comment social-clearfix social-wordpress" id="li-comment-304720">
+<div class="social-comment-inner social-clearfix" id="comment-304720">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/81717a172b6918071fbea1a52483294b?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/81717a172b6918071fbea1a52483294b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://dougal.gunters.org/" rel="external nofollow" class="url">Dougal Campbell</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304720" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>I don’t think that makes sense, and I think that that takes time/energy/effort away from improving and creating something better.</p></blockquote>
+<p>I disagree. If a dev feels he can work more efficiently using by personally using one tool over another, then it frees up more time than using something that he finds less efficient. That time could then be used towards making the other tool better. </p>
+<p>Personally, I find .org’s tools for managing <em>support</em> for my plugins a bit frustrating. It was only (relatively) recently that we got email notifications for support threads, and I had given up on RSS a long time ago. So there were support questions sitting there, unanswered for ages, because I didn’t know they existed. Does that mean I want to scrap everything that’s there and move it all to GitHub? No. I <strong>love</strong> the idea of improving the .org dev/support toolchain. And I’m perfectly willing to use <em>both</em> .org’s tools and GitHub (or whatever) for my own convenience, until such improvements can be made. </p>
+<blockquote><p>You want .org to support a third-party service for doing development work. You want to outsource that part of our system to them.</p></blockquote>
+<p>I didn’t get the impression that this is what Alex was suggesting. Is there some harm in just having supported metadata for a URL that points to the author’s <em>preferred</em><em> support venue? I don’t think this would have to preclude use of .org.</em></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304720 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-3 social-comment social-clearfix social-wordpress" id="li-comment-304726">
+<div class="social-comment-inner social-clearfix" id="comment-304726">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304726" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>I don’t think this would have to preclude use of .org.</p></blockquote>
+<p>But it invariably does. The existence of this post at all simply proves that. He doesn’t like the tools on .org, so he wants us to make it so he doesn’t have to use them at all. First it’s for the code repository, but pretty soon it’s for support forums, bug tracking, everything else.</p>
+<p>See, I think you’re both operating under the assumption that wp.org is there for developers, to make things better for them. That’s frequently not the case. WordPress.org is focused on the users, to make things better for them. Getting a theme in is quite hard. Getting a plugin in is easier, but slowly getting harder as we start rejecting more bad things.</p>
+<p>We have control over the content on .org. If a plugin author does bad things, we remove the plugin. In extreme cases, we patch it for them. We can fix it, we can control it, we can protect the users.</p>
+<p>If we outsource that, in any respect, we lose that control. Ask Mika about the state of plugins trying to do bad things on .org, and that’s within a system that they know we have full control over. The moment we start pulling code in from a third party and giving control over that to anybody else, we make the job of monitoring and scanning that code 100x more difficult. It’s already too hard of a job, trying to scale it to monitoring the whole of the net is unfeasible.</p>
+<p>So right now it’s a meta-link to point somebody elsewhere. Pretty soon, you’ll ask that we pull the code from there too, instead of having it in the SVN. Eventually you’ll say “why can’t I use my own support forums”? It’s the first pebble that starts the avalanche, and I’m going to fight to keep that mountain stable as long as I can.</p>
+<p>If you want to have your code on WordPress.org, then I say you should have to be all-in or not. Develop any way you please, but we’re keeping the support forums, the reviews, the code, and eventually the bug tracking. I won’t let it become opt-out for any of those if I can help it, because that way lies madness.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304726 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-304712">
+<div class="social-comment-inner social-clearfix" id="comment-304712">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304712" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>Clearly it does, because as you state in the post: “I think it makes sense for the plugin and theme repositories on WordPress.org to adopt a “GitHub URL” meta property for projects.”</p></blockquote>
+<p>I think that WP.org benefits by making it easy for potential contributors to get to places where active development is happening. That isn’t just WP.org anymore. Disagreement with that doesn’t change it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304712 -->
+<ul class="social-children">
+<li class="wordpress odd alt depth-2 social-comment social-clearfix social-wordpress" id="li-comment-304716">
+<div class="social-comment-inner social-clearfix" id="comment-304716">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottopress.com/" rel="external nofollow" class="url">Otto</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304716" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>And you saying it doesn’t make it true either. Again, I state that your dataset and perception of the developer set is skewed. I would argue that there are many developers you simply don’t know about. </p>
+<p>All the people at the summit were great coders, or great writers, or very well-known and respected in the community. There is a large set of people who do much wp work that were not represented in terms of that subset. While the skill level was very high, it was a tight knit group that mostly knew of each other and communicates with each other frequently. The range f differentiation amongst them was therefore low, in terms of skill-set and tool-usage.</p>
+<p>In other words, you’re only looking at the top 0.1% of skilled people and thinking that that is a meaningful representative of the whole. New coders need love too. Even bad coders need love too, so that they can become better coders. Saying “all the best coders I’ve seen use git” isn’t remotely close to “everybody uses git”. We need to make .org useful to the bottom 99% too.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304716 -->
+<ul class="social-children">
+<li class="wordpress byuser comment-author-alex bypostauthor even depth-3 social-comment social-clearfix social-wordpress" id="li-comment-304721">
+<div class="social-comment-inner social-clearfix" id="comment-304721">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304721" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I think we’re done here. You’re intent on arguing with things I’m not saying, so this is going nowhere.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304721 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter byuser comment-author-twitter_plovs odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-304739">
+<div class="social-comment-inner social-clearfix" id="comment-304739">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/1160627266/ap1_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/plovs" rel="265947920073904128 external nofollow" class="url">@plovs</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/plovs/status/265947920073904128" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304739" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Maybe wordpress.org should give the possibility to use git? <a href="http://gitlabhq.com/" rel="nofollow">http://gitlabhq.com/</a> is an MIT licensed version of github. Most people who are used to github hate working with svn. And if enough people on windows use git, good tools will appear.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304739 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-304771">
+<div class="social-comment-inner social-clearfix" id="comment-304771">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/856090173/Eric-06_200x200_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/EricRasch" rel="265966944484728832 external nofollow" class="url">@EricRasch</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/EricRasch/status/265966944484728832" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304771" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Collaborative WordPress Development on GitHub (via @alexkingorg) <a href="http://t.co/q1RByqHH" rel="nofollow">http://t.co/q1RByqHH</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304771 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-304772">
+<div class="social-comment-inner social-clearfix" id="comment-304772">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/566298059600977920/zvt6t-cj_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/tomwillmot" rel="265970154490454016 external nofollow" class="url">@tomwillmot</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/tomwillmot/status/265970154490454016" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-304772" class="social-posted-when" target="_blank">November 6, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Matches my thoughts exactly -&gt; “@alexkingorg: Collaborative WordPress Development on GitHub <a href="http://t.co/dXro69VB" rel="nofollow">http://t.co/dXro69VB</a> /cc @themitcho @dougal”</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-304772 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-305349">
+<div class="social-comment-inner social-clearfix" id="comment-305349">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/579049305241190401/4hrPPPuR_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/simonwheatley" rel="266306538585591808 external nofollow" class="url">@simonwheatley</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/simonwheatley/status/266306538585591808" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305349" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg @themitcho @dougal Perhaps not “GitHub URL”, but “Development URL”? More service agnostic (less likely to make Mitcho cry).</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305349 -->
+<ul class="social-children">
+<li class="social-twitter byuser comment-author-alex bypostauthor odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-305351">
+<div class="social-comment-inner social-clearfix" id="comment-305351">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://a0.twimg.com/profile_images/17084282/alex_king_normal.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/alexkingorg" rel="266307242339495936 external nofollow" class="url">@alexkingorg</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/alexkingorg/status/266307242339495936" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305351" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@simonwheatley Sure – it’s not a specific service that matters. It’s having WP.org let devs find ways to collaborate together.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305351 -->
+<ul class="social-children">
+<li class="social-twitter even depth-3 social-comment social-clearfix social-twitter" id="li-comment-305392">
+<div class="social-comment-inner social-clearfix" id="comment-305392">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/579049305241190401/4hrPPPuR_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/simonwheatley" rel="266307448271417344 external nofollow" class="url">@simonwheatley</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/simonwheatley/status/266307448271417344" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305392" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg I agree (and thanks for keeping the conversation going).</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305392 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-305358">
+<div class="social-comment-inner social-clearfix" id="comment-305358">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/577182689838678016/YsBtY7EQ_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/themitcho" rel="266308628192055296 external nofollow" class="url">@themitcho</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/themitcho/status/266308628192055296" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-305358" class="social-posted-when" target="_blank">November 7, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@simonwheatley @alexkingorg @dougal guys, guys, I’m not anti-GitHub… just don’t like duplicating codebases and histories.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-305358 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-310603">
+<div class="social-comment-inner social-clearfix" id="comment-310603">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/1324743953/11da03b490bfb78ef5858d36e3cb5168_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/mgiulio" rel="266477779275620352 external nofollow" class="url">@mgiulio</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/mgiulio/status/266477779275620352" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-310603" class="social-posted-when" target="_blank">November 8, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Collaborative WordPress Development on GitHub : <a href="http://t.co/U8mjKSaC" rel="nofollow">http://t.co/U8mjKSaC</a> <a href="http://t.co/U7LZMTzO" rel="nofollow">http://t.co/U7LZMTzO</a> via @alexkingorg #wordpress #git #github</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-310603 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-307617">
+<div class="social-comment-inner social-clearfix" id="comment-307617">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1753525764/image1326514302_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/sogrady" rel="266906859758297089 external nofollow" class="url">@sogrady</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/sogrady/status/266906859758297089" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-307617" class="social-posted-when" target="_blank">November 9, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>GitHub and WordPress plugin development: <a href="http://t.co/cm2k5s8Y" rel="nofollow">http://t.co/cm2k5s8Y</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-307617 -->
+<ul class="social-children">
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-307618">
+<div class="social-comment-inner social-clearfix" id="comment-307618">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/614519240792612864/5AhATyzI_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/monkchips" rel="267391018607988737 external nofollow" class="url">@monkchips</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/monkchips/status/267391018607988737" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-307618" class="social-posted-when" target="_blank">November 10, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@sogrady @alexking that dude Otto… @cote should read the thread too. Classic stuff. You are so obviously right even Big Software gets it</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-307618 -->
+<ul class="social-children">
+<li class="social-twitter odd alt depth-3 social-comment social-clearfix social-twitter" id="li-comment-307619">
+<div class="social-comment-inner social-clearfix" id="comment-307619">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1753525764/image1326514302_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/sogrady" rel="267407633147891712 external nofollow" class="url">@sogrady</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/sogrady/status/267407633147891712" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-307619" class="social-posted-when" target="_blank">November 10, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@monkchips @alexking @cote: hilariously, @alexkingorg and i were discussing that issue in an email thread just this week</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-307619 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress byuser comment-author-twitter_mikeschinkel even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-306559">
+<div class="social-comment-inner social-clearfix" id="comment-306559">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/1778203899/image1327421096_bigger.png" class="avatar avatar-40 photo wordpress js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/mikeschinkel" rel="external nofollow" class="url">mikeschinkel</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-306559" class="social-posted-when" target="_blank">November 9, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg – Great post, and I completely agree.  Here’s a great blog that has lots of posts about why GitHub is where today’s and future’s development will happen:</p>
+<p><a href="http://apievangelist.com/blog/tag.php?Search_Tag=GitHub" rel="nofollow">http://apievangelist[...]h_Tag=GitHub</a></p>
+<p>And here’s a comment on a trac ticket where I had proposed GitHub for libraries/library-type plugins and would love if it you could add your two cents to that ticket: </p>
+<p><a href="http://core.trac.wordpress.org/ticket/22316#comment:43" rel="nofollow">http://core.trac.wor[...]6#comment:43</a></p>
+<p>P.S. Frankly I would prefer Mercurial and thus BitBucket because Hg commands makes so much more sense to me than Git’s but I’m resigned to the fact GitHub has won the war for being the place where developers collaborate and that’s really what it’s all about anyway. Too bad @otto42 is so against it given his role of managing functionality on wordpress.org.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-306559 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-306691">
+<div class="social-comment-inner social-clearfix" id="comment-306691">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/b52417f367410b85e3060b467988305b?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/b52417f367410b85e3060b467988305b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://brainstormmedia.com" rel="external nofollow" class="url">Paul Clark</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-306691" class="social-posted-when" target="_blank">November 9, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex, I couldn’t agree more! I love the collaboration that Git allows, and have even moved to updating some plugins directly from their Git repos using a “Git URI:” in plugin headers.</p>
+<p>It’s in an adaptation of jkudish’s updater, but enables updates for all plugins with a Git address, whether it’s on GitHub or a even a generic Git repo with Gitweb.</p>
+<p>See <a href="https://github.com/pdclark/WordPress-GitHub-Plugin-Updater/tree/f/gitweb" rel="nofollow">https://github.com/pdclark/WordPress-GitHub-Plugin-Updater/tree/f/gitweb</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-306691 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-307669">
+<div class="social-comment-inner social-clearfix" id="comment-307669">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/2927767663/76f37424e7590727171537a2b77ae1c1_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://twitter.com/dougal" rel="268145896154333185 external nofollow" class="url">@dougal</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/dougal/status/268145896154333185" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-307669" class="social-posted-when" target="_blank">November 12, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p><a href="http://t.co/OsyhxCPM" rel="nofollow">http://t.co/OsyhxCPM</a> <a href="http://t.co/vd8ZKKF1" rel="nofollow">http://t.co/vd8ZKKF1</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-307669 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-307868">
+<div class="social-comment-inner social-clearfix" id="comment-307868">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/1cf0770522223715996d00a7fe911003?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/1cf0770522223715996d00a7fe911003?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://iandunn.name" rel="external nofollow" class="url">Ian Dunn</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-307868" class="social-posted-when" target="_blank">November 13, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>There’s an on-going discussion on WordPress.org’s Ideas section related to this:<br>
+<a href="http://wordpress.org/extend/ideas/topic/create-git-repositories-for-plugins-and-themes" rel="nofollow">http://wordpress.org[...]s-and-themes</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-307868 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-439845">
+<div class="social-comment-inner social-clearfix" id="comment-439845">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/460432747765313536/sDtreSAb_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/alexwilliams" rel="436929458977918977 external nofollow" class="url">@alexwilliams</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/alexwilliams/status/436929458977918977" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="wordpress-collaboration-github.html#comment-439845" class="social-posted-when" target="_blank">February 21, 2014</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Collaborative WordPress Development on GitHub <a href="http://t.co/FUrGWNbpTm" rel="nofollow">http://t.co/FUrGWNbpTm</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/jedgar/status/436929813518254080" title="jedgar retweeted this"><img src="http://pbs.twimg.com/profile_images/584379157221662720/F98tpWKE_bigger.jpg" width="24" height="24" alt="jedgar retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/znmeb/status/436932474719858688" title="znmeb retweeted this"><img src="http://pbs.twimg.com/profile_images/583511400900759552/LYHMK6op_bigger.jpg" width="24" height="24" alt="znmeb retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-439845 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2012/11/06/wordpress-collaboration-github&amp;post_id=15075">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2012/11/05/new-rule-every-desktop-design-has-to-go-finger-friendly" rel="prev">New Rule: Every Desktop Design Has To Go Finger-Friendly</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2012/11/07/15093" rel="next">Putting the finishing touches on my slides for Pre…</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="wordpress-collaboration-github.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="wordpress-collaboration-github.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.451 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:50 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

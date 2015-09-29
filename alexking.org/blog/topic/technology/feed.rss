@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Technology</title>
+	<atom:link href="http://alexking.org/blog/topic/technology/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Anker PowerPort 5 USB Charging Station</title>
+		<link>http://alexking.org/blog/2015/08/22/anker-powerport-5-usb-charging-station</link>
+		<comments>http://alexking.org/blog/2015/08/22/anker-powerport-5-usb-charging-station#comments</comments>
+		<pubDate>Sat, 22 Aug 2015 19:18:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=22024</guid>
+		<description><![CDATA[I enjoy reading posts about the tools people use. Casey recently posted about some of his travel toolkit, including a 5 USB port charger. I can definitely see this being valuable for travel, but my current use case is my bedside table. The charger happily accommodates my iPhone, iPad, and Apple Watch charging cables, plus&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I enjoy reading posts about the tools people use. Casey <a href="http://www.caseyliss.com/2015/8/9/go-pack">recently posted</a> about some of his travel toolkit, including a 5 USB port charger.</p>
+<p>I can definitely see this being valuable for travel, but my current use case is my bedside table. The charger happily accommodates my iPhone, iPad, and Apple Watch charging cables, plus a micro USB cable for my Kindle and bluetooth headphones with a port to spare. A single box is much easier to manage than individual wall-to-USB warts for each cable/device.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/22/anker-powerport-5-usb-charging-station/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Very Pleased with WebFaction + Hover</title>
+		<link>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover</link>
+		<comments>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover#comments</comments>
+		<pubDate>Wed, 27 May 2015 19:25:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21867</guid>
+		<description><![CDATA[A little while back I buckled down and did some much needed restructuring of my domain registration and web hosting. I made the decision to let more than half of my domains expire, and moved all of the domains I was not letting lapse to Hover.1 I&#8217;m down to 17 domains from over 100. Of&#8230;]]></description>
+				<content:encoded><![CDATA[<p>A little while back I buckled down and did some much needed restructuring of my domain registration and web hosting. I made the decision to let more than half of my domains expire, and moved all of the domains I was not letting lapse to <a href="https://hover.com/kIFVm8sb">Hover</a>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> I&#8217;m down to 17 domains from over 100. Of those 7 are of the &#8220;personal name&#8221; variety for me and other family members. Another 3 are for current or previous businesses. And the rest are for various projects.</p>
+<p>I&#8217;ve been very pleased with Hover. I used their valet service to transfer a number of domains from GoDaddy and it was as seamless an experience as you could hope for. I&#8217;ve since registered a handful of domains with Hover for a new project I&#8217;m working on and I have absolutely loved the quick and easy checkout experience. It works great from a mobile browser as well. Inspiration often seems to strike when I&#8217;ve only got my phone with me. Recommended.</p>
+<p>I also <a href="https://alexking.org/blog/2015/02/25/hosted-on-webfaction">moved all of my websites</a> to <a href="https://www.webfaction.com/?aid=78593">WebFaction</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and have been thrilled with the speed with which my sites now load. Their control panel is a little different than the standard CPanel and has a few little quirks, but I&#8217;ve come to like it. Instead of creating a website that becomes the container for the domain, files, database, etc. you create websites/web apps then pair them with domains, databases, etc. Their support has been quick to provide answers to the few questions I&#8217;ve had, and I&#8217;ve reached the point of confidence where I am pleased that things  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  just work  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  and I don&#8217;t have to think about them.</p>
+<p>This post was prompted by an email I received today from the WebFaction folks asking if I could tweet out some honest feedback about their service now that I&#8217;ve been a customer for a few months. I&#8217;m quite satisfied with it, and figured a more thorough endorsement of them (and Hover<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>) might be useful to others. As a tech community we are quick to complain when we are having trouble with a service; it&#8217;s nice to take a moment and celebrate services that are treating us well.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+That&#8217;s a referral link &#8211; I get a kick-back if you sign up using it.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Yup, another referral link to give me a kickback.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:3">
+The two are conjoined for me since I made the switch to both of them as part of a single &#8220;get this stuff organized&#8221; process.&#160;<a href="#fnref:3" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/27/very-pleased-with-webfaction-hover/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Disable Website Notification Prompts in Safari</title>
+		<link>http://alexking.org/blog/2015/05/21/disable-website-notifications-safari</link>
+		<comments>http://alexking.org/blog/2015/05/21/disable-website-notifications-safari#comments</comments>
+		<pubDate>Fri, 22 May 2015 02:48:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21853</guid>
+		<description><![CDATA[<p><a href="http://alexking.org/blog/2015/05/21/disable-website-notifications-safari"><img width="510" height="404" src="http://alexking.org/wp-content/uploads/2015/05/safari-allow-notifications-510x404.png" class="attachment-medium-img wp-post-image" alt="safari-allow-notifications" data-id="21854" /></a></p>
+Oh thank goodness.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/blog/2015/05/21/disable-website-notifications-safari"><img width="510" height="404" src="http://alexking.org/wp-content/uploads/2015/05/safari-allow-notifications-510x404.png" class="attachment-medium-img wp-post-image" alt="safari-allow-notifications" data-id="21854" /></a></p>
+<p>Oh thank goodness.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/21/disable-website-notifications-safari/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Eric Flying Quadcopters</title>
+		<link>http://alexking.org/blog/2015/05/04/eric-flying-quadcopters</link>
+		<comments>http://alexking.org/blog/2015/05/04/eric-flying-quadcopters#comments</comments>
+		<pubDate>Tue, 05 May 2015 04:05:01 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21767</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="https://www.youtube.com/embed/yHwE_q_qb7c?feature=oembed" frameborder="0" allowfullscreen></iframe>This is a great video of my friend Eric showing off some of the latest DJI kit. I haven&#8217;t been following the drone stuff too closely, so this gave me a better idea of what he&#8217;s been up to. Nice work, Eric!]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="https://www.youtube.com/embed/yHwE_q_qb7c?feature=oembed" frameborder="0" allowfullscreen></iframe><p>This is a great video of my friend <a href="http://echeng.com">Eric</a> showing off some of the latest DJI kit. I haven&#8217;t been following the drone stuff too closely, so this gave me a better idea of what he&#8217;s been up to. Nice work, Eric!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/04/eric-flying-quadcopters/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Apple Watch + iPhone Charging Station</title>
+		<link>http://alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station</link>
+		<comments>http://alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station#comments</comments>
+		<pubDate>Thu, 30 Apr 2015 20:05:36 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21723</guid>
+		<description><![CDATA[Since the Apple Watch: 1. needs to be charged every night, and 2. needs an iPhone to function every Apple Watch customer is a potential customer for an elegant solution that charges both their iPhone and Watch on their nightstand. The ones that I like best so far are: The Timber Catchall for Apple Watch&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Since the Apple Watch:</p>
+<p>1. needs to be charged every night, and<br />
+2. needs an iPhone to function</p>
+<p>every Apple Watch customer is a potential customer for an elegant solution that charges both their iPhone and Watch on their nightstand.</p>
+<p>The ones that I like best so far are:</p>
+<p><a href="http://www.padandquill.com/apple-watch-accessories/the-timber-catchall-for-apple-watch.html"><img src="https://alexking.org/wp-content/uploads/2015/04/mahogany-510x357.jpg" alt="mahogany" width="480" height="336" class="alignnone size-medium-img wp-image-21725" /></a><br />
+<a href="http://www.padandquill.com/apple-watch-accessories/the-timber-catchall-for-apple-watch.html">The Timber Catchall for Apple Watch</a></p>
+<p><a href="https://store.griffintechnology.com/apple-watch/watchstand"><img src="https://alexking.org/wp-content/uploads/2015/04/gc41536-watchstand-apple-watch-kitchen-510x383.jpg" alt="gc41536-watchstand-apple-watch-kitchen" width="480" height="360" class="alignnone size-medium-img wp-image-21729" /></a><br />
+<a href="https://store.griffintechnology.com/apple-watch/watchstand">Griffin WatchStand</a></p>
+<p><a href="https://www.etsy.com/listing/226611361/watch-me-dock"><img src="https://alexking.org/wp-content/uploads/2015/04/il_570xN.745225949_i1ae-510x493.jpg" alt="il_570xN.745225949_i1ae" width="480" height="464" class="alignnone size-medium-img wp-image-21727" /></a><br />
+<a href="https://www.etsy.com/listing/226611361/watch-me-dock">Watch Me Dock</a></p>
+<p>I definitely lean towards solutions that use a loose cable rather than a dock for the phone as I&#8217;d like this to be useful for a few generations of phone iterations.</p>
+<p>I think I could tuck the iPhone under the phone on a stand like this too, but it feels like a less  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  designed  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  solution.</p>
+<p><a href="http://www.hellonomad.com/products/stand-for-apple-watch"><img src="https://alexking.org/wp-content/uploads/2015/04/second-hero-stand_2048x2048-510x217.jpg" alt="second-hero-stand_2048x2048" width="480" height="204" class="alignnone size-medium-img wp-image-21731" /></a><br />
+<a href="http://www.hellonomad.com/products/stand-for-apple-watch">Nomad Stand for Apple Watch</a></p>
+<p>I expect we&#8217;ll be seeing a bunch more options in the coming months. If you think I&#8217;ve missed something that I&#8217;d like, please add a note in the comments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>The Future of the iPad</title>
+		<link>http://alexking.org/blog/2015/04/29/the-future-of-the-ipad</link>
+		<comments>http://alexking.org/blog/2015/04/29/the-future-of-the-ipad#comments</comments>
+		<pubDate>Wed, 29 Apr 2015 21:34:12 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21701</guid>
+		<description><![CDATA[Apple&#8217;s most recent earnings call that showed less-than-stellar results for the iPad got me thinking a bit. I&#8217;m a fan of the iPad. I&#8217;ve had the original, the iPad 2, the iPad 3 (retina), the iPad mini, and now the iPad Air. Initially I was upgrading every year as the hardware rapidly evolved. However I&#8217;ve&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Apple&#8217;s most recent earnings call that showed less-than-stellar results for the iPad got me thinking a bit. I&#8217;m a fan of the iPad. I&#8217;ve had the original, the iPad 2, the iPad 3 (retina), the iPad mini, and now the iPad Air. Initially I was upgrading every year as the hardware rapidly evolved. However I&#8217;ve now slowed my uptake a bit, skipping the iPad 4 and iPad Air 2, and (absent compelling new features I&#8217;m not imagining yet) I think I might coax a 3rd year out of my iPad Air.</p>
+<p>This doesn&#8217;t show a lack of interest in the iPad for me, rather that the iPad Air is sufficiently good that I&#8217;m still happy with it. That said, while I love it for content consumption and digital wireframing, if I had to make a choice I couldn&#8217;t prioritize it above my laptop or phone.</p>
+<p>It&#8217;s definitely a luxury device at this point, and one that can serve suitably for multiple years. I&#8217;m curious to see if it continues evolving into something that can be &#8220;the primary computer for the masses&#8221; or if it will fall back into a content consumption niche.</p>
+<p>I think it&#8217;s fair to say that developers finding themselves <a href="https://alexking.org/blog/2015/03/02/sustainable-software-customer-support">unable to charge sustainable prices</a> for iPad software is a real barrier to the iPad making the leap from consumption device to replacing the laptop for the masses.</p>
+<p>Unless something changes fairly drastically, my guess is that it will remain a consumption device into the near-term future.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/29/the-future-of-the-ipad/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Waiting for Apple Watch</title>
+		<link>http://alexking.org/blog/2015/04/24/waiting-for-apple-watch</link>
+		<comments>http://alexking.org/blog/2015/04/24/waiting-for-apple-watch#comments</comments>
+		<pubDate>Fri, 24 Apr 2015 19:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21654</guid>
+		<description><![CDATA[I know it only seems like everyone I know got an Apple Watch today, but my Twitter feed is full of photos of white boxes. My watch order confirmation shows a 12:06am US/Pacific timestamp, but my order hasn&#8217;t even moved into &#8220;preparing for shipment&#8221; status yet. I saw one note on Twitter that indicated the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I know it only <em>seems</em> like everyone I know got an Apple Watch today, but my Twitter feed is full of photos of white boxes.</p>
+<p>My watch order confirmation shows a 12:06am US/Pacific timestamp, but my order hasn&#8217;t even moved into &#8220;preparing for shipment&#8221; status yet. I saw one note on Twitter that indicated the cutoff for this first batch was likely 12:03am. I couldn&#8217;t even get the Apple Store app to load until around that time. I wonder how many orders were placed in those first few minutes.</p>
+<p>Or perhaps the delay in delivery has to do with shortages for specific models. I ordered the Steel + Milanese Loop band, where most of the deliveries I&#8217;ve seen so far are for the Sport model. My order still shows a 4/24-5/8 delivery window, so I guess I&#8217;ll be seeing it sometime in the next two weeks.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/24/waiting-for-apple-watch/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>First New Monitor Since 2008</title>
+		<link>http://alexking.org/blog/2015/04/09/samsung-34</link>
+		<comments>http://alexking.org/blog/2015/04/09/samsung-34#comments</comments>
+		<pubDate>Fri, 10 Apr 2015 04:24:22 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21542</guid>
+		<description><![CDATA[Since December 2008 I&#8217;ve been using the same Dell 30&#8243; display. Today I upgraded to a Samsung 34&#8243; curved display in anticipation of getting a new MacBook tomorrow. I might have been able to get the dual-link DVI to talk to an HDMI port via a variety of dongles and adapters, but a native HDMI&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Since <a href="http://alexking.org/blog/2008/12/24/dell-30-monitor-vs-apple-30-monitor">December 2008</a> I&#8217;ve been using the same Dell 30&#8243; display. Today I upgraded to a <a href="http://www.samsung.com/us/computer/monitors/LS34E790CNS/ZA">Samsung 34&#8243; curved display</a> in anticipation of getting a new MacBook tomorrow. I might have been able to get the dual-link DVI to talk to an HDMI port via a variety of dongles and adapters, but a native HDMI port does make things simpler. My 2012 15&#8243; MacBook Pro drives it nicely, as should the MacBook<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+<p>I like the curved screen; it does not feel like a gimmick. It&#8217;s fairly subtle and works nicely. I do miss the extra height a little from the 30&#8243;, but the extra width is really quite nice. I can set up two code windows plus a browser and see all three at once. Not to mention the built-in laptop screen for other odds and ends. I expect I&#8217;ll be using Spaces quite a bit on the smaller laptop screen, I wonder if I&#8217;ll continue to toggle between using them while mobile and not using them while plugged in at my desk or go all-in and use them with the external monitor as well. Time will tell.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+from <a href="http://www.apple.com/macbook/specs/">Apple&#8217;s tech specs</a>, &#8220;Dual display and video mirroring: Simultaneously supports full native resolution on the built-in display and up to 3840 by 2160 pixels on an external display, both at millions of colors&#8221;.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/09/samsung-34/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Sustainable Software and Customer Support</title>
+		<link>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support</link>
+		<comments>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support#comments</comments>
+		<pubDate>Mon, 02 Mar 2015 21:44:06 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21378</guid>
+		<description><![CDATA[I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot. I finally dropped a note to Dropbox support to see if they&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot.</p>
+<p>I finally dropped a note to Dropbox support to see if they could help me. Here is the response I received:</p>
+<blockquote><p>Hi Alex,</p>
+<p>Thanks for writing in.</p>
+<p>It doesn&#8217;t look like there&#8217;s a Dropbox for Business account associated with this email address.</p>
+<p>Please write in from the email address connected to your Business account, as that&#8217;s the only way I can troubleshoot with account-specific information.</p>
+<p>Below is a link to one of our help center articles outlining general troubleshooting tips for syncing issues:</p>
+<p>https://www.dropbox.com/en/help/72</p>
+<p>As I mentioned earlier, happy to tackle any account-specific issues you are running into if you write in from the email address associated with your Dropbox for Business account.
+</p></blockquote>
+<p>I was surprised to see that a company the size of Dropbox is unable to provide any type of per-account support to non-paid users.<sup id="fnref:0"><a href="#fn:0" rel="footnote">1</a></sup> I don&#8217;t blame them, I&#8217;ve struggled with this myself. Their response is not dissimilar to the <a href="http://alexking.org/blog/2013/06/12/customer-vs-product-support">Product vs. Customer Support</a> approach I&#8217;ve taken with the WordPress themes and plugins I&#8217;ve written and released. However, I didn&#8217;t expect this approach from a big money VC-backed company.</p>
+<p>The iOS indy development community is starting to talk about sustainable pricing again, spurred by the <a href="http://daringfireball.net/linked/2015/02/27/vesper-2005">line in the sand</a> recently <a href="http://vesperapp.co/blog/native-support-for-ipad-and-landscape/">drawn by Q Branch for their Vesper note-taking app</a>.</p>
+<p>On a <a href="http://atp.fm/episodes/102">recent episode of ATP</a> Marco talked about how he manages the support email he receives for <a href="https://overcast.fm">Overcast</a>. Basically, while nearly all of it is read, most of it goes unanswered as he focuses on improving his product; largely in reaction to these emails. According to the <a href="http://www.marco.org/2015/01/15/overcast-sales-numbers">financial information he released</a>, I think he&#8217;s doing the right thing &#8211; at his current price-point and volume he can&#8217;t afford to provide<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup> customer support (he can&#8217;t take the time to reply to the emails).</p>
+<p>The &#8220;pay for support&#8221; model that is bandied about in the Open Source world doesn&#8217;t work in the consumer space.<sup id="fnref:2"><a href="#fn:2" rel="footnote">3</a></sup> When someone runs into trouble with software they almost always blame the software. Their perspective during the support transaction is &#8220;I&#8217;m helping you, the software vendor, by reporting a deficiency in your product.&#8221; And many times they are right, even when the solution is to improve the UX for an existing feature or product element.</p>
+<p><strong>When striving to create sustainable software, the most important building block is happy customers.</strong> This necessarily includes the ability to provide support. Not matter how  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  easy  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  it is to use, providing support enables more people to successfully and happily use your product.</p>
+<p>I&#8217;m saying that most WordPress plugins and themes are not sustainable. I&#8217;m saying that most iOS apps are not sustainable. And I&#8217;m saying that most VC-backed/freemium services are not sustainable.</p>
+<p>This situation isn&#8217;t good for customers or software developers.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:0">
+The included link actually was useful &#8211; it&#8217;s likely a file permissions issue, however I don&#8217;t know that a blanket permissions change over all the files in my Dropbox is a good idea. As a matter of fact, I&#8217;m pretty sure it isn&#8217;t.&#160;<a href="#fnref:0" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:1">
+Including outsourcing or hiring someone to do it.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I think it actually does in the business space, which is cool.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>Nightly Charging Means No Sleep Tracking</title>
+		<link>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking</link>
+		<comments>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking#comments</comments>
+		<pubDate>Wed, 25 Feb 2015 05:53:34 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=21359</guid>
+		<description><![CDATA[As I plugged in my Garmin VivoSmart this morning for a couple of hours to give it its week-long plus battery cycle it occurred to me: if I had to take this off every night to charge it I wouldn&#8217;t be able to track my sleep the way I do now.&#160; Something to think about&#8230;]]></description>
+				<content:encoded><![CDATA[<p>As I plugged in my Garmin VivoSmart this morning for a couple of hours to give it its week-long plus battery cycle it occurred to me: if I had to take this off every night to charge it I wouldn&#8217;t be able to track my sleep the way I do now.&nbsp;</p>
+<p>Something to think about given the daily-charge battery cycle predicted for the Apple Watch.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/02/24/nightly-charging-means-no-sleep-tracking/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hosting Recommendation?</title>
+		<link>http://alexking.org/blog/2015/02/24/hosting-recommendation</link>
+		<comments>http://alexking.org/blog/2015/02/24/hosting-recommendation#comments</comments>
+		<pubDate>Tue, 24 Feb 2015 21:15:33 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21346</guid>
+		<description><![CDATA[I need to transfer my sites to a new web host. Having been out of the web hosting shopping arena for some time now, I could use a little advice. My main traffic site is this one (~30-40k pageviews/month) which is a WordPress powered site. I also have several other PHP apps installed on this&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I need to transfer my sites to a new web host. Having been out of the web hosting shopping arena for some time now, I could use a little advice.</p>
+<p>My main traffic site is this one (~30-40k pageviews/month) which is a WordPress powered site. I also have several other PHP apps installed on this site, so I&#8217;d prefer not to go to a WP-specific host.</p>
+<p>Further, I have several smaller sites I need to transfer as well and they are a mix of WP-powered and &#8220;other&#8221; web apps.</p>
+<p>I&#8217;d like to find a host that makes it easy for me to add new domains/sites under a single umbrella account (with shared resource limits) as I have new ideas, with easy SSH/SFTP access, Git client, and phpMyAdmin or equivalent for easy maintenance. I should also note that these are personal sites and pet projects &#8211; I have neither a big budget nor expensive needs for these sites.</p>
+<p>Do you host somewhere (or are you a host) that meets my requirements? Please let me know in the comments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/02/24/hosting-recommendation/feed</wfw:commentRss>
+		<slash:comments>28</slash:comments>
+		</item>
+		<item>
+		<title>The Wearable Landscape pre-Apple Watch</title>
+		<link>http://alexking.org/blog/2014/11/13/pre-apple-watch-landscape</link>
+		<comments>http://alexking.org/blog/2014/11/13/pre-apple-watch-landscape#comments</comments>
+		<pubDate>Thu, 13 Nov 2014 18:05:50 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21156</guid>
+		<description><![CDATA[While the current wearables landscape is a story of slow convergence over the last 18 months, each device has clearly evolved from one of two origin approaches: activity/fitness tracker or smartwatch. Activity Trackers no notifications Nike Fuelband Fitbit One, Flex, Charge Jawbone Up Withings Activite Hybrid Activity Trackers also do notifications Garmin vivosmart Fitbit Surge&#8230;]]></description>
+				<content:encoded><![CDATA[<p>While the current wearables landscape is a story of slow convergence over the last 18 months, each device has clearly evolved from one of two origin approaches: activity/fitness tracker or smartwatch.</p>
+<h2>Activity Trackers</h2>
+<p><em>no notifications</em></p>
+<ul>
+<li>Nike Fuelband</li>
+<li><a href="https://www.fitbit.com">Fitbit One, Flex, Charge</a></li>
+<li><a href="https://jawbone.com/up">Jawbone Up</a></li>
+<li><a href="http://www.withings.com/us/withings-activite.html">Withings Activite</a></li>
+</ul>
+<h2>Hybrid Activity Trackers</h2>
+<p><em>also do notifications</em></p>
+<ul>
+<li><a href="http://sites.garmin.com/en-US/vivo/vivosmart/">Garmin vivosmart</a></li>
+<li><a href="https://www.fitbit.com/surge">Fitbit Surge</a></li>
+<li><a href="http://www.microsoft.com/Microsoft-Band/en-us">Microsoft Band</a></li>
+</ul>
+<h2>Smart Watches</h2>
+<p><em>no activity tracking</em></p>
+<ul>
+<li><a href="https://getpebble.com">Pebble</a></li>
+<li><a href="http://meta.watch">Meta Watch</a></li>
+<li><a href="http://www.gilt.com/sale/men/mm/michael-bastian-x-hewlettpackard-2?utm_source=gilt&amp;utm_medium=email&amp;utm_campaign=20141106_110614_MichaelBastianHP&amp;utm_term=36115&amp;sv-control_dv-control_loc-">MB Chronowing</a></li>
+</ul>
+<h2>Hybrid Smart Watches (also do activity tracking)</h2>
+<p><em>also do activity tracking</em></p>
+<ul>
+<li><a href="http://moto360.motorola.com">Moto 360</a></li>
+<li><a href="http://www.samsung.com/uk/consumer/mobile-devices/wearables/">Samsung Gear</a></li>
+<li><a href="http://www.lg.com/us/smart-watches/lg-W110-g-watch-r">LG G watch R</a></li>
+<li>Apple Watch?</li>
+</ul>
+<p>What happens to the overall landscape when the Apple Watch lands? Will everyone scramble to make a  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  me too  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  product like we saw with the iPhone; ignoring any advantages they have with their current products? Or will we continue to see different sub-categories with various trade offs (given today&#8217;s technical limitations)?</p>
+<p>Take the BlackBerry as an example. Today it&#8217;s a punchline, but when the iPhone was released it was a very popular device that had two features that the iPhone didn&#8217;t: a physical keyboard and a several day battery life. Instead of playing up those strengths, BlackBerry scrapped everything to chase the iPhone&#8217;s touchscreen (and has been circling the drain ever since).</p>
+<p>Curious about what wrist notifications would be like, I <a href="http://alexking.org/blog/2014/01/29/pebble-watch-micro-review">picked up a Pebble</a> at the beginning of the year. I like wrist notifications. I miss stuff when my phone is in my pocket and sometimes it&#8217;s important. Notifications are the main reason I recently replaced my Fitbit One with a <a href="http://sites.garmin.com/en-US/vivo/vivosmart/">Garmin Vivosmart</a>.</p>
+<p>I&#8217;m also <a href="http://alexking.org/blog/2014/09/12/confused-by-the-apple-watch">struggling to fully understand the Apple Watch</a>. There is a lot we still don&#8217;t know about it, but we do know that it&#8217;s big and bulky and that the battery life probably isn&#8217;t going to be great. Contrast that with one of today&#8217;s activity bands that get about a week of use on a single charge<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> and provide health tracking and smart notifications, albeit with a screen that isn&#8217;t remotely close to what was shown in the Apple Watch.</p>
+<p>Will Apple be able to change the entire landscape again just by entering it or will the other players continue to make differentiating products? I&#8217;m curious to find out.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I just charged my Garmin this morning, it had been 8.5 days since the last charge.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/11/13/pre-apple-watch-landscape/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>The Race to the Bottom Benefits Platforms (not Developers)</title>
+		<link>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms</link>
+		<comments>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms#comments</comments>
+		<pubDate>Tue, 12 Aug 2014 21:53:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20713</guid>
+		<description><![CDATA[There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want trials, upgrade pricing, etc. to support that model. They want things to work they way they always have &#8211; I don&#8217;t blame them.</p>
+<p>I think it&#8217;s worth considering who wins in this &#8220;race to the bottom&#8221;. In general, more stuff for free benefits consumers, which in turn benefits the platform.</p>
+<p>&#8220;But wait!&#8221; the developers cry. &#8220;When the platform doesn&#8217;t support building more sophisticated apps, the consumers ultimately lose!&#8221; I know this argument, I&#8217;ve made it myself regarding the WordPress ecosystem. I was wrong.</p>
+<p>Consumers have been well trained that they can expect incredible value for free. Sure, they may trade off their privacy and be subjected to ads, but they aren&#8217;t asked to fork over their cash directly.</p>
+<p>VC-backed companies often contribute to the problem as well. As they clamor for users to their platforms, they give everything away &#8211; it&#8217;s so easy to flip the switch in the future and start the money pouring in. Or if that doesn&#8217;t work, they fold up shop and call it a day. Oops!</p>
+<p>More complex apps <em>will get made</em>. They just won&#8217;t be built using the model that indie developers are used to.</p>
+<p>There will be apps supported by alternative revenue streams. Some might have ads or sponsorships, some might mine and sell the data they produce, some (like Evernote and Dropbox) will be a gateway to a commercial service. People will figure out ways to get money out of a large enough user base, and apps will get built.</p>
+<p>I&#8217;ve seen this happen in the WordPress ecosystem already. It&#8217;s a different beast because it&#8217;s an Open Source community, but it&#8217;s still an interesting parallel.</p>
+<p>Basically this happened:</p>
+<ol>
+<li>A bunch of folks built stuff and released it all for free to a small community, largely consisting of fellow developers and tinkerers</li>
+<li>A whole bunch more folks started using the platform and the community grew &#8211; it wasn&#8217;t just developers anymore, it was end users with expectations of support, etc.</li>
+<li>Devs wanted to start monetizing the products they were providing</li>
+<li>The platform didn&#8217;t provide the tools to make money in the way that the devs wanted -instead it invested in tools to promote free products</li>
+<li>Eventually a variety of patterns arose to monetize both commercial and &#8220;free&#8221; products (subscription clubs with access to a bunch of different plugins/themes, free products with commercial add-ons, sponsorships and ads, products that were created to support hosting services, etc.)</li>
+</ol>
+<p>It&#8217;s not the  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  pure  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  and direct approach of charging directly for the software, but it&#8217;s still developers writing code and making money.</p>
+<p>The same thing is happening for iOS. There is money to be made. The platform and consumers are winning.</p>
+<p>&#8220;Adapt or die&#8221; is our mantra for those business who are threatened by technology. We have little sympathy for newspapers, the music industry, etc. Perhaps it&#8217;s time to include software companies in that list.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms/feed</wfw:commentRss>
+		<slash:comments>57</slash:comments>
+		</item>
+		<item>
+		<title>Siri, Still Not a Competent Digital Assistant</title>
+		<link>http://alexking.org/blog/2014/07/06/siri-still-sucks</link>
+		<comments>http://alexking.org/blog/2014/07/06/siri-still-sucks#comments</comments>
+		<pubDate>Sun, 06 Jul 2014 16:25:04 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20572</guid>
+		<description><![CDATA[So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago. Me: What is a good place for lunch between here and {my destination}? Siri: This restaurant is near you: {restaurant info} (double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago.</p>
+<p>Me: What is a good place for lunch between here and {my destination}?</p>
+<p>Siri: This restaurant is near you: {restaurant info}</p>
+<p>(double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in the wrong direction by a good 20 minutes)</p>
+<p>Me: That restaurant isn&#8217;t between me and {my destination}. </p>
+<p>Siri: It is about 120 miles to {my destination}. </p>
+<p>*sigh*</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/06/siri-still-sucks/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>John Oliver Explains Net Neutrality</title>
+		<link>http://alexking.org/blog/2014/06/03/john-oliver-explains-net-neutrality</link>
+		<comments>http://alexking.org/blog/2014/06/03/john-oliver-explains-net-neutrality#comments</comments>
+		<pubDate>Tue, 03 Jun 2014 21:55:00 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20156</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/fpbOEoRrHyU?feature=oembed" frameborder="0" allowfullscreen></iframe>This is awesome. (thanks Steve)]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/fpbOEoRrHyU?feature=oembed" frameborder="0" allowfullscreen></iframe><p>This is awesome. (thanks <a href="https://twitter.com/sogrady/status/473941798381813760">Steve</a>)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/03/john-oliver-explains-net-neutrality/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.279 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:00:33 -->
+
+<!-- Compression = gzip -->

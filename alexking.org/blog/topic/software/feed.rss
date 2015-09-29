@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Software</title>
+	<atom:link href="http://alexking.org/blog/topic/software/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>In Praise of BackupBuddy</title>
+		<link>http://alexking.org/blog/2015/03/15/backupbuddy</link>
+		<comments>http://alexking.org/blog/2015/03/15/backupbuddy#comments</comments>
+		<pubDate>Sun, 15 Mar 2015 20:05:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21405</guid>
+		<description><![CDATA[I&#8217;m thrilled with my new hosting set-up for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of BackupBuddy from iThemes. 5 minutes later I had BackupBuddy installed, with&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m thrilled with my <a href="https://alexking.org/blog/2015/02/25/hosted-on-webfaction">new hosting set-up</a> for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of <a href="https://ithemes.com/purchase/backupbuddy/">BackupBuddy from iThemes</a>.</p>
+<p>5 minutes later I had BackupBuddy installed, with a nightly job configured to do a full export of my database and store the last 10 days of backups in my Dropbox account.</p>
+<p>Sure, I could have written the code to do this myself. It&#8217;s always tempting to do-it-yourself when you know you <em>can</em> do something. The key is to ask yourself if you <em>should</em> do something. It would have taken much more than 5 minutes to get even a simple backup script written and configured; and I definitely wouldn&#8217;t have had the storage and and automation options that BackupBuddy provides out of the box.</p>
+<p>If you need hassle-free backups for your self-hosted WordPress site<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, give BackupBuddy a try.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+If you have a website, <em>please</em> make sure you have an automated backup system, and that you&#8217;ve tested your backups to make sure they actually work.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/15/backupbuddy/feed</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Sustainable Software and Customer Support</title>
+		<link>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support</link>
+		<comments>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support#comments</comments>
+		<pubDate>Mon, 02 Mar 2015 21:44:06 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21378</guid>
+		<description><![CDATA[I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot. I finally dropped a note to Dropbox support to see if they&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot.</p>
+<p>I finally dropped a note to Dropbox support to see if they could help me. Here is the response I received:</p>
+<blockquote><p>Hi Alex,</p>
+<p>Thanks for writing in.</p>
+<p>It doesn&#8217;t look like there&#8217;s a Dropbox for Business account associated with this email address.</p>
+<p>Please write in from the email address connected to your Business account, as that&#8217;s the only way I can troubleshoot with account-specific information.</p>
+<p>Below is a link to one of our help center articles outlining general troubleshooting tips for syncing issues:</p>
+<p>https://www.dropbox.com/en/help/72</p>
+<p>As I mentioned earlier, happy to tackle any account-specific issues you are running into if you write in from the email address associated with your Dropbox for Business account.
+</p></blockquote>
+<p>I was surprised to see that a company the size of Dropbox is unable to provide any type of per-account support to non-paid users.<sup id="fnref:0"><a href="#fn:0" rel="footnote">1</a></sup> I don&#8217;t blame them, I&#8217;ve struggled with this myself. Their response is not dissimilar to the <a href="http://alexking.org/blog/2013/06/12/customer-vs-product-support">Product vs. Customer Support</a> approach I&#8217;ve taken with the WordPress themes and plugins I&#8217;ve written and released. However, I didn&#8217;t expect this approach from a big money VC-backed company.</p>
+<p>The iOS indy development community is starting to talk about sustainable pricing again, spurred by the <a href="http://daringfireball.net/linked/2015/02/27/vesper-2005">line in the sand</a> recently <a href="http://vesperapp.co/blog/native-support-for-ipad-and-landscape/">drawn by Q Branch for their Vesper note-taking app</a>.</p>
+<p>On a <a href="http://atp.fm/episodes/102">recent episode of ATP</a> Marco talked about how he manages the support email he receives for <a href="https://overcast.fm">Overcast</a>. Basically, while nearly all of it is read, most of it goes unanswered as he focuses on improving his product; largely in reaction to these emails. According to the <a href="http://www.marco.org/2015/01/15/overcast-sales-numbers">financial information he released</a>, I think he&#8217;s doing the right thing &#8211; at his current price-point and volume he can&#8217;t afford to provide<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup> customer support (he can&#8217;t take the time to reply to the emails).</p>
+<p>The &#8220;pay for support&#8221; model that is bandied about in the Open Source world doesn&#8217;t work in the consumer space.<sup id="fnref:2"><a href="#fn:2" rel="footnote">3</a></sup> When someone runs into trouble with software they almost always blame the software. Their perspective during the support transaction is &#8220;I&#8217;m helping you, the software vendor, by reporting a deficiency in your product.&#8221; And many times they are right, even when the solution is to improve the UX for an existing feature or product element.</p>
+<p><strong>When striving to create sustainable software, the most important building block is happy customers.</strong> This necessarily includes the ability to provide support. Not matter how  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  easy  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  it is to use, providing support enables more people to successfully and happily use your product.</p>
+<p>I&#8217;m saying that most WordPress plugins and themes are not sustainable. I&#8217;m saying that most iOS apps are not sustainable. And I&#8217;m saying that most VC-backed/freemium services are not sustainable.</p>
+<p>This situation isn&#8217;t good for customers or software developers.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:0">
+The included link actually was useful &#8211; it&#8217;s likely a file permissions issue, however I don&#8217;t know that a blanket permissions change over all the files in my Dropbox is a good idea. As a matter of fact, I&#8217;m pretty sure it isn&#8217;t.&#160;<a href="#fnref:0" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:1">
+Including outsourcing or hiring someone to do it.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I think it actually does in the business space, which is cool.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>Text Editors</title>
+		<link>http://alexking.org/blog/2014/06/26/text-editors</link>
+		<comments>http://alexking.org/blog/2014/06/26/text-editors#comments</comments>
+		<pubDate>Thu, 26 Jun 2014 20:21:15 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20284</guid>
+		<description><![CDATA[Yesterday I watched a colleague&#8217;s Sublime Text 2 crash repeatedly as he tried to navigate the search results in a large project. BBEdit&#8216;s search (and edit in the results window) feature is a part of my normal development process. I think it crashed on me once about 8 years ago.]]></description>
+				<content:encoded><![CDATA[<p>Yesterday I watched a colleague&#8217;s <a href="http://www.sublimetext.com/">Sublime Text 2</a> crash repeatedly as he tried to navigate the search results in a large project.</p>
+<p><a href="http://barebones.com/products/bbedit/">BBEdit</a>&#8216;s search (and edit in the results window) feature is a part of my normal development process. I think it crashed on me once about 8 years ago.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/26/text-editors/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>An Open Letter to Email Client Developers</title>
+		<link>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers</link>
+		<comments>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers#comments</comments>
+		<pubDate>Tue, 18 Mar 2014 19:47:49 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19679</guid>
+		<description><![CDATA[Dear Email Client Developers, If you allow your users to send an email with more than 10 email addresses visible in the TO or CC lines without throwing up a warning that says: Hey, this is a bad idea. People will likely be upset that you just sent their email address to all the people&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Dear Email Client Developers,</p>
+<p>If you allow your users to send an email with more than 10 email addresses visible in the TO or CC lines without throwing up a warning that says:</p>
+<blockquote><p>Hey, this is a bad idea. People will likely be upset that you just sent their email address to all the people that are getting this email. Please consider using the BCC field (or creating a mailing list at <a href="http://mailchimp.com">MailChimp</a>)</p></blockquote>
+<p>You are not being a responsible email client developer.</p>
+<p>Sincerely,<br />
+Alex King</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>iPassword 4 Mac Won&#8217;t Fill in Chrome (or Chromium)</title>
+		<link>http://alexking.org/blog/2014/01/29/ipassword-4-mac-wont-fill-in-chrome-or-chromium</link>
+		<comments>http://alexking.org/blog/2014/01/29/ipassword-4-mac-wont-fill-in-chrome-or-chromium#comments</comments>
+		<pubDate>Thu, 30 Jan 2014 00:01:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19355</guid>
+		<description><![CDATA[If this happens to you, it&#8217;s possible that Chrome (or Chromium) has updated itself in the background. Quit and re-launch the browser and 1Password 4 should start filling in usernames and passwords again like you&#8217;d expect. I originally tracked this down in the AgileBits forums, but can&#8217;t find it anymore. Leaving the tip here in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>If this happens to you, it&#8217;s possible that Chrome (or Chromium) has updated itself in the background. Quit and re-launch the browser and 1Password 4 should start filling in usernames and passwords again like you&#8217;d expect.</p>
+<p>I originally tracked this down in the AgileBits forums, but can&#8217;t find it anymore. Leaving the tip here in case it helps someone else.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/29/ipassword-4-mac-wont-fill-in-chrome-or-chromium/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ghost and Accidental Messaging</title>
+		<link>http://alexking.org/blog/2013/12/27/ghost-and-accidental-messaging</link>
+		<comments>http://alexking.org/blog/2013/12/27/ghost-and-accidental-messaging#comments</comments>
+		<pubDate>Fri, 27 Dec 2013 18:23:59 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18996</guid>
+		<description><![CDATA[I investigate pretty much every new publishing system that comes out. I&#8217;m eager to see what features they think are important, and see what might spark new ideas for my own site. I got my invite to try Ghost a short time ago. I put up a test post, and was a shocked by what&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I investigate pretty much every new publishing system that comes out. I&#8217;m eager to see what features they think are important, and see what might spark new ideas for my own site. I got my invite to try <a href="https://ghost.org/">Ghost</a> a short time ago. I put up a test post, and was a shocked by what I saw in the footer.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/12/ghost-copyright-510x307.png" alt="Ghost Copyright" width="480" height="288" class="alignnone size-medium-img wp-image-18997" /></p>
+<p>I&#8217;ve circled the footer area, which includes:</p>
+<blockquote><p>All content copyright Ghost &copy; 2013 &middot; All rights reserved.</p></blockquote>
+<p>My reaction upon seeing this? <em>Whoah &#8211; &#8220;Copyright Ghost&#8221;? I don&#8217;t think so&#8230;</em></p>
+<p>I did a little poking around and found <a href="https://ghost.org/about/terms/">Ghost&#8217;s Terms of Service</a>, which are derived from the <a href="http://en.wordpress.com/tos/">WordPress.com TOS</a> and are released under a Creative Common 3.0 license. That was more like what I expected and didn&#8217;t seem to jive with what I was seeing in the footer.</p>
+<p>So I did a little more searching. Pretty soon I found this:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/12/ghost-template-510x68.png" alt="Template File" width="480" height="64" class="alignnone size-medium-img wp-image-19000" /></p>
+<p>In the search results, I could see that the line that was bothering me is actually a pretty reasonable bit of template language:</p>
+<blockquote><p><code>All content copyright {{@blog.title}} &copy; 2013 [&hellip;]</code></p></blockquote>
+<p>This was a simple matter of defaults causing accidental messaging. See when you create a blog on Ghost, the default name of the blog is &#8220;Ghost&#8221;. Then the footer is outputting the blog name (Ghost) as the copyright holder.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> If I had taken the time to set my blog name to &#8220;Alex King&#8221;, then the footer message would have read &#8220;copyright Alex King&#8221;. This is a case of several things coming together to say something they didn&#8217;t mean.</p>
+<p>Be careful with your defaults! Your messaging is important and if you&#8217;re not careful it can say something you didn&#8217;t intend.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I&#8217;m not a lawyer, but I believe this really isn&#8217;t an accurate copyright statement. Copyright is owned by a person or entity; the name of a blog isn&#8217;t something that can own copyright (unless it is also the name of a person or entity).&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/12/27/ghost-and-accidental-messaging/feed</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		</item>
+		<item>
+		<title>Quip</title>
+		<link>http://alexking.org/blog/2013/08/02/quip</link>
+		<comments>http://alexking.org/blog/2013/08/02/quip#comments</comments>
+		<pubDate>Fri, 02 Aug 2013 17:32:36 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17950</guid>
+		<description><![CDATA[I&#8217;ve been using Quip for the last few days and really liking it. The ability to move between devices1 without friction has allowed me to work on some medium-form pieces at times/places I wouldn&#8217;t have without it. I&#8217;ve also used it to get feedback on various content drafts, which has worked nicely. So far it&#8217;s&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been using <a href="http://quip.com">Quip</a> for the last few days and really liking it. The ability to move between devices<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> without friction has allowed me to work on some medium-form pieces at times/places I wouldn&#8217;t have without it. I&#8217;ve also used it to get feedback on various content drafts, which has worked nicely.</p>
+<p>So far it&#8217;s a compliment to WordPress for me, but I can see more and more of my medium-form content getting written in Quip first before publishing it in WordPress. I think WordPress is due for a great, simple collaborative writing plugin<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> and I&#8217;d say that Quip is a pretty good model to follow.</p>
+<p>Check it out if you haven&#8217;t already, it&#8217;s really well executed &#8211; especially for a 1.0.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Web and iOS for now.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+Something with fewer features than <a href="http://wordpress.org/plugins/edit-flow/">Edit Flow</a> &#8211; I&#8217;ve looked at a few, but shout out if you know of one you love.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/02/quip/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Full Webpage Screenshots</title>
+		<link>http://alexking.org/blog/2013/07/18/full-webpage-screenshots</link>
+		<comments>http://alexking.org/blog/2013/07/18/full-webpage-screenshots#comments</comments>
+		<pubDate>Thu, 18 Jul 2013 14:09:45 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17761</guid>
+		<description><![CDATA[A few folks have asked how I took the full-page screenshots I put into this Flickr set. Very simple: Paparazzi on Mac (I donated) Barry on iOS Great examples of &#8220;do one thing, do it well&#8221; apps. Recommended.]]></description>
+				<content:encoded><![CDATA[<p>A few folks have asked how I took the full-page screenshots I put into <a href="http://www.flickr.com/photos/alexkingorg/sets/72157634631433509/">this Flickr set</a>.</p>
+<p>Very simple:</p>
+<ul>
+<li><a href="https://derailer.org/paparazzi/">Paparazzi</a> on Mac (I donated)</li>
+<li><a href="http://barryapp.com/">Barry</a> on iOS</li>
+</ul>
+<p>Great examples of &#8220;do one thing, do it well&#8221; apps. Recommended.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/18/full-webpage-screenshots/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Feed Reading: Feedly + Newsify</title>
+		<link>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify</link>
+		<comments>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify#comments</comments>
+		<pubDate>Mon, 08 Jul 2013 00:12:31 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17451</guid>
+		<description><![CDATA[Before Google Reader shut down I had been using Reeder on the Mac, iPhone and iPad. Since the shut down I&#8217;ve tried a few options, and so far the combination that feels best to be is Feedly on the desktop (via web) and Newsify on iPhone and iPad (it&#8217;s a universal app). I haven&#8217;t used&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Before Google Reader shut down I had been using <a href="http://reederapp.com/">Reeder</a> on the Mac, iPhone and iPad. Since the shut down I&#8217;ve tried a few options, and so far the combination that feels best to be is <a href="http://feedly.com/">Feedly</a> on the desktop (via web) and <a href="http://newsify.co/">Newsify</a> on iPhone and iPad (it&#8217;s a universal app).</p>
+<p>I haven&#8217;t used a web-based feed reader since <a href="http://alexking.org/blog/topic/feedlounge">FeedLounge</a> shuttered, so I&#8217;ve been a bit surprised to be satisfied with the Feedly web app. I never got comfortable with Google Reader as a web app. So far, it&#8217;s working out &#8211; and opening up items in new tabs feels nicely at home in the browser.</p>
+<p>I quickly came to prefer Newsify over Feedly&#8217;s iOS app as the gestures and features map pretty closely to those I had been accustomed to in Reeder. Poke around in the settings to get it set up as you want &#8211; the final step for me was setting &#8220;tap and hold&#8221; to &#8220;mark as read&#8221;.</p>
+<p>What are you using for your feed reading?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/07/feed-reading-feedly-newsify/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Capsule 1.1</title>
+		<link>http://alexking.org/blog/2013/06/18/capsule-1-1</link>
+		<comments>http://alexking.org/blog/2013/06/18/capsule-1-1#comments</comments>
+		<pubDate>Tue, 18 Jun 2013 17:59:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17290</guid>
+		<description><![CDATA[I&#8217;m very pleased to announce the release of Capsule v1.1 (and Capsule Server v1.1). In this release we added some pretty handy features along with addressing the usual array of 1.0-related issues. The download and an online demo are available on the Crowd Favorite website. Some of the highlights in the new version include: A&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2013/06/capsule-512-300x300.png" alt="capsule-512" width="300" height="300" class="aligncenter size-medium wp-image-17292" /></p>
+<p>I&#8217;m very pleased to announce the release of <a href="http://crowdfavorite.com/capsule/">Capsule</a> v1.1 (and Capsule Server v1.1). In this release we added some pretty handy features along with addressing the usual array of <a href="http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal">1.0</a>-related issues.</p>
+<p>The <a href="http://crowdfavorite.com/capsule/">download and an online demo</a> are available on the Crowd Favorite website.</p>
+<p>Some of the highlights in the new version include:</p>
+<ul>
+<li>A great icon, compliments of <a href="http://dribbble.com/matthewspiel">Matthew Spiel</a> &#8211; awesome for use as a <a href="http://fluidapp.com/">Fluid app</a> icon</li>
+<li>Keyboard shortcuts to navigate home (shift-h), create a new post (shift-n), and set focus to the search field (shift-f)</li>
+<li>A background queue for sending posts to Capsule Server (saves are no longer held up by the remote request) &#8211; requires Capsule Server 1.1</li>
+<li>The ability to map multiple local projects to a single project on Capsule Server</li>
+<li>An indicator to show which Capsule Server(s) a post has been pushed to</li>
+</ul>
+<p><img src="http://alexking.org/wp-content/uploads/2013/06/server-push-510x248.png" alt="server-push" width="480" height="233" class="aligncenter size-medium-img wp-image-17293" /></p>
+<p>We&#8217;ve also added some hooks and addressed a <a href="https://github.com/crowdfavorite/wp-capsule/issues?milestone=1&#038;state=closed">number of issues</a> relating to syntax highlighting, additional default display styling and formatting, etc.</p>
+<p>A big thank you to everyone who reported issues, suggested features and submitted patches. If you&#8217;re interested in contributing, please <a href="https://github.com/crowdfavorite/wp-capsule/">join us on GitHub</a>.</p>
+<hr />
+<p>Capsule is a developer&#8217;s code journal, implemented as a WordPress-based app. Think of it as a replacement for that text file you have open while you&#8217;re building things. Instead of throwing those artifacts away, easily tag and capture them for the future.</p>
+<hr />
+<p>And only 30 minutes later, version 1.1.1 fixes the missing JS in the build file (optimized.js).</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/capsule">Capsule</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/18/capsule-1-1/feed</wfw:commentRss>
+		<slash:comments>48</slash:comments>
+		</item>
+		<item>
+		<title>Customer vs. Product Support</title>
+		<link>http://alexking.org/blog/2013/06/12/customer-vs-product-support</link>
+		<comments>http://alexking.org/blog/2013/06/12/customer-vs-product-support#comments</comments>
+		<pubDate>Wed, 12 Jun 2013 19:46:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16291</guid>
+		<description><![CDATA[How to best provide support for the software you create is an interesting point of deliberation. I&#8217;ve gone through various stages and iterations, all different as circumstances have evolved, but all driven by the same question: How can I create the best experience for the user in a way that is sustainable? On a podcast&#8230;]]></description>
+				<content:encoded><![CDATA[<p>How to best provide support for the software you create is an interesting point of deliberation. I&#8217;ve gone through various stages and iterations, all different as circumstances have evolved, but all driven by the same question:</p>
+<blockquote><p>
+  How can I create the best experience for the user in a way that is sustainable?
+</p></blockquote>
+<p>On a podcast a while back I said something to this effect:</p>
+<blockquote><p>
+  Free support is only sustainable on either end of the spectrum. Either you have so many users that you&#8217;re able to well monetize them to the point that you have a dedicated support team tasked with making sure they are well cared for; or you have so few users that the drain on your time is negligible and can easily be handled along with other day-to-day tasks. The tricky stuff lies in the middle.
+</p></blockquote>
+<p>When I first started writing hacks for b2 and plugins and themes for WordPress, my life looked a lot different than it does now. I had a day job which paid all my bills, a wife that also worked long hours, and the work I did on my own site was what generated most of the code I released to the community.</p>
+<p>The community was also much smaller and had a different profile back then. A handful of hackers that would use each other&#8217;s code, send each other suggestions, and generally collaborate as peers.</p>
+<p>Nowdays the profile of the average WordPress user is far different. WordPress has become a tool for business users that do not need to have technical experience to make WordPress work for them. This is awesome, but it fundamentally changes the nature of the support requests I see.</p>
+<p>My station in life has changed quite a bit too. I have a daughter, I run a great team of 15 people and I&#8217;m dealing with some <a href="https://alexking.org/blog/2013/05/31/cancer">medical issues</a>. I don&#8217;t have the time that I used to, and what time I do have I&#8217;d rather spend building something than responding to emails.</p>
+<p>How I<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> handle support today is to break it down into two types of support:</p>
+<ol>
+<li>User Support</li>
+<li>Product Support</li>
+</ol>
+<p>With <strong>User Support</strong>, we provide one-on-one attention and do our best to solve whatever issues the user might be experiencing. This can even extend to troubleshooting plugin conflicts and server configuration issues. We reserve this level of support for our paid products (<a href="http://crowdfavorite.com/wordpress/ramp/">RAMP</a>, <a href="http://crowdfavorite.com/wordpress/carrington-build/">Carrington Build</a>, etc.).</p>
+<p>For our free products, we provide <strong>Product Support</strong>. This means we listen and pay attention to bug reports and try to fix anything that appears to have a reproducible use case. However we do not provide one-on-one support for users and do not dive deeply into one-off reports of edge cases.</p>
+<p>I feel that this is a reasonable compromise, and I believe that most of the users of my products agree. There will always be people who believe they can make unreasonable demands on your time, but luckily there&#8217;s a handy button on those emails (or even voicemails, yikes!) for resolving them with minimal effort.</p>
+<hr />
+<p>A few years back I had the idea that the collective support burden on WordPress plugin developers had grown to the point that we should all outsource it to a 3rd party. To support this, I created WP HelpCenter and tried to partner with plugin and theme developers through a referral program.</p>
+<p>This ended up being a flop, for a few reasons. The main on was users that actually needed support were typically unwilling to pay for it. From their perspective the plugin/theme wasn&#8217;t working and they were doing the developer a favor by reporting a bug. They certainly weren&#8217;t going to pay anything for it. What users are willing to pay for is customization, and that&#8217;s an entirely different beast.</p>
+<p>I still think something like WP HelpCenter could work, but it would be a lot of work and would need real buy-in from all parts of the community.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<a href="http://crowdfavorite.com">Crowd Favorite</a> uses the same approach.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the following projects: <a href="http://alexking.org/project/carrington-build">Carrington Build</a>, <a href="http://alexking.org/project/wp-helpcenter">WP HelpCenter</a>, <a href="http://alexking.org/project/ramp">RAMP</a>. View the project timelines for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/06/12/customer-vs-product-support/feed</wfw:commentRss>
+		<slash:comments>38</slash:comments>
+		</item>
+		<item>
+		<title>GameTonight for Status Board</title>
+		<link>http://alexking.org/blog/2013/04/28/gametonight-for-status-board</link>
+		<comments>http://alexking.org/blog/2013/04/28/gametonight-for-status-board#comments</comments>
+		<pubDate>Sun, 28 Apr 2013 17:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16657</guid>
+		<description><![CDATA[GameTonight now creates a module for Panic&#8217;s excellent Status Board iPad app. The URL is simple, add &#8216;/statusboard&#8217; to any metro URL or, while on your iPad, click the link at the bottom of each GameTonight page to install the current metro in Status Board. Example: http://gametonight.in/denver/statusboard Here&#8217;s what you get: It currently looks best&#8230;]]></description>
+				<content:encoded><![CDATA[<p>GameTonight now creates a module for <a href="http://panic.com/statusboard/">Panic&#8217;s excellent Status Board</a> iPad app. The URL is simple, add &#8216;/statusboard&#8217; to any metro URL or, while on your iPad, click the link at the bottom of each GameTonight page to install the current metro in Status Board. Example:</p>
+<p><code>http://gametonight.in/denver<strong>/statusboard</strong></code></p>
+<p>Here&#8217;s what you get:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/gt-yes.jpg" alt="Game Tonight: Yes" width="394" height="266" class="aligncenter size-full wp-image-16661" /></p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/gt-no.jpg" alt="Game Tonight: No" width="394" height="266" class="aligncenter size-full wp-image-16660" /></p>
+<p>It currently looks best at a minimum size 4&#215;4 units, but it probably wouldn&#8217;t be hard to add some media queries to support down to a 1&#215;4+ ticker-style display. We&#8217;ll see if there&#8217;s demand.</p>
+<hr />
+<p>I actually created a web app similar to Status Board a few years back that I called GlanceBoard. I had modules for traffic, weather, GameTonight, Twitter, etc., but was missing a good way to do layout and never got around to releasing it. I&#8217;m thrilled to completely mothball that project and use Status Board instead.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/04/28/gametonight-for-status-board/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>Notes on FoldingText</title>
+		<link>http://alexking.org/blog/2012/11/04/notes-on-foldingtext</link>
+		<comments>http://alexking.org/blog/2012/11/04/notes-on-foldingtext#comments</comments>
+		<pubDate>Sun, 04 Nov 2012 17:48:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15006</guid>
+		<description><![CDATA[UPDATE: There&#8217;s a nice customer support forum for FoldingText that I found after writing this post &#8211; lots of great info there. I&#8217;ve updated the content here accordingly. I&#8217;ve been trying out FoldingText for the last couple of weeks and have found it to be a good general purpose writing and note-taking tool for me.&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2012/11/001-20121104-IMG_2875-510x381.jpg" alt="Folding Text" width="480" height="358" class="alignnone size-medium-img wp-image-15018" /></p>
+<p>UPDATE: There&#8217;s a nice <a href="http://support.foldingtext.com/">customer support forum for FoldingText</a> that I found after writing this post &#8211; lots of great info there. I&#8217;ve updated the content here accordingly.</p>
+<p>I&#8217;ve been trying out <a href="http://www.foldingtext.com/">FoldingText</a> for the last couple of weeks and have found it to be a good general purpose writing and note-taking tool for me. <a href="http://barebones.com/products/bbedit/">BBEdit</a>, my code editor of choice, already gave me the ability to &#8220;fold&#8221; blocks of Markdown like FoldingText does, but I prefer to do my non-code writing in a larger font (easily switching font-sizes is one of the few things BBEdit doesn&#8217;t do well). It&#8217;s effectively replaced IA Writer for me &#8211; my previous tool for this job.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Besides general note taking, I&#8217;ve been using FoldingText to prepare my presentation for <a href="http://pressnomics.com/">Pressnomics</a> and have found it to be a good tool for outlining and navigating a larger content document.</p>
+<p>A couple of tips:</p>
+<ol>
+<li>By default FoldingText saves files with a .ft extension. None of my iOS Dropbox text editors will open files with this extention (including Hog Bay&#8217;s own <a href="http://www.hogbaysoftware.com/products/plaintext">PlainText</a>), but if you just want to view the file on iOS you can use the Dropbox app itself.</li>
+<li>I was surprised to see that FoldingText is a webkit app. <del datetime="2012-11-04T18:24:25+00:00">If you want to change the default template content (for example, to have new files open without any help text), you can edit the template found at: <code>FoldingText.app/Contents/Resources/en.lproj/Welcome.md</code>.</del> You can <a href="http://support.foldingtext.com/discussions/problems/246-remove-default-text-when-starting-a-new-document">disable the default content via terminal command</a>.</li>
+<li><del datetime="2012-11-04T17:57:34+00:00">If you wish to customize the styling of the editor itself, you can make changes to the CSS files: <code>FoldingText.app/Contents/Resources/javascript-dom-build/css/</code> I chose to set my line-height to 140% (line 14 of editor.css).</del> Looks like <a href="http://support.foldingtext.com/kb/frequently-asked-questions/how-do-i-create-a-new-foldingtext-theme">theming is on the way</a>!</li>
+</ol>
+<p>As I don&#8217;t see an API for FoldingText themes (yet?<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>), expect to lose any changes you make in the next upgrade &#8211; you should keep a copy of your changed files somewhere so you can re-apply the changes after upgrading. It&#8217;s also very much a <strong>use at your own risk</strong> situation; if you don&#8217;t like the results of your edits you can always reinstall the app.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I still use nvALT on the Mac for general notes, I am using FoldingText for &#8220;one off&#8221; documents and for authoring longer content where I utilize the folding feature. If I could embed the FT editor within nvALT, I&#8217;d probably use that full time.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+One reason for making FoldingText a webkit app would be to support theming using CSS.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/11/04/notes-on-foldingtext/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>TweetDeck and Twitter Lists</title>
+		<link>http://alexking.org/blog/2012/08/15/tweetdeck-twitter-lists</link>
+		<comments>http://alexking.org/blog/2012/08/15/tweetdeck-twitter-lists#comments</comments>
+		<pubDate>Thu, 16 Aug 2012 02:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14185</guid>
+		<description><![CDATA[My &#8220;following&#8221; list on Twitter is made up primarily of people who I know in real life (who aren&#8217;t too verbose on Twitter), with a few choice &#8220;entertainment&#8221; gems. I like it this way, it keeps the noise to a level where I can generally keep up with folks I care about. At WordCamp San&#8230;]]></description>
+				<content:encoded><![CDATA[<p>My &#8220;following&#8221; list on Twitter is made up primarily of people who I know in real life (who aren&#8217;t too verbose on Twitter), with a few choice &#8220;entertainment&#8221; gems. I like it this way, it keeps the noise to a level where I can generally keep up with folks I care about.</p>
+<p>At WordCamp San Francisco this year I realized I&#8217;ve been falling out of touch with fellow WordPress developers because much of the &#8220;water cooler&#8221; activity is happening on Twitter (and I&#8217;m not following it). I can&#8217;t add a few dozen people to my main stream and keep it manageable, so I&#8217;m trying something different.</p>
+<p>I&#8217;ve created a couple of topical lists of friends and folks I want to follow, and I&#8217;m now using TweetDeck to read the lists. This keeps my main timeline sane and allows me to keep up with other folks I want to keep up with. It&#8217;s working so far. For example, I would have missed that a <a href="http://dotorgplugins.wordpress.com/">discussion about reviewing plugins</a> was going on had I not been trying this.</p>
+<p>I thought I&#8217;d be using the Twitter list feature <a href="http://alexking.org/tweets/4531552281">long ago</a>, but this is my first real adoption of it. We&#8217;ll see if it sticks.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/08/15/tweetdeck-twitter-lists/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>GameTonight (for 16 Metros)</title>
+		<link>http://alexking.org/blog/2012/05/01/gametonight-for-15-metros</link>
+		<comments>http://alexking.org/blog/2012/05/01/gametonight-for-15-metros#comments</comments>
+		<pubDate>Tue, 01 May 2012 21:03:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Sports]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13376</guid>
+		<description><![CDATA[It&#8217;s baseball season again, and in downtown Denver that means traffic and bad cell phone connections. We can&#8217;t do much about the latter, but be sure to use GameTonight for warning about potential traffic concerns. GameTonight is a single-serving site that answers &#8220;is there a game tonight?&#8221; and tracks the major sports teams in 1516&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2012/05/001-20120501-IMG_0075-510x380.jpg" alt="GameTonight" width="510" height="380" class="aligncenter size-medium-img wp-image-13377" /></p>
+<p>It&#8217;s baseball season again, and in downtown Denver that means traffic and bad cell phone connections. We can&#8217;t do much about the latter, but be sure to use <a href="http://gametonight.in/denver">GameTonight</a> for warning about potential traffic concerns.</p>
+<p>GameTonight is a single-serving site that answers &#8220;is there a game tonight?&#8221; and tracks the major sports teams in <del datetime="2012-05-01T22:35:38+00:00">15</del><ins datetime="2012-05-01T22:35:38+00:00">16</ins> metro areas:</p>
+<ul>
+<li><a href="http://gametonight.in/atlanta">Atlanta</a></li>
+<li><a href="http://gametonight.in/bayarea">Bay Area</a></li>
+<li><a href="http://gametonight.in/boston">Boston</a></li>
+<li><a href="http://gametonight.in/chicago">Chicago</a></li>
+<li><a href="http://gametonight.in/cincinnati">Cincinnati</a></li>
+<li><a href="http://gametonight.in/dallas">Dallas</a></li>
+<li><a href="http://gametonight.in/denver">Denver</a></li>
+<li><a href="http://gametonight.in/losangeles">Los Angeles</a></li>
+<li><a href="http://gametonight.in/minneapolis">Minneapolis</a></li>
+<li><a href="http://gametonight.in/oakland">Oakland</a></li>
+<li><a href="http://gametonight.in/philadelphia">Philadelphia</a></li>
+<li><a href="http://gametonight.in/phoenix">Phoenix</a></li>
+<li><a href="http://gametonight.in/sanfrancisco">San Francisco</a></li>
+<li><a href="http://gametonight.in/sanjose">San Jose</a></li>
+<li><a href="http://gametonight.in/seattle">Seattle</a></li>
+<li><a href="http://gametonight.in/washington">Washington DC</a></li>
+</ul>
+<p>If you live in one of these areas, check it out.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/gametonight">GameTonight?</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/05/01/gametonight-for-15-metros/feed</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.281 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:17 -->
+
+<!-- Compression = gzip -->

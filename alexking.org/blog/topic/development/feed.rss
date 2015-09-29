@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Development</title>
+	<atom:link href="http://alexking.org/blog/topic/development/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Disable Submit Button After a Form is Submitted</title>
+		<link>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery</link>
+		<comments>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery#comments</comments>
+		<pubDate>Sun, 17 May 2015 21:42:19 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21821</guid>
+		<description><![CDATA[Once a user has submitted a form, you generally don&#8217;t want them to submit it a second time.1 A nice way to handle this is to disable the submit button once the form has been submitted, while replacing the text in the submit button with a message to let the user know that their desired&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Once a user has submitted a form, you generally don&#8217;t want them to submit it a second time.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> A nice way to handle this is to disable the submit button once the form has been submitted, while replacing the text in the submit button with a message to let the user know that their desired action has been taken.</p>
+<p>Here is a little code that will disable the submit button and display that nice message:</p>
+<p><script src="https://gist.github.com/62c55e65a35250512335.js"></script><noscript><p>View the code on <a href="https://gist.github.com/62c55e65a35250512335">Gist</a>.</p></noscript></p>
+<p>And here is a <a href="http://jsfiddle.net/kwx5Lkqr/">JS Fiddle to play around with</a>.</p>
+<p>Set the message to display by setting a data attribute on the submit button. If the data attribute isn&#8217;t set, we don&#8217;t do anything. This is a good safeguard against unexpected functionality, but if you want to disable the button for all forms anyway you can do so with a little code tweak.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+Some folks insist on double-clicking on the web.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/17/disable-button-after-submit-jquery/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>We&#8217;ve Made Web Development Complicated</title>
+		<link>http://alexking.org/blog/2015/05/14/web-development-now-complicated</link>
+		<comments>http://alexking.org/blog/2015/05/14/web-development-now-complicated#comments</comments>
+		<pubDate>Thu, 14 May 2015 18:40:01 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21793</guid>
+		<description><![CDATA[When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a server-side language how to talk to a database (SQL) on top of my knowledge of HTML, CSS and JavaScript. With these five basic things, I was able to build some useful stuff. I&#8217;m working&#8230;]]></description>
+				<content:encoded><![CDATA[<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn:</p>
+<ol>
+<li>a server-side language</li>
+<li>how to talk to a database (SQL)</li>
+</ol>
+<p>on top of my knowledge of HTML, CSS and JavaScript. With these five basic things, I was able to build some useful stuff.</p>
+<p>I&#8217;m working on a web app now and it recently struck me how much more complicated things have become. I&#8217;m following what I consider to be modern development best practices and that means that I&#8217;m dealing with the following concepts and technologies:</p>
+<ol>
+<li>a server-side language</li>
+<li>how to talk to a database (SQL)</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>The concept of a virtual machine</li>
+<li>Vagrant with a pre-built image (Laravel Homestead)</li>
+<li>SSH</li>
+<li>Version control (Git)</li>
+<li>A branching/merging process (Git Flow)</li>
+<li>Gulp</li>
+<li>Node.js (for running Gulp)</li>
+<li>Homebrew</li>
+<li>/etc/hosts file (or Dnsmasq)</li>
+<li>CSS pre-processors (Bootstrap was already using Less, I am using Sass)</li>
+<li>CSS concatenation</li>
+<li>JavaScript concatenation</li>
+<li>Image sprites</li>
+<li>A server-side framework (Laravel)</li>
+<li>Framework-specific command line utilities for creating template files, running pre-load optimizations, database commands, etc.</li>
+<li>ORM</li>
+<li>Security (SQL injection, XSS, CSRF, etc.)</li>
+<li>Templating syntax (Laravel uses one called Blade)</li>
+<li>A client-side framework (jQuery, Bootstrap, Angular, etc.)</li>
+<li>JSON</li>
+<li>PHP Composer</li>
+<li>PHP Packages</li>
+<li>Database migrations (database schema defined in code)</li>
+<li>Database seeding</li>
+<li>Faker (for creating dummy data)</li>
+<li>Unit testing</li>
+</ol>
+<p>Unused in my project thus far, but other things you&#8217;ll need to know sooner rather than later:</p>
+<ol>
+<li>Memcached (or other key/value caches)</li>
+<li>Capistrano (or another deployment process)</li>
+<li>CDNs</li>
+</ol>
+<p>I&#8217;m guessing I&#8217;ve forgotten another dozen or so things that you all will remind me about in the comments&#8230; point being, this stuff has gotten more complicated and difficult to get one&#8217;s head around. Lots of abstractions, optimizations, etc.</p>
+<p>I was recently asked to chime in on a <a href="https://psdtowp.net/best-programming-language.html#alex-king">&#8220;what programming language should a new developer learn?&#8221; round-up</a>. The resulting  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  article  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  is a bit of a mess as you have relatively unstructured comments from 83 developers to slog through. Further, many of them have huge biases towards frameworks they created, etc. Regardless, I was interested to see that I wasn&#8217;t the only one to challenge the question and push the importance of motivation and the project goal over a technology choice.</p>
+<p>We need to remember that we&#8217;ve created this chaos bit by bit. When we are teaching, we need to provide a path that allows people to master one brick at a time. Pretty soon, they have enough bricks that they can build more layers on top of them.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/14/web-development-now-complicated/feed</wfw:commentRss>
+		<slash:comments>96</slash:comments>
+		</item>
+		<item>
+		<title>Sane Laravel 5 Mail Example</title>
+		<link>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code</link>
+		<comments>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code#comments</comments>
+		<pubDate>Thu, 07 May 2015 05:29:23 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21776</guid>
+		<description><![CDATA[For some reason, the example code in the Laravel docs for their Mail feature neglect to show how to pass defined variables into the closure. Here is something a little more useful. View the code on Gist.]]></description>
+				<content:encoded><![CDATA[<p>For some reason, the example code in the <a href="http://laravel.com/docs/5.0/mail">Laravel docs for their Mail feature</a> neglect to show how to pass defined variables into the closure. Here is something a little more useful.</p>
+<p><script src="https://gist.github.com/d2923deeea1b0076d07a.js"></script><noscript><p>View the code on <a href="https://gist.github.com/d2923deeea1b0076d07a">Gist</a>.</p></noscript></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/05/06/laravel-5-mail-example-code/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Submit a Form on Command + Enter from Textarea with jQuery</title>
+		<link>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea</link>
+		<comments>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea#comments</comments>
+		<pubDate>Mon, 27 Apr 2015 17:36:35 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21673</guid>
+		<description><![CDATA[I&#8217;m a big fan of keyboard control in productivity applications. I love being able to type my changes/additions and submit them without needing to tab around too much, or gasp grab the mouse. I&#8217;m not the only one who feels this way. David Walsh has a great post explaining how to submit web forms with&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m a big fan of keyboard control in productivity applications. I love being able to type my changes/additions and submit them without needing to tab around too much, or <em>gasp</em> grab the mouse. I&#8217;m not the only one who feels this way. David Walsh has a great post explaining <a href="http://davidwalsh.name/command-enter-submit-forms">how to submit web forms with Command+Enter</a>. However, for my needs I needed to tweak this a little:</p>
+<ol>
+<li>I only want Command+Enter to submit the form if I&#8217;m in a textarea.</li>
+<li>I need the form submission to play nicely with AJAX requests, specifically when using jQuery delegates to catch the form submission. In David&#8217;s example code, the <code>submit()</code> was firing before the delegate could catch the event and <code>preventDefault()</code> on it.</li>
+</ol>
+<p>Luckily it was quite simple to adapt his code for my needs.</p>
+<p><script src="https://gist.github.com/03bcc2004c0bc9145e23.js"></script><noscript><p>View the code on <a href="https://gist.github.com/03bcc2004c0bc9145e23">Gist</a>.</p></noscript></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/27/jquery-form-submit-cmd-enter-textarea/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Setting the wp_remote_get() User Agent</title>
+		<link>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get</link>
+		<comments>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get#comments</comments>
+		<pubDate>Fri, 24 Apr 2015 00:19:48 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21651</guid>
+		<description><![CDATA[I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working: $response = wp_remote_get($url, array( &#160;&#160;'timeout' => 20, &#160;&#160;'User-Agent'&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>Thankfully, <a href="http://ottopress.com">Otto</a> spotted my problem. The `user-agent` key needs to be lowercase so that it is picked up properly by the WordPress core code. This works:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'<b>u</b>ser-<b>a</b>gent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>And there you have it. It&#8217;s always nice to have an extra set of eyes on some code.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Local *.dev and *.app via Dnsmasq on Mac OS X</title>
+		<link>http://alexking.org/blog/2015/04/20/dev-app-dnsmasq</link>
+		<comments>http://alexking.org/blog/2015/04/20/dev-app-dnsmasq#comments</comments>
+		<pubDate>Mon, 20 Apr 2015 15:12:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21596</guid>
+		<description><![CDATA[I am in the process of setting up a development environment on a new machine and one of the things I decided to do is route all .dev domains to my local (built-in) Apache web server while I route all .app domains to my Laravel Homestead Vagrant environment. To never have to monkey with your&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I am in the process of setting up a development environment on a new machine and one of the things I decided to do is route all .dev domains to my local (built-in) Apache web server while I route all .app domains to my Laravel Homestead Vagrant environment.</p>
+<p>To never have to monkey with your hosts file, Apache can be configured to serve any .dev domain that matches an existing folder name from a base directory. The Homestead.yaml file handles domain-to-directory mapping explicitly for the Laravel Vagrant environment.</p>
+<p>This ended up being really easy &#8211; the things I needed to know were:</p>
+<ol>
+<li>what to put into the dnsmasq config</li>
+<li>how to stop and start dnsmasq</li>
+</ol>
+<p>All of the &#8220;<a href="https://www.google.com/search?client=safari&#038;rls=en&#038;q=install+dnsmasq+mac&#038;ie=UTF-8&#038;oe=UTF-8">install Dnsmasq mac</a>&#8221; tutorials out there seem to work fine. Assuming, you&#8217;ve already installed <a href="http://brew.sh">Homebrew</a>, it&#8217;s as simple as:</p>
+<p><code>brew install dnsmasq</code></p>
+<p>From there, you&#8217;ll follow the recommended step from the installer output to create your config file:</p>
+<p><code>cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf</code></p>
+<p>Now open that file in your favorite editor and replace its contents with:</p>
+<p><code># General sites (Apache)<br />
+address=/.dev/127.0.0.1</p>
+<p># Laravel Homestead (Vagrant)<br />
+address=/.app/192.168.10.10</code></p>
+<p>Lastly, stop and start Dnsmasq to apply the changes in the config:</p>
+<p><code>sudo launchctl stop homebrew.mxcl.dnsmasq<br />
+sudo launchctl start homebrew.mxcl.dnsmasq</code></p>
+<p>That&#8217;s it! Or at least that&#8217;s all it took for me. I hope your experience is as easy as mine was.</p>
+<p>Now to set up Apache to handle anything with a .dev suffix from a matching directory from my Sites dir. Add this to your vhost configuration:</p>
+<p><code>&lt;Directory &quot;<b>/Users/example/Sites/</b>&quot;&gt;<br />
+&nbsp;&nbsp;AllowOverride All<br />
+&nbsp;&nbsp;Options Indexes MultiViews FollowSymLinks<br />
+&nbsp;&nbsp;Require all granted<br />
+&lt;/Directory&gt;</p>
+<p>&lt;VirtualHost *:80&gt;<br />
+&nbsp;&nbsp;ServerName local.dev<br />
+&nbsp;&nbsp;ServerAlias *.dev<br />
+&nbsp;&nbsp;UseCanonicalName off<br />
+&nbsp;&nbsp;VirtualDocumentRoot <b>/Users/example/Sites/</b>%-2.0.dev/<br />
+&lt;/VirtualHost&gt;</code></p>
+<p>Restart Apache with errors returned to find errors in your config:</p>
+<p><code>sudo apachectl -e info -k restart</code></p>
+<p>If you get a 403 error when loading your site in a browser, make sure that every dir in the chain to the web root has the &#8220;execute&#8221; permission. Add it via:</p>
+<p><code>chmod +x dirname</code></p>
+<p>That should do it.</p>
+<p>Improvements/corrections to the above solution are welcome. Enjoy!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/20/dev-app-dnsmasq/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Race to the Bottom Benefits Platforms (not Developers)</title>
+		<link>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms</link>
+		<comments>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms#comments</comments>
+		<pubDate>Tue, 12 Aug 2014 21:53:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20713</guid>
+		<description><![CDATA[There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want trials, upgrade pricing, etc. to support that model. They want things to work they way they always have &#8211; I don&#8217;t blame them.</p>
+<p>I think it&#8217;s worth considering who wins in this &#8220;race to the bottom&#8221;. In general, more stuff for free benefits consumers, which in turn benefits the platform.</p>
+<p>&#8220;But wait!&#8221; the developers cry. &#8220;When the platform doesn&#8217;t support building more sophisticated apps, the consumers ultimately lose!&#8221; I know this argument, I&#8217;ve made it myself regarding the WordPress ecosystem. I was wrong.</p>
+<p>Consumers have been well trained that they can expect incredible value for free. Sure, they may trade off their privacy and be subjected to ads, but they aren&#8217;t asked to fork over their cash directly.</p>
+<p>VC-backed companies often contribute to the problem as well. As they clamor for users to their platforms, they give everything away &#8211; it&#8217;s so easy to flip the switch in the future and start the money pouring in. Or if that doesn&#8217;t work, they fold up shop and call it a day. Oops!</p>
+<p>More complex apps <em>will get made</em>. They just won&#8217;t be built using the model that indie developers are used to.</p>
+<p>There will be apps supported by alternative revenue streams. Some might have ads or sponsorships, some might mine and sell the data they produce, some (like Evernote and Dropbox) will be a gateway to a commercial service. People will figure out ways to get money out of a large enough user base, and apps will get built.</p>
+<p>I&#8217;ve seen this happen in the WordPress ecosystem already. It&#8217;s a different beast because it&#8217;s an Open Source community, but it&#8217;s still an interesting parallel.</p>
+<p>Basically this happened:</p>
+<ol>
+<li>A bunch of folks built stuff and released it all for free to a small community, largely consisting of fellow developers and tinkerers</li>
+<li>A whole bunch more folks started using the platform and the community grew &#8211; it wasn&#8217;t just developers anymore, it was end users with expectations of support, etc.</li>
+<li>Devs wanted to start monetizing the products they were providing</li>
+<li>The platform didn&#8217;t provide the tools to make money in the way that the devs wanted -instead it invested in tools to promote free products</li>
+<li>Eventually a variety of patterns arose to monetize both commercial and &#8220;free&#8221; products (subscription clubs with access to a bunch of different plugins/themes, free products with commercial add-ons, sponsorships and ads, products that were created to support hosting services, etc.)</li>
+</ol>
+<p>It&#8217;s not the  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  pure  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  and direct approach of charging directly for the software, but it&#8217;s still developers writing code and making money.</p>
+<p>The same thing is happening for iOS. There is money to be made. The platform and consumers are winning.</p>
+<p>&#8220;Adapt or die&#8221; is our mantra for those business who are threatened by technology. We have little sympathy for newspapers, the music industry, etc. Perhaps it&#8217;s time to include software companies in that list.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms/feed</wfw:commentRss>
+		<slash:comments>57</slash:comments>
+		</item>
+		<item>
+		<title>JavaScript Profiling and Optimization</title>
+		<link>http://crowdfavorite.com/blog/2014/07/javascript-profiling-and-optimization/</link>
+		<comments>http://alexking.org/blog/2014/07/15/javascript-profiling-and-optimization#comments</comments>
+		<pubDate>Wed, 16 Jul 2014 00:05:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-6221fc82360888fd907d304fdb0a0121</guid>
+		<description><![CDATA[My colleague Steve has a post on the Crowd Favorite blog about some JavaScript optimizations we did to speed up mobile performance on a client&#8217;s site. It&#8217;s pretty interesting &#8211; check it out.<p style="clear: both;"><a href="http://alexking.org/blog/2014/07/15/javascript-profiling-and-optimization">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>My colleague Steve has a post on the <a href="http://crowdfavorite.com/blog/">Crowd Favorite blog</a> about some JavaScript optimizations we did to speed up mobile performance on a <a href="http://foodgawker.com">client&#8217;s site</a>. It&#8217;s pretty interesting &#8211; check it out.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/07/15/javascript-profiling-and-optimization">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/15/javascript-profiling-and-optimization/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Custom Taxonomy as &#8220;Post Meta&#8221;</title>
+		<link>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta</link>
+		<comments>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta#comments</comments>
+		<pubDate>Wed, 09 Jul 2014 21:33:02 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14416</guid>
+		<description><![CDATA[I found this post while sorting through my old drafts and decided to go ahead and publish it rather than trashing it. Hopefully the code samples don&#8217;t break too badly in WordPress 3.9. I&#8217;ve talked a bit about when to use custom taxonomies and when to use custom fields/post meta (and how they can be&#8230;]]></description>
+				<content:encoded><![CDATA[<p><em>I found this post while sorting through my old drafts and decided to go ahead and publish it rather than trashing it. Hopefully the code samples don&#8217;t break too badly in WordPress 3.9.</em></p>
+<p>I&#8217;ve talked a bit about <a href="http://alexking.org/blog/2011/08/29/wordpress-post-meta-taxonomies">when to use custom taxonomies and when to use custom fields/post meta</a> (and how they can be used virtually interchangeably in some situations). If you want to use taxonomies, you&#8217;ll probably also want to:</p>
+<ul>
+<li>make sure that the terms you want to use exist in your custom taxonomy</li>
+<li>limit the ability for these terms to be altered</li>
+</ul>
+<p>This Gist is a good start:</p>
+<p><script src="https://gist.github.com/3723819.js"></script><noscript><p>View the code on <a href="https://gist.github.com/3723819">Gist</a>.</p></noscript></p>
+<p>You&#8217;ll probably also want to specify:</p>
+<p><code>'public' =&gt; false,<br />
+'show_ui' =&gt; true,</code></p>
+<p>when defining your custom taxonomy. This makes the UI box for the taxonomy appear in the post/page editing interface as expected, but hides the admin forms for editing the taxonomy terms from the admin menu.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta/feed</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Text Editors</title>
+		<link>http://alexking.org/blog/2014/06/26/text-editors</link>
+		<comments>http://alexking.org/blog/2014/06/26/text-editors#comments</comments>
+		<pubDate>Thu, 26 Jun 2014 20:21:15 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20284</guid>
+		<description><![CDATA[Yesterday I watched a colleague&#8217;s Sublime Text 2 crash repeatedly as he tried to navigate the search results in a large project. BBEdit&#8216;s search (and edit in the results window) feature is a part of my normal development process. I think it crashed on me once about 8 years ago.]]></description>
+				<content:encoded><![CDATA[<p>Yesterday I watched a colleague&#8217;s <a href="http://www.sublimetext.com/">Sublime Text 2</a> crash repeatedly as he tried to navigate the search results in a large project.</p>
+<p><a href="http://barebones.com/products/bbedit/">BBEdit</a>&#8216;s search (and edit in the results window) feature is a part of my normal development process. I think it crashed on me once about 8 years ago.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/26/text-editors/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>HTML5 Colorado Flag T-shirt</title>
+		<link>http://alexking.org/blog/2014/05/15/html5-colorado-flag-t-shirt</link>
+		<comments>http://alexking.org/blog/2014/05/15/html5-colorado-flag-t-shirt#comments</comments>
+		<pubDate>Thu, 15 May 2014 19:42:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20012</guid>
+		<description><![CDATA[A couple of years ago I got some Colorado State flag HTML5 t-shirts printed up.1 Since then, a number of folks have asked about getting them so I set up a TeeSpring. They will be on sale in mens and womens sizes for $15 for the next 2 weeks. We need 50 orders for them&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2014/05/co-html5-428x510.jpg" alt="co-html5" width="428" height="510" class="alignnone size-medium-img wp-image-20074" /></p>
+<p>A couple of years ago <a href="http://alexking.org/blog/2012/05/14/colorado-flag-web-geek-t-shirts">I got some Colorado State flag HTML5 t-shirts printed up</a>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> Since then, a number of folks have asked about getting them so I set up a <a href="http://teespring.com/cohtml5">TeeSpring</a>. They will be on sale in mens and womens sizes for $15 for the next 2 weeks. We need 50 orders for them to print, so if you want one please <a href="http://teespring.com/cohtml5">put in your order ASAP</a> and help spread the word.</p>
+<p>The white text you see is HTML5 canvas code on the shirt draws a Colorado state flag. It&#8217;s all very meta. It&#8217;s also <a href="https://github.com/alexkingorg/canvas-co-flag">Open Source</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+See link for ACTION shots!&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/05/15/html5-colorado-flag-t-shirt/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>That Wasn&#8217;t on the Schedule</title>
+		<link>http://alexking.org/blog/2014/04/24/that-wasnt-on-the-schedule</link>
+		<comments>http://alexking.org/blog/2014/04/24/that-wasnt-on-the-schedule#comments</comments>
+		<pubDate>Thu, 24 Apr 2014 15:58:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19924</guid>
+		<description><![CDATA[On Tuesday I was back in the office and itching to get back to work on my current project. That morning I got two emails about an incompatibility in Carrington Build&#8216;s Rich Text module and WordPress 3.9. Sure enough, the change in WordPress core to upgrade to TinyMCE 4.0 coupled with changes in how TinyMCE&#8230;]]></description>
+				<content:encoded><![CDATA[<p>On Tuesday I was back in the office and itching to get back to work on my current project.</p>
+<p>That morning I got two emails about an incompatibility in <a href="http://crowdfavorite.com/carrington-build/">Carrington Build</a>&#8216;s Rich Text module and WordPress 3.9. Sure enough, the change in WordPress core to upgrade to TinyMCE 4.0 coupled with changes in how TinyMCE is invoked within WordPress over the last few releases had caused the Rich Text module to stop working with WordPress 3.9. I believe that <a href="http://alexking.org/blog/2010/01/08/wordpress-security-upgrades-backups">upgrading WordPress is important</a> and I really didn&#8217;t want one of our products to be preventing our customers from upgrading.</p>
+<p>I checked with a couple of team members, but no one else was available to make the patch for a week or so. I hadn&#8217;t ever worked on this particular module (or TinyMCE 4.0) but I dug in, figured out most of what was going on, and started making the necessary changes &#8211; learning as I went.</p>
+<p>Then late Tuesday afternoon I got an email from a customer who let me know that he wasn&#8217;t able to access the downloads he should be able to. I confirmed the issue, replied that night, and started on a fix Wednesday morning. Once I had the website fix ready, I tagged and packaged Carrington Build, upgraded the FaveBusiness theme (a sample theme to demo Carrington Build) and packaged that as well, uploaded the files, wrote up a <a href="http://crowdfavorite.com/blog/2014/04/carrington-build-v1-3/">quick blog post</a> and sent out the release announcement to our customer mailing lists.</p>
+<p>I was able to do this all Tuesday and Wednesday between appointments and meetings and get it all up live this afternoon. Which is great, but I haven&#8217;t touched the project I was supposed to be working on. I&#8217;m down to 50% of the dev time I&#8217;d hoped for this week. And it seems to happen <em>every week</em>.</p>
+<p>It&#8217;s constantly surprising to me how previous work/choices create obligations that throw schedules off track. The longer you&#8217;re at it, the more things associated with your historical body of work (client work and product work) have an opportunity to build up. Even having handed off a ton of my previous responsibilities, having <a href="http://crowdfavorite.com/blog/2014/01/cloudmoxie-acquired-by-wp-engine/">sold our hosting business</a>, consolidated and streamlined our product offerings, and gotten sign-off to focus on this one project, I&#8217;m <em>still</em> unexpectedly getting pulled in different directions. I say this with an acknowledging nod to <a href="http://www.artofmanliness.com/2013/10/23/eisenhower-decision-matrix/">the old urgent vs. important matrix</a>.</p>
+<p>I&#8217;m going to be making a concerted effort to be more strict with my time-management along with making sure <a href="http://alexking.org/blog/2014/04/15/write-code-every-day">I&#8217;m getting some coding time each day</a> and I&#8217;ll see if I can get things headed in the right direction.</p>
+<p>I&#8217;m writing this mainly to reinforce it for myself. Have a magic bullet for this that I&#8217;m missing? Please enlighten me in the comments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/04/24/that-wasnt-on-the-schedule/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Work Backwards</title>
+		<link>http://alexking.org/blog/2014/03/20/work-backwards</link>
+		<comments>http://alexking.org/blog/2014/03/20/work-backwards#comments</comments>
+		<pubDate>Thu, 20 Mar 2014 15:46:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Development]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19576</guid>
+		<description><![CDATA[Relating to yesterday&#8217;s post on inertia, I wanted to pass on another nugget I&#8217;ve learned about how to approach and define problems: working backwards. I&#8217;ve found this to be useful in both technical and business situations and I use it all the time. Basically, start with the end result you want, and figure out how&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Relating to <a href="http://alexking.org/blog/2014/03/19/just-start">yesterday&#8217;s post on inertia</a>, I wanted to pass on another nugget I&#8217;ve learned about how to approach and define problems: working backwards. I&#8217;ve found this to be useful in both technical and business situations and I use it all the time.</p>
+<p>Basically, start with the end result you want, and figure out how to get there from here. If you can&#8217;t define the desired outcome, then step one is getting to that point.</p>
+<p>On the technical side, this helps you define APIs, payloads, caching approaches, and overall application structure.</p>
+<p>On the business side it can help you frame language for positioning, clarify sales language for potential customers, and help you create more useful documentation for your customers.</p>
+<p>Give it a try &#8211; see if it works for you.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/20/work-backwards/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Is WordPress the Right Tool for the Job?</title>
+		<link>http://alexking.org/blog/2014/03/12/when-to-use-wordpress</link>
+		<comments>http://alexking.org/blog/2014/03/12/when-to-use-wordpress#comments</comments>
+		<pubDate>Wed, 12 Mar 2014 17:08:18 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19550</guid>
+		<description><![CDATA[I recently got an email that asked: Do you ever question whether WordPress is the correct CMS for something? I am a big WordPress fan too and I&#8217;ve solved some really cool content management challenges with it but there are times when I think, this site would probably be faster and more efficient if it&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I recently got an email that asked:</p>
+<blockquote><p>Do you ever question whether WordPress is the correct CMS for something?</p>
+<p>I am a big WordPress fan too and I&#8217;ve solved some really cool content management challenges with it but there are times when I think, this site would probably be faster and more efficient if it were built using some MVC framework?</p>
+<p>[&#8230;]</p>
+<p>With small business sites, this isn&#8217;t really that big a deal but with some of the enterprise-level clients you work with I wonder whether it becomes an issue.</p></blockquote>
+<p>Rather than replying via email, I thought this might be a good topic for a blog post.</p>
+<p>First off, I should mention that when clients come to <a href="http://crowdfavorite.com">Crowd Favorite</a>, it is often because they have already made a technology choice to use WordPress and have found us because of our reputation in working with WordPress. That said, we believe in using the right tool for the job.</p>
+<p>Most often that tool is WordPress, but there are times when we suggest alternative solutions that are a better fit for their specific problem. We&#8217;ve used our Oxygen MVC platform for a number of client projects, sometimes in conjunction with a WordPress powered site.</p>
+<p>One of the great benefits to using WordPress vs. a custom solution is that scaling WordPress is generally a solved problem. There are lots of smart folks who have figured this out and shared their knowledge within the community. We are very comfortable deploying high traffic sites on WordPress.</p>
+<p>Scaling a custom application is often a journey of discovery. Sometimes this journey can be a bit rocky, and lonely. You will need to solve most of your problems on your own. This makes WordPress a safer choice when all other things are equal.</p>
+<p>I&#8217;m on record saying I don&#8217;t believe WordPress is a good general application platform, but I think it&#8217;s wonderful for certain types of apps. Our developer journal, <a href="http://crowdfavorite.com/capsule/">Capsule</a> is a great example of this. We created a distributed journal app that can sync back to a central server/hub &#8211; all on WordPress. I&#8217;ve also created an HR logging system using WordPress. These have worked quite nicely.</p>
+<p>At the end of the day, I believe in a pragmatic approach. The things that go into this decision include:</p>
+<ul>
+<li>comparing site needs to what WordPress does out of the box</li>
+<li>consider known and projected future enhancements</li>
+<li>consider potential scaling concerns</li>
+<li>consider the importance of the community and lack of vendor lock-in to the client</li>
+</ul>
+<p>Happily, that means we choose WordPress much of the time.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/12/when-to-use-wordpress/feed</wfw:commentRss>
+		<slash:comments>32</slash:comments>
+		</item>
+		<item>
+		<title>Rafe Colburn on What Bugs Taught Etsy About People</title>
+		<link>http://alexking.org/blog/2014/03/04/rafe-colburn-on-what-bugs-taught-etsy-about-people</link>
+		<comments>http://alexking.org/blog/2014/03/04/rafe-colburn-on-what-bugs-taught-etsy-about-people#comments</comments>
+		<pubDate>Wed, 05 Mar 2014 04:20:28 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://pinboard-2e620c5c3824931a6a0783d7444eefb8</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/pr3rBFC7Tp8?feature=oembed" frameborder="0" allowfullscreen></iframe>Meeting Rafe and getting to chat with him at Monktoberfest each year has been one of the event&#8217;s highlights for me. And I love stories like this. Things that happen + thoughtful people = interesting lessons to learn.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/pr3rBFC7Tp8?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Meeting <a href="http://rc3.org/">Rafe</a> and getting to chat with him at <a href="http://monktoberfest.com">Monktoberfest</a> each year has been one of the event&#8217;s highlights for me. And I love stories like this.</p>
+<p>Things that happen + thoughtful people = interesting lessons to learn.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/04/rafe-colburn-on-what-bugs-taught-etsy-about-people/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.501 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:01 -->
+
+<!-- Compression = gzip -->

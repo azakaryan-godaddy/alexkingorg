@@ -1,0 +1,33 @@
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: EasouSpider 
+Disallow: /  
+
+User-agent: megaindex.ru
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: Spiderbot
+Disallow: /
+
+User-agent: Spiderbot/Nutch-1.7
+Disallow: /
+
+User-agent: *
+Crawl-delay: 60
+

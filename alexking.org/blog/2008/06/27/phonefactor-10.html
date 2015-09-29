@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>PhoneFactor 1.0 : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » PhoneFactor 1.0 Comments Feed" href="http://alexking.org/blog/2008/06/27/phonefactor-10/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="OpenedHand Redesign" href="../23/openedhand-redesign.html">
+<link rel="next" title="Texas Bar Sues Church" href="http://alexking.org/blog/2008/07/01/texas-bar-sues-church">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="phonefactor-10.html">
+<link rel="shortlink" href="http://alexking.org/?p=3169">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PhoneFactor 1.0">
+<meta property="og:url" content="http://alexking.org/blog/2008/06/27/phonefactor-10">
+<meta property="og:description" content="PhoneFactor is a WordPress plugin that provides an additional layer of security when logging in to your WordPress site. It’s a pretty cool system. When you log in to your WordPress blog with ...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2008/06/27/phonefactor-10">
+<meta name="twitter:title" content="PhoneFactor 1.0">
+<meta name="twitter:description" content="PhoneFactor is a WordPress plugin that provides an additional layer of security when logging in to your WordPress site. It's a pretty cool system. When you log in to your WordPress blog with PhoneFactor enabled, you receive a phone call asking you to press # to authorize. When you do so, you are logged in. If you do not, then the login attempt fails. Basically, this means someone needs to get your username, password and">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-3169 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-3169" class="clearfix post-3169 post type-post status-publish format-standard hentry category-case-studies category-crowd-favorite category-news category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="phonefactor-10.html" title="Permalink to PhoneFactor 1.0" rel="bookmark">PhoneFactor 1.0</a></h1>
+		<time class="entry-date" datetime="2008-06-27T16:13:22+00:00" pubdate=""> June 27, 2008</time>
+	</header>
+	<div class="entry-content">
+<p>PhoneFactor is a <a href="http://wordpress.org/" rel="external">WordPress</a> plugin that provides an additional layer of security when logging in to your WordPress site.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/sets/72157605848461623/"><img src="http://farm4.static.flickr.com/3149/2616262594_5cf244979b_m.jpg" width="240" height="177" alt="Login" class="js-hidpi-240177"></a></p>
+<p>It’s a pretty cool system. When you log in to your WordPress blog with PhoneFactor enabled, you receive a phone call asking you to press # to authorize. When you do so, you are logged in. If you do not, then the login attempt fails.</p>
+<p>Basically, this means someone needs to get your username, password <em>and</em> phone in order to log in to your WordPress site as you.</p>
+<p><a href="http://crowdfavorite.com">Crowd Favorite</a> worked with the <a href="http://phonefactor.com/" rel="external">PhoneFactor</a> team to build this integration on their API layer. This was a fun project for us – it’s always nice to enhance WordPress by integrating features from another service.</p>
+<p>Besides building the integration with the API to authenticate via phone, we also built the PhoneFactor registration step right into the WordPress admin so that the user wouldn’t have to leave the WordPress admin when activating the plugin and getting it set up. I think it’s a much better user experience.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/2615434383/" title="Registration by alexkingorg, on Flickr"><img src="http://farm4.static.flickr.com/3119/2615434383_9647b143f0_m.jpg" width="240" height="178" alt="Registration" class="js-hidpi-240178"></a></p>
+<p>We integrated some instructional banners into the WordPress admin pages to let people know the next steps to getting things set up after activating the plugin. We also built in some more advanced user features like whitelisting IP addresses so that you don’t have to use PhoneFactor authentication if you’re logging in from your home machine.</p>
+<p>The download and more information are available at the <a href="http://wordpress.org/extend/plugins/phonefactor/">WordPress Plugin repository</a> on wordpress.org.</p>
+<p>Enjoy!</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="phonefactor-10.html#comments">38 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/case-studies.html" rel="category tag">Case Studies</a>, <a href="../../../topic/crowd-favorite.html" rel="category tag">Crowd Favorite</a>, <a href="../../../topic/news.html" rel="category tag">News</a>, <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="phonefactor-10.html#" rel="social-all"><span>38 Replies</span></a></li>
+			<li class="social-wordpress"><a href="phonefactor-10.html#" rel="wordpress"><span>30 Comments</span></a></li>
+			<li class="social-twitter"><a href="phonefactor-10.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="phonefactor-10.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="phonefactor-10.html#" rel="social-pingback"><span>8 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was October 2, 2008</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63627">
+<div class="social-comment-inner social-clearfix" id="comment-63627">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/54fc9c7f0f8c7aaa9ff2bdc35dc940ce?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/54fc9c7f0f8c7aaa9ff2bdc35dc940ce?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.lytebyte.com" rel="external nofollow" class="url">Joel Thomas</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63627" class="social-posted-when" target="_blank">June 27, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>great plugin for security. Just tried it out but looks like it needs CURL to be installed. Its working though it gave a constant warning message in the top of admin pages.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63627 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63630">
+<div class="social-comment-inner social-clearfix" id="comment-63630">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/64f7dd819c418152411e90b5143cbb6d?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/64f7dd819c418152411e90b5143cbb6d?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">no</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63630" class="social-posted-when" target="_blank">June 27, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Will this work in the UK? Other areas?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63630 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63631">
+<div class="social-comment-inner social-clearfix" id="comment-63631">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/cf28c40d59ca4d56c84762751fbe137f?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/cf28c40d59ca4d56c84762751fbe137f?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://lidercorp.org.mx" rel="external nofollow" class="url">Quoth, the Raven</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63631" class="social-posted-when" target="_blank">June 27, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I don’t know, I think about it and it doesn’t seem like a good idea for me, at least not for blogs. </p>
+<p>I mean, what will happen when (not if, but when) PhoneFactor is down? Then there is the problem of costs associated to the service. Phonefactor may be free, but I travel between (and live in) Canada and Mexico, and while in Mexico such a call will be free for me, that’s not entirely true in Canada (at least not with my current plan).  At least they ain’t using SMS (now that’s expensive!) to authenticate me just to enter my blog. </p>
+<p>However, I find it a real good idea to use it for banking services and online shopping. If I do a transaction, Phonefactor calls me, I say yes (or dial my pin, or press pound) and then the transaction proceeds as usual. Now that’s a good idea!</p>
+<p>Just my two cents.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63631 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63632">
+<div class="social-comment-inner social-clearfix" id="comment-63632">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/96bbc02b3a84737d0ad39da86b15946b?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/96bbc02b3a84737d0ad39da86b15946b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.alexrodrigueznotebook.com/" rel="external nofollow" class="url">Alex Rodriguez</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63632" class="social-posted-when" target="_blank">June 27, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I think this is very interesting. I like the idea and I am going to check it out. I am curious what were to happen if the service is down, can I disable it by simply removing the plugin?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63632 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-63635">
+<div class="social-comment-inner social-clearfix" id="comment-63635">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://brennan.sg/2008/06/28/nifty-login-with-phonefactor/" rel="external nofollow" class="url">Brennan. » Nifty Login with Phonefactor</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63635" class="social-posted-when" target="_blank">June 27, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Meet the Phonefactor WordPress plugin. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63635 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63639">
+<div class="social-comment-inner social-clearfix" id="comment-63639">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/a6bf723836db1bfb2755017109e8f29d?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/a6bf723836db1bfb2755017109e8f29d?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Piggy and Tqazzy</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63639" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@no – Yes, it does work outside of the U.S.</p>
+<p>30 countries, according to their website, as mentioned here:</p>
+<p><a href="http://www.phonefactor.com/products/global-services" rel="nofollow">http://www.phonefact[...]bal-services</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63639 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63644">
+<div class="social-comment-inner social-clearfix" id="comment-63644">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/b1408fd721123e64ea3dda4dd52cd368?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/b1408fd721123e64ea3dda4dd52cd368?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.davidtan.org" rel="external nofollow" class="url">DavidTan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63644" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Sounds interesting, but wondering if day to day users will even try to use it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63644 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63645">
+<div class="social-comment-inner social-clearfix" id="comment-63645">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/23e12888dcd87d07434b7621bc164958?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/23e12888dcd87d07434b7621bc164958?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://lud.icro.us" rel="external nofollow" class="url">johnbillion</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63645" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>So what happens when someone is trying to hack into your website and you start getting phone calls in the middle of the night…</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63645 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63648">
+<div class="social-comment-inner social-clearfix" id="comment-63648">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63648" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>There is an option to “stop calling me” in the phone prompts. We also catch this and reset the password on the WordPress side so that the calls will stop. Also note that the person would need to get your username and password correct before you’d get the call (at which point being woken up may actually be a good thing).</p>
+<p>To the previous question – yes CURL is required for making SSL connections from your WordPress install to the PhoneFactor server.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63648 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-63650">
+<div class="social-comment-inner social-clearfix" id="comment-63650">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://marksw.com/wordpress/?p=632" rel="external nofollow" class="url">×©×œ×™×—×ª ×¡×™×¡×ž× ×—×“ ×¤×¢×ž×™×ª ×‘SMS ×&nbsp;×©×ž×¢ ×œ×™ ×¨×¢×™×•×Ÿ ×ž×ž×© ×˜×•×‘ — ×ž×¡×¢×•×ª×™×• ×©×œ ×ž×¨×§ ×‘×©×‘×™×œ×™ ×”×—×™×™×</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63650" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] ×©×œ ×•×•×¨×“×¤×¨×¡ ×&nbsp;×ª×§×œ×ª×™ ×‘×ª×•×¡×£ PhoneFactor ×©×ž×¦×™×¢ ×©×œ×‘ ×&nbsp;×•×¡×£ ×‘×›×&nbsp;×™×¡×” ×œ×•×•×¨×“×¤×¨×¡ – ××—×¨×™ ×©×œ×™×—×ª ×©× ×”×ž×©×ª×ž×© […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63650 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63652">
+<div class="social-comment-inner social-clearfix" id="comment-63652">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/d8acfd672c38f59c4f38cedc59b24f0a?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/d8acfd672c38f59c4f38cedc59b24f0a?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.gpearce.co.uk" rel="external nofollow" class="url">Georgr</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63652" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>It doesn’t work for me on HostGator servers; I just get phone number invalid, although i’ve tried all the variations I can of the number, with the correct country codee..</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63652 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63653">
+<div class="social-comment-inner social-clearfix" id="comment-63653">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/fda33e4d6678cbe2c084b0c18d0f35a4?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/fda33e4d6678cbe2c084b0c18d0f35a4?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://pirate-king.com" rel="external nofollow" class="url">Chad</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63653" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>What would make this work so much better is simply this:<br>
+You enter your text message email address.<br>
+When you go to login, it emails a 4 digit PIN to your phone.<br>
+Use that to log in.<br>
+Straightforward simple two factor authentication.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63653 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63654">
+<div class="social-comment-inner social-clearfix" id="comment-63654">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f9cdacb218cb8f1f5a6b5f2c314f1c29?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f9cdacb218cb8f1f5a6b5f2c314f1c29?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Elmar</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63654" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Haven’t managed to get it working on T-Mobile. Who’s on charge for supporting this?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63654 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63655">
+<div class="social-comment-inner social-clearfix" id="comment-63655">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/30cb319a8b6690836c8d22ce2b6aa655?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/30cb319a8b6690836c8d22ce2b6aa655?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.phonefactor.com" rel="external nofollow" class="url">Sarah Fender</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63655" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>It’s great to see all the discussion about the PhoneFactor plugin.</p>
+<p>Some two-factor solutions do work like Chad suggested and send a text or e-mail with a one-time password or pin. There are some drawbacks to these types of systems. First they only work with cell phones and PDAs. PhoneFactor works with any landline or cell phone. Also, text messages often have a delay, which can be a real pain if you have to wait on the text message to complete your sign on. And instead of having to rekey a pin into the login page, with PhoneFactor you can simply answer the phone and press #.</p>
+<p>PhoneFactor is free for UK landlines, but not mobile phones (due to the high cost of calls to UK cell phones). I think that may be the reason for the invalid phone number message Georgr is getting. </p>
+<p>PhoneFactor Product Team</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63655 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63656">
+<div class="social-comment-inner social-clearfix" id="comment-63656">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/30cb319a8b6690836c8d22ce2b6aa655?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/30cb319a8b6690836c8d22ce2b6aa655?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.phonefactor.com" rel="external nofollow" class="url">Sarah Fender</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63656" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>PhoneFactor Support can help with questions related to the service. E-mail <a href="mailto:support@phonefactor.net">support@phonefactor.net</a>.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63656 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-63659">
+<div class="social-comment-inner social-clearfix" id="comment-63659">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://aroscoe.net/rpn/?p=1421" rel="external nofollow" class="url">Roscoe’s Public Notes » Blog Archive » Early links for Sun., 2008 June 29</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63659" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] AlexKing.org :: PhoneFactor 1.0 PhoneFactor is a WordPress plugin that provides an additional layer of security when logging in to your WordPress site. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63659 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63660">
+<div class="social-comment-inner social-clearfix" id="comment-63660">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/727c55e2ff7e21414c39d021e91f3297?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/727c55e2ff7e21414c39d021e91f3297?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://zebrajuice.com" rel="external nofollow" class="url">Darrin</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63660" class="social-posted-when" target="_blank">June 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Hey Alex,</p>
+<p>What if you have a Blog Network, with multiple authors &amp; multiple passwords for a each individual authors login?<br>
+How can you account for that?</p>
+<p>Also, perhaps, Phone Factor can be integrated along with the Audit Trail Plugin, whereas, not only you can add a level of security, but also know who &amp; when someone was logged in.  </p>
+<p>But, if you do have multiple authors &amp; logins, would each author use their own phone number?  Thereby, it still wouldn’t be secure for the main blog/site owner.   Anyone else have thoughts on this?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63660 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63682">
+<div class="social-comment-inner social-clearfix" id="comment-63682">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f1f12dce3a058f3da675546821f1fff1?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f1f12dce3a058f3da675546821f1fff1?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://thetechmind.com" rel="external nofollow" class="url">paan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63682" class="social-posted-when" target="_blank">June 29, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I agree with “Quoth, the Raven” that it is not so suitable for blogs. </p>
+<p>But this is a good idea for any kind of web application that require a high level of security. </p>
+<p>But then again some might argue that their blog is the most important thing in their lives, and it DOES require that level of security.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63682 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-63684">
+<div class="social-comment-inner social-clearfix" id="comment-63684">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://blog.fymmie.de/30/06/2008/unmittelbar-ist-gesterndigital/" rel="external nofollow" class="url">nichts » Blog Archiv » Unmittelbar ist gesterndigital</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63684" class="social-posted-when" target="_blank">June 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] wird dieser Dienst nun auch fÃ¼r Blogs, genauergesagt fÃ¼r WordPress-Blogs per Plugin. Das klingt… nÃ¼tzlich? Wenn ich Ã¼berlege, wie oft ich mich fÃ¼r kurze Zeit im Adminbereich […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63684 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-63685">
+<div class="social-comment-inner social-clearfix" id="comment-63685">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.pestaola.gr/2008/06/30/wordpress-phonefactor-security-plugin/" rel="external nofollow" class="url">Wordpress PhoneFactor - pestaola.gr blog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63685" class="social-posted-when" target="_blank">June 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] [via, photo via] Tags: pestaola, PhoneFactor, plugin, Software, wordpress, WordPress PhoneFactor   Σχετικά posts: WordPress Security Scanpngfix WordPress PluginWordPress.com Stats Plugin 1.1Please Link 2 MeÓôáôéóôéêÜ a la WordPress ãéá üëá ôá blogs […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63685 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63686">
+<div class="social-comment-inner social-clearfix" id="comment-63686">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/518f2a0fb595224fa459177d9e7c786b?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/518f2a0fb595224fa459177d9e7c786b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Monika</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63686" class="social-posted-when" target="_blank">June 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This is a joke! Please tell me that this is a joke…</p>
+<p>I’m from Austria, in Austria and in Germany every website must have  an impressum and in this impressum you have to tell the whole wide world your phone number (some jurist say ..never ever a mobile phone only landline) …</p>
+<p>….</p>
+<p>my phone number as a security element…. *lol*</p>
+<p>😉</p>
+<p>no hard feelings, but laughing ..</p>
+<p>Monika</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63686 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-63687">
+<div class="social-comment-inner social-clearfix" id="comment-63687">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.howtospoter.com/web-20/wordpress/wordpress-security" rel="external nofollow" class="url">WordPress Security | WordPress Web 2.0 Spot-Er</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63687" class="social-posted-when" target="_blank">June 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Phone Factor – brand new plugin by Alex King and creates a new cool option to secure login to your blog, here is quote from Alex “When you log in to your WordPress blog with PhoneFactor enabled, you receive a phone call asking you to press # to authorize. When you do so, you are logged in. If you do not, then the login attempt fails”. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63687 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63693">
+<div class="social-comment-inner social-clearfix" id="comment-63693">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/faba1deeb0fbe979e0975c7dcb9de1c0?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/faba1deeb0fbe979e0975c7dcb9de1c0?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://beardedmonkey.wordpress.com" rel="external nofollow" class="url">David</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63693" class="social-posted-when" target="_blank">June 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Monika,</p>
+<p>It’s not using the phone *number* as a security element — it’s using a phone *call* as a security element.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63693 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63729">
+<div class="social-comment-inner social-clearfix" id="comment-63729">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f1f12dce3a058f3da675546821f1fff1?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f1f12dce3a058f3da675546821f1fff1?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://thetechmind.com" rel="external nofollow" class="url">paan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63729" class="social-posted-when" target="_blank">July 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>the phone calls acts as a second authentication channel.<br>
+It is typical in security to add another, usually from a diffferent technology domain, authetication channel so that anyone that wants to steal your account will have to get your credential on both channel. </p>
+<p>In other words. Some one trying to steal your account will have to get your password AND have access to your phone calls. </p>
+<p>You don’t authenticate yourself with the phone number but as david said the phone call is the authentication process.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63729 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63739">
+<div class="social-comment-inner social-clearfix" id="comment-63739">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/37faf8a9cd19c315b1098a251afff89c?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/37faf8a9cd19c315b1098a251afff89c?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://drmikessteakdinner.com" rel="external nofollow" class="url">Dr. Mike Wendell</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63739" class="social-posted-when" target="_blank">July 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex, while I agree with you that this is a great idea, could you please drop a hint to Crowd Favorite to knock off the spamming.  They’ve hit a large number of sites, including the typepad, movable type, drupal, and edublogs support forums.  It really gives wordpress a bad name to see a plugin promoted via spam and to see your name associated with this.</p>
+<p><a href="http://wordpress.org/support/topic/186359" rel="nofollow">http://wordpress.org[...]topic/186359</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63739 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63740">
+<div class="social-comment-inner social-clearfix" id="comment-63740">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63740" class="social-posted-when" target="_blank">July 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I have no idea who is doing the spamming, but I can assure you it is <em>not</em> Crowd Favorite (which is my company). We built the plugin and I posted this blog post, which is all we’ve done the publicize it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63740 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63746">
+<div class="social-comment-inner social-clearfix" id="comment-63746">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9df7831853e4161a3747d0956473414f?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9df7831853e4161a3747d0956473414f?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.big-zoo.us/" rel="external nofollow" class="url">Chris Nielsen</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63746" class="social-posted-when" target="_blank">July 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’m here as well because someone named “breanan” posted about this WP plugin:</p>
+<p> I DARE YOU TO STEAL MY BLOG</p>
+<p>You canâ€™t with this new WP plugin. Developed by the master himself, alex king.<br>
+<a href="http://wordpress.org/extend/plugins/phonefactor/" rel="nofollow">http://wordpress.org[...]phonefactor/</a></p>
+<p>I find it hard to believe that you don’t know this person or have not hired them to promote your plug in. Perhaps they are connected with the phone service that is used…?</p>
+<p>But if it’s true I would distance yourself from them as much as possible and consider using another phone service that doesn’t need to spam. Nice feature, by the way, but overkill in my opinion just to keep someone from logging into a blog. And it still has nice options for abuse… <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":-)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63746 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63748">
+<div class="social-comment-inner social-clearfix" id="comment-63748">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/7ae672091c7857d9cc842bef7f8073dc?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/7ae672091c7857d9cc842bef7f8073dc?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.phonefactor.com" rel="external nofollow" class="url">Jeff</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63748" class="social-posted-when" target="_blank">July 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Sorry about the spam everyone.</p>
+<p>An overzealous intern recruited some friends back home (yes – India) and went a little post crazy.</p>
+<p>They have been reprimanded and it has been stopped immediately.</p>
+<p>Alex, nor his team at Crowd Favorite had anything to do with this.</p>
+<p>Our apologies.</p>
+<p>PhoneFactor Product Team</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63748 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-63904">
+<div class="social-comment-inner social-clearfix" id="comment-63904">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.phonefactor.com/news/phonefactor-makes-wordpress-logins-more-secure-than-most-online-bank-accounts.php" rel="external nofollow" class="url">PhoneFactor Makes WordPress Logins More Secure than Most Online Bank Accounts | PhoneFactor</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63904" class="social-posted-when" target="_blank">July 17, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] today announced that PhoneFactor, its phone-based authentication technology, is available as a free plug-in to WordPress, the largest self-hosted blogging tool in the world. With PhoneFactor, WordPressâ€™ hundreds of […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63904 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63946">
+<div class="social-comment-inner social-clearfix" id="comment-63946">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9e2baf363c53b3fc38bcf8224b04a553?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9e2baf363c53b3fc38bcf8224b04a553?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.guyrintoul.com" rel="external nofollow" class="url">Guy Rintoul</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63946" class="social-posted-when" target="_blank">July 21, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex,</p>
+<p>Just a suggestion – in the interests of openness, it may be better to explicitly call out that Crowd Favorite is your company. While I see you’ve used ‘we’ and ‘us’ in the post, it does come across like you’re trying to give an impartial review of a product – which you’re not. Most bloggers would put an explicit disclaimer in their post to avoid any perception of underhand bias…</p>
+<p>Guy</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63946 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63947">
+<div class="social-comment-inner social-clearfix" id="comment-63947">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63947" class="social-posted-when" target="_blank">July 21, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Interesting. I’ve got bit about Crowd Favorite on my home page, in my sidebar, and I listed this as a “Case Study”… I guess I thought I was making it clear that it was something we built. I never intended not to.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63947 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63972">
+<div class="social-comment-inner social-clearfix" id="comment-63972">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9cd60d936860f399df924df8d4bd0c42?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9cd60d936860f399df924df8d4bd0c42?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Paradox</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63972" class="social-posted-when" target="_blank">July 23, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Interesting. I saw the ad for this service on tv, and thought it might be useful.</p>
+<p>Ill have to try it.</p>
+<p>I presume if you MUST access your blog and the service is down, you can just log into the server and delete the plugin file?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63972 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-63973">
+<div class="social-comment-inner social-clearfix" id="comment-63973">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-63973" class="social-posted-when" target="_blank">July 23, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>I presume if you MUST access your blog and the service is down, you can just log into the server and delete the plugin file?</p></blockquote>
+<p>Yes, that would work fine.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63973 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-64148">
+<div class="social-comment-inner social-clearfix" id="comment-64148">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/883b949648750f963b526ebf4d761991?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/883b949648750f963b526ebf4d761991?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">hypotheek</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-64148" class="social-posted-when" target="_blank">August 6, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This is a very cool plugin. I do agree with some of the comments that there might be some limitations if there is any problem in the chain of layers. But i think if there is a concrete error, you can alway’s enter your server and change and get into wordpress. I generaly like it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64148 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-64452">
+<div class="social-comment-inner social-clearfix" id="comment-64452">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.garryconn.com/prevent-your-wordpress-blog-from-getting-hacked.php" rel="external nofollow" class="url">Prevent Your WordPress Blog From Getting Hacked</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-64452" class="social-posted-when" target="_blank">August 29, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] You can learn more about Phone Factor and download it here. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64452 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-64624">
+<div class="social-comment-inner social-clearfix" id="comment-64624">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/b0c45084a92c373dee185496a615aa57?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/b0c45084a92c373dee185496a615aa57?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.pimpology.co.uk" rel="external nofollow" class="url">Dan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-64624" class="social-posted-when" target="_blank">September 9, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This is fantastic!<br>
+Sorry for bumping and commenting on a old post, but this is a brilliant addon.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64624 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-64875">
+<div class="social-comment-inner social-clearfix" id="comment-64875">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/42b8931218bac827e141edb1b49a5e05?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/42b8931218bac827e141edb1b49a5e05?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Rich</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-64875" class="social-posted-when" target="_blank">October 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>What happens if you lose your phone, run out of batteries, or just dont get a singnal?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64875 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-64883">
+<div class="social-comment-inner social-clearfix" id="comment-64883">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/bfa42165a8ccf23a0b1560355ac9cf28?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/bfa42165a8ccf23a0b1560355ac9cf28?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">MHeinrich</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="phonefactor-10.html#comment-64883" class="social-posted-when" target="_blank">October 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I think those are valid concerns, but I have to say that the reality of recovering from all of those situations with my phone is much simpler/convenient than any of the alternative problems with tokens. Have you ever had to carry a SecurID token or keep track of a PKI certificate? I prefer waterboarding to being the IT person that has to manage that. And if you’re a consumer, way too expensive for anything but the most valuable of web properties (e.g. E*trade account with 50k in it). </p>
+<p>Worst case, I can’t login unless I have a phone signal and my charger. If I lose my cell phone, I have to replace it anyhow. If I lose a token or cert, again … waterboarding, please.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64883 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2008/06/27/phonefactor-10&amp;post_id=3169">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="../23/openedhand-redesign.html" rel="prev">OpenedHand Redesign</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2008/07/01/texas-bar-sues-church" rel="next">Texas Bar Sues Church</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="phonefactor-10.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="phonefactor-10.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.385 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:58 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-240177{ max-width: 240px; max-height: 177px;} .js-hidpi-240178{ max-width: 240px; max-height: 178px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

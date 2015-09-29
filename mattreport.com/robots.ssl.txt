@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp-admin/
+
+User-agent: Googlebot
+Allow: /wp-admin/css
+Allow: /wp-admin/js

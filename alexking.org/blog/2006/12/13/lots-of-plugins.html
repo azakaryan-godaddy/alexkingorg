@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>Building alexking.org 2.0, part 7: Plugins : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Building alexking.org 2.0, part 7: Plugins Comments Feed" href="http://alexking.org/blog/2006/12/13/lots-of-plugins/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="CodePress" href="http://alexking.org/blog/2006/12/13/codepress">
+<link rel="next" title="Install RAM, Knock Wood" href="http://alexking.org/blog/2006/12/13/install-ram-knock-wood">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="lots-of-plugins.html">
+<link rel="shortlink" href="http://alexking.org/?p=2568">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Building alexking.org 2.0, part 7: Plugins">
+<meta property="og:url" content="http://alexking.org/blog/2006/12/13/lots-of-plugins">
+<meta property="og:description" content="Note: This is the seventh in a series of articles about the building of alexking.org 2.0. One of the great strengths of WordPress is its plugin system. In the upcoming 2.1 release, there is very li...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2006/12/13/lots-of-plugins">
+<meta name="twitter:title" content="Building alexking.org 2.0, part 7: Plugins">
+<meta name="twitter:description" content="Note: This is the seventh in a series of articles about the building of alexking.org 2.0. One of the great strengths of WordPress is its plugin system. In the upcoming 2.1 release, there is very little you can't do as a drop-in plugin. This makes it easy to use WordPress as a CMS and keep your customizations separate from the main codeline; which in turn simplifies upgrades and maintenance. I used the plugin architecture extensively">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-2568 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-2568" class="clearfix post-2568 post type-post status-publish format-standard hentry category-alexkingorg category-development category-projects category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="lots-of-plugins.html" title="Permalink to Building alexking.org 2.0, part 7: Plugins" rel="bookmark">Building alexking.org 2.0, part 7: Plugins</a></h1>
+		<time class="entry-date" datetime="2006-12-13T12:57:04+00:00" pubdate=""> December 13, 2006</time>
+	</header>
+	<div class="entry-content">
+<p class="banner"><strong>Note:</strong> This is the seventh in a <a href="../../11/02/building-v2-part1.html">series of articles</a> about the building of alexking.org 2.0.</p>
+<p>One of the great strengths of <a href="http://wordpress.org/" rel="external">WordPress</a> is its plugin system. In the upcoming 2.1 release, there is very little you can’t do as a drop-in plugin. This makes it easy to use WordPress as a CMS and keep your customizations separate from the main codeline; which in turn simplifies upgrades and maintenance.</p>
+<p>I used the plugin architecture extensively to customize WordPress as I wanted it for my new site. Almost all of the functionality I added was done as plugins – many of which I’ve already released, others are still being polished for release.</p>
+<p>I currently have <em>23</em> active plugins, and that doesn’t include my 404 Notifier plugin or <a href="http://dougal.gunters.org" rel="external">Dougal</a>‘s <a href="http://dougal.gunters.org/blog/2004/08/30/text-filter-suite" rel="external">Talk Like a Pirate plugin</a> (both of which I activate as needed).</p>
+<p>I think it’s easiest to just go through them as a list. Anything that isn’t linked is probably available on my <a href="../../../../projects/wordpress.html">WordPress plugins page</a> (I’ve tried to note exceptions).</p>
+<ul>
+<li><strong>404 Notifier</strong> – this was written by me for my new site. It logs 404 (file not found) errors to help you fix them. This one is no longer active.</li>
+<li><strong><a href="http://frenchfragfactory.net/ozh/my-projects/wordpress-admin-menu-drop-down-css/" rel="external">Admin Drop Down Menu</a></strong> – written by Ozh, this is a great time saver.</li>
+<li><strong>AK Custom Code</strong> – this was written by me for my new site. It includes the URL and query handling stuff to keep my <a href="../../../../sports/golf.html">golf blog</a> separate from my <a href="../../../../blog.html">main blog</a>, custom template functions, ad handling code and a bunch of other misc. little stuff. This one isn’t released.</li>
+<li><strong>Articles</strong> – this was written by me for my new site. It allows you to choose posts to highlight outside of the normal blog chronology. You can see it in action on my <a href="http://alexking.org/articles">articles page</a>.</li>
+<li><strong><a href="http://kimmo.suominen.com/sw/dofollow/" rel="external">Do Follow</a></strong> – written by Kimmo Suominen. This turns off the ‘nofollow’ on your comment links after a certain period of time.</li>
+<li><strong><a href="http://www.arnebrachhold.de/redir/sitemap-home/" rel="external">Google Sitemaps</a></strong> – written by Arne Brachhold. Create a sitemap of your WordPress content, suitable for submitting to Google, Yahoo and MSN.</li>
+<li><strong><a href="http://kashou.net/blog/inline-ajax-comments" rel="external">Inline AJAX Comments</a></strong> – written by Peter Kashou. This is the plugin that loads the comments below the post on the home page, etc. I made a number of changes to this for my needs, at some point I might get around to making it both IE friendly and generic enough that I can send changes back to Peter.</li>
+<li><strong>Last Modified Function</strong> – written by me a while ago. This simply shows the last modified date/time of a page.</li>
+<li><strong>Limit Posts to Parent Category</strong> – written by me for my new site, based on <a href="http://boren.nu" rel="external">Ryan Boren</a>‘s <a href="http://dev.wp-plugins.org/browser/front-page-cats/" rel="external">Front Page Cats plugin</a>. This is the main SQL filtering for separating the golf blog from the main blog. It’s heavily customized for my site and isn’t suitable for release.</li>
+<li><strong>Link Harvest</strong> – written by me for my new site. This creates a links list from the links in your content. You can see it in action on my <a href="http://alexking.org/links">links page</a>. I’ve been working for the last few weeks to get it ready to release.</li>
+<li><strong>Link Mojo</strong> – written by me for my new site. This is some basic link blog functionality, working the way I wanted it to. I’ve just about got it ready for release.</li>
+<li><strong>Old Post Alert</strong> – written by me for my new site. This shows a banner in the comments area indicating the age of the post being commented on and encouraging commentors to look in the more recent posts to see if their comment is still relevant.</li>
+<li><strong>Page Friendly Excerpts</strong> – written by me for my <a href="http://kingdesign.net">King Design web site</a>. This creates excerpts on the fly for all posts and pages so that I can show them all together in my search results. Very simple, but I could release it if there is demand.</li>
+<li><strong>Popularity Contest</strong> – written by me a year or so ago. This tracks which of your posts are most popular based on your visitor’s interaction with your site.</li>
+<li><strong><a href="http://dancameron.org/wordpress/wordpress-plugins/search-everything-wordpress-plugin/" rel="external">Search Everything</a></strong> – written by <a href="http://dancameron.org/" rel="external">Dan Cameron</a>, updated to WordPress 2.1 compatibility by me. This plugin allows searches to include content from pages, comments, etc. as well as just posts.</li>
+<li><strong>Share This</strong> – written by me for my new site. This wraps the “post to social site” and “e-mail to someone” functionality in a single friendly link.</li>
+<li><strong>Shortcut Macros</strong> – written by me for my new site. This allows you to define little snippets to be expanded as longer text strings. It’s great for the lazy. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"> I expect to have this released pretty soon.</li>
+<li><strong><a href="http://unknowngenius.com/blog/wordpress/spam-karma/" rel="external">Spam Karma 2</a></strong> – written by <a href="http://unknowngenius.com/blog/" rel="external">dr. Dave</a>. <a href="http://gfmorris.net/" rel="external">Geof Morris</a> recommended this to me a while back, it does a pretty good job.</li>
+<li><strong>Title Reverser</strong> – written by me for my new site. This reverses all aspects of the page title in WordPress. There are similar plugins out there already, so I don’t plan to release this one.</li>
+<li><strong>WordPress Mobile Edition</strong> – updated by me for my new site. This presents a mobile-friendly version of your site to visitors on cell phones, PDAs and other handheld devices.</li>
+<li><strong><a href="http://firasd.org/studio/wp/wp-cc" rel="external">WP-CC</a></strong> – written by <a href="http://firasd.org/" rel="external">Firas Durri</a>. This adds a machine readable <a href="http://creativecommons.org" rel="external">Creative Commons</a> license to each of my pages. Development on this plugin is dead and it has been superseded by <a href="http://wiki.creativecommons.org/WpLicense" rel="external">WpLicense</a>. However WP-CC worked exactly as I wanted it to, so I’m using it instead.</li>
+<li><strong>WP Photos</strong> – updated by me for my new site. This is the system I use to manage adding images I’m hosting on this server to my blog posts. There are lots of other photo gallery plugins out there now, so I do not have plans to release this again.</li>
+<li><strong>WP Since Last Visit</strong> – updated by me for my new site. This shows the little ‘New’ indicator by new posts and comments. I’ve got the old version available for download still, but the installation steps will probably keep me from releasing the new version. People had a really hard time with similar requirements when I first released Share This and I got a lot of rude e-mail as a result of the installation frustration.</li>
+<li><strong>WP Unformatted</strong> – written by me a <em>long</em> time ago. This turns off the default WordPress auto-formatting on a per-post/page basis.</li>
+</ul>
+<p>Whew – that’s a lot of plugins! Is it too many? How many is too many? I’ll try to cover that next time.</p>
+<p class="threads-post-notice">This post is part of the following projects: <a href="../../../../project/old-post-alert.html">Old Post Alert</a>, <a href="../../../../project/since-last-visit.html">Since Last Visit</a>, <a href="../../../../project/404-notifier.html">404 Notifier</a>, <a href="../../../../project/shortcut-macros.html">Shortcut Macros</a>, <a href="">ShareThis</a>, <a href="../../../../project/link-harvest.html">Link Harvest</a>. View the project timelines for more context on this post.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="lots-of-plugins.html#comments">27 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/alexkingorg.html" rel="category tag">alexking.org</a>, <a href="../../../topic/development.html" rel="category tag">Development</a>, <a href="../../../topic/projects.html" rel="category tag">Projects</a>, <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="lots-of-plugins.html#" rel="social-all"><span>27 Replies</span></a></li>
+			<li class="social-wordpress"><a href="lots-of-plugins.html#" rel="wordpress"><span>22 Comments</span></a></li>
+			<li class="social-twitter"><a href="lots-of-plugins.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="lots-of-plugins.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="lots-of-plugins.html#" rel="social-pingback"><span>5 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was February 18, 2008</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53453">
+<div class="social-comment-inner social-clearfix" id="comment-53453">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4c90db441cf77918bbe79846596d8fe9?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4c90db441cf77918bbe79846596d8fe9?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://isaiahsix.org/" rel="external nofollow" class="url">Gregory Pittman</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53453" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Very insightful. Thanks, Alex. I was hoping to use the Since Last Visit plugin because I find it helpful when visiting your site and I haven’t seen anything else like it out there. But thanks for the explanation as to why it won’t be updated.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53453 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53454">
+<div class="social-comment-inner social-clearfix" id="comment-53454">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/72f4ad8b9001ebda368701f504d45e61?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/72f4ad8b9001ebda368701f504d45e61?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.klasen.us" rel="external nofollow" class="url">Mr Papa</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53454" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>hard installation for Share This????  wow…</p>
+<p>release em all I say 😉</p>
+<p>I too was hoping for the since last visit plugin…</p>
+<p>very nice job indeed…</p>
+<p>Mr Papa</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53454 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53455">
+<div class="social-comment-inner social-clearfix" id="comment-53455">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/200f3ca83506614ed43194aff36a3968?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/200f3ca83506614ed43194aff36a3968?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://dancameron.org" rel="external nofollow" class="url">Dan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53455" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks for reminding me that I needed to update you as a contributer and to update that page.</p>
+<p>Thanks again for the help.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53455 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53456">
+<div class="social-comment-inner social-clearfix" id="comment-53456">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/5e704d8e8cba411c34679463a21781ea?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/5e704d8e8cba411c34679463a21781ea?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.podkit.co.uk" rel="external nofollow" class="url">parrott</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53456" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Do you know how long it will be before you are willing to release the WP Photos plugin? And the Link Mojo sounds good – is this for internal linking?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53456 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53457">
+<div class="social-comment-inner social-clearfix" id="comment-53457">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3a525210ef3067b28fcf28c1837fced8?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/3a525210ef3067b28fcf28c1837fced8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://nslog.com/" rel="external nofollow" class="url">Erik J. Barzeski</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53457" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Does anyone know when WP 2.1 will be available (or have a good guess)?</p>
+<p>Alex, you should consider adding the “Subscribe to Comments” plugin. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53457 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53460">
+<div class="social-comment-inner social-clearfix" id="comment-53460">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53460" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Looks like <a href="http://comox.textdrive.com/pipermail/wp-hackers/2006-December/009961.html">January for WP 2.1</a></p>
+<p>I’ll think about the ‘subscribe to comments’ plugin – since I’ve yet to fix the broken per-post comment feeds it’s an exceedingly reasonable request. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53460 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53464">
+<div class="social-comment-inner social-clearfix" id="comment-53464">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/7059d58712404b182b7c032d6438ef62?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/7059d58712404b182b7c032d6438ef62?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.davidgagne.net/" rel="external nofollow" class="url">dvg</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53464" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’m shocked that you don’t have the plugin which shows which plugins you have.</p>
+<p>src: <a href="http://www.viper007bond.com/wordpress-plugins/vipers-plugins-used/" rel="nofollow">http://www.viper007b[...]lugins-used/</a></p>
+<p>in action on my site: <a href="http://www.davidgagne.net/?page_id=6195" rel="nofollow">http://www.davidgagn[...]page_id=6195</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53464 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53466">
+<div class="social-comment-inner social-clearfix" id="comment-53466">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/a5731d869dd8fcf8453f7491ab436f36?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/a5731d869dd8fcf8453f7491ab436f36?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.viper007bond.com/" rel="external nofollow" class="url">Viper007Bond</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53466" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Speaking of which, I <em>really</em> need to update that dang plugin (last updated over a year ago).</p>
+<p>It’s currently a pain to use for the novice user and just needs a general recode. *adds it to his big list of things to do*</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53466 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53467">
+<div class="social-comment-inner social-clearfix" id="comment-53467">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://gfmorris.net/" rel="external nofollow" class="url">Geof F. Morris</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53467" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Good gracious, Alex!</p>
+<p>And folks, if you want Alex to release a plugin, toss him a couple bucks.  That’ll give him some incentive: he’s already done the hard work, and all that would remain is time to polish it up and write up a simple README.  As much as we love his work and how he provides us for free, he’s an indie developer and has bills just like the rest of us. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53467 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53468">
+<div class="social-comment-inner social-clearfix" id="comment-53468">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53468" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>heâ€™s already done the hard work, and all that would remain is time to polish it up and write up a simple README.</p></blockquote>
+<p>Actually, this is what you’d expect, but it’s really the opposite. Creating the code so that it works for me is probably 40% of the time spent. The other 60% is spent testing on WP 2.0.x, 2.1a, with the default theme, adding configuration options and writing up the README.</p>
+<p>Yes, 60% of what I do to release a plugin is all for you guys.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53468 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53470">
+<div class="social-comment-inner social-clearfix" id="comment-53470">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://gfmorris.net/" rel="external nofollow" class="url">Geof F. Morris</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53470" class="social-posted-when" target="_blank">December 13, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks for the correction, Alex.  <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53470 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53472">
+<div class="social-comment-inner social-clearfix" id="comment-53472">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4484dc83ae74c43739e8d5bec80f7dbb?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4484dc83ae74c43739e8d5bec80f7dbb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.ejecutive.co.uk/" rel="external nofollow" class="url">Weiran</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53472" class="social-posted-when" target="_blank">December 14, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Can’t wait for Link Harvest :).</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53472 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53474">
+<div class="social-comment-inner social-clearfix" id="comment-53474">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/cbdf701948177522164b24238ce8f310?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/cbdf701948177522164b24238ce8f310?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://thedarkestevil.com/" rel="external nofollow" class="url">Kyle Korleski</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53474" class="social-posted-when" target="_blank">December 14, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Personally, I like WordPress for it’s simplicity as well.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53474 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53476">
+<div class="social-comment-inner social-clearfix" id="comment-53476">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/eb6b61957657e40c37818a148c9359df?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/eb6b61957657e40c37818a148c9359df?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.blognitivedissonance.com" rel="external nofollow" class="url">danithew</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53476" class="social-posted-when" target="_blank">December 14, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I like the plugin infrastructure as well.  Your since-last-visit plugin looks great (as it appears on your site) and I’m hoping to install it on my site.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53476 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53478">
+<div class="social-comment-inner social-clearfix" id="comment-53478">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4c90db441cf77918bbe79846596d8fe9?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4c90db441cf77918bbe79846596d8fe9?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://isaiahsix.org/" rel="external nofollow" class="url">Gregory Pittman</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53478" class="social-posted-when" target="_blank">December 14, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex, You have chosen to display entire posts on your blog’s front page, rather than just an excerpt. Different developers have different thoughts on this subject. Can you describe why you chose to do it the way you did?</p>
+<p>Just curious.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53478 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53505">
+<div class="social-comment-inner social-clearfix" id="comment-53505">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53505" class="social-posted-when" target="_blank">December 15, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>:shrug: I can’t think of a good reason to only show an excerpt.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53505 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53557">
+<div class="social-comment-inner social-clearfix" id="comment-53557">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/add06b2cda1c52aeda2004c76480fe22?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/add06b2cda1c52aeda2004c76480fe22?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.ilovecode.com" rel="external nofollow" class="url">Sara</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53557" class="social-posted-when" target="_blank">December 18, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>It was a great list Alex. I don’t think there can really be such a thing as too many or too little plugins. Plugins are designed to give us extra functionality and I think if that functionality is wanted or needed, no harm in adding a plugin. Since they are stand-alone; they shouldn’t interfere with anything else on the blog.</p>
+<p>I completely agree with you about writing plugins. Well over a year ago I wrote a plugin for myself and I had started to get it ready for release but then I just got bus with other things Just recently I picked it back up and it has been a major chore to really get it to work so someone can just drag and drop it into multiple versions of WP. My most recent conflict was when I upgraded to php5 on my new server. So hopefully it will be released before the new year. Keep up the good work!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53557 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53800">
+<div class="social-comment-inner social-clearfix" id="comment-53800">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f80e4333280529484d4ab02cecd612b6?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f80e4333280529484d4ab02cecd612b6?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.mikekoepke.com" rel="external nofollow" class="url">Mike</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53800" class="social-posted-when" target="_blank">January 2, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex,</p>
+<p>I’d like to see the latest WP Since Last Visit as well even if it is distributed with tons of disclaimers – “Stop do not use unless you know what you are doing”, “Unsupported so don’t email me”, etc.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53800 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-53801">
+<div class="social-comment-inner social-clearfix" id="comment-53801">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-53801" class="social-posted-when" target="_blank">January 2, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>The currently available version works fine (I used it until a couple of months ago). The new version just works with my internal theme better.</p>
+<p>It would take a long time to document how to implement the new version – if someone wants to pay for that time I’ll be happy to do it and release it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-53801 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-54696">
+<div class="social-comment-inner social-clearfix" id="comment-54696">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/95036179e752b2f5f44f13d231448730?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/95036179e752b2f5f44f13d231448730?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">nop</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-54696" class="social-posted-when" target="_blank">February 26, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>hi</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-54696 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-55583">
+<div class="social-comment-inner social-clearfix" id="comment-55583">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../../11/02/building-v2-part1.html" rel="external nofollow" class="url">Building alexking.org 2.0, Part 1: Overview | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-55583" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] New WordPress plugins written/updated for the new site. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55583 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-56225">
+<div class="social-comment-inner social-clearfix" id="comment-56225">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/1c97720276a7d6452bcf9a8d34592ec3?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/1c97720276a7d6452bcf9a8d34592ec3?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.ryanpark.org" rel="external nofollow" class="url">Ryan Park</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-56225" class="social-posted-when" target="_blank">May 15, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Are you still planning on releasing Link Mojo?  I’d love a simple and easy way to make “link blog” posts like you do.</p>
+<p>By the way, I *love* your weekly “Around the Web” feature.  You always pick a great selection of interesting links!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-56225 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-56228">
+<div class="social-comment-inner social-clearfix" id="comment-56228">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-56228" class="social-posted-when" target="_blank">May 15, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks for the reminder, yes I still plan to release it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-56228 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-57315">
+<div class="social-comment-inner social-clearfix" id="comment-57315">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://shylockblogging.com/creating-plugins-or-themes-whats-better-for-backlinks-0801/" rel="external nofollow" class="url">Creating Plugins Or Themes, What’s Better For Backlinks? | Shylock Blogging</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-57315" class="social-posted-when" target="_blank">August 1, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] 3,485 links pointing to that page. Among them, links from Andy Beard, Mashable, ChrisG, LifeHacker, Alex King, Pearsonified. Just some of the blogs that linked to that download page, all from blogs I respect […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-57315 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-60441">
+<div class="social-comment-inner social-clearfix" id="comment-60441">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.yabfog.com/wp/2006/12/14/alex-king-wordpress-plugin-roundup" rel="external nofollow" class="url">Alex King WordPress Plugin Roundup » Yabfog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-60441" class="social-posted-when" target="_blank">December 27, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] b2/b2evolution hacker), is writing a series of posts about his recent redesign of alexking.org. His latest post describes the numerous WordPress plugins he’s using, many of which he […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-60441 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-60508">
+<div class="social-comment-inner social-clearfix" id="comment-60508">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://learntoduck.com/micah/top-posts-and-searches-of-2007" rel="external nofollow" class="url">Top Posts and Searches of 2007</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-60508" class="social-posted-when" target="_blank">December 31, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] friend Alex King writes a lot of wordpress plugins. Some he wrote to solve problems on his own blog, some were written for clients of his company, […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-60508 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-61509">
+<div class="social-comment-inner social-clearfix" id="comment-61509">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://wpmued.org/2008/02/18/wordpress-as-cms/" rel="external nofollow" class="url">» WordPress as CMS WPMu Ed</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="lots-of-plugins.html#comment-61509" class="social-posted-when" target="_blank">February 18, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Building alexking.org 2.0, part 7: Plugins | alexking.orgAlexKing takes you through the Plugins he is using in his latest iteration of alexking.org […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-61509 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2006/12/13/lots-of-plugins&amp;post_id=2568">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2006/12/13/codepress" rel="prev">CodePress</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2006/12/13/install-ram-knock-wood" rel="next">Install RAM, Knock Wood</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="lots-of-plugins.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="lots-of-plugins.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.319 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:01:15 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

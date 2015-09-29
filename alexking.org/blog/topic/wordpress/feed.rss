@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; WordPress</title>
+	<atom:link href="http://alexking.org/blog/topic/wordpress/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Request: Alex King Rememberances</title>
+		<link>http://alexking.org/blog/2015/08/24/rememberances</link>
+		<comments>http://alexking.org/blog/2015/08/24/rememberances#comments</comments>
+		<pubDate>Mon, 24 Aug 2015 21:01:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=22017</guid>
+		<description><![CDATA[Dear WordPress community, My apologies for the selfish and personal nature of this post. I hope you will forgive me given the circumstances. As most of you know, I was diagnosed with stage 4 colon cancer in 2013. One of the things my wife and I are trying to do is put together some information&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Dear WordPress community,</p>
+<p>My apologies for the selfish and personal nature of this post. I hope you will forgive me given the circumstances. As most of you know, I was <a href="http://alexking.org/blog/thread/cancer">diagnosed with stage 4 colon cancer in 2013</a>.</p>
+<p>One of the things my wife and I are trying to do is put together some information about my career that will hopefully give my 6 year-old daughter a better sense of who I was as an adult. She knows me as &#8220;dad&#8221;, but when she gets older she&#8217;ll be curious about who I was to my peers and colleagues.</p>
+<p>I&#8217;ve spent more than a decade in the WordPress community and I&#8217;d like to request that you to share a few thoughts or remembrances about me that we can compile and share with her when the time is right.</p>
+<p>If we have crossed paths or if I have managed to do something that you found helpful, I&#8217;d love it if you would take a few minutes to write it down and <a href="http://alexking.org/contact">send it to me</a> or my wife: heatherkingcom@gmail.com. If you&#8217;re willing to have the story shared publicly, please indicate that accordingly. By default, we will keep everything confidential.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/cancer">Cancer</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/24/rememberances/feed</wfw:commentRss>
+		<slash:comments>142</slash:comments>
+		</item>
+		<item>
+		<title>Personal WordPress Theme</title>
+		<link>http://alexking.org/blog/2015/08/22/personal-wordpress-theme</link>
+		<comments>http://alexking.org/blog/2015/08/22/personal-wordpress-theme#comments</comments>
+		<pubDate>Sat, 22 Aug 2015 19:11:51 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21662</guid>
+		<description><![CDATA[I&#8217;ve forked the FavePersonal theme to release a few changes that I&#8217;ve made to it for my own site. An improved Gallery feature, including support for WordPress shortcode galleries. If you&#8217;re uploading photos directly to your gallery post, you can use drag and drop to set the order for them now. The Post Formats admin&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve forked the FavePersonal theme to release a few changes that I&#8217;ve made to it for my own site.</p>
+<ol>
+<li>An improved Gallery feature, including support for WordPress shortcode galleries. If you&#8217;re uploading photos directly to your gallery post, you can use drag and drop to set the order for them now.</li>
+<li>The Post Formats admin UI is now responsive and works great on mobile devices.</li>
+<li>Remove the Social plugin from the theme (requested by WP.org) &#8211; it can still be installed separately.</li>
+<li>Make tons of misc. code changes to match new coding standards vs. previous coding standards (and pass the theme check).</li>
+</ol>
+<p><img src="http://alexking.org/wp-content/uploads/2015/08/maine-gallery-510x469.png" alt="Gallery" width="480" height="441" class="alignnone size-medium-img wp-image-22028" /></p>
+<p>I was originally hoping to have the modified theme hosted on WordPress.org but after weeks of waiting for review, they responded that features of the theme like <a href="https://themes.trac.wordpress.org/ticket/24520#comment:4">choosing colors and post formats</a> should be done in separate plugins instead. This makes no sense to me as these are core features of the theme, but happily there are great places like <a href="https://github.com/alexkingorg/wp-personal">GitHub</a> that will host the project for us.</p>
+<p>The Personal theme is quite assuredly <a href="https://www.google.com/webmasters/tools/mobile-friendly/?url=alexking.org">mobile-friendly</a>, which makes it a great fit for the importance Google&#8217;s is placing on mobile-friendly sites lately.</p>
+<p>You can download from the <a href="https://github.com/alexkingorg/wp-personal/releases">releases page</a> on GitHub or, for you technically minded, grab the reop with git. Just make sure to also grab the submodules.</p>
+<p><code>git clone git@github.com:alexkingorg/wp-personal.git<br />
+cd wp-personal<br />
+git submodule update --init --recursive</code></p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/personal">Personal Theme</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/22/personal-wordpress-theme/feed</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>More micro-blogging workflows</title>
+		<link>http://www.manton.org/2015/06/more-quick-blogging-workflows.html</link>
+		<comments>http://alexking.org/blog/2015/06/28/micro-blogging-workflows#comments</comments>
+		<pubDate>Mon, 29 Jun 2015 01:53:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-2097310c4ccd2c9bdaac738aaa90b519</guid>
+		<description><![CDATA[Manton writes about a few workflows here the follows it up with the post I&#8217;ve linked to. FWIW I&#8217;ve posted to my own site first then passed stuff along to Twitter and Facebook since we released the Social plugin for WordPress back in 2011. Each of my posts has a link to its counterpart on&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/micro-blogging-workflows">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Manton writes about a few workflows <a href="http://www.manton.org/2015/06/four-microblogging-community-tips.html">here</a> the follows it up with the post I&#8217;ve linked to.</p>
+<p>FWIW I&#8217;ve posted to my own site first then passed stuff along to Twitter and Facebook since <a href="http://alexking.org/blog/2011/08/11/wordpress-social-plugin">we released the Social plugin for WordPress</a> back in 2011. Each of my posts has a link to its counterpart on Twitter and Facebook, and reactions on those networks are brought back in as comments on this site. Special handling is done to thread comments based on Twitter&#8217;s reply_to property, as well as a retweets, etc. More details about how this works can be found in the <a href="https://crowdfavorite.com/blog/2014/01/23/own-your-online-identity/">blog post I wrote back in January</a> on the Crowd Favorite blog.</p>
+<p>When I&#8217;m mobile, I&#8217;ve found that using the WordPress admin web interface is better for my needs than the iOS app. Mainly because of additional post meta that I utilize on this site.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/micro-blogging-workflows">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/28/micro-blogging-workflows/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Setting the wp_remote_get() User Agent</title>
+		<link>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get</link>
+		<comments>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get#comments</comments>
+		<pubDate>Fri, 24 Apr 2015 00:19:48 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21651</guid>
+		<description><![CDATA[I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working: $response = wp_remote_get($url, array( &#160;&#160;'timeout' => 20, &#160;&#160;'User-Agent'&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I was recently trying to make some API requests from within WordPress using `wp_remote_get()`, but the site I was asking for data from was rejecting requests from the default WordPress User Agent. I tried to set the user agent to something different, but it still wasn&#8217;t working:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>Thankfully, <a href="http://ottopress.com">Otto</a> spotted my problem. The `user-agent` key needs to be lowercase so that it is picked up properly by the WordPress core code. This works:</p>
+<p><code>$response = wp_remote_get($url, array(<br />
+&nbsp;&nbsp;'timeout' => 20,<br />
+&nbsp;&nbsp;'<b>u</b>ser-<b>a</b>gent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:20.0) Gecko/20100101 Firefox/20.0'<br />
+));</code></p>
+<p>And there you have it. It&#8217;s always nice to have an extra set of eyes on some code.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/04/23/user-agent-wp_remote_get/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>In Praise of BackupBuddy</title>
+		<link>http://alexking.org/blog/2015/03/15/backupbuddy</link>
+		<comments>http://alexking.org/blog/2015/03/15/backupbuddy#comments</comments>
+		<pubDate>Sun, 15 Mar 2015 20:05:14 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21405</guid>
+		<description><![CDATA[I&#8217;m thrilled with my new hosting set-up for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of BackupBuddy from iThemes. 5 minutes later I had BackupBuddy installed, with&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m thrilled with my <a href="https://alexking.org/blog/2015/02/25/hosted-on-webfaction">new hosting set-up</a> for this site, however WebFaction doesn&#8217;t offer daily backups. I knew could spend the time to write a little script to export my database and pass it along to another storage location, but then I thought of <a href="https://ithemes.com/purchase/backupbuddy/">BackupBuddy from iThemes</a>.</p>
+<p>5 minutes later I had BackupBuddy installed, with a nightly job configured to do a full export of my database and store the last 10 days of backups in my Dropbox account.</p>
+<p>Sure, I could have written the code to do this myself. It&#8217;s always tempting to do-it-yourself when you know you <em>can</em> do something. The key is to ask yourself if you <em>should</em> do something. It would have taken much more than 5 minutes to get even a simple backup script written and configured; and I definitely wouldn&#8217;t have had the storage and and automation options that BackupBuddy provides out of the box.</p>
+<p>If you need hassle-free backups for your self-hosted WordPress site<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>, give BackupBuddy a try.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+If you have a website, <em>please</em> make sure you have an automated backup system, and that you&#8217;ve tested your backups to make sure they actually work.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/15/backupbuddy/feed</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Add a Preview Button to WordPress&#8217; Distraction-Free Writing Mode</title>
+		<link>http://alexking.org/blog/2014/12/30/wordpress-distraction-free-preview-button</link>
+		<comments>http://alexking.org/blog/2014/12/30/wordpress-distraction-free-preview-button#comments</comments>
+		<pubDate>Tue, 30 Dec 2014 23:14:42 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21220</guid>
+		<description><![CDATA[When the distraction-free writing mode was overhauled in WordPress 4.1 my little Preview Button plugin was rendered non-functional. Never fear, it&#8217;s now been updated and works a treat. This post is part of the project: Fullscreen Preview Button. View the project timeline for more context on this post.]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2014/12/screenshot-510x378.png" alt="screenshot" width="480" height="356" class="alignnone size-medium-img wp-image-21222" /></p>
+<p>When the distraction-free writing mode was overhauled in <a href="https://wordpress.org/news/2014/12/dinah/">WordPress 4.1</a> my little <a href="http://alexking.org/project/fullscreen-preview-button">Preview Button plugin</a> was rendered non-functional. Never fear, it&#8217;s now been updated and works a treat.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/fullscreen-preview-button">Fullscreen Preview Button</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/12/30/wordpress-distraction-free-preview-button/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>No WordCamp SF 2014 For Me</title>
+		<link>http://alexking.org/blog/2014/10/24/no-wordcamp-2014-for-me</link>
+		<comments>http://alexking.org/blog/2014/10/24/no-wordcamp-2014-for-me#comments</comments>
+		<pubDate>Fri, 24 Oct 2014 16:21:45 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21026</guid>
+		<description><![CDATA[Unfortunately I&#8217;m not going to be able to attend WordCamp SF 2014. My apologies to those who I was planning to meet up with. I&#8217;ll miss seeing you folks there &#8211; but have fun and do great work!]]></description>
+				<content:encoded><![CDATA[<p>Unfortunately I&#8217;m not going to be able to attend WordCamp SF 2014. My apologies to those who I was planning to meet up with. I&#8217;ll miss seeing you folks there &#8211; but have fun and do great work!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/24/no-wordcamp-2014-for-me/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>WordPress vs. a Roll-Your-Own Blog Engine</title>
+		<link>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine</link>
+		<comments>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine#comments</comments>
+		<pubDate>Tue, 14 Oct 2014 15:10:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-9c824ddfe7946cbde24dbe9eb552eb42</guid>
+		<description><![CDATA[Inspired by Brent&#8217;s consideration of an off-the-shelf blog engine, Santiago Valdarrama has written a post outlining the problems he has with off-the-shelf blog engines. What was so interesting to me about this was that a self-hosted WordPress site addresses nearly every one of his concerns. 1) You don&#8217;t have to deal with updates to the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Inspired by Brent&#8217;s <a href="http://inessential.com/2014/10/02/need_new_blog_engine">consideration of an off-the-shelf blog engine</a>, Santiago Valdarrama has written a post outlining <a href="https://blog.svpino.com/2014/10/03/do-you-need-a-new-blog-engine">the problems he has with off-the-shelf blog engines</a>. What was so interesting to me about this was that a self-hosted WordPress site addresses nearly every one of his concerns.</p>
+<blockquote><p>
+  1) You don&#8217;t have to deal with updates to the platform. Updates and new features are nice, unless they break all the custom code you&#8217;ve developed over time.
+</p></blockquote>
+<p>WordPress has well abstracted APIs that make it easy for your custom code to live alongside the WP core code. I can&#8217;t remember the last time I needed to make a change to code I&#8217;d written for this site because of a WP core update.</p>
+<blockquote><p>
+  2) You can&#8217;t control when bugs are fixed or new features released. If there&#8217;s something missing, the only thing you can do is file a request and wait.
+</p></blockquote>
+<p>Fiddlesticks. You can <a href="https://make.wordpress.org/core/handbook/">submit a patch</a>, you can hack your local copy, and you can write plugins to add any features you feel are missing.</p>
+<blockquote><p>
+  3) There&#8217;s always a learning curve. Every platform is different, specially when you want to fine tune your layout and deviate from the provided templates.
+</p></blockquote>
+<p>This one strikes me as a bit silly. There is a learning curve when building your own system too &#8211; especially if you haven&#8217;t written your layout/templating system yet.</p>
+<blockquote><p>
+  4) Sometimes there&#8217;re things you can&#8217;t do. Period. (I wanted to use a specific format to display the date of my posts but Blogger doesn&#8217;t support it. I had to settle with something else.)
+</p></blockquote>
+<p>Using a hosted service and using an off-the-shelf blog engine are <em>not</em> the same thing. Self-hosting WordPress removes all of the hosted service restrictions.</p>
+<blockquote><p>
+  5) You have to deal with features you don&#8217;t need. Comments? Related posts? Search? Templating engine? Image carousel? I don&#8217;t need these, but I&#8217;d have to pay the price anyway.
+</p></blockquote>
+<p>Just as you can customize WordPress to add features, you can also customize it to hide features. Don&#8217;t use comments? An included setting and couple of lines of CSS will make it so you never know they were there. And WordPress doesn&#8217;t include bloated features out of the box; it wisely leaves that to plugins so that you add what you want instead of removing things you don&#8217;t.</p>
+<blockquote><p>
+  6) You can always export your content (sometimes you can&#8217;t), but even when the option is right there, the exported format is so messed up that you can&#8217;t use it again without a huge clean up. (One time I got my posts exported in a text file with no formatting.)
+</p></blockquote>
+<p>Again &#8211; this is only a problem with hosted solutions. With a self-hosted WordPress site you have full access to your MySQL database, as well as the built-in export features of WordPress.</p>
+<blockquote><p>
+  7) What&#8217;s true today might change tomorrow. What you like about the platform might go away some day. They won&#8217;t ask for your opinion.
+</p></blockquote>
+<p>WordPress is Open Source. Anyone can create a fork based on their own needs and preferences.</p>
+<blockquote><p>
+  8) It will never be as fast as you want it to be. If it&#8217;s hosted, your traffic will be shared. If you host it yourself, you might never be able to fine tune it to perfection.
+</p></blockquote>
+<p>WordPress powers around 20% of the internet &#8211; you don&#8217;t grow that big if you can&#8217;t handle scale. Dedicated WordPress hosts will solve these problems for you, and installing a few simple plugins (caching, CSS and JS concatenation and optimization, etc.) will do a ton to optimize a site on an server that isn&#8217;t tuned for WordPress.</p>
+<blockquote><p>
+  9) I will never be sure what my content is being used for. I know it&#8217;s public anyway, but it&#8217;s also in somebody else&#8217;s database I don&#8217;t control.
+</p></blockquote>
+<p>Another assumption of a hosted platform. NA for a self-hosted WordPress site.</p>
+<blockquote><p>
+  10) You&#8217;ll never get to experience the satisfaction of engaging in a conversation about how you developed your own platform from scratch.
+</p></blockquote>
+<p>As someone who has hacked on WordPress and related code for the last 12 years, I find this statement absurd. There are plenty of &#8220;from scratch&#8221; opportunities within the WordPress community, even now. And if what you want is engagement then joining a bountiful and vibrant community of developers is a much bigger opportunity than the potential for a conversation with another NIH hacker.</p>
+<p>I&#8217;m not saying that there is anything wrong with building your own X. Every time you do that it&#8217;s a great learning experience. I&#8217;m saying I don&#8217;t think it is necessary to get pride of ownership.</p>
+<blockquote><p>
+  There might be something out there that offsets all my concerns, I&#8217;m not sure (but I don&#8217;t believe so.) My blog is my hobby, and I think I&#8217;d never give control again. Every single bit you see here was a labor of love, and I&#8217;m not ready to stop thinking about it that way.
+</p></blockquote>
+<p>I think a self-hosted WordPress site is really close. And I feel exactly the same about my site &#8211; it&#8217;s mine and I am in control of it. Even though I&#8217;ve released much of the code for this site as Open Source, no one else has a site that&#8217;s exactly like mine. I&#8217;ve made the decisions about how to present my content, how to distribute it to Twitter and Facebook, how to integrate with the responses on those platforms, and how I represent myself online. And I do so while building on a robust base platform that allows me to concentrate on building just the features that are unique to my site.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine/feed</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+		</item>
+		<item>
+		<title>The Race to the Bottom Benefits Platforms (not Developers)</title>
+		<link>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms</link>
+		<comments>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms#comments</comments>
+		<pubDate>Tue, 12 Aug 2014 21:53:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Technology]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20713</guid>
+		<description><![CDATA[There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There&#8217;s been a ton of recent conversation in the iOS world about the inability for most indie developers to create sustainable businesses through the iOS app store. In particular, these devs are talking about apps that require larger development efforts &#8211; they want to charge more than &#8220;impulse purchase&#8221; prices for these, and thus want trials, upgrade pricing, etc. to support that model. They want things to work they way they always have &#8211; I don&#8217;t blame them.</p>
+<p>I think it&#8217;s worth considering who wins in this &#8220;race to the bottom&#8221;. In general, more stuff for free benefits consumers, which in turn benefits the platform.</p>
+<p>&#8220;But wait!&#8221; the developers cry. &#8220;When the platform doesn&#8217;t support building more sophisticated apps, the consumers ultimately lose!&#8221; I know this argument, I&#8217;ve made it myself regarding the WordPress ecosystem. I was wrong.</p>
+<p>Consumers have been well trained that they can expect incredible value for free. Sure, they may trade off their privacy and be subjected to ads, but they aren&#8217;t asked to fork over their cash directly.</p>
+<p>VC-backed companies often contribute to the problem as well. As they clamor for users to their platforms, they give everything away &#8211; it&#8217;s so easy to flip the switch in the future and start the money pouring in. Or if that doesn&#8217;t work, they fold up shop and call it a day. Oops!</p>
+<p>More complex apps <em>will get made</em>. They just won&#8217;t be built using the model that indie developers are used to.</p>
+<p>There will be apps supported by alternative revenue streams. Some might have ads or sponsorships, some might mine and sell the data they produce, some (like Evernote and Dropbox) will be a gateway to a commercial service. People will figure out ways to get money out of a large enough user base, and apps will get built.</p>
+<p>I&#8217;ve seen this happen in the WordPress ecosystem already. It&#8217;s a different beast because it&#8217;s an Open Source community, but it&#8217;s still an interesting parallel.</p>
+<p>Basically this happened:</p>
+<ol>
+<li>A bunch of folks built stuff and released it all for free to a small community, largely consisting of fellow developers and tinkerers</li>
+<li>A whole bunch more folks started using the platform and the community grew &#8211; it wasn&#8217;t just developers anymore, it was end users with expectations of support, etc.</li>
+<li>Devs wanted to start monetizing the products they were providing</li>
+<li>The platform didn&#8217;t provide the tools to make money in the way that the devs wanted -instead it invested in tools to promote free products</li>
+<li>Eventually a variety of patterns arose to monetize both commercial and &#8220;free&#8221; products (subscription clubs with access to a bunch of different plugins/themes, free products with commercial add-ons, sponsorships and ads, products that were created to support hosting services, etc.)</li>
+</ol>
+<p>It&#8217;s not the  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  pure  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  and direct approach of charging directly for the software, but it&#8217;s still developers writing code and making money.</p>
+<p>The same thing is happening for iOS. There is money to be made. The platform and consumers are winning.</p>
+<p>&#8220;Adapt or die&#8221; is our mantra for those business who are threatened by technology. We have little sympathy for newspapers, the music industry, etc. Perhaps it&#8217;s time to include software companies in that list.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/08/12/race-to-bottom-platforms/feed</wfw:commentRss>
+		<slash:comments>57</slash:comments>
+		</item>
+		<item>
+		<title>Custom Taxonomy as &#8220;Post Meta&#8221;</title>
+		<link>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta</link>
+		<comments>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta#comments</comments>
+		<pubDate>Wed, 09 Jul 2014 21:33:02 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14416</guid>
+		<description><![CDATA[I found this post while sorting through my old drafts and decided to go ahead and publish it rather than trashing it. Hopefully the code samples don&#8217;t break too badly in WordPress 3.9. I&#8217;ve talked a bit about when to use custom taxonomies and when to use custom fields/post meta (and how they can be&#8230;]]></description>
+				<content:encoded><![CDATA[<p><em>I found this post while sorting through my old drafts and decided to go ahead and publish it rather than trashing it. Hopefully the code samples don&#8217;t break too badly in WordPress 3.9.</em></p>
+<p>I&#8217;ve talked a bit about <a href="http://alexking.org/blog/2011/08/29/wordpress-post-meta-taxonomies">when to use custom taxonomies and when to use custom fields/post meta</a> (and how they can be used virtually interchangeably in some situations). If you want to use taxonomies, you&#8217;ll probably also want to:</p>
+<ul>
+<li>make sure that the terms you want to use exist in your custom taxonomy</li>
+<li>limit the ability for these terms to be altered</li>
+</ul>
+<p>This Gist is a good start:</p>
+<p><script src="https://gist.github.com/3723819.js"></script><noscript><p>View the code on <a href="https://gist.github.com/3723819">Gist</a>.</p></noscript></p>
+<p>You&#8217;ll probably also want to specify:</p>
+<p><code>'public' =&gt; false,<br />
+'show_ui' =&gt; true,</code></p>
+<p>when defining your custom taxonomy. This makes the UI box for the taxonomy appear in the post/page editing interface as expected, but hides the admin forms for editing the taxonomy terms from the admin menu.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/09/custom-taxonomy-as-post-meta/feed</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Colorado Mountain College</title>
+		<link>http://crowdfavorite.com/blog/2014/06/colorado-mountain-college/</link>
+		<comments>http://alexking.org/blog/2014/06/29/colorado-mountain-college#comments</comments>
+		<pubDate>Sun, 29 Jun 2014 14:43:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[Links]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-6a441a20794027d4fda7576beaba4e6e</guid>
+		<description><![CDATA[A pretty cool case study we released last week on creating a WordPress-powered website for Colorado Mountain College. This post is part of the thread: Crowd Favorite &#8211; an ongoing story on this site. View the thread timeline for more context on this post.<p style="clear: both;"><a href="http://alexking.org/blog/2014/06/29/colorado-mountain-college">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>A pretty cool case study we released last week on creating a WordPress-powered website for Colorado Mountain College.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="">Crowd Favorite</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/06/29/colorado-mountain-college">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/29/colorado-mountain-college/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordCamp Miami</title>
+		<link>http://alexking.org/blog/2014/06/29/wordcamp-miami</link>
+		<comments>http://alexking.org/blog/2014/06/29/wordcamp-miami#comments</comments>
+		<pubDate>Sun, 29 Jun 2014 14:04:52 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Photography]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20084</guid>
+		<description><![CDATA[<p>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-john-james-jacoby'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/011-20140510-P1030107-160x120.jpg" class="attachment-thumb-img" alt="With John James Jacoby" data-id="20132" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-dre-armeda-shane-sanderson-and-brad-williams'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/010-20140510-P1030105-160x120.jpg" class="attachment-thumb-img" alt="With Dre Armeda, Shane Sanderson and Brad Williams" data-id="20133" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-noel-tock'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/009-20140510-P1030097-160x120.jpg" class="attachment-thumb-img" alt="With Noel Tock" data-id="20134" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/jason-karim-noel-and-bogdan'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/008-20140510-P1030096-160x120.jpg" class="attachment-thumb-img" alt="Jason, Karim, Noel and Bogdan" data-id="20135" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-ptah-dunbar'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/007-20140510-P1030093-160x120.jpg" class="attachment-thumb-img" alt="With Ptah Dunbar" data-id="20136" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-nathan-tyler'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/006-20140510-P1030092-160x120.jpg" class="attachment-thumb-img" alt="With Nathan Tyler" data-id="20137" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/tom-and-noel-from-human-made'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/005-20140510-P1030090-160x120.jpg" class="attachment-thumb-img" alt="Tom and Noel from Human Made" data-id="20138" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/business-panel'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/004-20140511-P1030110-160x120.jpg" class="attachment-thumb-img" alt="Business panel" data-id="20139" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/goofing-off'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/003-20140509-IMG_5978-160x120.jpg" class="attachment-thumb-img" alt="Goofing off" data-id="20140" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/business-panel-2'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/002-20140511-P1030112-160x120.jpg" class="attachment-thumb-img" alt="Business panel" data-id="20141" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/chris-lema-on-stage'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/001-20140511-P1030131-160x120.jpg" class="attachment-thumb-img" alt="Chris Lema on stage" data-id="20142" /></a>
+</p>
+More than a little overdue, but better late than never &#8211; here are some photos from WordCamp Miami 2014. The full set is up on Flickr.]]></description>
+				<content:encoded><![CDATA[<p>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-john-james-jacoby'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/011-20140510-P1030107-160x120.jpg" class="attachment-thumb-img" alt="With John James Jacoby" data-id="20132" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-dre-armeda-shane-sanderson-and-brad-williams'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/010-20140510-P1030105-160x120.jpg" class="attachment-thumb-img" alt="With Dre Armeda, Shane Sanderson and Brad Williams" data-id="20133" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-noel-tock'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/009-20140510-P1030097-160x120.jpg" class="attachment-thumb-img" alt="With Noel Tock" data-id="20134" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/jason-karim-noel-and-bogdan'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/008-20140510-P1030096-160x120.jpg" class="attachment-thumb-img" alt="Jason, Karim, Noel and Bogdan" data-id="20135" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-ptah-dunbar'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/007-20140510-P1030093-160x120.jpg" class="attachment-thumb-img" alt="With Ptah Dunbar" data-id="20136" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/with-nathan-tyler'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/006-20140510-P1030092-160x120.jpg" class="attachment-thumb-img" alt="With Nathan Tyler" data-id="20137" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/tom-and-noel-from-human-made'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/005-20140510-P1030090-160x120.jpg" class="attachment-thumb-img" alt="Tom and Noel from Human Made" data-id="20138" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/business-panel'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/004-20140511-P1030110-160x120.jpg" class="attachment-thumb-img" alt="Business panel" data-id="20139" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/goofing-off'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/003-20140509-IMG_5978-160x120.jpg" class="attachment-thumb-img" alt="Goofing off" data-id="20140" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/business-panel-2'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/002-20140511-P1030112-160x120.jpg" class="attachment-thumb-img" alt="Business panel" data-id="20141" /></a>
+<a href='http://alexking.org/blog/2014/06/29/wordcamp-miami/chris-lema-on-stage'><img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/05/001-20140511-P1030131-160x120.jpg" class="attachment-thumb-img" alt="Chris Lema on stage" data-id="20142" /></a>
+</p>
+<p>More than a little overdue, but better late than never &#8211; here are some photos from <a href="http://2014.miami.wordcamp.org/">WordCamp Miami 2014</a>. The full set is up on <a href="https://www.flickr.com/photos/alexkingorg/sets/72157644642662524/">Flickr</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/29/wordcamp-miami/feed</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+		</item>
+		<item>
+		<title>Here’s Crowd Favorite&#8217;s own Brandon Dove at the &#8230;</title>
+		<link>http://alexking.org/blog/2014/06/07/20175</link>
+		<comments>http://alexking.org/blog/2014/06/07/20175#comments</comments>
+		<pubDate>Sat, 07 Jun 2014 17:45:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20175</guid>
+		<description><![CDATA[
+<div style="font-size:1.5em; line-height:1.5em;">
+Here&#8217;s Crowd Favorite&#8216;s own Brandon Dove at the WordCamp Orange County golf tournament yesterday.</div>
+
+]]></description>
+				<content:encoded><![CDATA[
+<div style="font-size:1.5em; line-height:1.5em;">
+<p>Here&#8217;s <a href="http://crowdfavorite.com">Crowd Favorite</a>&#8216;s own <a href="http://brandondove.com/">Brandon Dove</a> at the <a href="http://2014.oc.wordcamp.org/">WordCamp Orange County</a> golf tournament yesterday.</p>
+<p><iframe width="480" height="270" src="http://www.youtube.com/embed/m0IsmgOYNm4?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+</div>
+
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/06/07/20175/feed</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>WP Think Tank</title>
+		<link>http://wpthinktank.com/</link>
+		<comments>http://alexking.org/blog/2014/05/23/wp-think-tank#comments</comments>
+		<pubDate>Fri, 23 May 2014 19:06:12 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-b4e23d3131f07e6b6d79af0c08d62a81</guid>
+		<description><![CDATA[I will be participating in the WP Think Tank round table discussion next Thursday. The panel group is fantastic &#8211; I&#8217;m quite looking forward to it.<p style="clear: both;"><a href="http://alexking.org/blog/2014/05/23/wp-think-tank">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I will be participating in the WP Think Tank round table discussion next Thursday. The panel group is fantastic &#8211; I&#8217;m quite looking forward to it.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/05/23/wp-think-tank">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/05/23/wp-think-tank/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Crowd Favorite is Hiring</title>
+		<link>http://alexking.org/blog/2014/05/21/crowd-favorite-is-hiring</link>
+		<comments>http://alexking.org/blog/2014/05/21/crowd-favorite-is-hiring#comments</comments>
+		<pubDate>Wed, 21 May 2014 18:03:41 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20090</guid>
+		<description><![CDATA[We&#8217;ve got a ton of great stuff going on at Crowd Favorite right now. We are hiring for front and back end web developers, and we just put out a call for junior developers. While our first preference is to continue expanding our offices in Denver, Los Angeles (and Orange County), Las Vegas and Bucharest,&#8230;]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve got a ton of great stuff going on at <a href="http://crowdfavorite.com/">Crowd Favorite</a> right now. We are <a href="http://crowdfavorite.com/blog/2014/04/hiring-web-developers/">hiring for front and back end web developers</a>, and we just put out a call for <a href="http://crowdfavorite.com/blog/2014/05/hiring-jr-developers/">junior developers</a>.</p>
+<p>While our first preference is to continue expanding our offices in Denver, Los Angeles (and Orange County), Las Vegas and Bucharest, we&#8217;re also considering remote candidates. The exception is for the junior developer position, we&#8217;re only considering candidates at our offices for that position so that we can more easily provide support and mentorship.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> We have a great developer-centric culture that embraces learning, sharing and best practices &#8211; come join us!</p>
+<p>We&#8217;ve also updated our <a href="http://crowdfavorite.com/blog/2014/05/ramp-v1-5-3/">RAMP</a> and <a href="http://crowdfavorite.com/blog/2014/05/carrington-build-v1-3-3/">Carrington Build</a> WordPress products this week. RAMP handles selectively pushing content from your staging to your production environment while Carrington Build provides drag-and-drop editorial control for your high value pages.</p>
+<p>If you&#8217;re thinking all this activity explains the lack of recent blog posts here, I won&#8217;t argue with that conclusion. <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+I expect we&#8217;ll get good enough at this to support remote junior developers well in the future, but we&#8217;re not there yet.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the thread: <a href="">Crowd Favorite</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/05/21/crowd-favorite-is-hiring/feed</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.301 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:21:39 -->
+
+<!-- Compression = gzip -->

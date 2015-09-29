@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Society</title>
+	<atom:link href="http://alexking.org/blog/topic/society/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Sustainable Software and Customer Support</title>
+		<link>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support</link>
+		<comments>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support#comments</comments>
+		<pubDate>Mon, 02 Mar 2015 21:44:06 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21378</guid>
+		<description><![CDATA[I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot. I finally dropped a note to Dropbox support to see if they&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been having trouble with Dropbox on my laptop. No matter what I do (reboot, pause and resume, etc.), it keeps syncing away saying &#8220;20 files remaining&#8221;. The process continually eats CPU which destroys my battery life and constantly makes my machine hot.</p>
+<p>I finally dropped a note to Dropbox support to see if they could help me. Here is the response I received:</p>
+<blockquote><p>Hi Alex,</p>
+<p>Thanks for writing in.</p>
+<p>It doesn&#8217;t look like there&#8217;s a Dropbox for Business account associated with this email address.</p>
+<p>Please write in from the email address connected to your Business account, as that&#8217;s the only way I can troubleshoot with account-specific information.</p>
+<p>Below is a link to one of our help center articles outlining general troubleshooting tips for syncing issues:</p>
+<p>https://www.dropbox.com/en/help/72</p>
+<p>As I mentioned earlier, happy to tackle any account-specific issues you are running into if you write in from the email address associated with your Dropbox for Business account.
+</p></blockquote>
+<p>I was surprised to see that a company the size of Dropbox is unable to provide any type of per-account support to non-paid users.<sup id="fnref:0"><a href="#fn:0" rel="footnote">1</a></sup> I don&#8217;t blame them, I&#8217;ve struggled with this myself. Their response is not dissimilar to the <a href="http://alexking.org/blog/2013/06/12/customer-vs-product-support">Product vs. Customer Support</a> approach I&#8217;ve taken with the WordPress themes and plugins I&#8217;ve written and released. However, I didn&#8217;t expect this approach from a big money VC-backed company.</p>
+<p>The iOS indy development community is starting to talk about sustainable pricing again, spurred by the <a href="http://daringfireball.net/linked/2015/02/27/vesper-2005">line in the sand</a> recently <a href="http://vesperapp.co/blog/native-support-for-ipad-and-landscape/">drawn by Q Branch for their Vesper note-taking app</a>.</p>
+<p>On a <a href="http://atp.fm/episodes/102">recent episode of ATP</a> Marco talked about how he manages the support email he receives for <a href="https://overcast.fm">Overcast</a>. Basically, while nearly all of it is read, most of it goes unanswered as he focuses on improving his product; largely in reaction to these emails. According to the <a href="http://www.marco.org/2015/01/15/overcast-sales-numbers">financial information he released</a>, I think he&#8217;s doing the right thing &#8211; at his current price-point and volume he can&#8217;t afford to provide<sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup> customer support (he can&#8217;t take the time to reply to the emails).</p>
+<p>The &#8220;pay for support&#8221; model that is bandied about in the Open Source world doesn&#8217;t work in the consumer space.<sup id="fnref:2"><a href="#fn:2" rel="footnote">3</a></sup> When someone runs into trouble with software they almost always blame the software. Their perspective during the support transaction is &#8220;I&#8217;m helping you, the software vendor, by reporting a deficiency in your product.&#8221; And many times they are right, even when the solution is to improve the UX for an existing feature or product element.</p>
+<p><strong>When striving to create sustainable software, the most important building block is happy customers.</strong> This necessarily includes the ability to provide support. Not matter how  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  easy  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  it is to use, providing support enables more people to successfully and happily use your product.</p>
+<p>I&#8217;m saying that most WordPress plugins and themes are not sustainable. I&#8217;m saying that most iOS apps are not sustainable. And I&#8217;m saying that most VC-backed/freemium services are not sustainable.</p>
+<p>This situation isn&#8217;t good for customers or software developers.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:0">
+The included link actually was useful &#8211; it&#8217;s likely a file permissions issue, however I don&#8217;t know that a blanket permissions change over all the files in my Dropbox is a good idea. As a matter of fact, I&#8217;m pretty sure it isn&#8217;t.&#160;<a href="#fnref:0" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:1">
+Including outsourcing or hiring someone to do it.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I think it actually does in the business space, which is cool.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/02/sustainable-software-customer-support/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>An Astronaut&#8217;s Guide to Optimism</title>
+		<link>http://alexking.org/blog/2015/01/07/an-astronauts-guide-to-optimism</link>
+		<comments>http://alexking.org/blog/2015/01/07/an-astronauts-guide-to-optimism#comments</comments>
+		<pubDate>Wed, 07 Jan 2015 22:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21271</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/HPa4tzI4dYU?feature=oembed" frameborder="0" allowfullscreen></iframe>A nice counter to the everyday deluge of negativity. I love it that Jeremy is blogging again.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/HPa4tzI4dYU?feature=oembed" frameborder="0" allowfullscreen></iframe><p>A nice counter to the everyday deluge of negativity. I love it that <a href="http://crawlspacemedia.com/2015/01/a-bit-of-astro-optimism/">Jeremy is blogging again</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/01/07/an-astronauts-guide-to-optimism/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Daylight Saving Time Explained</title>
+		<link>http://alexking.org/blog/2014/11/11/daylight-saving-time-explained-youtube</link>
+		<comments>http://alexking.org/blog/2014/11/11/daylight-saving-time-explained-youtube#comments</comments>
+		<pubDate>Tue, 11 Nov 2014 15:57:12 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://pinboard-ecb2524eb4714f6253290165068df3c8</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/84aWtseb2-4?feature=oembed" frameborder="0" allowfullscreen></iframe>One of the best summaries I&#8217;ve seen on the topic. Besides this of course (thanks Steve).]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/84aWtseb2-4?feature=oembed" frameborder="0" allowfullscreen></iframe><p>One of the best summaries I&#8217;ve seen on the topic. Besides <a href="http://youtu.be/k4EUTMPuvHo">this</a> of course (thanks <a href="http://sogrady.org">Steve</a>).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/11/11/daylight-saving-time-explained-youtube/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>America Is Not For Black People</title>
+		<link>http://theconcourse.deadspin.com/america-is-not-for-black-people-1620169913/+GregHoward1</link>
+		<comments>http://alexking.org/blog/2014/08/14/america-is-not-for-black-people#comments</comments>
+		<pubDate>Thu, 14 Aug 2014 17:12:16 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://pinboard-32b4bed366d177a29323fca3d5bcb8e9</guid>
+		<description><![CDATA[The worst part of outfitting our police officers as soldiers has been psychological. Give a man access to drones, tanks, and body armor, and he&#8217;ll reasonably think that his job isn&#8217;t simply to maintain peace, but to eradicate danger. Instead of protecting and serving, police are searching and destroying. If officers are soldiers, it follows&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2014/08/14/america-is-not-for-black-people">#</a></p>]]></description>
+				<content:encoded><![CDATA[<blockquote><p>The worst part of outfitting our police officers as soldiers has been psychological. Give a man access to drones, tanks, and body armor, and he&#8217;ll reasonably think that his job isn&#8217;t simply to maintain peace, but to eradicate danger. Instead of protecting and serving, police are searching and destroying.  </p>
+<p>If officers are soldiers, it follows that the neighborhoods they patrol are battlefields. And if they&#8217;re working battlefields, it follows that the population is the enemy. And because of correlations, rooted in historical injustice, between crime and income and income and race, the enemy population will consist largely of people of color, and especially of black men. Throughout the country, police officers are capturing, imprisoning, and killing black males at a ridiculous clip, waging a very literal war on people like Michael Brown.</p></blockquote>
+<p>Of everything I&#8217;ve read about Ferguson, this piece (inflammatory title aside) probably does the best job of taking a holistic view of the situation.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/08/14/america-is-not-for-black-people">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/08/14/america-is-not-for-black-people/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>The GitHub Rug</title>
+		<link>http://alexking.org/blog/2014/03/25/the-github-rug</link>
+		<comments>http://alexking.org/blog/2014/03/25/the-github-rug#comments</comments>
+		<pubDate>Tue, 25 Mar 2014 16:05:45 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">https://alexking.org/?p=19723</guid>
+		<description><![CDATA[I somehow missed this kerfuffle when it was all going down, but I read about it recently and it&#8217;s stuck with me. I think if I were in the decision making position when this happened my first instinct would would have been to dig in my heels. When I first saw the &#8220;United Meritocracy of&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I somehow missed <a href="http://readwrite.com/2014/01/24/github-meritocracy-rug#awesm=~ozuUNjHui8igL5">this kerfuffle</a> when it was all going down, but I read about it recently and it&#8217;s stuck with me.</p>
+<p>I think if I were in the decision making position when this happened my first instinct would would have been to dig in my heels. When I first saw the &#8220;United Meritocracy of GitHub&#8221; slogan, I saw it as aspirational. I still do, and I struggle to understand the counter-arguments (though I want to, it seems important). I would dig in because <a href="https://alexking.org/blog/2014/03/24/perspective">my motivations were good</a>, not realizing that it is the action that would be judged (through each person&#8217;s own perspective).</p>
+<p>The pureness (or not) of my motivations wouldn&#8217;t matter. The slogan was causing a problem and Chris Wanstrath chose to act quickly and diffuse the situation. Regardless of the root cause, the effect was clearly toxic and unnecessary. That&#8217;s the larger picture. And the fix was as simple as replacing a rug.</p>
+<p>This showed me how much I still have to learn about being a leader. To do it right, I need to get past my own mental sticking points and focus on the big picture. Make good macro decisions and don&#8217;t get bogged down in the minutia; even when I feel like I&#8217;m &#8220;right&#8221; about something. Being right is all about ego, and placating my ego doesn&#8217;t help my team succeed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/25/the-github-rug/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Third World Health Care &#8211; Knoxville, Tennessee Edition</title>
+		<link>http://thedailyshow.cc.com/videos/cbbn22/third-world-health-care---knoxville--tennessee-edition</link>
+		<comments>http://alexking.org/blog/2014/03/24/third-world-health-care-knoxville-tennessee-edition#comments</comments>
+		<pubDate>Mon, 24 Mar 2014 19:24:50 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://pinboard-5abc95a386ee2f7542f96871fcd068c7</guid>
+		<description><![CDATA[Ouch.<p style="clear: both;"><a href="http://alexking.org/blog/2014/03/24/third-world-health-care-knoxville-tennessee-edition">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Ouch.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/03/24/third-world-health-care-knoxville-tennessee-edition">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/24/third-world-health-care-knoxville-tennessee-edition/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Obama May Be Best Economic President Ever</title>
+		<link>http://www.creators.com/liberal/froma-harrop/obama-may-be-best-economic-president-ever.html</link>
+		<comments>http://alexking.org/blog/2014/03/24/obama-may-be-best-economic-president-ever#comments</comments>
+		<pubDate>Mon, 24 Mar 2014 19:24:17 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[Politics]]></category>
+		<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://pinboard-79e86181ad6f60372bd4c690e4e61be4</guid>
+		<description><![CDATA[Here&#8217;s an interesting calculation: Suppose that in 1929, you put $100,000 in a 401(k) fully invested in stocks. Under the 40 years of Republican presidents, you would have ended up with only $126,000. Under the Democrats, you would have amassed a retirement nest egg of $3.9 million! (All numbers are adjusted for inflation.) There are&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2014/03/24/obama-may-be-best-economic-president-ever">#</a></p>]]></description>
+				<content:encoded><![CDATA[<blockquote><p>Here&#8217;s an interesting calculation: Suppose that in 1929, you put $100,000 in a 401(k) fully invested in stocks. Under the 40 years of Republican presidents, you would have ended up with only $126,000. Under the Democrats, you would have amassed a retirement nest egg of $3.9 million! (All numbers are adjusted for inflation.)</p></blockquote>
+<p>There are some interesting numbers in here, worth fact-checking. I&#8217;ve always been in the &#8220;things are better when everyone is doing well&#8221; camp, regardless of where I&#8217;ve fallen on the scale.</p>
+<p>Also, from the  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_bang.gif" alt=":bang:" class="wp-smiley" />  department&#8230;</p>
+<blockquote><p>Deitrick says he&#8217;s perpetually shocked that Democrats don&#8217;t trumpet their economic triumphs.</p></blockquote>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/03/24/obama-may-be-best-economic-president-ever">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/24/obama-may-be-best-economic-president-ever/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Penn &#038; Teller on Vaccinations</title>
+		<link>http://alexking.org/blog/2013/12/21/penn-teller-on-vaccinations</link>
+		<comments>http://alexking.org/blog/2013/12/21/penn-teller-on-vaccinations#comments</comments>
+		<pubDate>Sat, 21 Dec 2013 20:21:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18957</guid>
+		<description><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/lhk7-5eBCrs?feature=oembed" frameborder="0" allowfullscreen></iframe>I saw these guys live in Vegas this fall, great show. I love that they take on issues like this.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/lhk7-5eBCrs?feature=oembed" frameborder="0" allowfullscreen></iframe><p>I saw these guys live in Vegas this fall, great show. I love that they take on issues like this.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/12/21/penn-teller-on-vaccinations/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Why Are American Health Care Costs So High?</title>
+		<link>http://alexking.org/blog/2013/09/22/why-are-american-health-care-costs-so-high</link>
+		<comments>http://alexking.org/blog/2013/09/22/why-are-american-health-care-costs-so-high#comments</comments>
+		<pubDate>Sun, 22 Sep 2013 17:51:09 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18381</guid>
+		<description><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/qSjGouBmo0M?feature=oembed" frameborder="0" allowfullscreen></iframe>Great video. Dave is right, John Green is very compelling as a storyteller.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/qSjGouBmo0M?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Great video. <a href="http://betterelevation.com/why-health-care-costs-so-much/">Dave is right</a>, John Green is very compelling as a storyteller.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/22/why-are-american-health-care-costs-so-high/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Argument Clinic</title>
+		<link>http://alexking.org/blog/2012/12/26/argument-clinic</link>
+		<comments>http://alexking.org/blog/2012/12/26/argument-clinic#comments</comments>
+		<pubDate>Thu, 27 Dec 2012 05:58:21 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15435</guid>
+		<description><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/kQFKtI6gn9Y?feature=oembed" frameborder="0" allowfullscreen></iframe>So I&#8217;m watching this and laughing, and then it hits this part: M: An argument isn&#8217;t just contradiction. O: Well! it CAN be! M: No it can&#8217;t! M: An argument is a connected series of statements intended to establish a proposition. O: No it isn&#8217;t! M: Yes it is! &#8217;tisn&#8217;t just contradiction. O: Look, if&#8230;]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="383" src="http://www.youtube.com/embed/kQFKtI6gn9Y?feature=oembed" frameborder="0" allowfullscreen></iframe><p>So I&#8217;m watching this and laughing, and then it hits this part:</p>
+<blockquote><p>M: An argument isn&#8217;t just contradiction.</p>
+<p>O: Well! it CAN be!</p>
+<p>M: No it can&#8217;t!</p>
+<p>M: An argument is a connected series of statements intended to establish a proposition.</p>
+<p>O: No it isn&#8217;t!</p>
+<p>M: Yes it is! &#8217;tisn&#8217;t just contradiction.</p>
+<p>O: Look, if I *argue* with you, I must take up a contrary position!</p>
+<p>M: Yes but it isn&#8217;t just saying &#8216;no it isn&#8217;t&#8217;.</p>
+<p>O: Yes it is!</p>
+<p>M: No it isn&#8217;t!</p>
+<p>O: Yes it is!</p>
+<p>M: No it isn&#8217;t!</p>
+<p>O: Yes it is!</p>
+<p>M: No it ISN&#8217;T! Argument is an intellectual process. Contradiction is just the automatic gainsaying of anything the other person says.</p></blockquote>
+<p>&#8230;and I realize this is what politics in the US looks like these days and that saps a good deal of fun right out of it.</p>
+<p>I love that <a href="http://www.montypython.net/scripts/argument.php">full transcripts</a> are available for these.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/12/26/argument-clinic/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Guns</title>
+		<link>http://alexking.org/blog/2012/12/15/guns</link>
+		<comments>http://alexking.org/blog/2012/12/15/guns#comments</comments>
+		<pubDate>Sat, 15 Dec 2012 21:37:53 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15383</guid>
+		<description><![CDATA[To demand gun control is not to &#8220;politicize&#8221; this tragedy. It is to respond to it with decency and common sense. &#8212; Robert Reich (@RBReich) December 15, 2012 I get that crazy people always find a way to kill. I don&#8217;t get why we bend over backwards to make it as efficient as possible for&#8230;]]></description>
+				<content:encoded><![CDATA[<blockquote class="twitter-tweet" width="510"><p>To demand gun control is not to &#8220;politicize&#8221; this tragedy. It is to respond to it with decency and common sense.</p>
+<p>&mdash; Robert Reich (@RBReich) <a href="https://twitter.com/RBReich/status/279755207867523072" data-datetime="2012-12-15T01:10:13+00:00">December 15, 2012</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" width="510"><p>I get that crazy people always find a way to kill. I don&#8217;t get why we bend over backwards to make it as efficient as possible for them.</p>
+<p>&mdash; Cabel Max?eld Sasser (@Cabel) <a href="https://twitter.com/Cabel/status/279661768551321602" data-datetime="2012-12-14T18:58:56+00:00">December 14, 2012</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" width="510"><p>Can anyone explain to me how one attempted shoe bomber equals removing our shoes at airports, but regular massacres don&#8217;t equal gun control?</p>
+<p>&mdash; Franklin Leonard (@franklinleonard) <a href="https://twitter.com/franklinleonard/status/279728641045299203" data-datetime="2012-12-14T23:24:39+00:00">December 14, 2012</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" width="510"><p>I wouldn’t be surprised if at this point, The Onion prepares its “reaction to mass shooting” editions in advance.</p>
+<p>&mdash; Charles Miller(@carlfish) <a href="https://twitter.com/carlfish/status/279745692564586497" data-datetime="2012-12-15T00:32:25+00:00">December 15, 2012</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/12/15/guns/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>I have a foreboding of an America in my children&#8217;s&#8230;</title>
+		<link>http://alexking.org/blog/2012/09/30/14530</link>
+		<comments>http://alexking.org/blog/2012/09/30/14530#comments</comments>
+		<pubDate>Mon, 01 Oct 2012 05:10:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14530</guid>
+		<description><![CDATA[<div style="font-size:1.5em; line-height:1.5em; font-style:italic;">
+I have a foreboding of an America in my children&#8217;s or grandchildren&#8217;s time &#8212; when the United States is a service and information economy; when nearly all the key manufacturing industries have slipped away to other countries; when awesome technological powers are in the hands of a very few, and no one representing the public&#8230;</div>
+<p>&mdash; <a href="http://books.google.com/books?id=q_Fp3tjPnkwC&#038;lpg=PA25&#038;ots=juB1_wg9vT&#038;dq=carl%20sagan%20foreboding&#038;pg=PA26#v=onepage&#038;q&#038;f=false"><i>Carl Sagan</i></a></p>
+]]></description>
+				<content:encoded><![CDATA[<div style="font-size:1.5em; line-height:1.5em; font-style: italic;">
+<p>I have a foreboding of an America in my children&#8217;s or grandchildren&#8217;s time &mdash; when the United States is a service and information economy; when nearly all the key manufacturing industries have slipped away to other countries; when awesome technological powers are in the hands of a very few, and no one representing the public interest can even grasp the issues; when the people have lost the ability to set their own agendas or knowledgeably question those in authority; when, clutching our crystals and nervously consulting our horoscopes, our critical faculties in decline, unable to distinguish between what feels good and what&#8217;s true, we slide, almost without noticing, back into superstition and darkness.</p>
+</div>
+<p>&mdash; <a href="http://books.google.com/books?id=q_Fp3tjPnkwC&#038;lpg=PA25&#038;ots=juB1_wg9vT&#038;dq=carl%20sagan%20foreboding&#038;pg=PA26#v=onepage&#038;q&#038;f=false"><i>Carl Sagan</i></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/09/30/14530/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>The Newsroom, Trailer #2</title>
+		<link>http://alexking.org/blog/2012/04/30/the-newsroom-trailer-2</link>
+		<comments>http://alexking.org/blog/2012/04/30/the-newsroom-trailer-2#comments</comments>
+		<pubDate>Mon, 30 Apr 2012 22:44:07 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13364</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/lgFZbrwmndA?fs=1&feature=oembed" frameborder="0" allowfullscreen></iframe>Can&#8217;t wait for this show.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/lgFZbrwmndA?fs=1&feature=oembed" frameborder="0" allowfullscreen></iframe><p>Can&#8217;t wait for this show.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/04/30/the-newsroom-trailer-2/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Newsroom</title>
+		<link>http://alexking.org/blog/2012/04/02/the-newsroom</link>
+		<comments>http://alexking.org/blog/2012/04/02/the-newsroom#comments</comments>
+		<pubDate>Tue, 03 Apr 2012 05:43:22 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13117</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/wC8ovJYAU3U?fs=1&feature=oembed" frameborder="0" allowfullscreen></iframe>I think I have a new favorite show.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/wC8ovJYAU3U?fs=1&feature=oembed" frameborder="0" allowfullscreen></iframe><p>I think I have a new favorite show.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/04/02/the-newsroom/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Ben Huh on PBS against SOPA/PIPA</title>
+		<link>http://alexking.org/blog/2012/01/18/ben-huh-on-pbs-against-sopapipa</link>
+		<comments>http://alexking.org/blog/2012/01/18/ben-huh-on-pbs-against-sopapipa#comments</comments>
+		<pubDate>Thu, 19 Jan 2012 05:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Society]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=8512</guid>
+		<description><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/1lMBcIfI688?feature=oembed" frameborder="0" allowfullscreen></iframe>Ben did a good job &#8211; arguing against &#8220;incorrect facts&#8221; and ignorance (I&#8217;ll go with Hanlon&#8217;s razor here) is always tough. Especially in such a limited forum.]]></description>
+				<content:encoded><![CDATA[<iframe width="510" height="287" src="http://www.youtube.com/embed/1lMBcIfI688?feature=oembed" frameborder="0" allowfullscreen></iframe><p>Ben did a good job &#8211; arguing against &#8220;incorrect facts&#8221; and ignorance (I&#8217;ll go with <a href="http://en.wikipedia.org/wiki/Hanlon's_razor">Hanlon&#8217;s razor</a> here) is always tough. Especially in such a limited forum.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/01/18/ben-huh-on-pbs-against-sopapipa/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.269 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:16 -->
+
+<!-- Compression = gzip -->

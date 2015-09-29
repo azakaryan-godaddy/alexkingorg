@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>SASS Variables for Selectors : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » SASS Variables for Selectors Comments Feed" href="http://alexking.org/blog/2013/08/22/sass-variables-for-selectors/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Saul from Homeland = Inigo Montoya.
+
+Mind blown." href="http://alexking.org/blog/2013/08/21/18065">
+<link rel="next" title="Git – Interactive Staging" href="git-interactive-staging.html">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="sass-variables-for-selectors.html">
+<link rel="shortlink" href="http://alexking.org/?p=18071">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SASS Variables for Selectors">
+<meta property="og:url" content="http://alexking.org/blog/2013/08/22/sass-variables-for-selectors">
+<meta property="og:description" content="I’ve been getting friendly with SASS as Crowd Favorite has standardized on that for our CSS pre-processing. Today I was excited to learn1 I can use variables for selectors (and for property n...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2013/08/22/sass-variables-for-selectors">
+<meta name="twitter:title" content="SASS Variables for Selectors">
+<meta name="twitter:description" content="I've been getting friendly with SASS as Crowd Favorite has standardized on that for our CSS pre-processing. Today I was excited to learn1 I can use variables for selectors (and for property names, etc.) as well as for property values (the common usage). https://gist.github.com/alexkingorg/6313067 I'm going to really like this for A tags, etc. Thanks Rona!&nbsp;↩">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-18071 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-18071" class="clearfix post-18071 post type-post status-publish format-standard hentry category-code category-development">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="sass-variables-for-selectors.html" title="Permalink to SASS Variables for Selectors" rel="bookmark">SASS Variables for Selectors</a></h1>
+		<time class="entry-date" datetime="2013-08-22T15:34:16+00:00" pubdate=""> August 22, 2013</time>
+	</header>
+	<div class="entry-content">
+<p>I’ve been getting friendly with SASS as <a href="http://crowdfavorite.com">Crowd Favorite</a> has standardized on that for our CSS pre-processing. Today I was excited to learn<sup id="fnref:1"><a href="sass-variables-for-selectors.html#fn:1" rel="footnote">1</a></sup> I can use <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#interpolation_">variables for selectors</a> (and for property names, etc.) as well as for property values (the common usage).</p>
+<p><script src="https://gist.github.com/6313067.js"></script><link rel="stylesheet" href="https://assets-cdn.github.com/assets/gist/embed-3313cb70789df61d3bb75cd878325a1266ccab50b6aac9b80f1691ae0694a216.css"></p><div id="gist6313067" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-sass-selectors-scss" class="file">
+    
+
+  <div class="blob-wrapper data type-scss">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tbody><tr>
+        <td id="file-sass-selectors-scss-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-sass-selectors-scss-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// Vars - note the quotes around comma separated selectors</span></td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-sass-selectors-scss-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$a-tags</span>: <span class="pl-s"><span class="pl-pds">'</span>a, a:active, a:hover, a:visited<span class="pl-pds">'</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-sass-selectors-scss-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">$a-tags-hover</span>: <span class="pl-s"><span class="pl-pds">'</span>a:active, a:hover<span class="pl-pds">'</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-sass-selectors-scss-LC4" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-sass-selectors-scss-LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// Usage</span></td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-sass-selectors-scss-LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">#{<span class="pl-smi">$a-tags</span>}</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-sass-selectors-scss-LC7" class="blob-code blob-code-inner js-file-line">	<span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">red</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-sass-selectors-scss-LC8" class="blob-code blob-code-inner js-file-line">	<span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">1</span><span class="pl-k">em</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-sass-selectors-scss-LC9" class="blob-code blob-code-inner js-file-line">	<span class="pl-c1"><span class="pl-c1">text-decoration</span></span>: <span class="pl-c1">none</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-sass-selectors-scss-LC10" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-sass-selectors-scss-LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">#{<span class="pl-smi">$a-tags-hover</span>}</span> {</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-sass-selectors-scss-LC12" class="blob-code blob-code-inner js-file-line">	<span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">blue</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-sass-selectors-scss-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-sass-selectors-scss-LC13" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</tbody></table>
+
+  </div>
+
+  </div>
+  
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/alexkingorg/6313067/raw/09b191b99e84a8a07f7280c32a8692680f4c5470/sass-selectors.scss" style="float:right">view raw</a>
+        <a href="https://gist.github.com/alexkingorg/6313067#file-sass-selectors-scss">sass-selectors.scss</a>
+        hosted with ❤ by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div>
+<noscript><p>View the code on <a href="https://gist.github.com/6313067">Gist</a>.</p></noscript><p></p>
+<p>I’m going to really like this for <code>A</code> tags, etc.</p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn:1">
+Thanks <a href="https://twitter.com/rkunboxed">Rona</a>!&nbsp;<a href="sass-variables-for-selectors.html#fnref:1" rev="footnote">↩</a>
+</li>
+</ol>
+</div>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="sass-variables-for-selectors.html#comments">27 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/code.html" rel="category tag">Code</a>, <a href="../../../topic/development.html" rel="category tag">Development</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="sass-variables-for-selectors.html#" rel="social-all"><span>27 Replies</span></a></li>
+			<li class="social-wordpress"><a href="sass-variables-for-selectors.html#" rel="wordpress"><span>1 Comment</span></a></li>
+			<li class="social-twitter"><a href="sass-variables-for-selectors.html#" rel="social-twitter"><span>13 Tweets</span></a></li>
+			<li class="social-facebook"><a href="sass-variables-for-selectors.html#" rel="social-facebook"><span>1 Facebook</span></a></li>
+			<li class="social-pingback"><a href="sass-variables-for-selectors.html#" rel="social-pingback"><span>0 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was August 22, 2013</div><div id="social-items-wrapper"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/WordPressPower/status/370690579664887808" title="WordPressPower retweeted this"><img src="http://pbs.twimg.com/profile_images/2545698048/4yd5oplovdzlm0mz93nu_bigger.png" width="24" height="24" alt="WordPressPower retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+<div class="social-items social-facebook">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://facebook.com/permalink.php?story_fbid=550372821678627&id=157983677584212" title="Jared K. Cornwall liked this"><img src="https://graph.facebook.com/697243212/picture" width="24" height="24" alt="Jared K. Cornwall liked this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-413059">
+<div class="social-comment-inner social-clearfix" id="comment-413059">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/535528193638539265/4fi1ie3f_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/kikodoran" rel="370663913337413632 external nofollow" class="url">@kikodoran</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/kikodoran/status/370663913337413632" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413059" class="social-posted-when" target="_blank">August 22, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg awesome usage! Sass/compass is pretty mind blowing compared to vanilla CSS.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413059 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-413058">
+<div class="social-comment-inner social-clearfix" id="comment-413058">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/534754363374202880/VLOlErV1_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/handcoding" rel="370667499802484736 external nofollow" class="url">@handcoding</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/handcoding/status/370667499802484736" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413058" class="social-posted-when" target="_blank">August 22, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg As a side note, it’s worth including :focus in there for accessibility (and for other keyboard users). <a href="http://t.co/ioZ1SnAnY0" rel="nofollow">http://t.co/ioZ1SnAnY0</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413058 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-413062">
+<div class="social-comment-inner social-clearfix" id="comment-413062">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/1824826096/avatar_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/ArleyM" rel="370690190278656000 external nofollow" class="url">@ArleyM</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/ArleyM/status/370690190278656000" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413062" class="social-posted-when" target="_blank">August 22, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@alexkingorg Nope, new thought provoking hat.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413062 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-413575">
+<div class="social-comment-inner social-clearfix" id="comment-413575">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/537344240804970497/0tsKDzQN_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/integralist" rel="374256290857766912 external nofollow" class="url">@integralist</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/integralist/status/374256290857766912" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413575" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Interesting concept but not really maintainable – “Sass vars for selectors” <a href="http://t.co/VsRNmJuEZh" rel="nofollow">http://t.co/VsRNmJuEZh</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413575 -->
+</li><!-- #comment-## -->
+<li class="social-twitter-rt even thread-even depth-1 social-comment social-clearfix social-twitter-rt" id="li-comment-413574">
+<div class="social-comment-inner social-clearfix" id="comment-413574">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/378800000500407887/e0fdb3989b4ad4a2710402afc49fb460_bigger.jpeg" class="avatar avatar-40 photo social-twitter-rt js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/murphzero" rel="374257162651848704 external nofollow" class="url">@murphzero</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/murphzero/status/374257162651848704" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413574" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>RT @chriscoyier: you “can use variables for selectors” (in Sass) <a href="http://t.co/52Bj4m0JVv" rel="nofollow">http://t.co/52Bj4m0JVv</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/markshust/status/374269193778388992" title="markshust retweeted this"><img src="http://pbs.twimg.com/profile_images/524959013314641920/HTPyQ-ZN_bigger.jpeg" width="24" height="24" alt="markshust retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/komiska/status/374274018884739072" title="komiska retweeted this"><img src="http://pbs.twimg.com/profile_images/562941147287265280/0TPqdKEh_bigger.jpeg" width="24" height="24" alt="komiska retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/unimagination/status/374281268369698816" title="unimagination retweeted this"><img src="http://pbs.twimg.com/profile_images/1847321881/Snowshoeing_bigger.jpg" width="24" height="24" alt="unimagination retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/ChrisNager/status/374285191172608000" title="ChrisNager retweeted this"><img src="http://pbs.twimg.com/profile_images/595429286754033665/qADblKut_bigger.png" width="24" height="24" alt="ChrisNager retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/surf66_/status/374291134941761537" title="surf66_ retweeted this"><img src="http://pbs.twimg.com/profile_images/600205292253663232/Q4Du8DpU_bigger.png" width="24" height="24" alt="surf66_ retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/_BobbyLie/status/374302586276298753" title="_BobbyLie retweeted this"><img src="http://pbs.twimg.com/profile_images/378800000613415343/10e4cd20931d8125723598d56e297778_bigger.jpeg" width="24" height="24" alt="_BobbyLie retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/leevigraham/status/374307773023911936" title="leevigraham retweeted this"><img src="http://pbs.twimg.com/profile_images/479199116312850432/JpiwyJUB_bigger.jpeg" width="24" height="24" alt="leevigraham retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/CraigCav/status/374366941739495424" title="CraigCav retweeted this"><img src="http://pbs.twimg.com/profile_images/1440989453/16345_540166941854_289300412_2363137_4860204_n_bigger.jpg" width="24" height="24" alt="CraigCav retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/randoint/status/374383876938170368" title="randoint retweeted this"><img src="http://pbs.twimg.com/profile_images/3331461426/6285d0585ebabe52144158c4dccb5958_bigger.png" width="24" height="24" alt="randoint retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/ray1claw/status/374597656489652225" title="ray1claw retweeted this"><img src="http://pbs.twimg.com/profile_images/2073467673/avatar_pixel_bigger.png" width="24" height="24" alt="ray1claw retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/ActualGabe/status/374660068026744832" title="ActualGabe retweeted this" style="display:none"><img src="http://pbs.twimg.com/profile_images/527890617662066688/UjGdWKt2_bigger.jpeg" width="24" height="24" alt="ActualGabe retweeted this" class="js-hidpi-2424"></a><a href="sass-variables-for-selectors.html#" class="social-items-and-more">... and 1 more</a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413574 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-413573">
+<div class="social-comment-inner social-clearfix" id="comment-413573">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/462290230486130690/u1Ju6Air_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/haddnin" rel="374260413879181312 external nofollow" class="url">@haddnin</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/haddnin/status/374260413879181312" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413573" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>SASS Variables for Selectors <a href="http://t.co/q6647I3e4g" rel="nofollow">http://t.co/q6647I3e4g</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413573 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-413572">
+<div class="social-comment-inner social-clearfix" id="comment-413572">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/601039564635967488/bhtXI3TV_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/DarbyBrown" rel="374260428617961473 external nofollow" class="url">@DarbyBrown</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/DarbyBrown/status/374260428617961473" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413572" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Sass variables for selectors <a href="http://t.co/KCeHNEcSqV" rel="nofollow">http://t.co/KCeHNEcSqV</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413572 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-413564">
+<div class="social-comment-inner social-clearfix" id="comment-413564">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/574599023/me-cartoon_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/aml2326" rel="374365125399937024 external nofollow" class="url">@aml2326</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/aml2326/status/374365125399937024" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413564" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Just learned I can use SASS variables for selectors from a blog post by @alexkingorg <a href="http://t.co/Rnxa83UPy6" rel="nofollow">http://t.co/Rnxa83UPy6</a> #scss</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413564 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-413562">
+<div class="social-comment-inner social-clearfix" id="comment-413562">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="https://si0.twimg.com/profile_images/378800000398862805/17959b1fb8a48411ada0b2854264b9d2_normal.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/JamesLaiCreativ" rel="374381143136534528 external nofollow" class="url">@JamesLaiCreativ</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/JamesLaiCreativ/status/374381143136534528" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413562" class="social-posted-when" target="_blank">September 1, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>“@chriscoyier: you “can use variables for selectors” (in Sass) <a href="http://t.co/URcyOIU4lf%E2%80%9D" rel="nofollow">http://t.co/URcyOIU4lf”</a> OMG</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413562 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-twitter_pmeissner odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-413649">
+<div class="social-comment-inner social-clearfix" id="comment-413649">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/477402492376854528/WQVsJ1LV_bigger.jpeg" class="avatar avatar-40 photo wordpress js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/pmeissner" rel="external nofollow" class="url">pmeissner</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413649" class="social-posted-when" target="_blank">September 3, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>if you’re using compass, you can also try this <a href="http://compass-style.org/reference/compass/typography/links/" rel="nofollow">http://compass-style[...]raphy/links/</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413649 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-413726">
+<div class="social-comment-inner social-clearfix" id="comment-413726">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/583885420708012032/Le-QXczL_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/ManikRathee" rel="374895343147962368 external nofollow" class="url">@ManikRathee</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/ManikRathee/status/374895343147962368" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="sass-variables-for-selectors.html#comment-413726" class="social-posted-when" target="_blank">September 3, 2013</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>SASS Variables for Selectors  —  <a href="http://t.co/AYP9KQOz0G" rel="nofollow">http://t.co/AYP9KQOz0G</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/iamjbecker/status/374898510534955009" title="iamjbecker retweeted this"><img src="http://pbs.twimg.com/profile_images/496697812969472000/Pz1YuY2a_bigger.jpeg" width="24" height="24" alt="iamjbecker retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/brian_lovin/status/374899261613146112" title="brian_lovin retweeted this"><img src="http://pbs.twimg.com/profile_images/570313913648955392/cf4tgX7M_bigger.jpeg" width="24" height="24" alt="brian_lovin retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/adekunleoduye/status/374904589826260992" title="adekunleoduye retweeted this"><img src="http://pbs.twimg.com/profile_images/1879293316/6Rz5Yr7i_normal" width="24" height="24" alt="adekunleoduye retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-413726 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2013/08/22/sass-variables-for-selectors&amp;post_id=18071">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2013/08/21/18065" rel="prev">Saul from Homeland = Inigo Montoya.
+
+Mind blown.</a> »</span>
+	<span class="prev">« <a href="git-interactive-staging.html" rel="next">Git – Interactive Staging</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="sass-variables-for-selectors.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="sass-variables-for-selectors.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.346 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:54 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

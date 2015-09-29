@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Rants</title>
+	<atom:link href="http://alexking.org/blog/topic/rants/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>On Reinstating Pete Rose</title>
+		<link>http://alexking.org/blog/2015/03/26/on-reinstating-pete-rose</link>
+		<comments>http://alexking.org/blog/2015/03/26/on-reinstating-pete-rose#comments</comments>
+		<pubDate>Thu, 26 Mar 2015 19:30:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Sports]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21457</guid>
+		<description><![CDATA[I&#8217;m starting to see rumblings about Pete Rose&#8217;s potential reinstatement and a &#8220;he&#8217;s suffered enough&#8221; sentiment. I frankly just don&#8217;t get it. There are clear consequences stated for betting on baseball. Every player knows them. Baseball Rule 21 (emphasis mine): Any player, umpire, or club or league official or employee, who shall bet any sum&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m starting to see rumblings about Pete Rose&#8217;s potential reinstatement and a &#8220;he&#8217;s suffered enough&#8221; sentiment. I frankly just don&#8217;t get it. There are clear consequences stated for betting on baseball. Every player knows them.</p>
+<p>Baseball Rule 21 (emphasis mine):</p>
+<blockquote><p>Any player, umpire, or club or league official or employee, who shall bet any sum whatsoever upon any baseball game in connection with which the bettor has no duty to perform, shall be declared ineligible for one year,&#8221; the rule states. &#8220;Any player, umpire, or club or league official or employee, who shall bet any sum whatsoever upon any baseball game in connection with which the bettor has a duty to perform <em>shall be declared permanently ineligible</em>.</p></blockquote>
+<p>Permanent means permanent. Period. You don&#8217;t like the rules, don&#8217;t play the game.</p>
+<p>I guess I was due for <a href="http://alexking.org/search/pete+rose">another rant</a> on this.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/03/26/on-reinstating-pete-rose/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Siri, Still Not a Competent Digital Assistant</title>
+		<link>http://alexking.org/blog/2014/07/06/siri-still-sucks</link>
+		<comments>http://alexking.org/blog/2014/07/06/siri-still-sucks#comments</comments>
+		<pubDate>Sun, 06 Jul 2014 16:25:04 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=20572</guid>
+		<description><![CDATA[So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago. Me: What is a good place for lunch between here and {my destination}? Siri: This restaurant is near you: {restaurant info} (double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>So I tried Siri again today. I figured maybe it had improved since I tried it last a year or so ago.</p>
+<p>Me: What is a good place for lunch between here and {my destination}?</p>
+<p>Siri: This restaurant is near you: {restaurant info}</p>
+<p>(double-check, uh yep, that isn&#8217;t on the way &#8211; it&#8217;s actually in the wrong direction by a good 20 minutes)</p>
+<p>Me: That restaurant isn&#8217;t between me and {my destination}. </p>
+<p>Siri: It is about 120 miles to {my destination}. </p>
+<p>*sigh*</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/07/06/siri-still-sucks/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>An Open Letter to Email Client Developers</title>
+		<link>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers</link>
+		<comments>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers#comments</comments>
+		<pubDate>Tue, 18 Mar 2014 19:47:49 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19679</guid>
+		<description><![CDATA[Dear Email Client Developers, If you allow your users to send an email with more than 10 email addresses visible in the TO or CC lines without throwing up a warning that says: Hey, this is a bad idea. People will likely be upset that you just sent their email address to all the people&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Dear Email Client Developers,</p>
+<p>If you allow your users to send an email with more than 10 email addresses visible in the TO or CC lines without throwing up a warning that says:</p>
+<blockquote><p>Hey, this is a bad idea. People will likely be upset that you just sent their email address to all the people that are getting this email. Please consider using the BCC field (or creating a mailing list at <a href="http://mailchimp.com">MailChimp</a>)</p></blockquote>
+<p>You are not being a responsible email client developer.</p>
+<p>Sincerely,<br />
+Alex King</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/03/18/an-open-letter-to-email-client-developers/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Not Readable by This Computer</title>
+		<link>http://alexking.org/blog/2013/08/28/not-readable-by-this-computer</link>
+		<comments>http://alexking.org/blog/2013/08/28/not-readable-by-this-computer#comments</comments>
+		<pubDate>Wed, 28 Aug 2013 17:46:37 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18132</guid>
+		<description><![CDATA[Last week I bought a CD of this Eric Clapton album because the CD was 45% cheaper than buying the MP3s. &#8220;I have a drive I can attach to my laptop; I&#8217;ll just create the MP3s myself&#8221;, I thought. Hah! I guess the joke is on me, unless someone knows a trick for making a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Last week I bought a CD of <a href="http://www.amazon.com/Clapton-Eric/dp/B003XMUFGQ/ref=sr_1_1?ie=UTF8&#038;qid=1377581878&#038;sr=8-1&#038;keywords=clapton">this Eric Clapton album</a> because the CD was 45% cheaper than buying the MP3s. &#8220;I have a drive I can attach to my laptop; I&#8217;ll just create the MP3s myself&#8221;, I thought.</p>
+<p>Hah!</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/08/Screen-Shot-2013-08-26-at-11.36.53-PM.png" alt="Disk cannot be read" width="490" height="205" class="alignleft size-full wp-image-18133" /></p>
+<p>I guess the joke is on me, unless someone knows a trick for making a disk like this work.</p>
+<p>First time I&#8217;ve seen this, and I&#8217;ve been using this drive to rip dozens of CDs over the last few months as I finally digitize my music collection.</p>
+<p>Next steps, see if it works in several other computers &#8211; if not, back it goes.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/08/28/not-readable-by-this-computer/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Signing up for MLB.tv is Hard</title>
+		<link>http://alexking.org/blog/2013/04/07/signing-up-for-mlb-tv-is-hard</link>
+		<comments>http://alexking.org/blog/2013/04/07/signing-up-for-mlb-tv-is-hard#comments</comments>
+		<pubDate>Sun, 07 Apr 2013 17:19:29 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=16406</guid>
+		<description><![CDATA[It took me four days to successfully sign up for MLB.tv. The first three days, I kept getting this: I tried different phone number formats. I tried to sign up with a credit card and via PayPal. I used different email addresses. I tried for three days. I recently started using 1Password instead of PwdHash.&#8230;]]></description>
+				<content:encoded><![CDATA[<p>It took me four days to successfully sign up for MLB.tv.</p>
+<p>The first three days, I kept getting this:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/Screen-Shot-2013-04-07-at-10.19.55-AM-510x277.png" alt="Validation Error" width="480" height="260" class="aligncenter size-medium-img wp-image-16409" /></p>
+<p>I tried different phone number formats. I tried to sign up with a credit card and via PayPal. I used different email addresses. I tried for three days.</p>
+<p>I recently <a href="https://alexking.org/blog/2013/03/25/the-problem-with-pwdhash">started using 1Password instead of PwdHash</a>. I was generating a password for my account using 1Password&#8217;s tool.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/Screen-Shot-2013-04-07-at-10.17.15-AM.png" alt="Password Generator" width="302" height="314" class="aligncenter size-full wp-image-16408" /></p>
+<p>I finally guessed that perhaps my password was &#8220;too secure&#8221;. Sure enough, that was the case. I made the password less secure and was finally able to sign up.</p>
+<p>Annoying, but whatever&#8230;</p>
+<p>Then I tried to sign in via the iPhone app. I entered my email address and the less secure password, but couldn&#8217;t log in. I used the &#8220;Reset Password&#8221; link in the app and MLB.tv sent me a new password in clear text via email. :facepalm:</p>
+<p>So then I went back to the MLB.tv site to try to change the password again. I clicked on the &#8220;current subscriber&#8221; link in the upper right several times but it just kept reloading the current page. Finally that same link magically logged me in without me entering any credentials (the page was still open from my initial payment and registration) and took me to a page where I was &#8220;logged in&#8221;. From there I had an account link I could access and change my password.</p>
+<p>On the form for updating my password &#8211; my suspicion was confirmed:</p>
+<blockquote><p>Your new password should be 6 to 15 characters long and contain only numbers and/or letters.</p></blockquote>
+<p>I guess I shouldn&#8217;t be shocked that developers that don&#8217;t accept secure passwords for their service&#8217;s accounts are the same developers that create a lousy user experience with vague and confusing error messages.</p>
+<p>UPDATE April 17, 2013: So then I tried to log in on an Android device&#8230;</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/04/Pasted_Image_4_17_13_8_47_AM-2-286x510.png" alt="Android Login Failure" width="286" height="510" class="aligncenter size-medium-img wp-image-16518" /></p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/passwords">Passwords</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/04/07/signing-up-for-mlb-tv-is-hard/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>My Internet is Broken</title>
+		<link>http://alexking.org/blog/2012/08/20/my-internet-is-broken</link>
+		<comments>http://alexking.org/blog/2012/08/20/my-internet-is-broken#comments</comments>
+		<pubDate>Tue, 21 Aug 2012 05:25:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=14218</guid>
+		<description><![CDATA[I came home this evening to non-working @centurylink DSL. I spent the next several hours on the phone with their tech support and the tech support for the NetGear modem. The CentryLink support insisted that my line tested fine and modem must have gone bad while I was at work. I thought this unlikely since&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I came home this evening to non-working @centurylink DSL. I spent the next several hours on the phone with their tech support and the tech support for the NetGear modem. The CentryLink support insisted that my line tested fine and modem must have  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  gone bad  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  while I was at work. I thought this unlikely since this modem was only 3 months old, but NetGear support wasn&#8217;t much help either. They opened an RMA for me.</p>
+<p>I finally got off the phone at 8:30pm, hustled over to Best Buy before they closed at 9pm and bought a new modem. Got home, hooked it up, same damn story: wouldn&#8217;t make a connection. I&#8217;d tried with three different phone cables, so by this time I was pretty sure there wasn&#8217;t anything else I could do. I called CenturyLink back to set up repair service and after a 15 minute song and dance they finally came back to tell me how much the service call would cost. That was when I decided to cancel my DSL and get cable modem service instead.</p>
+<p>I&#8217;d been considering switching to cable for a few months. Our DSL has been a bit flakey for a while and I&#8217;ve gone through 4 or 5 modems in the last few years. Enough is enough.</p>
+<p>So I hooked up my phone as a hotspot and got on the Comcast website to order service. I put in my order and was transfered to a chat window to &#8220;schedule my installation&#8221;. Once I had re-confirmed everything I&#8217;d just entered, the fun started:</p>
+<blockquote><p>Vikas Singh: Please allow me one moment to check the serviceability of your address.</p>
+<p>Vikas Singh: I just want to ask if you have just moved in?</p>
+<p>Vikas Singh: Please acknowledge.</p>
+<p>Alex: hello?</p>
+<p>Vikas Singh: Please acknowledge if you are still at your computer? As I am not receiving any response from you, in that case I am afraid to inform you that I may have to close this conversation to assist another customer.</p>
+<p>Alex: no, have lived here since 2004</p>
+<p>Vikas Singh: Alex, I have double checked our system, I am unable to find a match for you address.It could be that the address never had our services and has not been registered with us yet.</p>
+<p>Alex: your chat window doesn&#8217;t scroll so I didn&#8217;t know you&#8217;d said anything <i>(The chat had just exceeded the height of the &#8220;window&#8221; and the lack of visual scrollbars combined with the lack of any visual indicator that a new message had been received, I had no idea a message had been received. If you&#8217;re implementing chat in a browser, a &#8220;scroll to bottom after new message is received&#8221; feature should be at the top of your list.)</i></p>
+<p>Alex: house was built in 1999</p>
+<p>Vikas Singh: I am sorry for the inconvenience.</p>
+<p>Vikas Singh: No need to worry though, I&#8217;ll tell you what you should do for you to get what you want. It&#8217;s very easy, actually.</p>
+<p>Vikas Singh: I am making a request to register your service address in Comcast database . So, you will get call from Comcast with in 24 to 48 hours.</p>
+<p>Alex: what?</p>
+<p>Alex: I can&#8217;t schedule this?</p>
+<p>Vikas Singh: Alex, your address is not registered with us, we need to send a technician at your address to check for the serviceability, the serviceability check is for free.</p>
+<p>Vikas Singh: In that way, the phone agent can immediately send a request to our technician and after that, they will finalize your order by providing you with the order confirmation number and account number. You may also ask earlier appointment for the installation.</p></blockquote>
+<p>So here I am with a thoroughly wasted evening and without high-speed internet at home for the first time in maybe a dozen years. I&#8217;m going to try getting away with the phone hotspot connection until I head to <a href="http://2012.albuquerque.wordcamp.org/">WordCamp Albuquerque</a> this weekend (and hope that I can get Comcast installation by early next week at the latest).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/08/20/my-internet-is-broken/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Sticker Shock</title>
+		<link>http://alexking.org/blog/2012/04/25/sticker-shock</link>
+		<comments>http://alexking.org/blog/2012/04/25/sticker-shock#comments</comments>
+		<pubDate>Wed, 25 Apr 2012 22:00:50 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=13306</guid>
+		<description><![CDATA[<p><a href="http://alexking.org/blog/2012/04/25/sticker-shock"><img width="510" height="208" src="http://alexking.org/wp-content/uploads/2012/04/SRV-510x208.png" class="attachment-medium-img wp-post-image" alt="SRV" data-id="13307" /></a></p>
+Any time the digital version ($16.99) costs more that the physical version ($13.99), you&#8217;re Doing It Wrong.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/blog/2012/04/25/sticker-shock"><img width="510" height="208" src="http://alexking.org/wp-content/uploads/2012/04/SRV-510x208.png" class="attachment-medium-img wp-post-image" alt="SRV" data-id="13307" /></a></p>
+<p>Any time the digital version ($16.99) costs more that the physical version ($13.99), you&#8217;re Doing It Wrong.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/04/25/sticker-shock/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Sparrow for iPhone: Simple Failure</title>
+		<link>http://alexking.org/blog/2012/03/15/sparrow-for-iphone-simple-failure</link>
+		<comments>http://alexking.org/blog/2012/03/15/sparrow-for-iphone-simple-failure#comments</comments>
+		<pubDate>Thu, 15 Mar 2012 20:22:39 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Software]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=12845</guid>
+		<description><![CDATA[I&#8217;ve been excited to try Sparrow on my iPhone since I saw it announced last year. I haven&#8217;t been a fan of the desktop app as I&#8217;m so hopelessly dependent on MsgFiler with Mail.app to support my email workflow, but I was hoping that Sparrow on the iPhone would be an improvement over the included&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve been excited to try <a href="http://sparrowapp.com/">Sparrow</a> on my iPhone since I saw it announced last year. I haven&#8217;t been a fan of the desktop app as I&#8217;m so hopelessly dependent on <a href="http://msgfiler.com">MsgFiler</a> with Mail.app to support my email workflow, but I was hoping that Sparrow on the iPhone would be an improvement over the included iOS Mail app (especially if it had some kind of type-to-file support).</p>
+<p><a href="http://itunes.apple.com/us/app/sparrow/id492573565?mt=8"><img src="http://alexking.org/wp-content/uploads/2012/03/Sparrow-Features-510x246.png" alt="" title="Sparrow Features" width="510" height="246" class="aligncenter size-medium-img wp-image-12858" /></a></p>
+<p>So when I saw chatter about it last night, I went ahead and purchased right away. I don&#8217;t use GMail, but that shouldn&#8217;t be a problem since it has:</p>
+<blockquote><p>Full IMAP support:<br />
+Use your Gmail, Google Apps, iCloud, Yahoo, AOL, Mobile Me and custom IMAP accounts.</p></blockquote>
+<p>When I launched the app, this is what I saw:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/03/Sparrow-Launch-200x300.png" alt="" title="Sparrow Launch" width="200" height="300" class="aligncenter size-medium wp-image-12854" /></p>
+<p>Ok, that&#8217;s not what I need. I need a way to enter in my IMAP server and account details. But this isn&#8217;t too uncommon with a mail app. I&#8217;ll just enter in my details and wait for it to fail, then it will show me an &#8220;advanced&#8221; button or something to let me enter the server settings directly.</p>
+<p class="center"><img src="http://alexking.org/wp-content/uploads/2012/03/Sparrow-Creds-200x300.png" alt="" title="Sparrow Creds" width="200" height="300" class="size-medium wp-image-12852" /> <img src="http://alexking.org/wp-content/uploads/2012/03/Sparrow-Fail-200x300.png" alt="" title="Sparrow Fail" width="200" height="300" class="size-medium wp-image-12853" /></p>
+<p>Hmm, that&#8217;s not helpful. I&#8217;m not even trying to connect to Gmail.</p>
+<p>I tried adding a Gmail account and going into the settings to see if I could adjust the mail server addresses manually from the account settings screen &#8211; no can do.</p>
+<p>It appears that Sparrow&#8217;s only set-up path is to be clever and try to guess at what I need. Like most software with this approach, it fails in real world situations. It may be a great mobile mail app, but if I can&#8217;t get it to connect to my account it&#8217;s completely useless to me.</p>
+<hr />
+<p>Sparrow isn&#8217;t the only app that fails like this. The WordPress for iOS app fails in the same way. I believe the WordPress app tries to load an HTML page and look for some specific information (the XMLRPC URL) that it needs for communication (perhaps with a few guesses as well).</p>
+<p>If you have a WordPress site that requires a login, your results to add that site to the WordPress iOS app will likely look something like this:</p>
+<p><img src="http://alexking.org/wp-content/uploads/2012/03/WordPress-200x300.png" alt="" title="WordPress" width="200" height="300" class="aligncenter size-medium wp-image-12855" /></p>
+<p>&#8220;Need Help?&#8221;</p>
+<p>No, I need a damn text field!</p>
+<p>I&#8217;m quite capable of typing in the XMLRPC URL myself (like I&#8217;ve done for other apps that post to my WordPress site) and I have no problem with that being an extra, manual step since my WordPress site is a little non-standard. However, that&#8217;s not an option.</p>
+<p>I grow weary of people holding up Apple as an ideal of simplicity, trying to follow that model, but failing to properly account for real world usage in their clever  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  user friendly  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" />  designs. When you place &#8220;simple&#8221; ahead of &#8220;functional&#8221;, you&#8217;ve failed.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2012/03/15/sparrow-for-iphone-simple-failure/feed</wfw:commentRss>
+		<slash:comments>23</slash:comments>
+		</item>
+		<item>
+		<title>How to Annoy Your Users</title>
+		<link>http://alexking.org/blog/2011/04/27/how-to-annoy-your-users</link>
+		<comments>http://alexking.org/blog/2011/04/27/how-to-annoy-your-users#comments</comments>
+		<pubDate>Thu, 28 Apr 2011 03:28:01 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/?p=5777</guid>
+		<description><![CDATA[Wondering what you can add to your iOS app to really annoy your users? Here&#8217;s a good way. Push out an update to your paid app that forces your customers to click through a splash screen advertising some new version of your app that won&#8217;t be available for 5 months! Force your users to click&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Wondering what you can add to your <a href="http://itunes.apple.com/us/app/myfantasyteams-professional/id305046757?mt=8" rel="external">iOS app</a> to really annoy your users? Here&#8217;s a good way. Push out an update to your paid app that forces your customers to <b>click through a splash screen</b> advertising some new version of your app that won&#8217;t be available for <strong>5 months</strong>! Force your users to click through that screen using a small button <b>every time you launch the app</b>. Yep, that should do it.</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/5663578314/" title="How to annoy your users by alexkingorg, on Flickr"><img src="http://farm6.static.flickr.com/5222/5663578314_38ef758c4e.jpg" width="333" height="500" alt="How to annoy your users"></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2011/04/27/how-to-annoy-your-users/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>You&#8217;re Welcome</title>
+		<link>http://alexking.org/blog/2010/05/31/youre-welcome</link>
+		<comments>http://alexking.org/blog/2010/05/31/youre-welcome#comments</comments>
+		<pubDate>Tue, 01 Jun 2010 02:59:09 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Projects]]></category>
+		<category><![CDATA[Rants]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4380</guid>
+		<description><![CDATA[This sort of thing frustrates me to no end: Ms. Bates, your carefully chosen words say volumes. Not to confuse people with the facts, but not only does Twitter Tools give you fine grain control over your decision to send (or not send) each post to Twitter, it even has a feature that prevents posts&#8230;]]></description>
+				<content:encoded><![CDATA[<p>This sort of thing frustrates me to no end:</p>
+<p class="center"><img src="http://alexking.org/wp-content/uploads/2010/05/Picture-2.png" alt="Annoying" title="Annoying" width="357" height="378" /></p>
+<p>Ms. Bates, your carefully chosen words say volumes.</p>
+<p>Not to confuse people with the facts, but not only does Twitter Tools give you fine grain control over your decision to send (or not send) <em>each post</em> to Twitter, it even has a feature that prevents posts from being tweeted if they were published before you installed Twitter Tools. Could there be a bug? Sure (though it&#8217;s unlikely that I wouldn&#8217;t have heard about it before now), but that&#8217;s not really the point is it?</p>
+<p>The &#8220;don&#8217;t tweet old posts&#8221; feature was <a href="http://alexking.org/blog/2008/04/13/twitter-tools-12b1">added in version 1.2b1 back in 2008</a>. It was added solely because people requested it; it certainly wasn&#8217;t something I needed &#8211; just trying to make things better for the WordPress community.</p>
+<p>Of course for every group of people you satisfy by adding a feature, you&#8217;ll have an equal number of people requesting the opposite:</p>
+<p class="center"><a href="http://wordpress.org/support/topic/395610"><img src="http://alexking.org/wp-content/uploads/2010/05/Picture-5-300x95.png" alt="Can&#039;t make everyone happy" title="Can&#039;t make everyone happy" width="300" height="95" class="alignnone size-medium wp-image-4382" /></a></p>
+<p>The joys of building software and giving it away for free.</p>
+<hr />
+<p>The irony of course is that I was getting set to start coding on a rewrite of Twitter Tools this evening (since there is a <a href="http://countdowntooauth.com/" rel="external">deadline looming</a>), but comments like the ones above really take the wind out of my sails.</p>
+<p>The combination of an evolving set of best-practices in WordPress core and extremely high expectations from the WordPress user community has plugin developers in a tough spot these days.</p>
+<p>I hired someone this summer for the sole purpose of updating all of our publicly released plugins/themes from the best practices of the time to the best practices in WP 3.0 (along with a few added features, bug fixes and enhancements). That&#8217;s the entire job. I expect it to take about 4-6 months to update the ~30 plugins/themes in question.</p>
+<p>That&#8217;s an expense I decided we should take on for the good of the community. The cost of the developer&#8217;s salary alone is <em>way</em> more than the total donations received on all of the plugins (over a 5-6 year period) &#8211; not to mention the time spent creating them in the first place, updating them, etc.</p>
+<p>There are many things in the WordPress community that are great. There are also many things that need to continue to evolve and improve.</p>
+<p>Enough ranting, I&#8217;ll go back to working on something more productive&#8230;</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/twitter-tools">Twitter Tools</a>. View the project timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/05/31/youre-welcome/feed</wfw:commentRss>
+		<slash:comments>26</slash:comments>
+		</item>
+		<item>
+		<title>Email Address Typos</title>
+		<link>http://alexking.org/blog/2010/05/24/email-address-typos</link>
+		<comments>http://alexking.org/blog/2010/05/24/email-address-typos#comments</comments>
+		<pubDate>Mon, 24 May 2010 19:32:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Society]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4359</guid>
+		<description><![CDATA[There are few things that annoy me as much as the following scenario: Someone sends a message to me via a feedback form. I compose and send a reply. My message (the reply) bounces back because they mis-typed their email address. Sometimes I can look at the address and figure out what the issue was&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There are few things that annoy me as much as the following scenario:</p>
+<ol>
+<li>Someone sends a message to me via a feedback form.</li>
+<li>I compose and send a reply.</li>
+<li>My message (the reply) bounces back because they mis-typed their email address.</li>
+</ol>
+<p>Sometimes I can look at the address and figure out what the issue was (.cm &rarr; .com, etc.), but most often I am left with no way to respond.</p>
+<p>This frustrates me on several levels. Whoever submitted the form is now under the impression that I did not bother to respond, when in fact I did. Also, I spent valuable time composing the response, which was time completely wasted.</p>
+<p>I&#8217;ve thought about a couple of ways to address this, but none really feels like a solution:</p>
+<ul>
+<li>Use mailto: links instead of contact forms. Rejected because we want to request people give us more information in what they send in. Also because mailto: links don&#8217;t work with webmail unless you&#8217;ve jumped through hoops.</li>
+<li>Challenge-response. Save the message in a queue and send a confirmation email to the sender that has a link in it. They have to click the link to have the message sent. Rejected because it&#8217;s annoying and there is no good way for people to get back to their message if they did typo their email address.</li>
+<li>A little inline pop-up confirmation that shows their name and email and says &#8220;this is how we should contact you, right?&#8221; when they hit send. I haven&#8217;t rejected this completely yet, but it does feel like an annoyance.</li>
+</ul>
+<p>Does anyone have a silver bullet for this situation that I&#8217;ve overlooked?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/05/24/email-address-typos/feed</wfw:commentRss>
+		<slash:comments>17</slash:comments>
+		</item>
+		<item>
+		<title>Mobile Devices and Input Accessories</title>
+		<link>http://alexking.org/blog/2010/04/13/mobile-devices-and-input-accessories</link>
+		<comments>http://alexking.org/blog/2010/04/13/mobile-devices-and-input-accessories#comments</comments>
+		<pubDate>Tue, 13 Apr 2010 17:44:35 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Technology]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=4213</guid>
+		<description><![CDATA[The iPad has sparked renewed interest in detachable keyboards, but to the surprise of folks who know me (and my attachment to physical keyboards on mobile devices) I&#8217;m not on board. I&#8217;ve been down this road before, with the Newton, the Stowaway keyboard for the Palm V series and the clip-on keyboard for the Palm&#8230;]]></description>
+				<content:encoded><![CDATA[<p>The iPad has sparked renewed interest in detachable keyboards, but to the surprise of folks who know me (and my attachment to physical keyboards on mobile devices) I&#8217;m not on board. I&#8217;ve been down this road before, with the <a href="http://images.google.com/images?q=newton%20keyboard" rel="external">Newton</a>, the <a href="http://images.google.com/images?um=1&#038;hl=en&#038;q=palm%20V%20stowaway%20keyboard" rel="external">Stowaway keyboard for the Palm V series</a> and the <a href="http://images.google.com/imgres?imgurl=http://www.pencomputing.com/palm/Pen45/i705keyboard.jpg&#038;imgrefurl=http://www.pencomputing.com/palm/Pen45/palmi705.html&#038;usg=__W2Jl0PbSylq94d-ls6bd1twj16o=&#038;h=440&#038;w=270&#038;sz=43&#038;hl=en&#038;start=1&#038;sig2=4vhFsCF7aDC5EYNXSzumuQ&#038;um=1&#038;itbs=1&#038;tbnid=UCdMTocJfv_knM:&#038;tbnh=127&#038;tbnw=78&#038;prev=/images%3Fq%3Dpalm%2Bi705%2Bkeyboard%26um%3D1%26hl%3Den%26sa%3DN%26tbs%3Disch:1&#038;ei=gSnES6LdN5XoMdTf-eIN" rel="external">clip-on keyboard for the Palm i705</a>.</p>
+<p>I know it sounds useful, and it seems cool at first, but it&#8217;s fraught with fail. It&#8217;s the same sort of thing as a bluetooth mouse for a laptop &#8211; you&#8217;re better off getting a laptop with an input device you can use and not needing the mouse. </p>
+<p>The keyboard on the iPad is fine for causal use, and that&#8217;s what it&#8217;s intended for. Don&#8217;t be the guy toting around an iPad and a bluetooth keyboard for it (or worse, for your iPhone). If you want to do serious keyboarding, you&#8217;ve got a laptop.</p>
+<p>Docking is different &#8211; you don&#8217;t carry the kit around, you just use it when you are at the device&#8217;s primary location. I think the iPad keyboard dock makes some sense here, and it&#8217;s a step towards the natural evolution of a more traditional computer running the iPhone OS.</p>
+<p>But the idea of traveling with an iPad and a keyboard is just wrong.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/04/13/mobile-devices-and-input-accessories/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Mobile Regressions</title>
+		<link>http://alexking.org/blog/2010/03/31/mobile-regressions</link>
+		<comments>http://alexking.org/blog/2010/03/31/mobile-regressions#comments</comments>
+		<pubDate>Wed, 31 Mar 2010 22:55:21 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Rants]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=3883</guid>
+		<description><![CDATA[For all the attention paid to mobile computing these days and all the progress that has been made, sometimes I feel like we&#8217;re going backwards in some areas. Customizable launch/home screens, input mechanisms, etc. The Palm Pilot had this capability back in the late 90s, the iPhone, Palm Pre etc. only have it via jailbreak&#8230;]]></description>
+				<content:encoded><![CDATA[<p>For all the attention paid to mobile computing these days and all the progress that has been made, sometimes I feel like we&#8217;re going backwards in some areas.</p>
+<ul>
+<li>Customizable launch/home screens, input mechanisms, etc. The Palm Pilot had this capability back in the late 90s, the iPhone, Palm Pre etc. only have it via jailbreak or patches. I understand Android is better here, but haven&#8217;t tested it.</li>
+<li>My Palm V + Omnisky with SnapperMail had direct IMAP access back in 2001. The BlackBerry devices I used for the last 3 years had to go through a proxy (which was down more than my mail servers were).</li>
+<li>Battery life has gone from 2-4 days back in the Treo 300/600 days down to less than 24 hours for the iPhone, Palm Pre, Droid and NexusOne.</li>
+</ul>
+<p>Don&#8217;t get me wrong, I&#8217;m thrilled at the things these devices can do, but I also look forward to the day they can do so without as many tradeoffs.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2010/03/31/mobile-regressions/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>BlackBerry App World &#8211; an App Store with its own Problems</title>
+		<link>http://alexking.org/blog/2009/12/15/blackberry-app-store-problems</link>
+		<comments>http://alexking.org/blog/2009/12/15/blackberry-app-store-problems#comments</comments>
+		<pubDate>Tue, 15 Dec 2009 14:31:51 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Rants]]></category>
+		<category><![CDATA[Reviews]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=3839</guid>
+		<description><![CDATA[The iPhone App Store has a lot of (well documented) problems, but on the flip side it has a very simple model that works like you expect it to. The BlackBerry App World is trying to provide a similar service for BlackBerry users, however BlackBerry developers are also able to distribute and/or sell their apps&#8230;]]></description>
+				<content:encoded><![CDATA[<p>The iPhone App Store has a lot of (well documented) problems, but on the flip side it has a very simple model that works like you expect it to.</p>
+<p>The BlackBerry App World is trying to provide a similar service for BlackBerry users, however BlackBerry developers are also able to distribute and/or sell their apps directly from their own sites and/or through other online etailers. I think this is a better model overall, but it&#8217;s far from perfect.</p>
+<p><a href="http://www.bellshare.com/berryweather/" rel="external">BerryWeather</a> (called <a href="http://appworld.blackberry.com/webstore/content/1062" rel="external">BeWeather in the App World</a>) is a bloody fantastic weather application. I&#8217;ve been using it since September, and it was the first app I purchased through the App World (Sept. 9th, for $9.99).</p>
+<p>$10 is a bit steep for a weather app &#8211; especially contrasted with the great free options for the iPhone, but it&#8217;s beautiful, works wonderfully, and I am happy to pay for good software.</p>
+<p>About a month or two ago, right around the time I <a href="http://twitter.com/alexkingorg/status/5953775808" rel="external">upgraded to OS 4.7</a>, BerryWeather started getting times confused. Instead of showing the weather for the next few hours, the times were off and it was showing me nighttime weather in the morning. Very annoying.</p>
+<p>I tried:</p>
+<ul>
+<li>reinstalling</li>
+<li>contacting support (even sent a screenshot, never received a reply)</li>
+<li>doing a reset</li>
+</ul>
+<p>but nothing helped.</p>
+<p>Then I saw that there was a 2.0 release on their web site &#8211; I had been running 1.5.x. I deleted my 1.5.x install and installed 2.0 and voila &#8211; everything was working properly again. According to the notes in 2.0, this version uses a new data source (WUnderground). It also had an upgrade price of $3.99.</p>
+<p>Here&#8217;s where things got messy.</p>
+<p>The 2.0 version was not available in App World (it is now). The 2.0 version <em>was</em> available from <a href="http://www.mobihand.com/product.asp?id=27173" rel="external">MobiHand</a>, but since I hadn&#8217;t purchased from them originally I could only buy the 2.0 version at the full $9.99 price. Also, I just bought this thing less than 3 months ago, charging for an upgrade already is a bit ridiculous.</p>
+<p>So in order to purchase the upgrade at the appropriate price, I had to wait several weeks for the App World to push out the update.</p>
+<p>A bunch of things are frustrating here:</p>
+<ol>
+<li>I had to buy an ugprade after 3 months because the old version stopped working properly. Paid upgrades should be to add features, not to fix problems.</li>
+<li>There is no set of rules about how pricing is done &#8211; no expectations that the user can feel comfortable with.</li>
+<li>I got no response from Bellshare&#8217;s support.</li>
+<li>The App World didn&#8217;t have the newest version available for purchase while other etailers did.</li>
+<li>I couldn&#8217;t purchase an upgrade from a different etailer (one who had the latest version).</li>
+</ol>
+<p>So there you have it. Another app store, but still plenty of problems. For all it&#8217;s problems, the iTunes App Store delivers on a consistent set of expectations for its users. The App World may be a better model for developers, but it doesn&#8217;t deliver the same simple experience to end users.</p>
+<p>I&#8217;m not entirely convinced we&#8217;re making progress in the mobile arena. There is lots of churn and activity, but I&#8217;m not sure things are getting better. Hopefully all of that churn and activity will be better channeled and directed as people learn and understand the space better.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2009/12/15/blackberry-app-store-problems/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Breaking News: WordPress is GPL</title>
+		<link>http://alexking.org/blog/2009/07/06/breaking-news-wordpress-is-gpl</link>
+		<comments>http://alexking.org/blog/2009/07/06/breaking-news-wordpress-is-gpl#comments</comments>
+		<pubDate>Mon, 06 Jul 2009 17:30:39 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Rants]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/blog/?p=3435</guid>
+		<description><![CDATA[There has been a lot of discussion about WordPress and the GPL lately. People are discussing/complaining about what you can and can&#8217;t do due to the license. It&#8217;s all a bit baffling to me. Whether you like the GPL or not, the license is as much a part of WordPress as PHP and MySQL. WordPress&#8230;]]></description>
+				<content:encoded><![CDATA[<p>There has been a lot of discussion about WordPress and the GPL lately. People are discussing/complaining about what you can and can&#8217;t do due to the license. It&#8217;s all a bit baffling to me.</p>
+<p>Whether you like the GPL or not, the license is as much a part of WordPress as PHP and MySQL. WordPress is an existing quantity, if you want to build for WordPress (themes, plugins, etc.) you know what you have to work with &#8211; including the license. There are no surprises here.</p>
+<p>Just as it makes no sense to complain you can&#8217;t build WordPress plugins in Ruby or Python, it makes no sense to complain about having to license your WordPress plugins/themes under the GPL.</p>
+<p>WordPress is GPL. Period. The rules are the rules, if you want to play &#8211; welcome. If not, there are lots of other projects to explore and contribute to.</p>
+<p>More recent discussion on this topic:</p>
+<ul>
+<li><a href="http://ma.tt/2009/07/not-lonely-at-all/" rel="external">Not Lonely at All &#8211; Matt Mullenweg</a></li>
+<li><a href="http://weblogtoolscollection.com/archives/2009/07/05/licensing-is-the-vehicle-our-users-are-the-environment/" rel="external">Licensing is the vehicle, our users are the environment | Weblog Tools Collection</a></li>
+<li><a href="http://wordpress.org/development/2009/07/themes-are-gpl-too/" rel="external">WordPress Themes are GPL, too</a></li>
+<li><a href="http://foolswisdom.com/commercial-wordpress-themes-gpl2/" rel="external">Commercial WordPress Themes&#8217;s PHP Code is GPL 2 Too &#8211; A Fool&#8217;s Wisdom</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2009/07/06/breaking-news-wordpress-is-gpl/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.328 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:03:16 -->
+
+<!-- Compression = gzip -->
