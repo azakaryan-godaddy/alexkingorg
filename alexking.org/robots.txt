@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*akst_action=*
+Disallow: /library/
+Disallow: /temp/

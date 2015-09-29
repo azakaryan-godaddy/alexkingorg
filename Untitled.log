@@ -1,0 +1,175 @@
+
+9/28/15, 1:28:25 PM - ERROR: Download of "http://alexking.org/wp/xmlrpc.php",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/index.html",
+	failed with error code 405 (method not allowed)
+9/28/15, 1:29:38 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:38 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/releases/tag/2.0.2",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:38 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/releases/download/2.0.2/personal-2.0.2.zip",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:39 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/tree/2.0.2",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:40 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/commit/e65fdc05ce1d8e1ce9f9989f5486e0b405384d06",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:40 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/compare/f60d4fae1a...dad0bb6287",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:40 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/commit/dad0bb62877bb6f92ea7e64dc5501d3f2caec1eb",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:40 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/commit/86a46b955ceb5626c3afbb14ff7a7b0f6eb390ba",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:40 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/compare/6210edfba8...86a46b955c",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:41 PM - ERROR: Download of "http://alexking.org/alexkingorg/wp-personal/commit/6210edfba8816bf5f380c6a2d3fa5b097c44c9b6",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/projects.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:57 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/604343158428844032/gr9XicYe_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:29:59 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/613238708381315072/Z8M9CKJI_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:30:08 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/587470419252289538/I0BVyxDV_normal.png",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:30:29 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/603565743649619968/ivUmCVCx_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:01 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/619102903253516288/HELD5rLE_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:03 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/492071654646751232/FCk4FiEe_normal.jpeg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:07 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/599290080230932480/HhBKBhWF_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:36 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/636271368552759296/HOpdYLdk_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:38 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/603406034544140288/M0DNVkQj_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:38 PM - ERROR: Download of "https://facebook.com/profile.php?id=",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:55 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/633845421085954048/49aYKdkW_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:56 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/005-20140731-img_6572",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:56 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/008-20140731-img_6579",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:57 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/006-20140731-img_6573",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:57 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/004-20140731-img_6571",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:58 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/003-20140731-img_6569",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:58 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/002-20140731-img_6568",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:58 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/001-20140731-img_6565",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:59 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/007-20140731-img_6583",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:31:59 PM - ERROR: Download of "http://alexking.org/sports/golf/2014/08/03/chambers-bay-tacoma-wa/009-20140731-img_6589",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/sports/golf.html",
+	failed with error code 404 (not found)
+9/28/15, 1:32:01 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/626158870960996352/WuLoApDI_normal.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:32:03 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/562941147287265280/0TPqdKEh_normal.jpeg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:32:09 PM - ERROR: Download of "http://t.co/8l3FrBDw3L",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code 404 (not found)
+9/28/15, 1:32:59 PM - ERROR: Download of "https://pbs.twimg.com/profile_images/378800000610226317/7ce8cd88fbc6f0b842c8fe461cab48d6_normal.jpeg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/07/21999.html",
+	failed with error code 404 (not found)
+9/28/15, 1:33:01 PM - ERROR: Download of "http://t.co/Uw90ww6rAU",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/07/21999.html",
+	failed with error code -1003 (A server with the specified hostname could not be found.)
+9/28/15, 1:33:46 PM - ERROR: Download of "http://t.co/MDprHq6KvH",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/08/24/rememberances.html",
+	failed with error code -1001 (The request timed out.)
+9/28/15, 1:34:24 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/553913209854242816/gbZApcqv_bigger.png",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:24 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/614234851122769920/nuZrt2bw_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:27 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/598373081472737280/0BHkIfNu_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:38 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/608415676848553986/rLFfWrCE_bigger.png",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:48 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/581434582735671296/JWF_kG51_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:50 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/596685955056214016/p7w0mGwn_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:34:57 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/553303687570132994/jmun3AeZ_bigger.jpeg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:35:34 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/610435573342449666/dfRywfMM_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:35:46 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/542345296403910656/YS3Wb2gQ_bigger.jpeg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/05/14/web-development-now-complicated.html",
+	failed with error code 404 (not found)
+9/28/15, 1:36:50 PM - ERROR: Download of "http://pbs.twimg.com/profile_images/603565743649619968/ivUmCVCx_bigger.jpg",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station.html",
+	failed with error code 404 (not found)
+9/28/15, 1:36:53 PM - ERROR: Download of "http://t.co/AO1cfDfVp2”",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station.html",
+	failed with error code 404 (not found)
+9/28/15, 1:36:53 PM - ERROR: Download of "https://store.griffintechnology.com/apple-watch/watchstand",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/2015/04/30/apple-watch-iphone-charging-station.html",
+	failed with error code 404 (not found)
+9/28/15, 1:41:27 PM - ERROR: Download of "http://alexking.org/blog/2003/10/16/yikes---wrong-zip-file",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/project/taskspro.html",
+	failed with error code 404 (not found)
+9/28/15, 1:41:27 PM - ERROR: Download of "http://backupmoxie.com",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/project/404-notifier.html",
+	failed with error code -1001 (The request timed out.)
+9/28/15, 1:41:37 PM - ERROR: Download of "http://alexking.org/blog/2003/05/16/quick-update---niiice",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/project/taskspro.html",
+	failed with error code 404 (not found)
+9/28/15, 1:41:39 PM - ERROR: Download of "http://alexking.org/blog/2003/04/30/tasks-151-released---very-small-bug-fix",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/project/taskspro.html",
+	failed with error code 404 (not found)
+9/28/15, 1:41:40 PM - ERROR: Download of "http://alexking.org/blog/2003/04/21/tasks---php-406-and-utf-8-support",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/project/taskspro.html",
+	failed with error code 404 (not found)
+9/28/15, 1:42:57 PM - ERROR: Download of "http://dre.im/",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/topic/fun.html",
+	failed with error code -1003 (A server with the specified hostname could not be found.)
+9/28/15, 1:43:07 PM - ERROR: Download of "http://wpengine.com/2012/10/alex-king/",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/topic/interviews.html",
+	failed with error code 404 (not found)
+9/28/15, 1:43:57 PM - ERROR: Download of "http://r4---sn-a5m7zned.googlevideo.com/videoplayback?source=youtube&sver=3&dur=398.199&fexp=9407537,9408206,9408500,9408710,9409069,9409171,9414764,9415091,9415365,9415436,9415485,9416023,9416126,9416323,9416611,9416729,9416984,9417581,9417707,9418153,9418448,9418454,9419325,9419982,9420348,9420596,9421013,9421534&ratebypass=yes&lmt=1386391639655526&sparams=dur,id,initcwndbps,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,ratebypass,source,upn,expire&ipbits=0&initcwndbps=1947500&key=yt6&upn=WxzccN3B-D0&expire=1443493760&itag=18&pl=26&mv=m&mt=1443472031&ms=au&id=o-AOmBdeJCc9k5BEz7sMs32xhrZLEmRDFB8WZEHniTWmTr&mn=sn-a5m7zned&mm=31&mime=video/mp4&ip=2601:500:c100:155e:3560:cc9e:912a:bad4&signature=18&name=Mk5-G9XKbJE",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/topic/music.html",
+	failed with error code 403 (forbidden)
+9/28/15, 1:44:02 PM - ERROR: Download of "http://r6---sn-a5m7znek.googlevideo.com/videoplayback?ratebypass=yes&sparams=dur,gcr,id,initcwndbps,ip,ipbits,itag,lmt,mime,mm,mn,ms,mv,pl,ratebypass,source,upn,expire&ipbits=0&ip=2601:500:c100:155e:3560:cc9e:912a:bad4&key=yt6&lmt=1394307381827757&itag=18&fexp=9407537,9408206,9408500,9408710,9409069,9409171,9414764,9415091,9415365,9415436,9415485,9416023,9416126,9416323,9416611,9416729,9416984,9417581,9417707,9418153,9418448,9418454,9419325,9419982,9420348,9420596,9421013,9421534&source=youtube&mv=m&ms=au&mm=31&mn=sn-a5m7znek&id=o-APU8M4lLqKmGvIficTDo8bJmBHJkuIHgKtURANwle2Aw&dur=332.881&sver=3&expire=1443493761&pl=26&mt=1443472031&upn=mi9WL0K-oPM&mime=video/mp4&gcr=us&initcwndbps=1947500&signature=18&name=oXvJ8UquYoo",
+	referenced from "/Users/jstrebel/Desktop/alexkingorg/alexking.org/blog/topic/music.html",
+	failed with error code 403 (forbidden)

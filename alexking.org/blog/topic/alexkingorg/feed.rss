@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; alexking.org</title>
+	<atom:link href="http://alexking.org/blog/topic/alexkingorg/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Request: Alex King Rememberances</title>
+		<link>http://alexking.org/blog/2015/08/24/rememberances</link>
+		<comments>http://alexking.org/blog/2015/08/24/rememberances#comments</comments>
+		<pubDate>Mon, 24 Aug 2015 21:01:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=22017</guid>
+		<description><![CDATA[Dear WordPress community, My apologies for the selfish and personal nature of this post. I hope you will forgive me given the circumstances. As most of you know, I was diagnosed with stage 4 colon cancer in 2013. One of the things my wife and I are trying to do is put together some information&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Dear WordPress community,</p>
+<p>My apologies for the selfish and personal nature of this post. I hope you will forgive me given the circumstances. As most of you know, I was <a href="http://alexking.org/blog/thread/cancer">diagnosed with stage 4 colon cancer in 2013</a>.</p>
+<p>One of the things my wife and I are trying to do is put together some information about my career that will hopefully give my 6 year-old daughter a better sense of who I was as an adult. She knows me as &#8220;dad&#8221;, but when she gets older she&#8217;ll be curious about who I was to my peers and colleagues.</p>
+<p>I&#8217;ve spent more than a decade in the WordPress community and I&#8217;d like to request that you to share a few thoughts or remembrances about me that we can compile and share with her when the time is right.</p>
+<p>If we have crossed paths or if I have managed to do something that you found helpful, I&#8217;d love it if you would take a few minutes to write it down and <a href="http://alexking.org/contact">send it to me</a> or my wife: heatherkingcom@gmail.com. If you&#8217;re willing to have the story shared publicly, please indicate that accordingly. By default, we will keep everything confidential.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/cancer">Cancer</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/24/rememberances/feed</wfw:commentRss>
+		<slash:comments>142</slash:comments>
+		</item>
+		<item>
+		<title>Hosted on WebFaction</title>
+		<link>http://alexking.org/blog/2015/02/25/hosted-on-webfaction</link>
+		<comments>http://alexking.org/blog/2015/02/25/hosted-on-webfaction#comments</comments>
+		<pubDate>Thu, 26 Feb 2015 03:39:49 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21366</guid>
+		<description><![CDATA[This site is now hosted on WebFaction1 (if you&#8217;re seeing this post, you&#8217;re on the new server). Hooray for DNS propogation! WebFaction was one of the hosts recommended to me. I tested it and a handful of other hosts today, going through the account creation process, the process of setting up multiple sites and databases,&#8230;]]></description>
+				<content:encoded><![CDATA[<p>This site is now hosted on <a href="https://www.webfaction.com/?aid=78593">WebFaction</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> (if you&#8217;re seeing this post, you&#8217;re on the new server). Hooray for DNS propogation!</p>
+<p>WebFaction was one of the hosts <a href="http://alexking.org/blog/2015/02/24/hosting-recommendation#comment-619015">recommended to me</a>. I tested it and a handful of other hosts today, going through the account creation process, the process of setting up multiple sites and databases, and speed testing the results. WebFaction&#8217;s control panel made the website set-up and management process easy and still gave me the sort of control and access I wanted but took me off the hook for server security patches, etc.</p>
+<p>My testing indicates the site is loading much faster than it was on the previous Linode box, but if that isn&#8217;t the case for you (or if you see some other issue) I&#8217;d like to hear about it. Thanks!</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+That&#8217;s an affiliate link &#8211; I get some kind of kickback if you sign up using that link.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/02/25/hosted-on-webfaction/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Family and Friends Cancer Update Emails</title>
+		<link>http://alexking.org/blog/2014/10/30/cancer-update-emails</link>
+		<comments>http://alexking.org/blog/2014/10/30/cancer-update-emails#comments</comments>
+		<pubDate>Thu, 30 Oct 2014 22:31:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21127</guid>
+		<description><![CDATA[I&#8217;ve published a set of email updates I&#8217;ve been sending to my family and friends to keep them up to date on my progress since my diagnosis back in January 2013. The best way to view these is probably via this thread which presents them in a chronological timeline. I decided to publish these in&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve published a set of email updates I&#8217;ve been sending to my family and friends to keep them up to date on my progress since my diagnosis back in January 2013. The best way to view these is probably via <a href="http://alexking.org/blog/thread/cancer">this thread</a> which presents them in a chronological timeline.</p>
+<p>I decided to publish these in the event that other folks with similar cancer diagnosis might find them and gain some benefit from reading about my particular journey.</p>
+<p>This site has always been a place for me to write and reflect on the things that interest me, challenge me, and otherwise occupy my brain. As I turn much of my attention towards securing new treatment options I plan to continue to publish these here going forward. Probably sometimes with a bit of a delay, as well as talking a more about my experiences with cancer here on this site; as I feel comfortable.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/cancer">Cancer</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/30/cancer-update-emails/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress vs. a Roll-Your-Own Blog Engine</title>
+		<link>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine</link>
+		<comments>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine#comments</comments>
+		<pubDate>Tue, 14 Oct 2014 15:10:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-9c824ddfe7946cbde24dbe9eb552eb42</guid>
+		<description><![CDATA[Inspired by Brent&#8217;s consideration of an off-the-shelf blog engine, Santiago Valdarrama has written a post outlining the problems he has with off-the-shelf blog engines. What was so interesting to me about this was that a self-hosted WordPress site addresses nearly every one of his concerns. 1) You don&#8217;t have to deal with updates to the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Inspired by Brent&#8217;s <a href="http://inessential.com/2014/10/02/need_new_blog_engine">consideration of an off-the-shelf blog engine</a>, Santiago Valdarrama has written a post outlining <a href="https://blog.svpino.com/2014/10/03/do-you-need-a-new-blog-engine">the problems he has with off-the-shelf blog engines</a>. What was so interesting to me about this was that a self-hosted WordPress site addresses nearly every one of his concerns.</p>
+<blockquote><p>
+  1) You don&#8217;t have to deal with updates to the platform. Updates and new features are nice, unless they break all the custom code you&#8217;ve developed over time.
+</p></blockquote>
+<p>WordPress has well abstracted APIs that make it easy for your custom code to live alongside the WP core code. I can&#8217;t remember the last time I needed to make a change to code I&#8217;d written for this site because of a WP core update.</p>
+<blockquote><p>
+  2) You can&#8217;t control when bugs are fixed or new features released. If there&#8217;s something missing, the only thing you can do is file a request and wait.
+</p></blockquote>
+<p>Fiddlesticks. You can <a href="https://make.wordpress.org/core/handbook/">submit a patch</a>, you can hack your local copy, and you can write plugins to add any features you feel are missing.</p>
+<blockquote><p>
+  3) There&#8217;s always a learning curve. Every platform is different, specially when you want to fine tune your layout and deviate from the provided templates.
+</p></blockquote>
+<p>This one strikes me as a bit silly. There is a learning curve when building your own system too &#8211; especially if you haven&#8217;t written your layout/templating system yet.</p>
+<blockquote><p>
+  4) Sometimes there&#8217;re things you can&#8217;t do. Period. (I wanted to use a specific format to display the date of my posts but Blogger doesn&#8217;t support it. I had to settle with something else.)
+</p></blockquote>
+<p>Using a hosted service and using an off-the-shelf blog engine are <em>not</em> the same thing. Self-hosting WordPress removes all of the hosted service restrictions.</p>
+<blockquote><p>
+  5) You have to deal with features you don&#8217;t need. Comments? Related posts? Search? Templating engine? Image carousel? I don&#8217;t need these, but I&#8217;d have to pay the price anyway.
+</p></blockquote>
+<p>Just as you can customize WordPress to add features, you can also customize it to hide features. Don&#8217;t use comments? An included setting and couple of lines of CSS will make it so you never know they were there. And WordPress doesn&#8217;t include bloated features out of the box; it wisely leaves that to plugins so that you add what you want instead of removing things you don&#8217;t.</p>
+<blockquote><p>
+  6) You can always export your content (sometimes you can&#8217;t), but even when the option is right there, the exported format is so messed up that you can&#8217;t use it again without a huge clean up. (One time I got my posts exported in a text file with no formatting.)
+</p></blockquote>
+<p>Again &#8211; this is only a problem with hosted solutions. With a self-hosted WordPress site you have full access to your MySQL database, as well as the built-in export features of WordPress.</p>
+<blockquote><p>
+  7) What&#8217;s true today might change tomorrow. What you like about the platform might go away some day. They won&#8217;t ask for your opinion.
+</p></blockquote>
+<p>WordPress is Open Source. Anyone can create a fork based on their own needs and preferences.</p>
+<blockquote><p>
+  8) It will never be as fast as you want it to be. If it&#8217;s hosted, your traffic will be shared. If you host it yourself, you might never be able to fine tune it to perfection.
+</p></blockquote>
+<p>WordPress powers around 20% of the internet &#8211; you don&#8217;t grow that big if you can&#8217;t handle scale. Dedicated WordPress hosts will solve these problems for you, and installing a few simple plugins (caching, CSS and JS concatenation and optimization, etc.) will do a ton to optimize a site on an server that isn&#8217;t tuned for WordPress.</p>
+<blockquote><p>
+  9) I will never be sure what my content is being used for. I know it&#8217;s public anyway, but it&#8217;s also in somebody else&#8217;s database I don&#8217;t control.
+</p></blockquote>
+<p>Another assumption of a hosted platform. NA for a self-hosted WordPress site.</p>
+<blockquote><p>
+  10) You&#8217;ll never get to experience the satisfaction of engaging in a conversation about how you developed your own platform from scratch.
+</p></blockquote>
+<p>As someone who has hacked on WordPress and related code for the last 12 years, I find this statement absurd. There are plenty of &#8220;from scratch&#8221; opportunities within the WordPress community, even now. And if what you want is engagement then joining a bountiful and vibrant community of developers is a much bigger opportunity than the potential for a conversation with another NIH hacker.</p>
+<p>I&#8217;m not saying that there is anything wrong with building your own X. Every time you do that it&#8217;s a great learning experience. I&#8217;m saying I don&#8217;t think it is necessary to get pride of ownership.</p>
+<blockquote><p>
+  There might be something out there that offsets all my concerns, I&#8217;m not sure (but I don&#8217;t believe so.) My blog is my hobby, and I think I&#8217;d never give control again. Every single bit you see here was a labor of love, and I&#8217;m not ready to stop thinking about it that way.
+</p></blockquote>
+<p>I think a self-hosted WordPress site is really close. And I feel exactly the same about my site &#8211; it&#8217;s mine and I am in control of it. Even though I&#8217;ve released much of the code for this site as Open Source, no one else has a site that&#8217;s exactly like mine. I&#8217;ve made the decisions about how to present my content, how to distribute it to Twitter and Facebook, how to integrate with the responses on those platforms, and how I represent myself online. And I do so while building on a robust base platform that allows me to concentrate on building just the features that are unique to my site.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/10/14/do-you-need-a-new-blog-engine/feed</wfw:commentRss>
+		<slash:comments>43</slash:comments>
+		</item>
+		<item>
+		<title>New Server</title>
+		<link>http://alexking.org/blog/2014/02/12/new-server</link>
+		<comments>http://alexking.org/blog/2014/02/12/new-server#comments</comments>
+		<pubDate>Wed, 12 Feb 2014 21:28:53 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19471</guid>
+		<description><![CDATA[We&#8217;ve moved this site and Crowd Favorite to a new box. If you&#8217;re seeing this, you&#8217;re on the new box. And if you see any issues, please let me know. Thanks!]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve moved this site and <a href="http://crowdfavorite.com">Crowd Favorite</a> to a new box. If you&#8217;re seeing this, you&#8217;re on the new box.</p>
+<p>And if you see any issues, please let me know. Thanks!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/02/12/new-server/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Owning Your Online Identity</title>
+		<link>http://crowdfavorite.com/blog/2014/01/own-your-online-identity/</link>
+		<comments>http://alexking.org/blog/2014/01/23/owning-your-online-identity#comments</comments>
+		<pubDate>Thu, 23 Jan 2014 21:41:29 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[Links]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19292</guid>
+		<description><![CDATA[<div style="float:left; margin: 0 1.5em 1.5em 0;">
+	<img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/01/Screen-Shot-2014-01-23-at-2.39.30-PM-160x120.png" class="attachment-thumb-img wp-post-image" alt="Post at the Crowd Favorite blog" data-id="19295" /></div>
+I&#8217;ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my online identity, while still participating with my friends on Facebook and Twitter. I love how I have (on my own site) a history of the social reactions to posts like this. Here&#8217;s&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2014/01/23/owning-your-online-identity">#</a></p>]]></description>
+				<content:encoded><![CDATA[<div style="float:left; margin: 0 1.5em 1.5em 0;">
+	<img width="160" height="120" src="http://alexking.org/wp-content/uploads/2014/01/Screen-Shot-2014-01-23-at-2.39.30-PM-160x120.png" class="attachment-thumb-img wp-post-image" alt="Post at the Crowd Favorite blog" data-id="19295" /></div>
+<p>I&#8217;ve put up a post on the <a href="http://crowdfavorite.com/blog/">Crowd Favorite blog</a> about how I use WordPress and the <a href="http://crowdfavorite.com/favepersonal/">FavePersonal</a> theme (free!) to own my online identity, while still participating with my friends on Facebook and Twitter.</p>
+<p>I love how I have (on my own site) a history of the social reactions to <a href="http://alexking.org/blog/2013/04/24/capsule-the-developers-code-journal">posts like this</a>. Here&#8217;s a <a href="http://alexking.org/blog/2014/01/09/ipad-use-and-productivity">more casual example</a>; where the social reactions really add to the overall story.</p>
+<p>I think owning your online identity is hugely important &#8211; don&#8217;t outsource it to some 3rd-party service. But there&#8217;s no reason not to take advantage of the benefits of those services. I want to have my cake and eat it to &#8211; and I believe I&#8217;m doing just that.</p>
+<p class="threads-post-notice">This post is part of the project: <a href="http://alexking.org/project/personal">Personal Theme</a>. View the project timeline for more context on this post.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2014/01/23/owning-your-online-identity">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/23/owning-your-online-identity/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>More on The Value of Blogging</title>
+		<link>http://alexking.org/blog/2014/01/08/more-on-the-value-of-blogging</link>
+		<comments>http://alexking.org/blog/2014/01/08/more-on-the-value-of-blogging#comments</comments>
+		<pubDate>Wed, 08 Jan 2014 17:36:50 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19188</guid>
+		<description><![CDATA[Matt recently wrote about the value of blogging. I&#8217;d been working on some notes in this area as well, but from a different approach. The part of blogging I find particularly interesting and valuable is the format it provides to be thoughtful about things. Notice something. Think about it. Write about it. The process of&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Matt recently wrote about the <a href="http://ma.tt/2014/01/intrinsic-blogging/">value of blogging</a>. I&#8217;d been working on some notes in this area as well, but from a different approach.</p>
+<p>The part of blogging I find particularly interesting and valuable is the format it provides to be thoughtful about things. Notice something. Think about it. Write about it. The process of exploring something can often lead to interesting places and intersections.</p>
+<p>I&#8217;ve been blogging here since <a href="http://alexking.org/blog/2002/10">October of 2002</a>. It&#8217;s given me a place to think, publish, and get useful feedback.</p>
+<p><a href="http://wordpress.org/">Recommended</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/08/more-on-the-value-of-blogging/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>2013 in Review</title>
+		<link>http://alexking.org/blog/2014/01/04/2013-in-review</link>
+		<comments>http://alexking.org/blog/2014/01/04/2013-in-review#comments</comments>
+		<pubDate>Sat, 04 Jan 2014 17:31:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=19068</guid>
+		<description><![CDATA[2013 was a challenge on many fronts. There was the obvious which brought many, many ramifications with it. It was also a year filled with fun, family, and accomplishments I&#8217;m proud of. Inspired by Steve, I&#8217;m putting together my first year in review post featuring photos. It all started well with the first thorough cleaning&#8230;]]></description>
+				<content:encoded><![CDATA[<p>2013 was a challenge on many fronts. There was <a href="http://alexking.org/blog/2013/05/31/cancer">the obvious</a> which brought many, many ramifications with it. It was also a year filled with fun, family, and accomplishments I&#8217;m proud of. <a href="http://sogrady.org/2014/01/03/2013-in-review/">Inspired by Steve</a>, I&#8217;m putting together my first year in review post featuring photos.</p>
+<p>It all started well with the first thorough cleaning I&#8217;d given my office in years.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/002-20130113-IMG_3097-382x510.jpg" alt="A clean desk" width="382" height="510" class="alignnone size-medium-img wp-image-19079" /></p>
+<p><span id="more-19068"></span></p>
+<p>We took a family trip to Hawaii at the end of January.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/003-20130123-img_3122'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/003-20130123-IMG_3122-150x150.jpg" class="attachment-thumbnail" alt="Hawaii was beautiful" data-id="19080" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/005-20130125-img_3129'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/005-20130125-IMG_3129-150x150.jpg" class="attachment-thumbnail" alt="I was able to get in a round of golf." data-id="19082" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/007-20130125-img_3133'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/007-20130125-IMG_3133-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19083" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/004-20130124-img_3125'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/004-20130124-IMG_3125-150x150.jpg" class="attachment-thumbnail" alt="A good time was had by all." data-id="19081" /></a>
+</p>
+<p>Little did I know that I had emergency surgery waiting for me when I returned. My team was very supportive and kept everything humming along nicely at <a href="http://crowdfavorite.com">Crowd Favorite</a> while I was out of commission.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/008-20130205-IMG_0987-510x382.jpg" alt="The Crowd Favorite team" width="480" height="359" class="alignnone size-medium-img wp-image-19084" /></p>
+<p>The doctors cleared me to go on our planned family trip to Tucson at the end of February. I had to take a wheelchair through the airport on the way out, but was able to walk well enough not to need one on the way back.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/010-20130224-img_3207'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/010-20130224-IMG_3207-150x150.jpg" class="attachment-thumbnail" alt="Desert beauty" data-id="19085" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/012-20130226-img_3210'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/012-20130226-IMG_3210-150x150.jpg" class="attachment-thumbnail" alt="Old Tucson is where lots of westerns were filmed." data-id="19087" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/011-20130226-img_3212'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/011-20130226-IMG_3212-150x150.jpg" class="attachment-thumbnail" alt="Lots of fun stuff to photograph." data-id="19086" /></a>
+</p>
+<p>By late March I was well enough to get in a half day of snowboarding.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/014-20130327-IMG_3304-510x382.jpg" alt="Breckenridge" width="480" height="359" class="alignnone size-medium-img wp-image-19089" /></p>
+<p>In April I was doing a little soccer practice with my daughter.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/015-20130406-IMG_3244-510x340.jpg" alt="soccer practice" width="480" height="320" class="alignnone size-medium-img wp-image-19090" /></p>
+<p>We got one of our classic snow dustings in April. I had to pull over and take a photo &#8211; I live in a beautiful part of the country.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/017-20130410-IMG_3348-510x382.jpg" alt="snow on the flatirons" width="480" height="359" class="alignnone size-medium-img wp-image-19092" /></p>
+<p>My daughter turned 4 in late April.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/018-20130418-IMG_3251-510x340.jpg" alt="Caitlin turns 4" width="480" height="320" class="alignnone size-medium-img wp-image-19093" /></p>
+<p>I pretty much was back in the swing of things at the office in May, and enjoying being downtown again.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/024-20130510-img_3430'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/024-20130510-IMG_3430-150x150.jpg" class="attachment-thumbnail" alt="Downtown Denver Construction" data-id="19095" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/025-20130510-img_3435'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/025-20130510-IMG_3435-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19096" /></a>
+</p>
+<p>I was also able to start swinging a golf club again.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/026-20130511-IMG_3439-510x382.jpg" alt="dramatic clouds" width="480" height="359" class="alignnone size-medium-img wp-image-19097" /></p>
+<p>We got back up to the mountains in June</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/027-20130601-IMG_3480-510x382.jpg" alt="027-20130601-IMG_3480" width="480" height="359" class="alignnone size-medium-img wp-image-19098" /></p>
+<p>and I took my daughter to a baseball game (we made it to the 7th inning).</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/028-20130608-IMG_3493-510x382.jpg" alt="Rockies game" width="480" height="359" class="alignnone size-medium-img wp-image-19099" /></p>
+<p>Later that month, I attended <a href="http://ownercamp.com/">OwnerCamp</a> &#8211; what a great experience.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/031-20130622-img_3554'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/031-20130622-IMG_3554-150x150.jpg" class="attachment-thumbnail" alt="OwnerCamp" data-id="19102" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/030-20130622-img_3553'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/030-20130622-IMG_3553-150x150.jpg" class="attachment-thumbnail" alt="At the beautiful Boulders resort." data-id="19101" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/029-20130619-img_3536'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/029-20130619-IMG_3536-150x150.jpg" class="attachment-thumbnail" alt="I got in a little golf, of course." data-id="19100" /></a>
+</p>
+<p>My golf game was in good enough shape to participate in the Junior Achievement charity tournament.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/032-20130624-img_3560'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/032-20130624-IMG_3560-150x150.jpg" class="attachment-thumbnail" alt="Crowd Favorite sponsoring Junior Achievement." data-id="19103" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/033-20130624-img_3561'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/033-20130624-IMG_3561-150x150.jpg" class="attachment-thumbnail" alt="The Sanctuary is a beautiful golf course." data-id="19104" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/034-20130624-img_3562'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/034-20130624-IMG_3562-150x150.jpg" class="attachment-thumbnail" alt="We played well; placed 1st in net score and 3rd without handicaps." data-id="19105" /></a>
+</p>
+<p>A few weeks later, I followed that up with a week off from chemo and a family trip to Minnesota.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/037-20130711-img_3620-2'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/037-20130711-IMG_3620-2-150x150.jpg" class="attachment-thumbnail" alt="037-20130711-IMG_3620-2" data-id="19108" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/deacons-lodge-2'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/035-20130710-IMG_3615-150x150.jpg" class="attachment-thumbnail" alt="Deacon&#039;s Lodge" data-id="19106" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/036-20130711-img_3619'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/036-20130711-IMG_3619-150x150.jpg" class="attachment-thumbnail" alt="The Classic at Madden&#039;s" data-id="19107" /></a>
+</p>
+<p>I made it out to WordCamp San Francisco and participated on a business panel while I was there.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/038-20130828-MCM_0152-510x339.jpg" alt="Panel: Teaming Up: From Freelance to WordPress Agency" width="480" height="319" class="alignnone size-medium-img wp-image-19109" /></p>
+<p>We made it back up to the mountains in August.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/039-20130811-img_3709'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/039-20130811-IMG_3709-150x150.jpg" class="attachment-thumbnail" alt="039-20130811-IMG_3709" data-id="19110" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/040-20130811-img_3710'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/040-20130811-IMG_3710-150x150.jpg" class="attachment-thumbnail" alt="040-20130811-IMG_3710" data-id="19111" /></a>
+</p>
+<p>I launched a redesigned version of <a href="http://gametonight.in/">GameTonight?</a> at the end of the month.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/041-20130829-IMG_3284-510x340.jpg" alt="041-20130829-IMG_3284" width="480" height="320" class="alignnone size-medium-img wp-image-19112" /></p>
+<p>In September, my friend golf buddy Jim came over and taught me how to make a pie. I&#8217;m due to give it a try on my own.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/042-20130907-img_3806'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/042-20130907-IMG_3806-150x150.jpg" class="attachment-thumbnail" alt="Before" data-id="19113" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/043-20130907-img_3807'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/043-20130907-IMG_3807-150x150.jpg" class="attachment-thumbnail" alt="After" data-id="19114" /></a>
+</p>
+<p>September was the end of my first round of chemo. I spent some time getting my golf game in shape</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/044-20130907-img_3808'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/044-20130907-IMG_3808-150x150.jpg" class="attachment-thumbnail" alt="044-20130907-IMG_3808" data-id="19115" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/045-20130907-img_3812'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/045-20130907-IMG_3812-150x150.jpg" class="attachment-thumbnail" alt="045-20130907-IMG_3812" data-id="19116" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/051-20130921-img_3894'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/051-20130921-IMG_3894-150x150.jpg" class="attachment-thumbnail" alt="051-20130921-IMG_3894" data-id="19122" /></a>
+</p>
+<p>then joined 8 friends on a weekend golf trip to Myrtle Beach.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/046-20130912-img_3824'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/046-20130912-IMG_3824-150x150.jpg" class="attachment-thumbnail" alt="8 friends joined me in Myrtle Beach for a golf trip." data-id="19117" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/047-20130913-img_3831'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/047-20130913-IMG_3831-150x150.jpg" class="attachment-thumbnail" alt="We saw some wildlife." data-id="19118" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/048-20130913-img_3869'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/048-20130913-IMG_3869-150x150.jpg" class="attachment-thumbnail" alt="And played some beautiful courses." data-id="19119" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/049-20130915-img_3837'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/049-20130915-IMG_3837-150x150.jpg" class="attachment-thumbnail" alt="That demonstrated classic Southern charm" data-id="19120" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/050-20130915-img_3850'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/050-20130915-IMG_3850-150x150.jpg" class="attachment-thumbnail" alt="We decided that one round per day is probably enough in the future." data-id="19121" /></a>
+</p>
+<p>I had a busy travel schedule in October. Enjoying my break from chemo, I first headed east for my third annual <a href="http://monktoberfest.com">Monktoberfest</a> and a weekend in Freeport, ME.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/053-20131003-img_3972'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/053-20131003-IMG_3972-150x150.jpg" class="attachment-thumbnail" alt="Monktoberfest feast." data-id="19123" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/054-20131004-img_3985'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/054-20131004-IMG_3985-150x150.jpg" class="attachment-thumbnail" alt="Portland harbor." data-id="19124" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/056-20131006-img_4021'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/056-20131006-IMG_4021-150x150.jpg" class="attachment-thumbnail" alt="Good friends." data-id="19126" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/057-20131007-img_4024'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/057-20131007-IMG_4024-150x150.jpg" class="attachment-thumbnail" alt="Freeport, ME." data-id="19127" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/055-20131006-img_4020'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/055-20131006-IMG_4020-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19125" /></a>
+</p>
+<p>I followed that up with <a href="http://presnomics.com">Pressnomics</a></p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/058-20131017-img_4162'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/058-20131017-IMG_4162-150x150.jpg" class="attachment-thumbnail" alt="Pressnomics" data-id="19128" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/059-20131017-img_4172'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/059-20131017-IMG_4172-150x150.jpg" class="attachment-thumbnail" alt="I was able to attend the Cardinals vs. Seahawks game while I was there." data-id="19129" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/060-20131018-img_4177'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/060-20131018-IMG_4177-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19130" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/061-20131020-img_4188'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/061-20131020-IMG_4188-150x150.jpg" class="attachment-thumbnail" alt="I met up with a AZ few friends for a round of golf." data-id="19131" /></a>
+</p>
+<p>and a weekend trip to Vegas.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/065-20131026-img_4259'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/065-20131026-IMG_4259-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19135" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/062-20131025-img_4218'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/062-20131025-IMG_4218-150x150.jpg" class="attachment-thumbnail" alt="Of course, there was golf." data-id="19132" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/063-20131025-img_4238'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/063-20131025-IMG_4238-150x150.jpg" class="attachment-thumbnail" alt="The signature hole." data-id="19133" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/064-20131025-img_4254'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/064-20131025-IMG_4254-150x150.jpg" class="attachment-thumbnail" alt="The sun went down as we were finishing our round." data-id="19134" /></a>
+</p>
+<p>In November, Karim and I were well into discussions to <a href="http://crowdfavorite.com/blog/2013/11/crowd-favorite-and-velomedia/">bring VeloMedia and Crowd Favorite together</a>.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/066-20131108-IMG_4362-510x382.jpg" alt="Karim and Alex" width="480" height="359" class="alignnone size-medium-img wp-image-19136" /></p>
+<p>The deal was announced just before <a href="http://2013.denver.wordcamp.org/">WordCamp Denver</a>.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/067-20131116-p1010021'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/067-20131116-P1010021-150x150.jpg" class="attachment-thumbnail" alt="At WordCamp Denver" data-id="19137" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/068-20131116-p1010070'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/068-20131116-P1010070-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19138" /></a>
+</p>
+<p>I started up with chemo again in November, but it was scheduled so that were we able to have a great family Thanksgiving.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2014/01/069-20131128-P1010099-510x382.jpg" alt="Thanksgiving" width="480" height="359" class="alignnone size-medium-img wp-image-19139" /></p>
+<p>In mid-December, we went up to the mountains for a little early season snowboarding and sledding.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/070-20131214-img_0819'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/070-20131214-IMG_0819-150x150.jpg" class="attachment-thumbnail" alt="I got in my first snowboarding of the year." data-id="19140" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/071-20131215-p1010202'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/071-20131215-P1010202-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19141" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/073-20131215-p1010224'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/073-20131215-P1010224-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19142" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/074-20131215-p1010225'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/074-20131215-P1010225-150x150.jpg" class="attachment-thumbnail" alt="Snow angels." data-id="19143" /></a>
+</p>
+<p>Over the Christmas holiday, we were able to have both sides of our family join us in Denver.</p>
+<p>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/076-20131224-p1010353'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/076-20131224-P1010353-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19145" /></a>
+<a href='http://alexking.org/blog/2014/01/04/2013-in-review/075-20131218-p1010260'><img width="150" height="150" src="http://alexking.org/wp-content/uploads/2014/01/075-20131218-P1010260-150x150.jpg" class="attachment-thumbnail" alt="" data-id="19144" /></a>
+</p>
+<hr />
+<p>I&#8217;ve run the numbers for my site again this year (the code is available <a href="https://gist.github.com/1553482">here</a>). I ended up with exactly the same number of posts as I had in 2012; nearly 3 posts per day. If I exclude photo and status posts, my average post length is 693 words, down a little from 1014 words last year. I&#8217;m going to say that being a little more concise is probably a good thing.</p>
+<p>My site with <a href="http://crowdfavorite.com/favepersonal/">FavePersonal</a> is continuing to serve me as I want it to. I&#8217;m posting more frequently, a wider variety of content, participating on Facebook and Twitter, and owning my online identity and data.</p>
+<table class="numbers">
+<thead>
+<tr>
+<th>Year</th>
+<th>Posts</th>
+<th>Avg. Length</th>
+<th>Total Length</th>
+<th>Comments (Mine)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013</td>
+<td>1,066</td>
+<td>239</td>
+<td>255,101</td>
+<td>2,632 (77)</td>
+</tr>
+<tr>
+<td>2012</td>
+<td>1,066</td>
+<td>308</td>
+<td>328,544</td>
+<td>1,645 (106)</td>
+</tr>
+<tr>
+<td>2011</td>
+<td>936</td>
+<td>375</td>
+<td>350,543</td>
+<td>1,179 (93)</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>732</td>
+<td>604</td>
+<td>442,427</td>
+<td>1,037 (92)</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>902</td>
+<td>413</td>
+<td>372,081</td>
+<td>1,743 (109)</td>
+</tr>
+<tr>
+<td>2008</td>
+<td>1,096</td>
+<td>335</td>
+<td>367,283</td>
+<td>2,394 (151)</td>
+</tr>
+<tr>
+<td>2007</td>
+<td>1,627</td>
+<td>437</td>
+<td>711,071</td>
+<td>3,619 (276)</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>555</td>
+<td>1,697</td>
+<td>942,003</td>
+<td>2,921 (442)</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>496</td>
+<td>1,397</td>
+<td>692,791</td>
+<td>2,445 (438)</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>635</td>
+<td>1,090</td>
+<td>692,353</td>
+<td>2,188 (523)</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>659</td>
+<td>721</td>
+<td>474,960</td>
+<td>641 (227)</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>71</td>
+<td>784</td>
+<td>55,667</td>
+<td>40 (30)</td>
+</tr>
+</tbody>
+</table>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/year-in-review">Year in Review</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2014/01/04/2013-in-review/feed</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		</item>
+		<item>
+		<title>The Making of Rands in Repose</title>
+		<link>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose</link>
+		<comments>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose#comments</comments>
+		<pubDate>Tue, 03 Dec 2013 18:33:11 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[Case Studies]]></category>
+		<category><![CDATA[Crowd Favorite]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18820</guid>
+		<description><![CDATA[I&#8217;ve put up a detailed post on the Crowd Favorite blog that outlines the approach, process and execution phases of our redesign of Rands in Repose (and conversion of the site from Moveable Type to WordPress). We&#8217;re putting a bunch of good content up on the Crowd Favorite blog these days. There are already a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;ve put up a <a href="http://crowdfavorite.com/blog/2013/12/rands-in-repose/">detailed post on the Crowd Favorite blog</a> that outlines the approach, process and execution phases of our redesign of <a href="http://randsinrepose.com/">Rands in Repose</a> (and conversion of the site from Moveable Type to WordPress).</p>
+<p>We&#8217;re putting a bunch of good content up on the <a href="http://crowdfavorite.com/blog/">Crowd Favorite blog</a> these days. There are already a couple of project stories up there, and we&#8217;ve got a bunch of stuff in the pipeline, include some more product and technical posts.</p>
+<p>Our top goals for the new <a href="http://crowdfavorite.com/">Crowd Favorite</a> website were:</p>
+<ol>
+<li>simplify</li>
+<li>tell more stories about the cool stuff we&#8217;re doing</li>
+</ol>
+<p>The blog is our main tool for #2, and I believe it will help us attract clients and customers that appreciate our brand of thoughtful approach to projects and products. You&#8217;ll see me linking to a bunch of stuff there &#8211; stuff that would occasionally be posted on this site instead. And yes, we&#8217;ve got a post on the &#8220;making of&#8221; for the Crowd Favorite site in the queue as well.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/12/03/the-making-of-rands-in-repose/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>HiDPI Friendly</title>
+		<link>http://alexking.org/blog/2013/09/06/hidpi-friendly</link>
+		<comments>http://alexking.org/blog/2013/09/06/hidpi-friendly#comments</comments>
+		<pubDate>Fri, 06 Sep 2013 17:44:55 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=18089</guid>
+		<description><![CDATA[<p><a href="http://alexking.org/blog/2013/09/06/hidpi-friendly"><img width="297" height="510" src="http://alexking.org/wp-content/uploads/2013/08/IMG_3756-297x510.jpg" class="attachment-medium-img wp-post-image" alt="HiDPI Friendly" data-id="18090" /></a></p>
+The content images on this site are now HiDPI-friendly! We&#8217;re still considering the plugin in beta (make sure to grab the develop branch) &#8211; this site is the guinea pig. As you can see, I&#8217;m feeling pretty chuffed about it. (Photo via Frontback) This post is part of the thread: Content Presentation &#8211; an ongoing&#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://alexking.org/blog/2013/09/06/hidpi-friendly"><img width="297" height="510" src="http://alexking.org/wp-content/uploads/2013/08/IMG_3756-297x510.jpg" class="attachment-medium-img wp-post-image" alt="HiDPI Friendly" data-id="18090" /></a></p>
+<p>The content images on this site are now HiDPI-friendly!</p>
+<p>We&#8217;re still considering <a href="https://github.com/crowdfavorite/wp-hidpi-images">the plugin</a> in beta (make sure to grab the <code>develop</code> branch) &#8211; this site is the guinea pig.</p>
+<p>As you can see, I&#8217;m feeling pretty chuffed about it. (Photo via <a href="https://itunes.apple.com/us/app/frontback/id673566671?mt=8">Frontback</a>)</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/09/06/hidpi-friendly/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Blog Nav Moved to Footer</title>
+		<link>http://alexking.org/blog/2013/07/18/blog-nav-moved-to-footer</link>
+		<comments>http://alexking.org/blog/2013/07/18/blog-nav-moved-to-footer#comments</comments>
+		<pubDate>Fri, 19 Jul 2013 01:07:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17876</guid>
+		<description><![CDATA[I&#8217;ve moved my extended blog navigation feature to the footer of all blog pages. I didn&#8217;t hate the mega-menu treatment, but I think this is better. I also chose to remove my deprecated projects from the navigation list. This allows me to remove the topic and date archives from my sidebar as well. I&#8217;ve kept&#8230;]]></description>
+				<content:encoded><![CDATA[<p><img src="http://alexking.org/wp-content/uploads/2013/07/Screen-Shot-2013-07-18-at-11.58.49-AM-510x340.png" alt="Footer Blog Nav" width="480" height="320" class="aligncenter size-medium-img wp-image-17877" /></p>
+<p>I&#8217;ve moved my extended blog navigation feature to the footer of all blog pages. I didn&#8217;t hate the mega-menu treatment, but I think this is better. I also chose to remove my deprecated projects from the navigation list. This allows me to remove the topic and date archives from my sidebar as well.</p>
+<p>I&#8217;ve kept my &#8220;recent blog posts&#8221; list in the sidebar as I like having the list that omits the link, status, photo, etc. posts and shows just the longer form writing.</p>
+<p>I&#8217;ve also created a golf-specific sidebar for that section of the site, for anyone who follows <a href="http://alexking.org/sports/golf">my golf posts</a>.</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/18/blog-nav-moved-to-footer/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Blog Navigation Mega Menu</title>
+		<link>http://alexking.org/blog/2013/07/16/blog-navigation-mega-menu</link>
+		<comments>http://alexking.org/blog/2013/07/16/blog-navigation-mega-menu#comments</comments>
+		<pubDate>Wed, 17 Jul 2013 04:24:15 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17824</guid>
+		<description><![CDATA[I&#8217;m experimenting with a mega menu for my blog navigation. Exposing my content better is always something I&#8217;m thinking about, and this gives folks the ability to view by date, type, project, thread and category. Pretty comprehensive. The feature will definitely find a permanent home on this site, I&#8217;m just not sure where. The mega&#8230;]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m experimenting with a mega menu for my blog navigation. Exposing my content better is always something I&#8217;m thinking about, and this gives folks the ability to view by date, type, project, thread and category. Pretty comprehensive.</p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/07/Screen-Shot-2013-07-16-at-10.18.34-PM-510x308.png" alt="Blog nav mega menu" width="480" height="289" class="aligncenter size-medium-img wp-image-17825" /></p>
+<p>The feature will definitely find a permanent home on this site, I&#8217;m just not sure where. The mega menu is an experiment, but I have a few additional ideas for placements that I might try as well.</p>
+<p>What do you think? Handy or annoying? Interesting and useful or disastrous? Or all of the above?</p>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/16/blog-navigation-mega-menu/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>My Content-Powered Projects Page</title>
+		<link>http://alexking.org/blog/2013/07/15/content-powered-projects-page</link>
+		<comments>http://alexking.org/blog/2013/07/15/content-powered-projects-page#comments</comments>
+		<pubDate>Mon, 15 Jul 2013 16:33:29 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17747</guid>
+		<description><![CDATA[As alluded to earlier, I&#8217;ve cleaned up my projects page which is now powered by a new taxonomy, custom post type and the content I&#8217;ve generated here over the last decade plus. Turns out, I&#8217;ve generated quite a few projects. I&#8217;m not completely done creating and managing the content, but I&#8217;m pretty happy with the&#8230;]]></description>
+				<content:encoded><![CDATA[<p>As <a href="http://alexking.org/blog/2013/07/07/reorganizing">alluded to earlier</a>, I&#8217;ve cleaned up my <a href="http://alexking.org/projects">projects page</a> which is now powered by a new taxonomy, custom post type and the content I&#8217;ve generated here over the last decade plus. Turns out, I&#8217;ve generated quite a few projects. <img src="http://alexking.org/wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><img src="http://alexking.org/wp-content/uploads/2013/07/projects-page-crop-510x382.png" alt="projects-page-crop" width="480" height="359" class="aligncenter size-medium-img wp-image-17781" /></p>
+<p>I&#8217;m not completely done creating and managing the content, but I&#8217;m pretty happy with the improvement. I&#8217;ve tried to group them in ways that are useful &#8211; especially calling out projects that are no longer active<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+<p>You can see a comparison of the old and new pages in <a href="http://www.flickr.com/photos/alexkingorg/sets/72157634631433509/">this Flickr set</a>.</p>
+<p>So what did I do and how did I do it?</p>
+<p><span id="more-17747"></span></p>
+<p><em>Note: This was written against a pre-release version of WordPress 3.6</em></p>
+<h3>1. Create a Projects Taxonomy (and Post Type)</h3>
+<p>I created two new taxonomies to power the Projects page.</p>
+<ol>
+<li>Projects: the names of my various projects.</li>
+<li>Project Groups: to group my projects into buckets.</li>
+</ol>
+<p><script src="https://gist.github.com/5991273.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991273">Gist</a>.</p></noscript></p>
+<p>I then used the <a href="http://crowdfavorite.com">Crowd Favorite</a> <a href="https://github.com/crowdfavorite/wp-tax-post-binding">taxonomy-to-post binding plugin</a> plugin to create a Project post type that is effectively a child of the Projects taxonomy. This way I will be able to add content, terms, featured images, etc. to my projects (in a very forward compatible way).</p>
+<p><script src="https://gist.github.com/5991284.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991284">Gist</a>.</p></noscript></p>
+<h3>2. Convert existing Categories and Threads to Projects</h3>
+<p>In my existing content structures I had both categories and <a href="http://alexking.org/project/threads">threads</a> that were dedicated to specific projects. I needed to convert those relationships to the new projects taxonomy I&#8217;d created.</p>
+<p>Changing the categories was straightforward, but there was a little more work for the threads because I needed to convert the related post types as well. I did separate SQL queries to get the various category and thread ids I needed to convert.</p>
+<p><script src="https://gist.github.com/5991297.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991297">Gist</a>.</p></noscript></p>
+<p>Once everything was converted, I then ran a little code to save each term via the WordPress API so that the associated project post types content would be created (via the tax-post-binding library).</p>
+<p><script src="https://gist.github.com/5991324.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991324">Gist</a>.</p></noscript></p>
+<p>The existing terms are now fully converted to projects.</p>
+<h3>3. Create New Projects (with meta data)</h3>
+<p>Now that I had converted the existing categories and threads to projects, it was time to create the rest of the projects. I ended up creating a big array with lots of meta data so that I could run and test this locally, then replay it all on my live site.</p>
+<p>This code creates the new project groups taxonomy terms, the new project terms, and adds meta data to the associated project post types.</p>
+<p><script src="https://gist.github.com/5991315.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991315">Gist</a>.</p></noscript></p>
+<p>I truncated that quite a bit as I inserted a <em>lot</em> of projects.</p>
+<h3>4. Assign Existing Posts to Projects</h3>
+<p>At this point we have all of our project terms and post types created, it&#8217;s time to use them.</p>
+<p>Finding the posts I wanted to put into each project wasn&#8217;t an exact science. I basically created a projects list, then did searches on my site to find the posts relevant to that project. Then I manually selected the post IDs for those posts, and put them into a big array.</p>
+<p><script src="https://gist.github.com/5991399.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991399">Gist</a>.</p></noscript></p>
+<p>I didn&#8217;t select the posts programatically because there&#8217;s a bit more nuance to choosing what is and isn&#8217;t applicable to a project than just a keyword search.</p>
+<p>As part of that process, I also added a &#8220;Projects&#8221; category to all of these posts. I use this to show links to the latest posts across all projects on the new page. I needed to add this category to all of the converted categories and threads too.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+<p><script src="https://gist.github.com/5991415.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991415">Gist</a>.</p></noscript></p>
+<h3>5. Expose the New Data to Create the Projects Page</h3>
+<p>With all of my data set up, the last step was to expose it to power the projects page. I decided to do this by creating a shortcode that would output the projects by group.</p>
+<p><script src="https://gist.github.com/5991434.js"></script><noscript><p>View the code on <a href="https://gist.github.com/5991434">Gist</a>.</p></noscript></p>
+<p>This has a bit too much of a mix of template and presentation for my liking, but it works and refactoring it is pretty low on my list at this point. Next time I mess with that code, I&#8217;ll probably clean it up a bit.</p>
+<h3>6. Project Page</h3>
+<p>The final step in the process was to customize the output of the individual project page. I am outputting the description, related links and featured image from the bound post type, and I converted some of my Threads plugin code to show a timeline of posts in &#8220;newest first&#8221; order. I also added a &#8220;this post is part of a project&#8221; banner to the individual posts, again borrowing the code from the Threads plugin.</p>
+<p>Here&#8217;s <a href="http://alexking.org/project/social">an example</a>.</p>
+<h3>Conclusion</h3>
+<p>I feel like the new <a href="http://alexking.org/projects">projects page</a> is a better representation of my projects, and will be more meaningful and maintainable in the future than the old static page was. It will also reward me for blogging more frequently by being more up to date as a result.</p>
+<p>All good things.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+More on this in a future post.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+<li id="fn:2">
+I probably could have done this earlier in the process, but didn&#8217;t think of the feature I wanted it for until later.&#160;<a href="#fnref:2" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/content">Content Presentation</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/15/content-powered-projects-page/feed</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>Reorganizing</title>
+		<link>http://alexking.org/blog/2013/07/07/reorganizing</link>
+		<comments>http://alexking.org/blog/2013/07/07/reorganizing#comments</comments>
+		<pubDate>Mon, 08 Jul 2013 01:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=17462</guid>
+		<description><![CDATA[One thing I&#8217;ve learned by publishing on this site for the last decade: the presentation needs of your site will change as your content grows. The thing that&#8217;s been bugging me most over the last few months is how poorly my projects page reflects the projects I&#8217;m actually working on. I&#8217;ve decided to try to&#8230;]]></description>
+				<content:encoded><![CDATA[<p>One thing I&#8217;ve learned by publishing on this site for the last decade: the presentation needs of your site will change as your content grows.</p>
+<p>The thing that&#8217;s been bugging me most over the last few months is how poorly my <a href="http://alexking.org/projects">projects page</a> reflects the projects I&#8217;m actually working on. I&#8217;ve decided to try to solve this with three changes:</p>
+<ol>
+<li>I&#8217;m creating a &#8220;projects&#8221; taxonomy to better group posts that relate to a given project.</li>
+<li>I intend to write a bit more about the stuff I&#8217;m working on.</li>
+<li>My projects page will be powered by the content on this site instead of by static content that I forget to update.</li>
+</ol>
+<p>I&#8217;m going to be converting a few &#8220;threads&#8221; and a few &#8220;categories&#8221; to &#8220;projects&#8221;, and I&#8217;ve gone through my content and selected the posts that need to be attached to each project. I&#8217;m also borrowing the presentation from my threads plugin for projects, as I believe the timeline is a good way to show that a project is active or dormant.</p>
+<p>I&#8217;ll post the scripts on GitHub when they are tested and solid, this type of moving and re-categorizing content is something I expect more people will want to do as their content grows and evolves.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/07/07/reorganizing/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		</item>
+		<item>
+		<title>2012 in Review</title>
+		<link>http://alexking.org/blog/2013/01/02/2012-in-review</link>
+		<comments>http://alexking.org/blog/2013/01/02/2012-in-review#comments</comments>
+		<pubDate>Thu, 03 Jan 2013 06:10:46 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[alexking.org]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=15509</guid>
+		<description><![CDATA[Welcome to my (semi) annual year in review post. Last year I wrote: I feel like I’m still at a mid-way point on a number of the things I’m trying to accomplish, hopefully 2012 will see continued progress. I&#8217;m pleased to say that is indeed how 2012 played out. At Crowd Favorite we took a&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Welcome to my (semi) annual <span class="nobr"> <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley" />  <a href="http://alexking.org/blog/thread/year-in-review">year in review</a>  <img src="http://alexking.org/wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley" /> </span> post.</p>
+<p>Last year <a href="http://alexking.org/blog/2012/01/02/2011-in-review">I wrote</a>:</p>
+<blockquote><p>I feel like I’m still at a mid-way point on a number of the things I’m trying to accomplish, hopefully 2012 will see continued progress.</p></blockquote>
+<p>I&#8217;m pleased to say that is indeed how 2012 played out.</p>
+<p>At <a href="http://crowdfavorite.com">Crowd Favorite</a> we took a number of important steps; making lots of incremental improvements in a number of areas. The result being significant cumulative steps forward as a team and strong growth in the team. I am endeavoring to return to a more technical role &#8211; getting my hands back in the code a bit more often. This change is one that I&#8217;m extremely excited for (though balancing my business responsibilities with my desire to build stuff will likely continue to be a time management challenge for a while).</p>
+<p>This summer I could see burnout looming in the distance. We&#8217;d been working extremely hard on hiring and team building for the last year and I was spending pretty much all of my time in my various management responsibilities. I really enjoy working with my team, but there are administrative aspects of managing that simply drain my energy. Conversely, rolling up my sleeves and building great stuff energizes me the way few things do. I&#8217;m very optimistic that 2013 will see a continuation of a healthy balance for me as I&#8217;m able to get more involved technically on client projects and various product initiatives.</p>
+<p>I did a little more <a href="http://alexking.org/speaking">speaking</a> in 2012, giving presentations at <a href="http://alexking.org/blog/2012/08/27/wordcamp-albuquerque-2012">WordCamp Albuquerque</a>, <a href="http://alexking.org/blog/2012/10/23/2012-wordcamp-denver-presentation">WordCamp Denver</a> and <a href="http://alexking.org/blog/2012/11/13/pressnomics-2012">Pressonmics</a>. I feel very good about my technical presentations now, and look forward to continuing to improve my business/personal talks.</p>
+<p>I did integrate golf back into my schedule a little more this year. I even managed to sneak in <a href="http://alexking.org/sports/golf/2012/09/30/79-at-coal-creek">one round in the 70s</a> for the first time in years. I took my daughter to the driving range a few times over the summer, and hope that can be something we do a little more of in 2013.</p>
+<p>Family time has taken a significant role in my schedule. I can hardly remember the days when my wife and I were routinely putting in our 60+ hour work weeks.</p>
+<p>I&#8217;m still working to adjust my time expectations of myself to account for the increased family time. I&#8217;ve reduced my work hours to a more reasonable level, but it&#8217;s still not something I&#8217;m fully accustomed to. I certainly wouldn&#8217;t give up my family time, but there are so many things I&#8217;d like to be doing or doing better.</p>
+<p>If I could pick a superpower, it would be the ability to give myself more time. I&#8217;ll be working to find ways to make myself more efficient in 2013.</p>
+<hr />
+<p>I&#8217;ve run the numbers for my site again this year (the code is available as a <a href="https://gist.github.com/1553482">Gist</a>). I&#8217;m continuing to post more frequently with fewer words per post. I do miss writing more in-depth posts more often. I&#8217;m hoping do more of this in 2013; I have a few things I want to say.</p>
+<table class="numbers">
+<thead>
+<tr>
+<th>&nbsp;</th>
+<th>Posts</th>
+<th>Avg. Length</th>
+<th>Total Length</th>
+<th>Comments (Mine)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2012</td>
+<td>1,061</td>
+<td>309</td>
+<td>327,726</td>
+<td>1,632 (106)</td>
+</tr>
+<tr>
+<td>2011</td>
+<td>435</td>
+<td>711</td>
+<td>309,345</td>
+<td>1,175 (93)</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>217</td>
+<td>1,822</td>
+<td>395,422</td>
+<td>1,037 (92)</td>
+</tr>
+<tr>
+<td>2009</td>
+<td>181</td>
+<td>1,662</td>
+<td>300,910</td>
+<td>1,750 (109)</td>
+</tr>
+<tr>
+<td>2008</td>
+<td>186</td>
+<td>1,551</td>
+<td>288,575</td>
+<td>2,397 (151)</td>
+</tr>
+<tr>
+<td>2007</td>
+<td>404</td>
+<td>1,498</td>
+<td>605,285</td>
+<td>3,620 (276)</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>555</td>
+<td>1,705</td>
+<td>946,404</td>
+<td>2,923 (442)</td>
+</tr>
+<tr>
+<td>2005</td>
+<td>496</td>
+<td>1,397</td>
+<td>692,801</td>
+<td>2,447 (438)</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>635</td>
+<td>1,090</td>
+<td>692,381</td>
+<td>2,188 (523)</td>
+</tr>
+<tr>
+<td>2003</td>
+<td>659</td>
+<td>721</td>
+<td>474,960</td>
+<td>641 (227)</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>71</td>
+<td>786</td>
+<td>55,809</td>
+<td>40 (30)</td>
+</tr>
+</tbody>
+</table>
+<p class="threads-post-notice">This post is part of the thread: <a href="http://alexking.org/blog/thread/year-in-review">Year in Review</a> &#8211; an ongoing story on this site. View the thread timeline for more context on this post.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2013/01/02/2012-in-review/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.590 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:00:20 -->
+
+<!-- Compression = gzip -->

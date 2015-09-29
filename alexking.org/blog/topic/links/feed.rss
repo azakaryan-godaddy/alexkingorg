@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Links</title>
+	<atom:link href="http://alexking.org/blog/topic/links/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Lo, Rowhammer!</title>
+		<link>http://www.slate.com/articles/technology/bitwise/2015/07/rowhammer_security_exploit_why_a_new_security_attack_is_truly_terrifying.html?wpsrc=sh_all_dt_tw_top</link>
+		<comments>http://alexking.org/blog/2015/08/07/lo-rowhammer#comments</comments>
+		<pubDate>Fri, 07 Aug 2015 18:43:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-1743f47d49aaf4060a55ff28a3f2b0f3</guid>
+		<description><![CDATA[This is nuts. Do not want.<p style="clear: both;"><a href="http://alexking.org/blog/2015/08/07/lo-rowhammer">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>This is nuts. Do not want.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/08/07/lo-rowhammer">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/07/lo-rowhammer/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Safari vs. Chrome: Power Consumption</title>
+		<link>http://mjtsai.com/blog/2015/08/01/safari-vs-chrome-power-consumption/</link>
+		<comments>http://alexking.org/blog/2015/08/02/safari-vs-chrome-power-consumption#comments</comments>
+		<pubDate>Mon, 03 Aug 2015 01:43:57 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-32b823bc0d3211abec9baea1116dba25</guid>
+		<description><![CDATA[I&#8217;m increasingly using Chrome because Safari can&#8217;t get the job done. I don&#8217;t know whose fault it is that these sites don&#8217;t work with Safari, but to me as a user it doesn&#8217;t really matter. Improving power efficiency is great, but it would probably save even more battery life if Safari were compatible enough that&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2015/08/02/safari-vs-chrome-power-consumption">#</a></p>]]></description>
+				<content:encoded><![CDATA[<blockquote><p>
+  I&#8217;m increasingly using Chrome because Safari can&#8217;t get the job done. I don&#8217;t know whose fault it is that these sites don&#8217;t work with Safari, but to me as a user it doesn&#8217;t really matter. Improving power efficiency is great, but it would probably save even more battery life if Safari were compatible enough that I didn&#8217;t have to keep Chrome running.
+</p></blockquote>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/08/02/safari-vs-chrome-power-consumption">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/08/02/safari-vs-chrome-power-consumption/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Meet the New Monk: Fintan Ryan</title>
+		<link>http://feedproxy.google.com/~r/tecosystems/~3/9gGT7bKi9Lw/</link>
+		<comments>http://alexking.org/blog/2015/07/26/meet-the-new-monk-fintan-ryan#comments</comments>
+		<pubDate>Sun, 26 Jul 2015 23:26:53 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-02a00d187f499583fea1f49e3f286e95</guid>
+		<description><![CDATA[Beyond the technical skills, however, Fintan seems to have a knack for asking interesting questions, a trait that can be harder to find than the ability to answer them. I&#8217;m not at all surprised at how RedMonk went about their latest round of hiring. Sounds like they have landed a great fit. Congrats all around.<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/meet-the-new-monk-fintan-ryan">#</a></p>]]></description>
+				<content:encoded><![CDATA[<blockquote><p>
+  Beyond the technical skills, however, Fintan seems to have a knack for asking interesting questions, a trait that can be harder to find than the ability to answer them.
+</p></blockquote>
+<p>I&#8217;m not at all surprised at how RedMonk went about their latest round of hiring. Sounds like they have landed a great fit. Congrats all around.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/meet-the-new-monk-fintan-ryan">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/26/meet-the-new-monk-fintan-ryan/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>FastMail Enables IMAP Push for iOS</title>
+		<link>http://mjtsai.com/blog/2015/07/20/fastmail-enables-imap-push-for-ios/</link>
+		<comments>http://alexking.org/blog/2015/07/26/fastmail-imap-push-for-ios#comments</comments>
+		<pubDate>Sun, 26 Jul 2015 23:26:18 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-96d63b5b80884f58a165e0fb8f099f1b</guid>
+		<description><![CDATA[What a nice surprise. FastMail1 is one of the internet services I&#8217;ve used the longest; surviving several ownership changes. That&#8217;s not easy &#8211; great job pulling it off and continuing to offer stellar service. That&#8217;s a referral link.&#160;&#8617;<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/fastmail-imap-push-for-ios">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>What a nice surprise. <a href="http://www.fea.st/?STKI=1035041">FastMail</a><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> is one of the internet services I&#8217;ve used the longest; surviving several ownership changes. That&#8217;s not easy &#8211; great job pulling it off and continuing to offer stellar service.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+That&#8217;s a referral link.&#160;<a href="#fnref:1" rev="footnote">&#8617;</a>
+</li>
+</ol>
+</div>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/fastmail-imap-push-for-ios">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/26/fastmail-imap-push-for-ios/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>BBEdit Leaving the Mac App Store</title>
+		<link>http://mjtsai.com/blog/2014/10/12/bbedit-leaving-mac-app-store/</link>
+		<comments>http://alexking.org/blog/2015/07/26/bbedit-leaving-the-mac-app-store#comments</comments>
+		<pubDate>Sun, 26 Jul 2015 22:58:56 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-248acbb49332a3dd625db647b1d084a7</guid>
+		<description><![CDATA[If you&#8217;re running a Mac software distribution and both Panic and Bare Bones sign up then decide to leave due to the limitations&#8230; something isn&#8217;t working right.<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/bbedit-leaving-the-mac-app-store">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>If you&#8217;re running a Mac software distribution and both Panic and Bare Bones sign up then decide to leave due to the limitations&#8230; something isn&#8217;t working right.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/26/bbedit-leaving-the-mac-app-store">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/26/bbedit-leaving-the-mac-app-store/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>You are not your company</title>
+		<link>http://www.jonefox.com/blog/2015/06/01/you-are-not-your-company/</link>
+		<comments>http://alexking.org/blog/2015/07/18/you-are-not-your-company#comments</comments>
+		<pubDate>Sun, 19 Jul 2015 02:02:25 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-73f3fd0d3554d6d73b65b53f9f19bad7</guid>
+		<description><![CDATA[The idea of an entrepreneur is to ideally build a company that is bigger than the founder. In the early days you are critical, but over time your job is to build systems and hire people (or teams of people) to fill in these critical roles. In many ways the true measure of success is&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/you-are-not-your-company">#</a></p>]]></description>
+				<content:encoded><![CDATA[<blockquote><p>The idea of an entrepreneur is to ideally build a company that is bigger than the founder. In the early days you are critical, but over time your job is to build systems and hire people (or teams of people) to fill in these critical roles. In many ways the true measure of success is when you&#8217;ve managed to make yourself no longer a necessary piece.</p></blockquote>
+<p>I often said that my job at Crowd Favorite was to make myself redundant. And then to build redundancy into the team, processes, etc.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/you-are-not-your-company">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/18/you-are-not-your-company/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The App Cleanse</title>
+		<link>https://500ish.com/the-app-cleanse-2f8096cecbd</link>
+		<comments>http://alexking.org/blog/2015/07/18/the-app-cleanse#comments</comments>
+		<pubDate>Sun, 19 Jul 2015 02:00:46 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-33328bddbdf44a6af5eb805d687ddf66</guid>
+		<description><![CDATA[I ended up doing this when I got my iPhone 6 because it was acting possessed. On all of my prior iPhones, I had restored from my previous phone&#8217;s backup. Ultimately, starting fresh fixed all sorts of weird little things as well as larger issues like TouchID: it had never worked for me on my&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/the-app-cleanse">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I ended up doing this when I got my iPhone 6 because it was acting possessed. On all of my prior iPhones, I had restored from my previous phone&#8217;s backup. Ultimately, starting fresh fixed all sorts of weird little things as well as larger issues like TouchID: it had never worked for me on my iPhone 5S or my iPhone 6 until I did the fresh install on the iPhone 6. It&#8217;s more work to do the initial set-up, but I&#8217;ll be installing from scratch from now on.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/the-app-cleanse">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/18/the-app-cleanse/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Penn Jillette Had A Rational, Mature Response To Donald Trump Trashing Him On Twitter</title>
+		<link>http://uproxx.com/webculture/2015/07/penn-jillette-responds-to-trump/</link>
+		<comments>http://alexking.org/blog/2015/07/18/jillette-trump#comments</comments>
+		<pubDate>Sun, 19 Jul 2015 01:29:32 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-de57d7aa714a5ba4f22d6867e5e6d917</guid>
+		<description><![CDATA[We need more Penn Jillette.<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/jillette-trump">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p><iframe width="480" height="270" src="https://www.youtube.com/embed/3nfLjbvvpC8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>We need more Penn Jillette.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/18/jillette-trump">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/18/jillette-trump/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>My Two Years as an Anthropologist on the Photoshop Team</title>
+		<link>https://medium.com/@Mediauras/my-two-years-as-an-anthropologist-on-the-photoshop-team-e700acb7d3d5</link>
+		<comments>http://alexking.org/blog/2015/07/14/my-two-years-as-an-anthropologist-on-the-photoshop-team#comments</comments>
+		<pubDate>Wed, 15 Jul 2015 00:14:02 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-5f158889bad3722665c5ab99a4069a7e</guid>
+		<description><![CDATA[Fascinating read. I&#8217;m glad to see this type of introspection and process from Adobe; especially in light of indirect challenges from the likes of apps like Sketch that were built ground-up with these types of workflows in mind.<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/14/my-two-years-as-an-anthropologist-on-the-photoshop-team">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Fascinating read. I&#8217;m glad to see this type of introspection and process from Adobe; especially in light of indirect challenges from the likes of apps like Sketch that were built ground-up with these types of workflows in mind.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/14/my-two-years-as-an-anthropologist-on-the-photoshop-team">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/14/my-two-years-as-an-anthropologist-on-the-photoshop-team/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Monktoberfest</title>
+		<link>http://monktoberfest.com/</link>
+		<comments>http://alexking.org/blog/2015/07/13/the-monktoberfest#comments</comments>
+		<pubDate>Mon, 13 Jul 2015 22:59:05 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-01965b2d55ee9ba707309b46d087a0f8</guid>
+		<description><![CDATA[I&#8217;m super bummed to be missing Monktoberfest this year, but that just means one of you lucky folks can use my ticket. Tickets are on sale now!<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/13/the-monktoberfest">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I&#8217;m super bummed to be missing Monktoberfest this year, but that just means one of you lucky folks can use my ticket. Tickets are on sale now!</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/07/13/the-monktoberfest">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/07/13/the-monktoberfest/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Lessons learned moving away from home</title>
+		<link>https://devin.reams.me/2015/lessons-from-moving-to-maine/</link>
+		<comments>http://alexking.org/blog/2015/06/29/lessons-learned-moving-away-from-home#comments</comments>
+		<pubDate>Tue, 30 Jun 2015 03:28:58 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-10c9e30adf0638980c60208bd337de0b</guid>
+		<description><![CDATA[As Devin notes, these may not all be earthshaking revelations. However, the stories that lead him to each conclusion are unique to his experience and that&#8217;s the beauty of the personal narrative; an area where the blog format continues to excel.<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/29/lessons-learned-moving-away-from-home">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>As Devin notes, these may not all be earthshaking revelations. However, the stories that lead him to each conclusion are unique to his experience and that&#8217;s the beauty of the personal narrative; an area where the blog format continues to excel.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/29/lessons-learned-moving-away-from-home">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/29/lessons-learned-moving-away-from-home/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>More micro-blogging workflows</title>
+		<link>http://www.manton.org/2015/06/more-quick-blogging-workflows.html</link>
+		<comments>http://alexking.org/blog/2015/06/28/micro-blogging-workflows#comments</comments>
+		<pubDate>Mon, 29 Jun 2015 01:53:43 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://pinboard-2097310c4ccd2c9bdaac738aaa90b519</guid>
+		<description><![CDATA[Manton writes about a few workflows here the follows it up with the post I&#8217;ve linked to. FWIW I&#8217;ve posted to my own site first then passed stuff along to Twitter and Facebook since we released the Social plugin for WordPress back in 2011. Each of my posts has a link to its counterpart on&#8230;<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/micro-blogging-workflows">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>Manton writes about a few workflows <a href="http://www.manton.org/2015/06/four-microblogging-community-tips.html">here</a> the follows it up with the post I&#8217;ve linked to.</p>
+<p>FWIW I&#8217;ve posted to my own site first then passed stuff along to Twitter and Facebook since <a href="http://alexking.org/blog/2011/08/11/wordpress-social-plugin">we released the Social plugin for WordPress</a> back in 2011. Each of my posts has a link to its counterpart on Twitter and Facebook, and reactions on those networks are brought back in as comments on this site. Special handling is done to thread comments based on Twitter&#8217;s reply_to property, as well as a retweets, etc. More details about how this works can be found in the <a href="https://crowdfavorite.com/blog/2014/01/23/own-your-online-identity/">blog post I wrote back in January</a> on the Crowd Favorite blog.</p>
+<p>When I&#8217;m mobile, I&#8217;ve found that using the WordPress admin web interface is better for my needs than the iOS app. Mainly because of additional post meta that I utilize on this site.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/micro-blogging-workflows">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/28/micro-blogging-workflows/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>App Camp for Girls</title>
+		<link>http://igg.me/p/app-camp-for-girls-3-0/x/11200762</link>
+		<comments>http://alexking.org/blog/2015/06/28/app-camp-for-girls#comments</comments>
+		<pubDate>Mon, 29 Jun 2015 00:32:59 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21909</guid>
+		<description><![CDATA[I put in my contribution. My daughter is still a bit young to be a camper, but like any parent I want her to have every opportunity as she grows up. She&#8217;s already pretty solid with Lightbot (also recommended for kids of any gender).<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/app-camp-for-girls">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I put in my contribution. My daughter is still a bit young to be a camper, but like any parent I want her to have every opportunity as she grows up. She&#8217;s already pretty solid with <a href="http://lightbot.com">Lightbot</a> (also recommended for kids of any gender).</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/28/app-camp-for-girls">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/28/app-camp-for-girls/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Live with Phil</title>
+		<link>http://www.marco.org/2015/06/11/live-with-phil</link>
+		<comments>http://alexking.org/blog/2015/06/14/live-with-phil#comments</comments>
+		<pubDate>Sun, 14 Jun 2015 20:14:03 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://pinboard-48ce9feaa72505a759ae4fedace04d43</guid>
+		<description><![CDATA[I really like Marco&#8217;s summary of the event and I really enjoyed listening to the podcast. I liked it enough to go back and watch some of it again once the video was posted. Mr. Schiller was incredibly human and likeable throughout and he didn&#8217;t shy away from some tough questions.<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/14/live-with-phil">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>I really like Marco&#8217;s summary of the event and I really enjoyed listening to the podcast. I liked it enough to go back and watch some of it again once the video was posted. Mr. Schiller was incredibly human and likeable throughout and he didn&#8217;t shy away from some tough questions.</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/14/live-with-phil">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/14/live-with-phil/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Abandoned Soviet Space Shuttles</title>
+		<link>https://translate.google.com/translate?sl=auto&#038;tl=en&#038;js=y&#038;prev=_t&#038;hl=en&#038;ie=UTF-8&#038;u=http%3A%2F%2Fralphmirebs.livejournal.com%2F219949.html&#038;edit-text=</link>
+		<comments>http://alexking.org/blog/2015/06/12/abandoned-soviet-space-shuttles#comments</comments>
+		<pubDate>Fri, 12 Jun 2015 21:28:23 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+				<category><![CDATA[Links]]></category>
+
+		<guid isPermaLink="false">http://alexking.org/?p=21896</guid>
+		<description><![CDATA[These photos are fascinating. (thanks Chris)<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/12/abandoned-soviet-space-shuttles">#</a></p>]]></description>
+				<content:encoded><![CDATA[<p>These photos are fascinating. (thanks <a href="https://twitter.com/chrismessina/status/609465457247145984">Chris</a>)</p>
+<p style="clear: both;"><a href="http://alexking.org/blog/2015/06/12/abandoned-soviet-space-shuttles">#</a></p>]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/blog/2015/06/12/abandoned-soviet-space-shuttles/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.326 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:42:43 -->
+
+<!-- Compression = gzip -->

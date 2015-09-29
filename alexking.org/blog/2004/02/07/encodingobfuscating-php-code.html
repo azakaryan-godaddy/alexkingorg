@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>Encoding/Obfuscating PHP Code : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Encoding/Obfuscating PHP Code Comments Feed" href="http://alexking.org/blog/2004/02/07/encodingobfuscating-php-code/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="All Style Entries are Posted" href="http://alexking.org/blog/2004/02/07/all-style-entries-are-posted">
+<link rel="next" title="Around the web" href="http://alexking.org/blog/2004/02/08/around-the-web">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="encodingobfuscating-php-code.html">
+<link rel="shortlink" href="http://alexking.org/?p=714">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Encoding/Obfuscating PHP Code">
+<meta property="og:url" content="http://alexking.org/blog/2004/02/07/encodingobfuscating-php-code">
+<meta property="og:description" content="I’ve been told by a number of people that I should encode or obfuscate the source code for Tasks Pro™. I’d like to believe that I don’t need to – that people will be h...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2004/02/07/encodingobfuscating-php-code">
+<meta name="twitter:title" content="Encoding/Obfuscating PHP Code">
+<meta name="twitter:description" content="I've been told by a number of people that I should encode or obfuscate the source code for Tasks Pro™. I'd like to believe that I don't need to - that people will be honest, etc. but I'm not sure that's realiztic. I've looked into a number of options. Here are some of them: Zend Encoder ionCube Encoder SourceGuardian PHTML Encoder PHP Processor PHP Obfuscator SourceCop PHP Code Lock I read a bunch of forum">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-714 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-714" class="clearfix post-714 post type-post status-publish format-standard hentry category-development category-projects">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="encodingobfuscating-php-code.html" title="Permalink to Encoding/Obfuscating PHP Code" rel="bookmark">Encoding/Obfuscating PHP Code</a></h1>
+		<time class="entry-date" datetime="2004-02-07T20:46:18+00:00" pubdate=""> February 8, 2004</time>
+	</header>
+	<div class="entry-content">
+<p>I’ve been told by a number of people that I should encode or obfuscate the source code for <a href="http://crowdfavorite.net/tasks-pro/">Tasks Pro™</a>. I’d like to believe that I don’t need to – that people will be honest, etc. but I’m not sure that’s realiztic.</p>
+<p>I’ve looked into a number of options. Here are some of them:</p>
+<ul>
+<li><a href="http://www.zend.com/store/products/zend-encoder.php" rel="external">Zend Encoder</a></li>
+<li><a href="http://www.ioncube.com/encoder" rel="external">ionCube Encoder</a></li>
+<li><a href="http://www.phpguardian.com/" rel="external">SourceGuardian</a></li>
+<li><a href="http://www.rssoftlab.com/phpenc.php" rel="external">PHTML Encoder</a></li>
+<li><a href="http://www.gridinsoft.com/" rel="external">PHP Processor</a></li>
+<li><a href="http://www.semdesigns.com/Products/Obfuscators/PHPObfuscator.html" rel="external">PHP Obfuscator</a></li>
+<li><a href="http://sourcecop.com/" rel="external">SourceCop</a></li>
+<li><a href="http://www.phpcodelock.com/" rel="external">PHP Code Lock</a></li>
+</ul>
+<p>I read a bunch of <a href="http://www.phpcomplete.com/node/view/8#comment" rel="external">forum posts</a> and <a href="http://www.seaphp.org/index.php?page=ProtectCode" rel="external">reviews</a>.</p>
+<p>After all this, it seems that the only <em>really secure</em> encoding is a system that requires a loader like Zend or ionCube. Installing and configuring the loader is a burden I really don’t want to place on my users. I’ve worked hard on the installer for Tasks Pro™ so the only steps you need to do to install are:</p>
+<ol>
+<li>Install PHP &amp; MySQL</li>
+<li>Create a database (or you can use an existing database)</li>
+<li>Put your database settings into the database.inc.php file</li>
+<li>Run the installer</li>
+</ol>
+<p>Basically, I’m trying to do everything I can to make it possible to install Tasks Pro™ even if you aren’t familiar with PHP and MySQL. Requiring my customer to configure and add a loader (or worse, edit the php.ini file) doesn’t jive with what I’ve been trying to accomplish. Also, it would make it harder for me to allow people that buy Tasks Pro™ to customize their installation, which is something I’d like to allow.</p>
+<p>Has anyone else had experience with this sort of thing? I’m interested in hearing how your decision panned out.</p>
+<p>If you are a potential customer, how would this affect your decision to purchase?</p>
+<p class="threads-post-notice">This post is part of the project: <a href="../../../../project/taskspro.html">Tasks Pro™</a>. View the project timeline for more context on this post.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="encodingobfuscating-php-code.html#comments">26 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/development.html" rel="category tag">Development</a>, <a href="../../../topic/projects.html" rel="category tag">Projects</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="encodingobfuscating-php-code.html#" rel="social-all"><span>26 Replies</span></a></li>
+			<li class="social-wordpress"><a href="encodingobfuscating-php-code.html#" rel="wordpress"><span>24 Comments</span></a></li>
+			<li class="social-twitter"><a href="encodingobfuscating-php-code.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="encodingobfuscating-php-code.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="encodingobfuscating-php-code.html#" rel="social-pingback"><span>0 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was April 23, 2011</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1035">
+<div class="social-comment-inner social-clearfix" id="comment-1035">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/db5d85fe877a64c686f40fb048a05f14?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/db5d85fe877a64c686f40fb048a05f14?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.rumblestrip.org" rel="external nofollow" class="url">Rob Guglielmetti</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1035" class="social-posted-when" target="_blank">February 9, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Well, I’m a potential customer, and I don’t think that an extra step or two would scare me off from your product.  If one can install PHP &amp; MySQL, I’d expect that the install of an encoder shouldn’t be a dealbreaker.  </p>
+<p>Looking forward to seeing the finished product, Alex.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1035 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1037">
+<div class="social-comment-inner social-clearfix" id="comment-1037">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1037" class="social-posted-when" target="_blank">February 9, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks Rob, I appreciate the feedback.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1037 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1038">
+<div class="social-comment-inner social-clearfix" id="comment-1038">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/901ef755790fbe0f71d1282e916a7e84?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/901ef755790fbe0f71d1282e916a7e84?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://gfmorris.com/" rel="external nofollow" class="url">Geof</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1038" class="social-posted-when" target="_blank">February 9, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Yeah, I can’t see where it’d be a dealbreaker for me, either.  As long as you have pretty decent HOWTO’s in there–or pointers to some on the Web if they exist–things should be peachy.</p>
+<p>There probably should be some notice about this sometime in the purchase process, though.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1038 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1045">
+<div class="social-comment-inner social-clearfix" id="comment-1045">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo avatar-default js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">sp</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1045" class="social-posted-when" target="_blank">February 9, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>as a potential customer who has access to my server and can thus change the php.ini file and add loader files, i would still have to say that requiring anything that severe would be a problem in the long run. not all the applications i write are distributed to controlled host environments. so in the end something like sourceguardian would be the better option…</p>
+<p>speaking of the pro version, do you have an estimated release date and price point?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1045 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1046">
+<div class="social-comment-inner social-clearfix" id="comment-1046">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1046" class="social-posted-when" target="_blank">February 9, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Let’s just say it’s coming along well. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1046 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1050">
+<div class="social-comment-inner social-clearfix" id="comment-1050">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/767fc9c115a1b989744c755db47feb60?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/767fc9c115a1b989744c755db47feb60?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://photomatt.net/" rel="external nofollow" class="url">Matt</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1050" class="social-posted-when" target="_blank">February 10, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>If I didn’t run my own server, this would be a deal breaker. I do run my own server and already run PHPA, and if you decided to go with a non-Ioncube route I wouldn’t use Tasks Pro.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1050 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1113">
+<div class="social-comment-inner social-clearfix" id="comment-1113">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/eda86d43b303b6023bac65a5fdc032af?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/eda86d43b303b6023bac65a5fdc032af?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ardoise.com" rel="external nofollow" class="url">Sylvain Lemire</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1113" class="social-posted-when" target="_blank">February 13, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’v installed tasks and was successfull without beeing an expert with website installation and all. But, you’re losing me in this conversation you’re having here which mean that if you go that route, it will need solid documentation. Because you’re talking russian for me.<br>
+Also, in your documentation, you need to separate the simple user documentation from the administrator docs. The actual Tasks documentation is too technical for many users.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1113 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1114">
+<div class="social-comment-inner social-clearfix" id="comment-1114">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1114" class="social-posted-when" target="_blank">February 13, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I agree, that is why I’ve spent the last week and a half writing up documentation for Tasks Pro. I’m probably half done right now and hating every minute of it. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1114 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1115">
+<div class="social-comment-inner social-clearfix" id="comment-1115">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo avatar-default js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">marco</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1115" class="social-posted-when" target="_blank">February 13, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Just for completeness. There is another exellent encoder.<br>
+Turck MMCache <a href="http://turck-mmcache.sourceforge.net" rel="nofollow">http://turck-mmcache[...]rceforge.net</a><br>
+It´s open source and also includes an PHP accelerator.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1115 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1116">
+<div class="social-comment-inner social-clearfix" id="comment-1116">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1116" class="social-posted-when" target="_blank">February 13, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>That is actually running on this server, but it is definitely out due to level of difficulty of the install.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1116 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1118">
+<div class="social-comment-inner social-clearfix" id="comment-1118">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/index-s=40&d=mm&r=g.jpeg" srcset="http://2.gravatar.com/avatar/?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo avatar-default js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">marco</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1118" class="social-posted-when" target="_blank">February 13, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>oh, then the simplest code obfuscator should do the job</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1118 -->
+</li><!-- #comment-## -->
+<li class="trackback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1184">
+<div class="social-comment-inner social-clearfix" id="comment-1184">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2004/02/24/tasks-pro-license-decisions/" rel="external nofollow" class="url">alexking.org: Blog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1184" class="social-posted-when" target="_blank">February 25, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p><strong>Tasks Pro™ License Decisions</strong><br>
+I posted a few weeks back regarding encoding options for Tasks Pro™. In the end, I decided to go with a PHP obfuscation solution instead of an encoded solution and to only encode a the code which enforces the number of users allowed by the purcha…</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1184 -->
+</li><!-- #comment-## -->
+<li class="trackback even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-1199">
+<div class="social-comment-inner social-clearfix" id="comment-1199">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2004/02/28/leasing-tasks-pro/" rel="external nofollow" class="url">alexking.org: Blog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-1199" class="social-posted-when" target="_blank">February 28, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p><strong>Leasing Tasks Pro™?</strong><br>
+I had an interesting e-mail conversation today with a fellow interested in a leased license of Tasks Pro (as an additional pricing option). There are several software packages that use this model. It’s an interesting idea; basically, this would allo…</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-1199 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-2590">
+<div class="social-comment-inner social-clearfix" id="comment-2590">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/index-s=40&d=mm&r=g.jpeg" srcset="http://1.gravatar.com/avatar/?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo avatar-default js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Adaam</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-2590" class="social-posted-when" target="_blank">September 10, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>With Zend the user only needs Zend Optimiser installed which many servers already have 😉</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-2590 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-2592">
+<div class="social-comment-inner social-clearfix" id="comment-2592">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-2592" class="social-posted-when" target="_blank">September 11, 2004</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Unfortunately, many is not all. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-2592 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-8233">
+<div class="social-comment-inner social-clearfix" id="comment-8233">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/390259355297133bdae8319da821461a?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/390259355297133bdae8319da821461a?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Jack Barnard</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-8233" class="social-posted-when" target="_blank">September 22, 2005</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I am trying to decide on encoder/obfuscator and have many of the same requirements so I would appreciate hearing about your choice.  – Jack Barnard, Boulder, CO</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-8233 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-9812">
+<div class="social-comment-inner social-clearfix" id="comment-9812">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/35e39c0fc484a47ed2345670ddc7781e?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/35e39c0fc484a47ed2345670ddc7781e?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.semdesigns.com" rel="external nofollow" class="url">Ira Baxter</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-9812" class="social-posted-when" target="_blank">December 8, 2005</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Hi.  I’m one of the providers of obfsucators above.  A good solution requires *no* changes<br>
+at the server site other than installing the software.  Doesn’t<br>
+require Zend Optimizer. Doesn’t require Turck.  Doesnt’ require special procedures for the site manager.  Our obfuscator<br>
+has all those properties.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-9812 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-9823">
+<div class="social-comment-inner social-clearfix" id="comment-9823">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/122a5196513409cbd49d2d0fa526c9d3?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/122a5196513409cbd49d2d0fa526c9d3?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://mattwalters.net/" rel="external nofollow" class="url">matt</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-9823" class="social-posted-when" target="_blank">December 8, 2005</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Did you ever find a decent solution for this Alex?  I’ve been looking for something along these lines as well.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-9823 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-9826">
+<div class="social-comment-inner social-clearfix" id="comment-9826">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-9826" class="social-posted-when" target="_blank">December 8, 2005</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’m using a solution that isn’t publicly available right now.</p>
+<p>Initially I was using PHP Code Lock, but I had compatibility problems and couldn’t get the “version 2” to work at all.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-9826 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-9943">
+<div class="social-comment-inner social-clearfix" id="comment-9943">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/e5c02938608807ce736c44ac408a383f?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/e5c02938608807ce736c44ac408a383f?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Anand</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-9943" class="social-posted-when" target="_blank">December 13, 2005</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex, I was also in the same dilemma a few days ago. The hard fact that I found was that almost, if not all, encryption methods could be cracked. </p>
+<p>I finally ended up on POBS (<a href="http://pobs.mywalhalla.net/" rel="nofollow">http://pobs.mywalhalla.net/</a>) for my purpose. I have tried eAccelerator (<a href="http://eaccelerator.net/" rel="nofollow">http://eaccelerator.net/</a>), and was very much impressed with it, but had to drop since I cannot ask my customers to install extensions 😉</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-9943 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-12066">
+<div class="social-comment-inner social-clearfix" id="comment-12066">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3832a9c06a9104b9b21598b6f18b9587?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/3832a9c06a9104b9b21598b6f18b9587?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.whenpenguinsattack.com" rel="external nofollow" class="url">justin</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-12066" class="social-posted-when" target="_blank">March 24, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I would stay away from the encoders, if you want to secure your code.  There are many sites like these: <a href="http://www.phprecovery.com/" rel="nofollow">http://www.phprecovery.com/</a></p>
+<p>thay can decode virtually all of the encoded systems out there.  I will check out POBS, however, which looks like it would be very difficult, if not impossible to decode in a reasonable amount of time.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-12066 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-15003">
+<div class="social-comment-inner social-clearfix" id="comment-15003">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/adc0b4c5bae68f3b6cdb8157b3e45421?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/adc0b4c5bae68f3b6cdb8157b3e45421?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.mindflow.com.au" rel="external nofollow" class="url">chris de david</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-15003" class="social-posted-when" target="_blank">April 17, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I have tested a couple of these Obfuscators and License Managers, and I would like to point out that some of them have Function and Variable renaming. Renaming is only done  if you set the option when obfuscating – as by default some are turned Off for your conveniece.  </p>
+<p>How is it your convenience? Well, when an error occurs, you can get the function name and variable name if needed from the output message and *Understand it*.</p>
+<p>I turn this *Renaming* ON, so that if a developer Reverse Engineers it, it will make his life hell.  I have read of some other obfuscators for JAVA, where the application keeps a list of function names and variable names on the master encoder’s machine to be able to decode error messages with ease – a great idea, and not sure if any PHP Ob’s do this or not.</p>
+<p>Please – Correct me if I am wrong.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-15003 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-30656">
+<div class="social-comment-inner social-clearfix" id="comment-30656">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/35e39c0fc484a47ed2345670ddc7781e?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/35e39c0fc484a47ed2345670ddc7781e?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.semanticdesigns.com" rel="external nofollow" class="url">Ira Baxter</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-30656" class="social-posted-when" target="_blank">August 19, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>The Semantic Designs PHP obfuscator renames variables, constants, functins, and class names.   A cross-reference is produced so that an obfuscated name can be easily mapped back to the original one.<br>
+This will make Chris happy.</p>
+<p>— IDB</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-30656 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52768">
+<div class="social-comment-inner social-clearfix" id="comment-52768">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/247ff21f7a1d3e944616926431192934?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/247ff21f7a1d3e944616926431192934?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.raizlabs.com/software/phpobfuscator/" rel="external nofollow" class="url">Greg</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-52768" class="social-posted-when" target="_blank">November 9, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I wanted to add an obfuscator to your list…<br>
+If you’re still looking you may want to take a look:</p>
+<p><a href="http://www.raizlabs.com/software/phpobfuscator/" rel="nofollow">http://www.raizlabs.[...]pobfuscator/</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52768 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-54674">
+<div class="social-comment-inner social-clearfix" id="comment-54674">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/8107bcefe3ea440bee807b85085549c2?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/8107bcefe3ea440bee807b85085549c2?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.varunkrish.com" rel="external nofollow" class="url">Varun</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-54674" class="social-posted-when" target="_blank">February 25, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Hi Alex,</p>
+<p>Now your Tasks Software.. tried a free version .. now bought the full version..</p>
+<p>Love it <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-54674 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-153655">
+<div class="social-comment-inner social-clearfix" id="comment-153655">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4e1d895abb4cdbc13429cb1b460577de?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4e1d895abb4cdbc13429cb1b460577de?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Edwin</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="encodingobfuscating-php-code.html#comment-153655" class="social-posted-when" target="_blank">April 23, 2011</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I am a provider of PHPshadow, which is not listed above.  I’d like to add a caveat to Ira Baxtor’s comment that a good solution requires no change on the server.  Well, let me assure you that irreversible code is only possible through an additional compiled extension on the server, or a JIT module.  Anything that claims “No changes required on server” is producing code that can be reverse engineered.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-153655 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2004/02/07/encodingobfuscating-php-code&amp;post_id=714">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2004/02/07/all-style-entries-are-posted" rel="prev">All Style Entries are Posted</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2004/02/08/around-the-web" rel="next">Around the web</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="encodingobfuscating-php-code.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="encodingobfuscating-php-code.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.448 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:02:23 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

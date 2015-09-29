@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alexking.org &#187; Tweets</title>
+	<atom:link href="http://alexking.org/tweets/feed" rel="self" type="application/rss+xml" />
+	<link>http://alexking.org</link>
+	<description>Alex King, Denver Web Developer</description>
+	<lastBuildDate>Tue, 25 Aug 2015 21:04:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3</generator>
+	<item>
+		<title>Dear WordPress community folks, I have a favor to&#8230;</title>
+		<link>http://alexking.org/tweets/636283117070749697</link>
+		<comments>http://alexking.org/tweets/636283117070749697#comments</comments>
+		<pubDate>Tue, 25 Aug 2015 21:04:51 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-636283117070749697</guid>
+		<description><![CDATA[Dear WordPress community folks, I have a favor to ask you. alexking.org/?p=22017]]></description>
+				<content:encoded><![CDATA[<p>Dear WordPress community folks, I have a favor to ask you. <a href="http://alexking.org/?p=22017">alexking.org/?p=22017</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/636283117070749697/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Personal WordPress Theme: I&#8217;ve forked and released&#8230;</title>
+		<link>http://alexking.org/tweets/635167810335993856</link>
+		<comments>http://alexking.org/tweets/635167810335993856#comments</comments>
+		<pubDate>Sat, 22 Aug 2015 19:13:01 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-635167810335993856</guid>
+		<description><![CDATA[Personal WordPress Theme: I&#8217;ve forked and released the mobile-friendly theme used on my site. alexking.org/?p=21662]]></description>
+				<content:encoded><![CDATA[<p>Personal WordPress Theme: I&#8217;ve forked and released the mobile-friendly theme used on my site. <a href="http://alexking.org/?p=21662">alexking.org/?p=21662</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/635167810335993856/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@1Password thanks for chiming in. You make it easy&#8230;</title>
+		<link>http://alexking.org/tweets/634472463632457728</link>
+		<comments>http://alexking.org/tweets/634472463632457728#comments</comments>
+		<pubDate>Thu, 20 Aug 2015 21:09:57 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-634472463632457728</guid>
+		<description><![CDATA[@1Password thanks for chiming in. You make it easy to be proud to be a customer (one who refers your product to others). /cc @chrismessina]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/1Password">@1Password</a> thanks for chiming in. You make it easy to be proud to be a customer (one who refers your product to others). /cc <a href="http://twitter.com/chrismessina">@chrismessina</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/634472463632457728/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@chrismessina please don’t use it for password and&#8230;</title>
+		<link>http://alexking.org/tweets/634469835498393604</link>
+		<comments>http://alexking.org/tweets/634469835498393604#comments</comments>
+		<pubDate>Thu, 20 Aug 2015 20:59:31 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-634469835498393604</guid>
+		<description><![CDATA[@chrismessina please don’t use it for password and 2FA for an account, that makes it 1FA.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/chrismessina">@chrismessina</a> please don’t use it for password and 2FA for an account, that makes it 1FA.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/634469835498393604/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@davepell ok, ok I will post more selfies. No need&#8230;</title>
+		<link>http://alexking.org/tweets/633830329149554688</link>
+		<comments>http://alexking.org/tweets/633830329149554688#comments</comments>
+		<pubDate>Wed, 19 Aug 2015 02:38:21 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-633830329149554688</guid>
+		<description><![CDATA[@davepell ok, ok I will post more selfies. No need for the passive aggressive tweet.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/davepell">@davepell</a> ok, ok I will post more selfies. No need for the passive aggressive tweet.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/633830329149554688/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@WookieeBoy double shit. :(</title>
+		<link>http://alexking.org/tweets/632653459636916224</link>
+		<comments>http://alexking.org/tweets/632653459636916224#comments</comments>
+		<pubDate>Sat, 15 Aug 2015 20:41:53 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-632653459636916224</guid>
+		<description><![CDATA[@WookieeBoy double shit.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/WookieeBoy">@WookieeBoy</a> double shit. <img src="http://alexking.org/wp/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/632653459636916224/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So much for our flawless record with @nest product&#8230;</title>
+		<link>http://alexking.org/tweets/630879753583497216</link>
+		<comments>http://alexking.org/tweets/630879753583497216#comments</comments>
+		<pubDate>Mon, 10 Aug 2015 23:13:49 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630879753583497216</guid>
+		<description><![CDATA[So much for our flawless record with @nest products. That said, their support was top notch. twitter.com/alexkingorg/st…]]></description>
+				<content:encoded><![CDATA[<p>So much for our flawless record with <a href="http://twitter.com/nest">@nest</a> products. That said, their support was top notch. <a href="https://twitter.com/alexkingorg/status/630594145015365632">twitter.com/alexkingorg/st…</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630879753583497216/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@aaronmentele definitely need to include a questio&#8230;</title>
+		<link>http://alexking.org/tweets/630857075199836160</link>
+		<comments>http://alexking.org/tweets/630857075199836160#comments</comments>
+		<pubDate>Mon, 10 Aug 2015 21:43:42 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630857075199836160</guid>
+		<description><![CDATA[@aaronmentele definitely need to include a question about the proper usage of the &#60;marquee&#62; tag in HTML5.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/aaronmentele">@aaronmentele</a> definitely need to include a question about the proper usage of the &lt;marquee&gt; tag in HTML5.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630857075199836160/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@aaronmentele Also, after we license ourselves and&#8230;</title>
+		<link>http://alexking.org/tweets/630852668991213568</link>
+		<comments>http://alexking.org/tweets/630852668991213568#comments</comments>
+		<pubDate>Mon, 10 Aug 2015 21:26:11 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630852668991213568</guid>
+		<description><![CDATA[@aaronmentele Also, after we license ourselves and close friends, how much should we charge the randoms?]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/aaronmentele">@aaronmentele</a> Also, after we license ourselves and close friends, how much should we charge the randoms?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630852668991213568/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@aaronmentele pretty sure we can fix that. You wan&#8230;</title>
+		<link>http://alexking.org/tweets/630852614452703232</link>
+		<comments>http://alexking.org/tweets/630852614452703232#comments</comments>
+		<pubDate>Mon, 10 Aug 2015 21:25:58 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630852614452703232</guid>
+		<description><![CDATA[@aaronmentele pretty sure we can fix that. You want to register the Official Domain or should I?]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/aaronmentele">@aaronmentele</a> pretty sure we can fix that. You want to register the Official Domain or should I?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630852614452703232/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>So our Nest thermostat thinks it is 90 degrees ins&#8230;</title>
+		<link>http://alexking.org/tweets/630594145015365632</link>
+		<comments>http://alexking.org/tweets/630594145015365632#comments</comments>
+		<pubDate>Mon, 10 Aug 2015 04:18:54 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630594145015365632</guid>
+		<description><![CDATA[So our Nest thermostat thinks it is 90 degrees inside (it isn&#8217;t) and no matter what I do I can&#8217;t get it to turn off the AC. Suggestions?]]></description>
+				<content:encoded><![CDATA[<p>So our Nest thermostat thinks it is 90 degrees inside (it isn&#8217;t) and no matter what I do I can&#8217;t get it to turn off the AC. Suggestions?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630594145015365632/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>RT @_Jordan: Right back where we started. http://t&#8230;</title>
+		<link>http://alexking.org/tweets/630178721618509824</link>
+		<comments>http://alexking.org/tweets/630178721618509824#comments</comments>
+		<pubDate>Sun, 09 Aug 2015 00:48:10 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630178721618509824</guid>
+		<description><![CDATA[RT @_Jordan: Right back where we started. http://t.co/fWUmjIC9y5]]></description>
+				<content:encoded><![CDATA[<p>RT <a href="http://twitter.com/_Jordan">@_Jordan</a>: Right back where we started. http://t.co/fWUmjIC9y5</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630178721618509824/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ICYMI: A little advice from me about how to get th&#8230;</title>
+		<link>http://alexking.org/tweets/630132509636866048</link>
+		<comments>http://alexking.org/tweets/630132509636866048#comments</comments>
+		<pubDate>Sat, 08 Aug 2015 21:44:32 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-630132509636866048</guid>
+		<description><![CDATA[ICYMI: A little advice from me about how to get the most out of your #WordCamp experience. alexking.org/blog/2010/07/0…]]></description>
+				<content:encoded><![CDATA[<p>ICYMI: A little advice from me about how to get the most out of your <a href="http://twitter.com/search?q=%23WordCamp">#WordCamp</a> experience. <a href="http://alexking.org/blog/2010/07/06/how-to-get-the-most-from-wordcamp">alexking.org/blog/2010/07/0…</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/630132509636866048/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>That liberating feeling when you let a domain expi&#8230;</title>
+		<link>http://alexking.org/tweets/629850154770628608</link>
+		<comments>http://alexking.org/tweets/629850154770628608#comments</comments>
+		<pubDate>Sat, 08 Aug 2015 03:02:33 +0000</pubDate>
+		<dc:creator><![CDATA[Alex]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-629850154770628608</guid>
+		<description><![CDATA[That liberating feeling when you let a domain expire for that project you never quite got around to.]]></description>
+				<content:encoded><![CDATA[<p>That liberating feeling when you let a domain expire for that project you never quite got around to.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/629850154770628608/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>@benhuh would love to say hello if you have time f&#8230;</title>
+		<link>http://alexking.org/tweets/629774003691884544</link>
+		<comments>http://alexking.org/tweets/629774003691884544#comments</comments>
+		<pubDate>Fri, 07 Aug 2015 21:59:57 +0000</pubDate>
+		<dc:creator><![CDATA[]]></dc:creator>
+		
+		<guid isPermaLink="false">http://twitter-629774003691884544</guid>
+		<description><![CDATA[@benhuh would love to say hello if you have time for a quick stopover.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://twitter.com/benhuh">@benhuh</a> would love to say hello if you have time for a quick stopover.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://alexking.org/tweets/629774003691884544/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.273 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 13:59:54 -->
+
+<!-- Compression = gzip -->

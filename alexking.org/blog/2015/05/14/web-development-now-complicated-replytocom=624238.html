@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>We’ve Made Web Development Complicated : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » We’ve Made Web Development Complicated Comments Feed" href="web-development-now-complicated/feed.rss">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Re-structuring CSS and JS files so that external l…" href="../13/21806.html">
+<link rel="next" title="Do I really have to do all of this paperwork? Can’t I just, you know, design?" href="do-i-really-have-to-do-all-of-this-paperwork-cant-i-just-you-know-design.html">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="web-development-now-complicated.html">
+<link rel="shortlink" href="web-development-now-complicated.html">
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="article">
+<meta property="og:title" content="We’ve Made Web Development Complicated">
+<meta property="og:url" content="http://alexking.org/blog/2015/05/14/web-development-now-complicated">
+<meta property="og:description" content="When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a server-side language how to talk to a database (SQL) on top of my knowled...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2015/05/14/web-development-now-complicated">
+<meta name="twitter:title" content="We’ve Made Web Development Complicated">
+<meta name="twitter:description" content="When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a server-side language how to talk to a database (SQL) on top of my knowledge of HTML, CSS and JavaScript. With these five basic things, I was able to build some useful stuff. I'm working on a web app now and it recently struck me how much more complicated things have become. I'm following what">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-21793 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-21793" class="clearfix post-21793 post type-post status-publish format-standard hentry category-development">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="web-development-now-complicated.html" title="Permalink to We’ve Made Web Development Complicated" rel="bookmark">We’ve Made Web Development Complicated</a></h1>
+		<time class="entry-date" datetime="2015-05-14T12:40:01+00:00" pubdate=""> May 14, 2015</time>
+	</header>
+	<div class="entry-content">
+<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn:</p>
+<ol>
+<li>a server-side language</li>
+<li>how to talk to a database (SQL)</li>
+</ol>
+<p>on top of my knowledge of HTML, CSS and JavaScript. With these five basic things, I was able to build some useful stuff.</p>
+<p>I’m working on a web app now and it recently struck me how much more complicated things have become. I’m following what I consider to be modern development best practices and that means that I’m dealing with the following concepts and technologies:</p>
+<ol>
+<li>a server-side language</li>
+<li>how to talk to a database (SQL)</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>The concept of a virtual machine</li>
+<li>Vagrant with a pre-built image (Laravel Homestead)</li>
+<li>SSH</li>
+<li>Version control (Git)</li>
+<li>A branching/merging process (Git Flow)</li>
+<li>Gulp</li>
+<li>Node.js (for running Gulp)</li>
+<li>Homebrew</li>
+<li>/etc/hosts file (or Dnsmasq)</li>
+<li>CSS pre-processors (Bootstrap was already using Less, I am using Sass)</li>
+<li>CSS concatenation</li>
+<li>JavaScript concatenation</li>
+<li>Image sprites</li>
+<li>A server-side framework (Laravel)</li>
+<li>Framework-specific command line utilities for creating template files, running pre-load optimizations, database commands, etc.</li>
+<li>ORM</li>
+<li>Security (SQL injection, XSS, CSRF, etc.)</li>
+<li>Templating syntax (Laravel uses one called Blade)</li>
+<li>A client-side framework (jQuery, Bootstrap, Angular, etc.)</li>
+<li>JSON</li>
+<li>PHP Composer</li>
+<li>PHP Packages</li>
+<li>Database migrations (database schema defined in code)</li>
+<li>Database seeding</li>
+<li>Faker (for creating dummy data)</li>
+<li>Unit testing</li>
+</ol>
+<p>Unused in my project thus far, but other things you’ll need to know sooner rather than later:</p>
+<ol>
+<li>Memcached (or other key/value caches)</li>
+<li>Capistrano (or another deployment process)</li>
+<li>CDNs</li>
+</ol>
+<p>I’m guessing I’ve forgotten another dozen or so things that you all will remind me about in the comments… point being, this stuff has gotten more complicated and difficult to get one’s head around. Lots of abstractions, optimizations, etc.</p>
+<p>I was recently asked to chime in on a <a href="https://psdtowp.net/best-programming-language.html#alex-king">“what programming language should a new developer learn?” round-up</a>. The resulting  <img src="../../../../wp-content/themes/alexking.org-v3/smilies/ak_scare1.gif" alt=":scare:" class="wp-smiley">  article  <img src="../../../../wp-content/themes/alexking.org-v3/smilies/ak_scare2.gif" alt=":/scare:" class="wp-smiley">  is a bit of a mess as you have relatively unstructured comments from 83 developers to slog through. Further, many of them have huge biases towards frameworks they created, etc. Regardless, I was interested to see that I wasn’t the only one to challenge the question and push the importance of motivation and the project goal over a technology choice.</p>
+<p>We need to remember that we’ve created this chaos bit by bit. When we are teaching, we need to provide a path that allows people to master one brick at a time. Pretty soon, they have enough bricks that they can build more layers on top of them.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="web-development-now-complicated.html#comments">96 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/development.html" rel="category tag">Development</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="web-development-now-complicated-replytocom=624238.html#" rel="social-all"><span>96 Replies</span></a></li>
+			<li class="social-wordpress"><a href="web-development-now-complicated-replytocom=624238.html#" rel="wordpress"><span>5 Comments</span></a></li>
+			<li class="social-twitter"><a href="web-development-now-complicated-replytocom=624238.html#" rel="social-twitter"><span>79 Tweets</span></a></li>
+			<li class="social-facebook"><a href="web-development-now-complicated-replytocom=624238.html#" rel="social-facebook"><span>11 Facebook</span></a></li>
+			<li class="social-pingback"><a href="web-development-now-complicated-replytocom=624238.html#" rel="social-pingback"><span>1 Pingback</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was 1 month ago</div><div id="social-items-wrapper"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/briandusablon/status/598921133027495936" title="briandusablon retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/486608353510948864/HS3rMunF_bigger.jpeg" width="24" height="24" alt="briandusablon retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/benr75/status/598921573639200768" title="benr75 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/497036003505209344/EaPgwIqG_bigger.jpeg" width="24" height="24" alt="benr75 retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/yogesh/status/598921604463087616" title="yogesh retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/605339021821091840/czs3aicb_bigger.jpg" width="24" height="24" alt="yogesh retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/tasmayy/status/598922807859286017" title="tasmayy retweeted this"><img src="http://pbs.twimg.com/profile_images/553913209854242816/gbZApcqv_bigger.png" width="24" height="24" alt="tasmayy retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/mcdev/status/598923833043787776" title="mcdev retweeted this"><img src="http://pbs.twimg.com/profile_images/614234851122769920/nuZrt2bw_bigger.jpg" width="24" height="24" alt="mcdev retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/benhuson/status/598928548557094912" title="benhuson retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/563365887005048833/m6YYI2F5_bigger.jpeg" width="24" height="24" alt="benhuson retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/JackMachin/status/598929634986713088" title="JackMachin retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/551013441448579072/nWa_j_w3_bigger.jpeg" width="24" height="24" alt="JackMachin retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/Diegor1901/status/599096573688213504" title="Diegor1901 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/474034903760113664/4zqZTq2S_bigger.jpeg" width="24" height="24" alt="Diegor1901 retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/screenagerbe/status/599102657215598593" title="screenagerbe retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/526367555804348416/WbB3dXgA_bigger.png" width="24" height="24" alt="screenagerbe retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/PatonsOcira/status/599137102769606657" title="PatonsOcira retweeted this"><img src="http://pbs.twimg.com/profile_images/598373081472737280/0BHkIfNu_bigger.jpg" width="24" height="24" alt="PatonsOcira retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/iFox/status/599163236584415232" title="iFox retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/520262271633596417/jaVimNb9_bigger.jpeg" width="24" height="24" alt="iFox retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/Rupesh_pawar/status/602473643445096448" title="Rupesh_pawar retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/1407551632/profile_bigger.jpg" width="24" height="24" alt="Rupesh_pawar retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/caacuna/status/602582877621059587" title="caacuna retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/610196454502735872/PdNt3NrY_bigger.jpg" width="24" height="24" alt="caacuna retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/etbal/status/602792052129198081" title="etbal retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/494484858085724160/4j6RtrO9_bigger.jpeg" width="24" height="24" alt="etbal retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/jimi_c_sanchez/status/607330821217894400" title="jimi_c_sanchez retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/490637530891427840/QMECCneW_bigger.jpeg" width="24" height="24" alt="jimi_c_sanchez retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/DanbecBeck/status/607332922438217728" title="DanbecBeck retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/552872970746474496/fGpmk2qa_bigger.png" width="24" height="24" alt="DanbecBeck retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/craigfreeman/status/612818056390180864" title="craigfreeman retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/580807634187505665/exwAIYaE_bigger.png" width="24" height="24" alt="craigfreeman retweeted this" class="js-hidpi-2424"></a><a href="web-development-now-complicated-replytocom=624238.html#" class="social-items-and-more">... and 7 more</a>	</div>
+</div>
+<div class="social-items social-facebook">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Adam Tow liked this"><img src="../../../../../scontent.xx.fbcdn.net/hprofile-xpf1/v/t1.0-1/c14.61.172.172/s50x50/426046_10100500504816133_816360046_n-oh=d1b231324e98c5362be363d1d7355453&oe=5693A01D.jpg" width="24" height="24" alt="Adam Tow liked this" class="js-hidpi-2424"></a><a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Dre Armeda liked this"><img src="../../../../../scontent.xx.fbcdn.net/hprofile-xtf1/v/t1.0-1/p50x50/12011218_10153673262196804_2532735309622484654_n-oh=a5da39eb78b48b68cf3c0481c29aaea9&oe=569D5628.jpg" width="24" height="24" alt="Dre Armeda liked this" class="js-hidpi-2424"></a><a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Brandon Dove liked this"><img src="../../../../../fbcdn-profile-a.akamaihd.net/hprofile-ak-xlf1/v/t1.0-1/p50x50/20606_10154369818229368_1978899833379348580_n-oh=ffa96ff4bc8a60a5b24224457187002a&oe=56A6EC30&__gda__=1453805265_5149ec8e1cea708c1f7f31f3a57ddf98.jpg" width="24" height="24" alt="Brandon Dove liked this" class="js-hidpi-2424"></a><a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Karim Marucchi liked this"><img src="../../../../../fbcdn-profile-a.akamaihd.net/hprofile-ak-xlp1/v/t1.0-1/p50x50/1897812_10152973363012844_8304428014722118535_n-oh=cab1b71f9069e9241b95b4b63a5305af&oe=56ABECA7&__gda__=1448995241_06ae99ae025ed933d01b633825a9f47b.jpg" width="24" height="24" alt="Karim Marucchi liked this" class="js-hidpi-2424"></a><a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Chris Lema liked this"><img src="../../../../../scontent.xx.fbcdn.net/hprofile-xtp1/v/t1.0-1/p50x50/11889495_10152933742056854_3559114437445457741_n-oh=966536bcf992b186c007da9052db0972&oe=56967AAA.jpg" width="24" height="24" alt="Chris Lema liked this" class="js-hidpi-2424"></a><a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="Craig Freeman liked this"><img src="../../../../../scontent.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/p50x50/11889420_10101443984325875_8382425025461725978_n-oh=373cfb2e8c543a34336d902bfcf81451&oe=56991974.jpg" width="24" height="24" alt="Craig Freeman liked this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624171">
+<div class="social-comment-inner social-clearfix" id="comment-624171">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/522395965009850368/dFRvYi4z_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/ChrisMospaw" rel="598922704742297600 external nofollow" class="url">@ChrisMospaw</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/ChrisMospaw/status/598922704742297600" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624171" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Nailed it. <a href="https://t.co/oUZt2fa2kq" rel="nofollow">https://t.co/oUZt2fa2kq</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624171.html#respond" onclick="return addComment.moveForm( &quot;comment-624171&quot;, &quot;624171&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to ChrisMospaw">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624171 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624180">
+<div class="social-comment-inner social-clearfix" id="comment-624180">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/608415676848553986/rLFfWrCE_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/WPShout" rel="598929250805157889 external nofollow" class="url">@WPShout</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/WPShout/status/598929250805157889" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624180" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Yeah :\ At least the basics for site (not app) development can be simpler than needing all the best practices listed <a href="https://t.co/sjhapnl2Px" rel="nofollow">https://t.co/sjhapnl2Px</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624180.html#respond" onclick="return addComment.moveForm( &quot;comment-624180&quot;, &quot;624180&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to WPShout">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624180 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624176">
+<div class="social-comment-inner social-clearfix" id="comment-624176">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/442103313861844992/ACBp86j9_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/hacktoon" rel="598933475681542145 external nofollow" class="url">@hacktoon</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/hacktoon/status/598933475681542145" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624176" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>mimimi –&gt; <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/AphaqF3ZXr</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/GameMakerX/status/598937971912527872" title="GameMakerX retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/539242733617967104/VrwjK4aD_bigger.jpeg" width="24" height="24" alt="GameMakerX retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/dasanjos/status/598947949125709824" title="dasanjos retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/487946900247556096/FkWh8HDo_bigger.jpeg" width="24" height="24" alt="dasanjos retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624176.html#respond" onclick="return addComment.moveForm( &quot;comment-624176&quot;, &quot;624176&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to hacktoon">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624176 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624172">
+<div class="social-comment-inner social-clearfix" id="comment-624172">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/378800000501505377/4df558a3066b7c67e33204d665f7954f_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/ericlbarnes" rel="598934454938238977 external nofollow" class="url">@ericlbarnes</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/ericlbarnes/status/598934454938238977" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624172" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>We’ve Made Web Development Complicated – <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/RxAzEpl7VD</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/pstephan1187/status/598934998456999936" title="pstephan1187 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/2763437943/0752fb415c96e9cbefc4d1fc9afb6c0f_bigger.png" width="24" height="24" alt="pstephan1187 retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/exocuted/status/598936073574686721" title="exocuted retweeted this"><img src="http://pbs.twimg.com/profile_images/581434582735671296/JWF_kG51_bigger.jpg" width="24" height="24" alt="exocuted retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/notrab/status/598937837589950465" title="notrab retweeted this"><img src="http://pbs.twimg.com/profile_images/596685955056214016/p7w0mGwn_bigger.jpg" width="24" height="24" alt="notrab retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/thedotwriter/status/598942582882828289" title="thedotwriter retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/3387862508/466d195294321a74d925cc46c06902e2_bigger.png" width="24" height="24" alt="thedotwriter retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/clementbarbaza/status/598944861488832513" title="clementbarbaza retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/527918205109420032/YXAUtcgo_bigger.jpeg" width="24" height="24" alt="clementbarbaza retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/DaveJamesMiller/status/598954811350974465" title="DaveJamesMiller retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/2323284619/pt4g1o89md6qid6ktl3o_bigger.jpeg" width="24" height="24" alt="DaveJamesMiller retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/jesseschutt/status/598980556609724416" title="jesseschutt retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/571304274056982529/aJ5wBsje_bigger.jpeg" width="24" height="24" alt="jesseschutt retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/damienpbuckley/status/598987194368274432" title="damienpbuckley retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/521500873462005760/XZYCQdXc_bigger.jpeg" width="24" height="24" alt="damienpbuckley retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/LHDonline/status/599002020071251968" title="LHDonline retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/483313551293964288/H9I3SQGp_bigger.jpeg" width="24" height="24" alt="LHDonline retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/joshheyer/status/599177183580422144" title="joshheyer retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/486571062176395264/1N-B0QbV_bigger.jpeg" width="24" height="24" alt="joshheyer retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/jmatembu/status/599201013191581697" title="jmatembu retweeted this" style="display:none"><img src="http://pbs.twimg.com/profile_images/553303687570132994/jmun3AeZ_bigger.jpeg" width="24" height="24" alt="jmatembu retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/PierreKos/status/602847468242501632" title="PierreKos retweeted this" style="display:none"><img src="../../../../../pbs.twimg.com/profile_images/378800000738554845/6ceeff286b78d12da52a3a7da0872d4d_bigger.jpeg" width="24" height="24" alt="PierreKos retweeted this" class="js-hidpi-2424"></a><a href="web-development-now-complicated-replytocom=624238.html#" class="social-items-and-more">... and 2 more</a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624172.html#respond" onclick="return addComment.moveForm( &quot;comment-624172&quot;, &quot;624172&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to ericlbarnes">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624172 -->
+<ul class="social-children">
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-624173">
+<div class="social-comment-inner social-clearfix" id="comment-624173">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/605191375550750720/NNJGOi3P_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/prestonwinfrey" rel="598935685131735040 external nofollow" class="url">@prestonwinfrey</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/prestonwinfrey/status/598935685131735040" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624173" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@ericlbarnes #truth</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624173.html#respond" onclick="return addComment.moveForm( &quot;comment-624173&quot;, &quot;624173&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to prestonwinfrey">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624173 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-624174">
+<div class="social-comment-inner social-clearfix" id="comment-624174">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/456581527082528769/wFfbBeX5_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/teleclimber" rel="598944097919864835 external nofollow" class="url">@teleclimber</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/teleclimber/status/598944097919864835" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624174" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@ericlbarnes @ianlandsman We also made aircraft design complicated. It was simple in 1910. <a href="http://t.co/c1lDmFD4Hm" rel="nofollow">http://t.co/c1lDmFD4Hm</a> #itmightbeworthit</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624174.html#respond" onclick="return addComment.moveForm( &quot;comment-624174&quot;, &quot;624174&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to teleclimber">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624174 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-624175">
+<div class="social-comment-inner social-clearfix" id="comment-624175">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/597812009162436610/jb15Gegy_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/mackhankins" rel="598967134799015936 external nofollow" class="url">@mackhankins</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/mackhankins/status/598967134799015936" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624175" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@ericlbarnes I was talking to my coworker about this the other day.  Today’s you need to be a jack of all trades.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624175.html#respond" onclick="return addComment.moveForm( &quot;comment-624175&quot;, &quot;624175&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to mackhankins">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624175 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-624191">
+<div class="social-comment-inner social-clearfix" id="comment-624191">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/301476194/ls_9507_ME_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/AndrewDMilne" rel="598986671451942912 external nofollow" class="url">@AndrewDMilne</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/AndrewDMilne/status/598986671451942912" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624191" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@ericlbarnes @ianlandsman exactly why so many people ask “where do I start?”. You ask a web dev question and it only provides more questions</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624191.html#respond" onclick="return addComment.moveForm( &quot;comment-624191&quot;, &quot;624191&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to AndrewDMilne">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624191 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624160">
+<div class="social-comment-inner social-clearfix" id="comment-624160">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1753525764/image1326514302_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/sogrady" rel="598940093630545920 external nofollow" class="url">@sogrady</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/sogrady/status/598940093630545920" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624160" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>another web developer weighs in on the growing complexity of web development: <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/lOutKwgxhm</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/krisrice/status/598940609475411968" title="krisrice retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/589100832542560259/hnhUz7Vm_bigger.jpg" width="24" height="24" alt="krisrice retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/garrett/status/598940738416680960" title="garrett retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/1929566367/216209_10150219695830519_533425518_8962117_1824425_n-square_bigger.jpg" width="24" height="24" alt="garrett retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/darachennis/status/598940868066865153" title="darachennis retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/2224518169/Screen_shot_2012-05-16_at_22.57.49_bigger.png" width="24" height="24" alt="darachennis retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/davemann1871/status/598949833341325312" title="davemann1871 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/149074212/n503008503_4796_bigger.jpg" width="24" height="24" alt="davemann1871 retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624160.html#respond" onclick="return addComment.moveForm( &quot;comment-624160&quot;, &quot;624160&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to sogrady">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624160 -->
+<ul class="social-children">
+<li class="social-twitter odd alt depth-2 social-comment social-clearfix social-twitter" id="li-comment-624177">
+<div class="social-comment-inner social-clearfix" id="comment-624177">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/517656170916347904/iIrDwYbW_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/n01s3" rel="598952368974213122 external nofollow" class="url">@n01s3</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/n01s3/status/598952368974213122" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624177" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@sogrady I generally feel that way too, but a good 1/3 of that list were part of the deal in 2002.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624177.html#respond" onclick="return addComment.moveForm( &quot;comment-624177&quot;, &quot;624177&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to n01s3">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624177 -->
+<ul class="social-children">
+<li class="social-twitter even depth-3 social-comment social-clearfix social-twitter" id="li-comment-624178">
+<div class="social-comment-inner social-clearfix" id="comment-624178">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1753525764/image1326514302_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/sogrady" rel="598956415168942080 external nofollow" class="url">@sogrady</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/sogrady/status/598956415168942080" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624178" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@n01s3: true, but then the list could also be longer by the same amount</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624178.html#respond" onclick="return addComment.moveForm( &quot;comment-624178&quot;, &quot;624178&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to sogrady">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624178 -->
+<ul class="social-children">
+<li class="social-twitter odd alt depth-4 social-comment social-clearfix social-twitter" id="li-comment-624179">
+<div class="social-comment-inner social-clearfix" id="comment-624179">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/517656170916347904/iIrDwYbW_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/n01s3" rel="598960432146214912 external nofollow" class="url">@n01s3</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/n01s3/status/598960432146214912" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624179" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@sogrady indeed.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624179.html#respond" onclick="return addComment.moveForm( &quot;comment-624179&quot;, &quot;624179&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to n01s3">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624179 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-624251">
+<div class="social-comment-inner social-clearfix" id="comment-624251">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/591673453754777600/k2rVd3F2_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/dberkholz" rel="599430234761461762 external nofollow" class="url">@dberkholz</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/dberkholz/status/599430234761461762" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624251" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@sogrady @alexkingorg: There’s an argument to be made that new languages become popular because nobody’s had the time to complexify them yet</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624251.html#respond" onclick="return addComment.moveForm( &quot;comment-624251&quot;, &quot;624251&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to dberkholz">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624251 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-624143">
+<div class="social-comment-inner social-clearfix" id="comment-624143">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="https://murze.be/2015/05/weve-made-web-development-complicated/" rel="external nofollow" class="url">We’ve made web development complicated | murze.be</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624143" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] <a href="web-development-now-complicated.html" rel="nofollow">http://alexking.org/[...]-complicated</a> […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624143.html#respond" onclick="return addComment.moveForm( &quot;comment-624143&quot;, &quot;624143&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to We’ve made web development complicated | murze.be">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624143 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624192">
+<div class="social-comment-inner social-clearfix" id="comment-624192">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/481204879965167616/tm3oxjC1_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/briangoldstein" rel="598944678755467264 external nofollow" class="url">@briangoldstein</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/briangoldstein/status/598944678755467264" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624192" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’ve thought this for a while. <a href="web-development-now-complicated-utm_content=buffer8ec7b&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/kpp3mY248n</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624192.html#respond" onclick="return addComment.moveForm( &quot;comment-624192&quot;, &quot;624192&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to briangoldstein">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624192 -->
+</li><!-- #comment-## -->
+<li class="social-facebook odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-facebook" id="li-comment-624165">
+<div class="social-comment-inner social-clearfix" id="comment-624165">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../fbcdn-profile-a.akamaihd.net/hprofile-ak-xat1/v/t1.0-1/p50x50/10153139_10151929518520989_1039469715_n-oh=f9c73a067a4ea2fe207745e4268df740&oe=56A16388&__gda__=1452447915_95ed03420aa46ea0dc26357f7fbc45d0.jpg" class="avatar avatar-40 photo social-facebook js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=" rel="external nofollow" class="url">John James Jacoby</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-facebook">
+			<span class="social-posted-from">
+								<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="View on Facebook" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624165" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Completely agree. We are part of a transitional generation of web developers that feel compelled to research and investigate how each tool works, and I bet younger generations are accustomed to trusting the tools in the box without caring who made them or for what exact purpose.</p>
+<p>I don’t really care what a hammer is made out of or where it came from, so long as it can smash things flat enough. Someone probably cares more than I do, and I know people who care less, but I’m fluent enough with the tool where I never doubt it’s purpose. But most of the tools you listed are young, and we are not, so until we use them to smash a few objects, that feeling of owning too many tools will not go away.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624165.html#respond" onclick="return addComment.moveForm( &quot;comment-624165&quot;, &quot;624165&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to John James Jacoby">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624165 -->
+<ul class="social-children">
+<li class="social-facebook even depth-2 social-comment social-clearfix social-facebook" id="li-comment-624166">
+<div class="social-comment-inner social-clearfix" id="comment-624166">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../scontent.xx.fbcdn.net/hprofile-xtf1/v/t1.0-1/p50x50/12011218_10153673262196804_2532735309622484654_n-oh=a5da39eb78b48b68cf3c0481c29aaea9&oe=569D5628.jpg" class="avatar avatar-40 photo social-facebook js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=" rel="external nofollow" class="url">Dre Armeda</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-facebook">
+			<span class="social-posted-from">
+								<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="View on Facebook" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624166" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>“You nailed it!”</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624166.html#respond" onclick="return addComment.moveForm( &quot;comment-624166&quot;, &quot;624166&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Dre Armeda">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624166 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624152">
+<div class="social-comment-inner social-clearfix" id="comment-624152">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/460793609977991169/cgn7BZdz_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/dalabarge" rel="598952259561467904 external nofollow" class="url">@dalabarge</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/dalabarge/status/598952259561467904" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624152" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/DYmuAe2atL</a> The entry barrier to web app development is huge. Let’s simplify the stack.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624152.html#respond" onclick="return addComment.moveForm( &quot;comment-624152&quot;, &quot;624152&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to dalabarge">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624152 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624150">
+<div class="social-comment-inner social-clearfix" id="comment-624150">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/486608353510948864/HS3rMunF_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/briandusablon" rel="598955510595977216 external nofollow" class="url">@briandusablon</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/briandusablon/status/598955510595977216" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624150" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>“When we are teaching, we need to provide a path that allows people to master one brick at a time.” <a href="web-development-now-complicated-utm_content=buffer1abaf&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/cMEVdGxyry</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624150.html#respond" onclick="return addComment.moveForm( &quot;comment-624150&quot;, &quot;624150&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to briandusablon">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624150 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-624144">
+<div class="social-comment-inner social-clearfix" id="comment-624144">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/09abbed9802b01f851c243de31b87773.png-s=40&d=mm&r=g.jpeg" srcset="http://0.gravatar.com/avatar/09abbed9802b01f851c243de31b87773?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Jordan Gigov</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624144" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>With current trends you’d also have to add Docker on the list, since it’s not really a VM and doesn’t try to be, and it’s usage is fairly high and on the rise.</p>
+<p>And let’s not forget having some automated backups of the production server. Ours has one nightly backup of the database, which is automatically downloaded a few hours after it’s done and another automatic backup of static images uploaded by the users. After looking into several solutions, they were all too complicated and unreliable, so I instead wrote about 15 lines total of BASH scripts on both ends and have git handle the it. We don’t have to worry about file diffs, since files are only ever added, never modified or deleted.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624144.html#respond" onclick="return addComment.moveForm( &quot;comment-624144&quot;, &quot;624144&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Jordan Gigov">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624144 -->
+<ul class="social-children">
+<li class="wordpress byuser comment-author-alex bypostauthor even depth-2 social-comment social-clearfix social-wordpress" id="li-comment-624146">
+<div class="social-comment-inner social-clearfix" id="comment-624146">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624146" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>DevOps is a whole different category.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624146.html#respond" onclick="return addComment.moveForm( &quot;comment-624146&quot;, &quot;624146&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Alex">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624146 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-624145">
+<div class="social-comment-inner social-clearfix" id="comment-624145">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../1.gravatar.com/avatar/d659e70cb037a0651246b4ebb1ef1f99.png-s=40&d=mm&r=g.jpeg" srcset="http://1.gravatar.com/avatar/d659e70cb037a0651246b4ebb1ef1f99?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Joseph Jones</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624145" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>20+ years in this field and the only constant that I have faced is that we, as a “profession” constantly work as hard as we can to make our jobs more difficult.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624145.html#respond" onclick="return addComment.moveForm( &quot;comment-624145&quot;, &quot;624145&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Joseph Jones">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624145 -->
+</li><!-- #comment-## -->
+<li class="social-facebook even thread-even depth-1 social-comment social-clearfix social-facebook" id="li-comment-624167">
+<div class="social-comment-inner social-clearfix" id="comment-624167">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../scontent.xx.fbcdn.net/hprofile-xaf1/v/t1.0-1/p50x50/1969182_617079681719563_1559310784_n-oh=d50c0fa4511ae071bccecc0c6a27981a&oe=569F3BEE.png" class="avatar avatar-40 photo social-facebook js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=" rel="external nofollow" class="url">Mike Shaver</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-facebook">
+			<span class="social-posted-from">
+								<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="View on Facebook" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624167" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Good tools let non-experts produce expert output. We need much much better tools.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624167.html#respond" onclick="return addComment.moveForm( &quot;comment-624167&quot;, &quot;624167&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Mike Shaver">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624167 -->
+</li><!-- #comment-## -->
+<li class="social-facebook odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-facebook" id="li-comment-624189">
+<div class="social-comment-inner social-clearfix" id="comment-624189">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p50x50/11193423_10206912188469318_3586338635205008100_n-oh=72e50f3f97c6997012f4a027a46210d2&oe=568F6755&__gda__=1453171433_83a1a6fd226b0c3c3f431cd4bb2f7da0.jpg" class="avatar avatar-40 photo social-facebook js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=" rel="external nofollow" class="url">Shawn Parker</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-facebook">
+			<span class="social-posted-from">
+								<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="View on Facebook" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624189" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Lots of ways to skin a cat.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624189.html#respond" onclick="return addComment.moveForm( &quot;comment-624189&quot;, &quot;624189&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Shawn Parker">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624189 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624185">
+<div class="social-comment-inner social-clearfix" id="comment-624185">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/512625755/icon_bigger.gif" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/tek_news" rel="599030200685481984 external nofollow" class="url">@tek_news</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/tek_news/status/599030200685481984" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624185" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Reddit/p: We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/JYLZv5ElK8</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624185.html#respond" onclick="return addComment.moveForm( &quot;comment-624185&quot;, &quot;624185&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to tek_news">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624185 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624220">
+<div class="social-comment-inner social-clearfix" id="comment-624220">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/610435573342449666/dfRywfMM_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/WouterDS" rel="599131203032227840 external nofollow" class="url">@WouterDS</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/WouterDS/status/599131203032227840" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624220" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/YgEjcZ07An</a> #webdev #development #web</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624220.html#respond" onclick="return addComment.moveForm( &quot;comment-624220&quot;, &quot;624220&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to WouterDS">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624220 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624218">
+<div class="social-comment-inner social-clearfix" id="comment-624218">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/430609539281346560/vlVsXmFb_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/_dixens" rel="599196465441964032 external nofollow" class="url">@_dixens</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/_dixens/status/599196465441964032" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624218" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/m0arakjtgr</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/atmediauk/status/599302842923507712" title="atmediauk retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/2915159339/e689a57eb454e4d77f49ee1d5db1314f_bigger.png" width="24" height="24" alt="atmediauk retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/tchappui/status/599602341361414144" title="tchappui retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/477344764032192512/LAjvaXy5_bigger.jpeg" width="24" height="24" alt="tchappui retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/gilbitron/status/602476148564619264" title="gilbitron retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/484776878339678208/2JUzqAC4_bigger.jpeg" width="24" height="24" alt="gilbitron retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/foralien/status/602481953309360128" title="foralien retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/481872669457936384/SpG5fwL0_bigger.jpeg" width="24" height="24" alt="foralien retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624218.html#respond" onclick="return addComment.moveForm( &quot;comment-624218&quot;, &quot;624218&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to _dixens">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624218 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624244">
+<div class="social-comment-inner social-clearfix" id="comment-624244">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/463667530024771585/UNBRiXfw_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/mijingo" rel="599231280237142016 external nofollow" class="url">@mijingo</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/mijingo/status/599231280237142016" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624244" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Yes, yes! “When we are teaching, we need to provide a path that allows people to master one brick at a time.” <a href="web-development-now-complicated-utm_content=buffer4ebfd&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/w5Idu6dw1i</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/ryanirelan/status/599232770565541889" title="ryanirelan retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/513141212274896897/PsuO3xtx_bigger.jpeg" width="24" height="24" alt="ryanirelan retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624244.html#respond" onclick="return addComment.moveForm( &quot;comment-624244&quot;, &quot;624244&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to mijingo">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624244 -->
+</li><!-- #comment-## -->
+<li class="social-facebook even thread-even depth-1 social-comment social-clearfix social-facebook" id="li-comment-624243">
+<div class="social-comment-inner social-clearfix" id="comment-624243">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../scontent.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/p50x50/11889420_10101443984325875_8382425025461725978_n-oh=373cfb2e8c543a34336d902bfcf81451&oe=56991974.jpg" class="avatar avatar-40 photo social-facebook js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=24403658" rel="external nofollow" class="url">Craig Freeman</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-facebook">
+			<span class="social-posted-from">
+								<a href="https://facebook.com/permalink.php?story_fbid=10155534291825082&id=797905081" title="View on Facebook" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624243" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I feel sorry for newcomers, it must be completely overwhelming.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624243.html#respond" onclick="return addComment.moveForm( &quot;comment-624243&quot;, &quot;624243&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Craig Freeman">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624243 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624241">
+<div class="social-comment-inner social-clearfix" id="comment-624241">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://pbs.twimg.com/profile_images/542345296403910656/YS3Wb2gQ_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/macodev" rel="599245389821120512 external nofollow" class="url">@macodev</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/macodev/status/599245389821120512" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624241" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>The long list of #webdev techs we have to master today.<br>
+<a href="web-development-now-complicated.html" rel="nofollow">http://t.co/gsLEJq0cxH</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624241.html#respond" onclick="return addComment.moveForm( &quot;comment-624241&quot;, &quot;624241&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to macodev">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624241 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624240">
+<div class="social-comment-inner social-clearfix" id="comment-624240">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1445908876/avatar_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/plankers" rel="599261080112726018 external nofollow" class="url">@plankers</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/plankers/status/599261080112726018" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624240" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[Shared] We’ve Made Web Development Complicated <a href="web-development-now-complicated-utm_content=buffer4c0f4&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/rTC4zlfzPZ</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624240.html#respond" onclick="return addComment.moveForm( &quot;comment-624240&quot;, &quot;624240&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to plankers">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624240 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624238">
+<div class="social-comment-inner social-clearfix" id="comment-624238">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/592758436212903938/kbh8W7Mo_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/mronge" rel="599396562435964928 external nofollow" class="url">@mronge</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/mronge/status/599396562435964928" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624238" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>“We’ve made Web Development Complicated” <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/CpyJDlIZ1R</a></p>
+<p>Yes, totally, too complicated I say</p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/iovis9/status/599795603095322624" title="iovis9 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/606757019815694336/PpXPYW14_bigger.jpg" width="24" height="24" alt="iovis9 retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624238.html#respond" onclick="return addComment.moveForm( &quot;comment-624238&quot;, &quot;624238&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to mronge">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624238 -->
+<ul class="social-children">
+<li class="social-twitter even depth-2 social-comment social-clearfix social-twitter" id="li-comment-624368">
+<div class="social-comment-inner social-clearfix" id="comment-624368">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1202869980/me_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/kpmartin" rel="599414311027658752 external nofollow" class="url">@kpmartin</a></cite><span class="social-replied social-imr">replied:</span>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/kpmartin/status/599414311027658752" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624368" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@mronge bah. You can still get by with older stuff. It just that we no longer want what older stuff makes. Web does more now, so needs more.</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624368.html#respond" onclick="return addComment.moveForm( &quot;comment-624368&quot;, &quot;624368&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to kpmartin">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624368 -->
+</li><!-- #comment-## -->
+</ul>
+</li>
+<!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-624366">
+<div class="social-comment-inner social-clearfix" id="comment-624366">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/461422386638622720/jyagPYz5_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/jesperfj" rel="599655294520561664 external nofollow" class="url">@jesperfj</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/jesperfj/status/599655294520561664" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624366" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Impressive list of tech needed for web dev: <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/v0esEVB3VP</a>. @heroku takes a lot of this pain away</p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/dmessing/status/600316933809033219" title="dmessing retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/1870900447/smallerDmessinger_bigger.png" width="24" height="24" alt="dmessing retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624366.html#respond" onclick="return addComment.moveForm( &quot;comment-624366&quot;, &quot;624366&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to jesperfj">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624366 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-624736">
+<div class="social-comment-inner social-clearfix" id="comment-624736">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/598430087881564160/U5Z4WCyr_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/Verasseti" rel="601756304265322496 external nofollow" class="url">@Verasseti</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/Verasseti/status/601756304265322496" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-624736" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Have We Made #WebDevelopment Complicated <a href="../../../../index-utm_content=bufferc2779&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/3xwc84DLKx</a> <a href="web-development-now-complicated-utm_content=bufferce777&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/CGK7pSEVNh</a> via @alexkingorg</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=624736.html#respond" onclick="return addComment.moveForm( &quot;comment-624736&quot;, &quot;624736&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Verasseti">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-624736 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-625019">
+<div class="social-comment-inner social-clearfix" id="comment-625019">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/512583991598125057/2OQ01T0d_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/jeffikus" rel="602793748867710976 external nofollow" class="url">@jeffikus</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/jeffikus/status/602793748867710976" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-625019" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thought provoking article about software development in general on the web <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/027OUSJrdd</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=625019.html#respond" onclick="return addComment.moveForm( &quot;comment-625019&quot;, &quot;625019&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to jeffikus">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-625019 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-625175">
+<div class="social-comment-inner social-clearfix" id="comment-625175">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/1388025087/7fc35f0651209f9ac60659ff1acbe7ec_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/perezpardojc" rel="603166216329396224 external nofollow" class="url">@perezpardojc</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/perezpardojc/status/603166216329396224" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-625175" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">https://t.co/5d540QoQuc</a> Thanks @alexkingorg</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=625175.html#respond" onclick="return addComment.moveForm( &quot;comment-625175&quot;, &quot;625175&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to perezpardojc">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-625175 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-625201">
+<div class="social-comment-inner social-clearfix" id="comment-625201">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/2220317589/image_bigger.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/nturbanov" rel="603459692409552896 external nofollow" class="url">@nturbanov</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/nturbanov/status/603459692409552896" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-625201" class="social-posted-when" target="_blank">4 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This.<br>
+<a href="web-development-now-complicated.html" rel="nofollow">http://t.co/v7FISD55AD</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=625201.html#respond" onclick="return addComment.moveForm( &quot;comment-625201&quot;, &quot;625201&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to nturbanov">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-625201 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-625971">
+<div class="social-comment-inner social-clearfix" id="comment-625971">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/378800000778637297/976775ca2109071801aa618b9c8e63e6_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/WeAreWCC" rel="605796320624803840 external nofollow" class="url">@WeAreWCC</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/WeAreWCC/status/605796320624803840" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-625971" class="social-posted-when" target="_blank">3 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Word. We’ve Made Web Development Complicated: <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/Ulp5GvgZ0O</a> #webdev</p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/jonDevBot/status/605796421900468224" title="jonDevBot retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/552476978905755648/dM_NpdKp_bigger.jpeg" width="24" height="24" alt="jonDevBot retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=625971.html#respond" onclick="return addComment.moveForm( &quot;comment-625971&quot;, &quot;625971&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to WeAreWCC">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-625971 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-625969">
+<div class="social-comment-inner social-clearfix" id="comment-625969">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/499273707156553729/OsFOHTbo_bigger.jpeg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/markyhesketh" rel="606854279903772673 external nofollow" class="url">@markyhesketh</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/markyhesketh/status/606854279903772673" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-625969" class="social-posted-when" target="_blank">3 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Yep. “We’ve Made Web Development Complicated” <a href="web-development-now-complicated-utm_content=bufferdd56b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer.html" rel="nofollow">http://t.co/aIJq1pIUmm</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=625969.html#respond" onclick="return addComment.moveForm( &quot;comment-625969&quot;, &quot;625969&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to markyhesketh">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-625969 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-626562">
+<div class="social-comment-inner social-clearfix" id="comment-626562">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/32647612/DSC_1175_sq200px_bigger.JPG" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/formidableinc" rel="608179130790748160 external nofollow" class="url">@formidableinc</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/formidableinc/status/608179130790748160" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-626562" class="social-posted-when" target="_blank">3 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Le web, c’est compliqué. (C’est pour ça qu’il y a des formations et des pro). <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/Y3n1ew1f4s</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=626562.html#respond" onclick="return addComment.moveForm( &quot;comment-626562&quot;, &quot;626562&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to formidableinc">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-626562 -->
+</li><!-- #comment-## -->
+<li class="social-twitter odd alt thread-even depth-1 social-comment social-clearfix social-twitter" id="li-comment-627145">
+<div class="social-comment-inner social-clearfix" id="comment-627145">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/378800000280867011/25e5924356ff4e1cbcd02931c8cdb8f9_bigger.png" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/vapostolski" rel="610858126737309696 external nofollow" class="url">@vapostolski</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/vapostolski/status/610858126737309696" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-627145" class="social-posted-when" target="_blank">3 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>#truestory We’ve Made Web Development Complicated <a href="web-development-now-complicated.html" rel="nofollow">http://t.co/fcs1UqSfA5</a></p>
+	</div>
+		<div class="social-items-comment"><div class="social-items social-twitter">
+	<div class="social-items-icon"></div>
+	<div class="social-items-comments">
+		<a href="https://twitter.com/bojanv91/status/610858242885963776" title="bojanv91 retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/448449326843318272/pdTkXdwo_bigger.jpeg" width="24" height="24" alt="bojanv91 retweeted this" class="js-hidpi-2424"></a><a href="https://twitter.com/sleepy/status/610875962562101248" title="sleepy retweeted this"><img src="../../../../../pbs.twimg.com/profile_images/625061845/jas_bigger.jpg" width="24" height="24" alt="sleepy retweeted this" class="js-hidpi-2424"></a>	</div>
+</div>
+</div>	<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=627145.html#respond" onclick="return addComment.moveForm( &quot;comment-627145&quot;, &quot;627145&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to vapostolski">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-627145 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-facebook_david-lyons-10207081456544533 even thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-627102">
+<div class="social-comment-inner social-clearfix" id="comment-627102">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/v/t1.0-1/c204.44.552.552/s50x50/534275_4599603677835_1308862021_n-oh=ceec6022ee930f406e1769a703b3a5ba&oe=565E57A8&__gda__=1452711515_10228b031249260009cbfe2ffa54cdfe.jpg" class="avatar avatar-40 photo wordpress js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://facebook.com/profile.php?id=10207081456544533" rel="external nofollow" class="url">David Lyons</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-627102" class="social-posted-when" target="_blank">3 months ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I had exactly the same felling, just a year ago I had my simple ORM, my own simple CMS, my simple include libs (strings, mails, database, auth, etc)</p>
+<p>And a friend of my told me to use Laravel, and was impressed with the ORM and the libs included (sorry now name packages or whatever they decided to invent to name things that allready exists before). </p>
+<p>So now I’ve to say that my development speed whent down because of fighting with… Ops something whent wrong or error in line 140394 or Carbon date not in correct format, etc…. In one side is good all this new stuff but one the other hand you have to be reading documentation almost for every step you do and you find yourself fixing problems that you had allready overcome year ago.</p>
+<p>Programming paradoxes!!! <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=627102.html#respond" onclick="return addComment.moveForm( &quot;comment-627102&quot;, &quot;627102&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to David Lyons">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-627102 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-628576">
+<div class="social-comment-inner social-clearfix" id="comment-628576">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/2b243d43aa353af79763566682c40e20-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/2b243d43aa353af79763566682c40e20?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.heavilyedited.com" rel="external nofollow" class="url">Anne</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="web-development-now-complicated.html#comment-628576" class="social-posted-when" target="_blank">1 month ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Exactly. Web development has become overly complicated when it doesn’t need to be. But no one will hire me anymore, so what do I know?</p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=628576.html#respond" onclick="return addComment.moveForm( &quot;comment-628576&quot;, &quot;628576&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to Anne">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-628576 -->
+</li><!-- #comment-## -->
+<li class="social-twitter even thread-odd thread-alt depth-1 social-comment social-clearfix social-twitter" id="li-comment-628924">
+<div class="social-comment-inner social-clearfix" id="comment-628924">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../pbs.twimg.com/profile_images/603272078410838016/YZ-zPd87_normal.jpg" class="avatar avatar-40 photo social-twitter js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="https://twitter.com/tomnora" rel="635904032805158912 external nofollow" class="url">@tomnora</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-twitter">
+			<span class="social-posted-from">
+								<a href="https://twitter.com/tomnora/status/635904032805158912" title="View on Twitter" target="_blank">
+								<span>View</span>
+								</a>
+							</span>
+			<a href="web-development-now-complicated.html#comment-628924" class="social-posted-when" target="_blank">1 month ago</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>this guy @alexkingorg captured what I’ve been complaining about. Configurators for configurators. git gulp grunt <a href="https://t.co/aOgiiynrL1" rel="nofollow">https://t.co/aOgiiynrL1</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+		<a rel="nofollow" class="comment-reply-link" href="web-development-now-complicated-replytocom=628924.html#respond" onclick="return addComment.moveForm( &quot;comment-628924&quot;, &quot;628924&quot;, &quot;respond&quot;, &quot;21793&quot; )" aria-label="Reply to tomnora">Reply</a>	</div>
+		<!-- .reply -->
+</div><!-- #comment-628924 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2015/05/14/web-development-now-complicated&amp;post_id=21793">
+			Logging In...		</div>
+								<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Post a Reply to <a href="web-development-now-complicated-replytocom=624238.html#comment-624238">mronge</a> <small><a rel="nofollow" id="cancel-comment-reply-link" href="web-development-now-complicated.html#respond">cancel</a></small></h3>
+									<form action="http://alexking.org/wp/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+						<div class="social-sign-in-links social-clearfix">
+		<a class="social-twitter social-imr social-login comments" href="http://alexking.org/index.php?social_controller=auth&social_action=authorize&key=twitter&post_id=21793" id="twitter_signin" target="_blank">Sign in with Twitter</a>
+		<a class="social-facebook social-imr social-login comments" href="http://alexking.org/index.php?social_controller=auth&social_action=authorize&key=facebook&post_id=21793" id="facebook_signin" target="_blank">Sign in with Facebook</a>
+	</div>
+<div class="social-divider">
+	<span>or</span>
+</div>
+																				<p class="social-input-row social-input-row-author"><label for="author" class="social-label">Name</label><input id="author" name="author" class="social-input" type="text" value=""></p>
+<p class="social-input-row social-input-row-email"><label for="email" class="social-label">Email</label><input id="email" name="email" class="social-input" type="text" value=""><small class="social-help">Not published</small></p>
+<p class="social-input-row social-input-row-url"><label for="url" class="social-label">Website</label><input id="url" name="url" class="social-input" type="text" value=""></p>
+												<p class="social-input-row social-input-row-comment"><label for="comment" class="social-label">Comment</label><textarea id="comment" name="comment" class="social-input" required="required"></textarea></p>						
+						<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post It"> <input type="hidden" name="comment_post_ID" value="21793" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="624238">
+<input type="hidden" id="use_twitter_reply" name="use_twitter_reply" value="0"><input type="hidden" id="in_reply_to_status_id" name="in_reply_to_status_id" value=""></p><div id="commentform-extras"><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c634caef1b"></p><p style="display: none;"></p></div>					<input type="hidden" id="ak_js" name="ak_js" value="1443472555054"></form>
+							</div><!-- #respond -->
+				</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="../13/21806.html" rel="prev">Re-structuring CSS and JS files so that external l…</a> »</span>
+	<span class="prev">« <a href="do-i-really-have-to-do-all-of-this-paperwork-cant-i-just-you-know-design.html" rel="next">Do I really have to do all of this paperwork? Can’t I just, you know, design?</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="web-development-now-complicated-replytocom=624238.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="web-development-now-complicated-replytocom=624238.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp/wp-includes/js/comment-reply.min-ver=4.3.js"></script>
+<script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/themes/favepersonal/plugins/social/assets/social-ver=3.1.1.js"></script>
+<script type="text/javascript" src="../../../../wp-content/plugins/akismet/_inc/form-ver=3.1.3.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.604 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:01:02 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-2424{ max-width: 24px; max-height: 24px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

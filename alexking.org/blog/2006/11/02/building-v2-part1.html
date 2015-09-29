@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>Building alexking.org 2.0, Part 1: Overview : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Building alexking.org 2.0, Part 1: Overview Comments Feed" href="http://alexking.org/blog/2006/11/02/building-v2-part1/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Coming Soon: iCal – Google Calendar Sync" href="http://alexking.org/blog/2006/11/02/ical-gcal-sync">
+<link rel="next" title="NetworkLocation" href="http://alexking.org/blog/2006/11/02/networklocation">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="building-v2-part1.html">
+<link rel="shortlink" href="http://alexking.org/?p=2003">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Building alexking.org 2.0, Part 1: Overview">
+<meta property="og:url" content="http://alexking.org/blog/2006/11/02/building-v2-part1">
+<meta property="og:description" content="Note: This is the first in a series of articles about the building of alexking.org 2.0. So now that the new site is live and I’ve had a chance to fix most of the re-launch related bugs, it&amp;#8...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2006/11/02/building-v2-part1">
+<meta name="twitter:title" content="Building alexking.org 2.0, Part 1: Overview">
+<meta name="twitter:description" content="Note: This is the first in a series of articles about the building of alexking.org 2.0. So now that the new site is live and I've had a chance to fix most of the re-launch related bugs, it's time to share a little about the process that went into building this version of the site. If you're seeing this in a feed reader, this is what the new site looks like: Come on over for">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-2003 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-2003" class="clearfix post-2003 post type-post status-publish format-standard hentry category-alexkingorg category-case-studies category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="building-v2-part1.html" title="Permalink to Building alexking.org 2.0, Part 1: Overview" rel="bookmark">Building alexking.org 2.0, Part 1: Overview</a></h1>
+		<time class="entry-date" datetime="2006-11-02T16:28:31+00:00" pubdate=""> November 2, 2006</time>
+	</header>
+	<div class="entry-content">
+<p class="banner"><strong>Note:</strong> This is the first in a series of articles about the building of alexking.org 2.0.</p>
+<p>So now that the new site is live and I’ve had a chance to fix most of the re-launch related bugs, it’s time to share a little about the process that went into building this version of the site.</p>
+<p>If you’re seeing this in a feed reader, this is what the new site looks like:</p>
+<p class="center"><a href="http://www.flickr.com/photos/alexkingorg/287183382/"><img src="http://static.flickr.com/115/287183382_b0371fcf47_m.jpg" width="240" height="194" alt="alexking.org v2" class="js-hidpi-240194"></a></p>
+<p><a href="../../../../index.html">Come on over for a visit</a> and poke around a bit. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+<p>I launched alexking.org v1 on Nov. 1, 2002, v2 launches 4 years later<sup><a href="building-v2-part1.html#fn1162508796719n" id="fn1162508796719" class="footnote">1</a></sup> and incorporates a number of lessons learned. The main changes/adjustments have been building up in my head for the last 2 years, and as a result I made a <em>lot</em> of changes in the redesign.</p>
+<p>There are a number of topics regarding the redesign that I think would be interesting to discuss, for example:</p>
+<ul>
+<li><a href="../06/building-v2-part2.html">Overall re-design goals – what needed fixing.</a></li>
+<li><a href="http://alexking.org/blog/2006/11/09/building-v2-part3">New site navigation – reasons for it, what it solves. &amp; Goals of simplification</a>.</li>
+<li><a href="http://alexking.org/blog/2006/11/16/designing-for-the-future">Designing for the future</a>.</li>
+<li><a href="http://alexking.org/blog/2006/11/20/smart-urls">New URL structure – which choices were made and why.</a></li>
+<li><a href="../30/leveraging-your-content.html">You’ve got content – how do you best leverage it?</a></li>
+<li><a href="../../12/13/lots-of-plugins.html">New WordPress plugins written/updated for the new site.</a></li>
+<li><a href="http://alexking.org/blog/2007/01/29/too-many-plugins">Bending WordPress to your will – or how many plugins are too many?</a></li>
+<li><a href="http://alexking.org/blog/2007/02/19/toolset-handcuffs">Is your site maintenance toolset holding your site back?</a></li>
+<li><a href="http://alexking.org/blog/2007/05/11/cms-benefits">Benefits of having your entire site content in a single CMS.</a></li>
+<li>Monetization choices.</li>
+</ul>
+<p>I’ll try to tackle these over the next few weeks. If you have other topics you’d like to hear about regarding the redesign, let me know in the comments and I’ll try to cover them as well.</p>
+<ol class="footnotes">
+<li id="fn1162508796719n">To the day – how about that. [<a href="building-v2-part1.html#fn1162508796719">back</a>]</li>
+</ol>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="building-v2-part1.html#comments">32 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/alexkingorg.html" rel="category tag">alexking.org</a>, <a href="../../../topic/case-studies.html" rel="category tag">Case Studies</a>, <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="building-v2-part1.html#" rel="social-all"><span>32 Replies</span></a></li>
+			<li class="social-wordpress"><a href="building-v2-part1.html#" rel="wordpress"><span>18 Comments</span></a></li>
+			<li class="social-twitter"><a href="building-v2-part1.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="building-v2-part1.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="building-v2-part1.html#" rel="social-pingback"><span>14 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was March 21, 2012</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52631">
+<div class="social-comment-inner social-clearfix" id="comment-52631">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/17e5313fed63fd4471dd8afe9c36aa6d?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/17e5313fed63fd4471dd8afe9c36aa6d?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.goodmanson.com" rel="external nofollow" class="url">D. Goodmanson</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52631" class="social-posted-when" target="_blank">November 2, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Like the new look!  Great 3 column layout.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52631 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52636">
+<div class="social-comment-inner social-clearfix" id="comment-52636">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/370cd456367bfc5a40f7ad96e32c9d19?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/370cd456367bfc5a40f7ad96e32c9d19?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://mattwalters.net/" rel="external nofollow" class="url">Matt W</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52636" class="social-posted-when" target="_blank">November 2, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’ll definitely be looking forward to reading the “Designing for the future,” “New URL Structure,” and “Bending WordPress to your will” points.  Would also be interested in hearing about any back-end things you might be using that wouldn’t be apparent to the visitor (if there are any worth noting).</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52636 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52637">
+<div class="social-comment-inner social-clearfix" id="comment-52637">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/eb6b61957657e40c37818a148c9359df?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/eb6b61957657e40c37818a148c9359df?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://blogdiss.weblogs.us" rel="external nofollow" class="url">danithew</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52637" class="social-posted-when" target="_blank">November 2, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>The new site design looks great.  The color-scheme is similar to the old one but nicer/easier on the eyes.  I like the tab system.</p>
+<p>My blog’s been a mess for awhile.  Besides needing to update the version of WordPress I’m using, I’m looking forward to doing a re-design.  It’s good to see a site like this.  Lots of good ideas.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52637 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52641">
+<div class="social-comment-inner social-clearfix" id="comment-52641">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/bccedb56684d4c5a2ad60eb1b2fa953c?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/bccedb56684d4c5a2ad60eb1b2fa953c?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://girlseyeview.nu" rel="external nofollow" class="url">Jenny</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52641" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>i love the new layout. 😀</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52641 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52642">
+<div class="social-comment-inner social-clearfix" id="comment-52642">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4f5296cc0fc4a395cd78daa8eb92d922?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4f5296cc0fc4a395cd78daa8eb92d922?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://developer.mozilla.org/en/docs/RSS:Getting_Started:Syndicating" rel="external nofollow" class="url">Ian Pottinger</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52642" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I love the “tone” of the site!  Very easy on the eyes, well organized.  I immediately threw my mouse to Firefox’s URL bar, ready to click the RSS subscription button and was surprised not to see it there.</p>
+<p>I know the site was just launched and this may be just one of many planned features to come.  But on the very small chance that this might be an oversight, and as a helpful hint to readers of your comments that may not be familiar with RSS auto-discovery in the newest versions of the most popular browsers, I provide this link as a primer. </p>
+<p><a href="http://developer.mozilla.org/en/docs/RSS:Getting_Started" rel="nofollow">http://developer.moz[...]ting_Started</a></p>
+<p>Please don’t take offense.  Just want to be helpful.  I will be an avid reader of your blog.  Looking forward to the experience.  My best wishes to you!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52642 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52644">
+<div class="social-comment-inner social-clearfix" id="comment-52644">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/90c913e8ed3ae273b59622ad87124069?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/90c913e8ed3ae273b59622ad87124069?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://schneggerich.net" rel="external nofollow" class="url">Malte</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52644" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I think, the three column layouts are the future…<br>
+There is much more place for stuff and nearly everybody uses a screen with high resolution. An for those, who are using PDAs we have different stylesheets <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"><br>
+I like your new design!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52644 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52645">
+<div class="social-comment-inner social-clearfix" id="comment-52645">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/c9eb9c8f88eab57f27d36405d6b255d7?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/c9eb9c8f88eab57f27d36405d6b255d7?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://blog.ademagnaye.com" rel="external nofollow" class="url">ade</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52645" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’m loving this new look!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52645 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52646">
+<div class="social-comment-inner social-clearfix" id="comment-52646">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/33ae983c72db97d93df45a6290d3f436?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/33ae983c72db97d93df45a6290d3f436?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://planetozh.com/" rel="external nofollow" class="url">Ozh</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52646" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Nice look overall, but I think the link style is really odd and really 1990. Really looks like default styling and I can’t help thinking “hmmm must reload the browser forgot to load a css those links are ugly” …</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52646 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52647">
+<div class="social-comment-inner social-clearfix" id="comment-52647">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/a87f221ff5871c782a84134d5d54131c?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/a87f221ff5871c782a84134d5d54131c?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.centrestage.de" rel="external nofollow" class="url">Mike Lanxess</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52647" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>“Share this” is an excellent solution not to overload a post with all the social bookmarking icons. And good idea for a “service box” with much more functionality. Will you make this functionality available as a plugin?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52647 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52649">
+<div class="social-comment-inner social-clearfix" id="comment-52649">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/fbed6e4bdd414b9267cac24a5661e587?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/fbed6e4bdd414b9267cac24a5661e587?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.tdhedengren.com" rel="external nofollow" class="url">TDH</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52649" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This is a vast improvement, Alex. Nice.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52649 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52650">
+<div class="social-comment-inner social-clearfix" id="comment-52650">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/b0cdd2a389e9cc07f25f05c3fc86f6ba?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/b0cdd2a389e9cc07f25f05c3fc86f6ba?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Brett</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52650" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Looking good Alex!<br>
+Consider a Recommendations spot on your site… I already have the Harmony remote, use WordPress for CMS and have learned some handy coding techniques in the past.</p>
+<p>“Recommendations” or “Personal Setup” might be a good idea! Something like below…? Feel free to expand on this if you or anyone else can.<br>
+===============<br>
+Web Must Haves:<br>
+<a href="http://phpforms.net" rel="nofollow">http://phpforms.net</a> – For automated forms, any other recommendations that aren’t subscription based for the client?</p>
+<p>WordPress Plugin Must Haves (other suggestions or additions):<br>
+All of Alex’s of course. =)<br>
+Including PHP – <a href="http://bluesome.net/post/2005/08/18/50/" rel="nofollow">http://bluesome.net/[...]05/08/18/50/</a><br>
+Contact Form – <a href="http://chip.cuccio.us/projects/contact-form-ii/" rel="nofollow">http://chip.cuccio.u[...]act-form-ii/</a></p>
+<p>Must Have Hardware:<br>
+Harmony Universal Remote – 880 – Love it! Get this or 550.<br>
+Apple MacBook Pro – Camera and Intel chip are sweet, but the drive isn’t near as accessible as the MacBook<br>
+Canon Digital Rebel XT – Works great for all our needs, learning it mostly on my honeymoon. eBay’d a 2GB card for best price.</p>
+<p>Must Have Software:<br>
+Accounting – vebio.com or otherwise, etc., I use MYOB but only because it’s one of the few that run on Mac, etc.<br>
+Newsreader – <a href="http://www.google.com/reader" rel="nofollow">http://www.google.com/reader</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52650 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52655">
+<div class="social-comment-inner social-clearfix" id="comment-52655">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/db6653c2357621748f91144a83c17739?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/db6653c2357621748f91144a83c17739?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.grantpalin.com" rel="external nofollow" class="url">Grant Palin</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52655" class="social-posted-when" target="_blank">November 3, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’ve got a local copy of wordpress on my computer, just to fiddle around with and see what changes I can make so it becomes just a little more useful.  I haven’t done mmuch with it lately, and have some catching up to do.</p>
+<p>I would definitely be interested in reading about modifications you made to WP, how to use it as a CMS, and leveraging content.  I’ll be watching!</p>
+<p>Nice design too!  I really should try a new design – it’s so easy with WP!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52655 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52667">
+<div class="social-comment-inner social-clearfix" id="comment-52667">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/57e96f1c990a2d096f5d138a53b7f4b2?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/57e96f1c990a2d096f5d138a53b7f4b2?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.wiphey.com" rel="external nofollow" class="url">kristin</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52667" class="social-posted-when" target="_blank">November 4, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Looks great!  easier to read the text compared to the old site.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52667 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-52682">
+<div class="social-comment-inner social-clearfix" id="comment-52682">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3e028e7368274c65eb80fa0acd97228c?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/3e028e7368274c65eb80fa0acd97228c?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.alfredbirney.nl" rel="external nofollow" class="url">Alfred</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-52682" class="social-posted-when" target="_blank">November 5, 2006</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Sorry I liked your old site more, although I know that this new one had better features. To my feeling a lot of sites move towards a sort of K2-style. Mine does too, but older sites seem to have more differences in styles. Well all right, congratulations anyway!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-52682 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-54846">
+<div class="social-comment-inner social-clearfix" id="comment-54846">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f318524df753a5f023105016323d13eb?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f318524df753a5f023105016323d13eb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Cocoliso</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-54846" class="social-posted-when" target="_blank">March 6, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks for sharing.  I’m waiting to see the last two installments.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-54846 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-55588">
+<div class="social-comment-inner social-clearfix" id="comment-55588">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2006/11/09/building-v2-part3" rel="external nofollow" class="url">Building alexking.org 2.0, Part 3: Navigation | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55588" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] This is the third in a series of articles about the building of alexking.org […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55588 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-55589">
+<div class="social-comment-inner social-clearfix" id="comment-55589">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../09/old-post-alert-10.html" rel="external nofollow" class="url">Old Post Alert 1.0 | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55589" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] new plugin I created for alexking.org 2.0 is a simple banner to indicate the age of the post that is shown in the comments form1. This is one […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55589 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-55591">
+<div class="social-comment-inner social-clearfix" id="comment-55591">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2006/11/13/default-feed-for-home-page" rel="external nofollow" class="url">Default Feed for Home Page? | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55591" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] in the redesign was the meta tag for a feed on the alexking.org home page. It’s something some folks rely on, so it needs to go back […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55591 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-55599">
+<div class="social-comment-inner social-clearfix" id="comment-55599">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2006/11/20/smart-urls" rel="external nofollow" class="url">Building alexking.org 2.0, part 5: URLs | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55599" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] This is the fifth in a series of articles about the building of alexking.org […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55599 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-55677">
+<div class="social-comment-inner social-clearfix" id="comment-55677">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../../12/31/2006-in-review.html" rel="external nofollow" class="url">2006 in Review | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55677" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] – I launch alexking.org 2.0, begin a series of posts about its development and begin releasing new plugins and updates. I begin the discussion about a […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55677 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-55708">
+<div class="social-comment-inner social-clearfix" id="comment-55708">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2007/01/24/wordpress-21-plugin-compatibility" rel="external nofollow" class="url">WordPress 2.1 Plugin Compatibility | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55708" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] been using WordPress 2.1 on this site since November 2006, and I use most of my own […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55708 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-55711">
+<div class="social-comment-inner social-clearfix" id="comment-55711">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2007/01/29/too-many-plugins" rel="external nofollow" class="url">Building alexking.org 2.0, part 8: Too Many Plugins? | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55711" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] This is the eighth in a series of articles about the building of alexking.org […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55711 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-55720">
+<div class="social-comment-inner social-clearfix" id="comment-55720">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://alexking.org/blog/2007/02/19/toolset-handcuffs" rel="external nofollow" class="url">Building alexking.org 2.0, part 9: Toolset Handcuffs | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55720" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] This is the ninth in a series of articles about the building of alexking.org […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55720 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-55726">
+<div class="social-comment-inner social-clearfix" id="comment-55726">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../../../2007/02/26/link-harvest-10.html" rel="external nofollow" class="url">Link Harvest 1.0 | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-55726" class="social-posted-when" target="_blank">April 18, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] created this to help me better leverage my content as part of my recent site redesign. I finally found time to test everything in WordPress 2.0 and 2.1, finish the README, etc. so I […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-55726 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-56266">
+<div class="social-comment-inner social-clearfix" id="comment-56266">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/c75c483c0a372954443c47963e743b8a?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/c75c483c0a372954443c47963e743b8a?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.lorenzopiccinini.it" rel="external nofollow" class="url">lorenzo piccinini</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-56266" class="social-posted-when" target="_blank">May 17, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Hi! I was completely new about the wordpress platform but thanks to your articles and others tutorials on the web I made a nice blogsite that you can visit.I take some inspiration from other blogs and my own graphic style, the nature style on it! hope you can like it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-56266 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-56286">
+<div class="social-comment-inner social-clearfix" id="comment-56286">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://shawnday.com/randomosity/2007/01/26/wordpressing/" rel="external nofollow" class="url">randomosity » Blog Archive » Wordpressing</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-56286" class="social-posted-when" target="_blank">May 19, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] any hurdles that others had run into, I came across a series of blog entries by Alex King when he re-invented his main blog last year. These posts are a wonderful case study of his systematic approach to usability and user experience […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-56286 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-57113">
+<div class="social-comment-inner social-clearfix" id="comment-57113">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://dougal.gunters.org/blog/2007/07/16/14-awesome-wordpress-powered-sites" rel="external nofollow" class="url">geek ramblings :: 14+ Awesome WordPress-powered sites</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-57113" class="social-posted-when" target="_blank">July 16, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] And Crowd Favorite, in turn, is responsible for All Things Digital, which is powered by WordPress-MU. Alex also has a great series of articles about building a customized WP site. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-57113 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-57366">
+<div class="social-comment-inner social-clearfix" id="comment-57366">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://geminigeek.com/blog/archives/2007/08/building-geminigeeks-online-journal-1/" rel="external nofollow" class="url">Building GeminiGeek’s Online Journal #1 - GeminiGeek’s Online Journal</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-57366" class="social-posted-when" target="_blank">August 6, 2007</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] I am going to do a write-up on the process of building GeminiGeek’s Online Journal, ala Building Alex King 2.0 style. I will split this write-up to a few sections, and I believe this write-up is especially […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-57366 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-63332">
+<div class="social-comment-inner social-clearfix" id="comment-63332">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://sewmyheadon.com/2008/using-wordpress-as-a-cms/" rel="external nofollow" class="url">Using WordPress as a CMS | sewmyheadon - Web Design Tips</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-63332" class="social-posted-when" target="_blank">June 9, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Building alexking.org 2.0 […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-63332 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-99702">
+<div class="social-comment-inner social-clearfix" id="comment-99702">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/858f8e3c6b7035946ace22d66f4dd7b4?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/858f8e3c6b7035946ace22d66f4dd7b4?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Mike</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-99702" class="social-posted-when" target="_blank">August 31, 2009</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>This is a really old post, but I like the ideas for that page, its simple but nice, and I think I will borrow some of the concepts for an up and comming site of my own!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-99702 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-119380">
+<div class="social-comment-inner social-clearfix" id="comment-119380">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/255299b7db295e2942de4de119f69408?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/255299b7db295e2942de4de119f69408?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Apuestas</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-119380" class="social-posted-when" target="_blank">December 30, 2009</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I think too, the three column layouts are the best for a blog o news website, thanks for share your knowledge Alex <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-119380 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-191730">
+<div class="social-comment-inner social-clearfix" id="comment-191730">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../../../2012/03/21/announcing-favepersonal.html" rel="external nofollow" class="url">Announcing FavePersonal : alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="building-v2-part1.html#comment-191730" class="social-posted-when" target="_blank">March 21, 2012</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] third version of this site since it launched in 2002 (check out original version from 2002 and the previous version from 2006). With each iteration I always received a number of “is your theme […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-191730 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2006/11/02/building-v2-part1&amp;post_id=2003">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2006/11/02/ical-gcal-sync" rel="prev">Coming Soon: iCal – Google Calendar Sync</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2006/11/02/networklocation" rel="next">NetworkLocation</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="building-v2-part1.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="building-v2-part1.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.634 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:00:09 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-240194{ max-width: 240px; max-height: 194px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

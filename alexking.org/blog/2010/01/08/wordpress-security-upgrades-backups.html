@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>WordPress Security, Upgrades and Backups : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » WordPress Security, Upgrades and Backups Comments Feed" href="http://alexking.org/blog/2010/01/08/wordpress-security-upgrades-backups/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Nexus One Reaction" href="http://alexking.org/blog/2010/01/05/nexus-one-reaction">
+<link rel="next" title="Twitter Tools and WordPress 2.9 Testing Needed" href="twitter-tools-and-wordpress-2-9-testing-needed.html">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="wordpress-security-upgrades-backups.html">
+<link rel="shortlink" href="http://alexking.org/?p=3642">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WordPress Security, Upgrades and Backups">
+<meta property="og:url" content="http://alexking.org/blog/2010/01/08/wordpress-security-upgrades-backups">
+<meta property="og:description" content="I often get questions about WordPress security and how best to manage WordPress upgrades. These issues are closely related, and I’ve thought about them a good deal over the years (and I&amp;#8217...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2010/01/08/wordpress-security-upgrades-backups">
+<meta name="twitter:title" content="WordPress Security, Upgrades and Backups">
+<meta name="twitter:description" content="I often get questions about WordPress security and how best to manage WordPress upgrades. These issues are closely related, and I've thought about them a good deal over the years (and I've been doing this long enough to have experimented with a variety of approaches). These are the approaches I am currently using and recommend for the technically savvy. First, a high level summary: Upgrade immediately. Always. No exceptions. Have a development/staging copy of your">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-3642 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-3642" class="clearfix post-3642 post type-post status-publish format-standard hentry category-crowd-favorite category-projects category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="wordpress-security-upgrades-backups.html" title="Permalink to WordPress Security, Upgrades and Backups" rel="bookmark">WordPress Security, Upgrades and Backups</a></h1>
+		<time class="entry-date" datetime="2010-01-08T07:57:58+00:00" pubdate=""> January 8, 2010</time>
+	</header>
+	<div class="entry-content">
+<p>I often get questions about WordPress security and how best to manage WordPress upgrades. These issues are closely related, and I’ve thought about them a good deal over the years (and I’ve been doing this long enough to have experimented with a variety of approaches). These are the approaches I am currently using and recommend for the technically savvy.</p>
+<p>First, a high level summary:</p>
+<ul>
+<li>Upgrade immediately. Always. No exceptions.</li>
+<li>Have a development/staging copy of your site to test upgrades on before upgrading your live web site.</li>
+<li>Do check out your copy of WordPress from SVN (use the current branch) on your production web site.</li>
+<li>Do <strong>not</strong> run a production web site on WordPress SVN trunk.</li>
+<li>Backups are critical (snapshot backups highly recommended); they are your best defense against security issues and upgrade problems.</li>
+</ul>
+<p>Ok, now for the detailed discussion…</p>
+<h3>Security</h3>
+<p>WordPress security has been a hot-button topic this year. The security vulnerabilities that surfaced in WordPress releases last year were unfortunate, but some were due in part to a systematic approach to try to <em>improve</em> security in WordPress by standardizing how security functions work throughout the code base.</p>
+<p>I’ve seen comments that WordPress doesn’t care about security; I think that’s an ignorant statement. The WordPress developers I know care deeply about the quality of WordPress and are constantly working to improve it.</p>
+<p>Historical security is not (necessarily) a good indicator of future security.</p>
+<p>While I do believe “those that do not learn from history are doomed to repeat it”, I do not believe that you can accurately predict future security concerns based on the security bugs in the past. In Open Source there is the additional issue of new developers bringing new coding styles and blind spots along with their code contributions. Open Source requires everyone to be diligent for security issues. It’s a battle you must always fight, but will never win.</p>
+<p>A quick note about the WordPress codebase: it’s important to consider where WordPress came from. The WordPress codebase isn’t architecturally elegant, but it’s improving with every release. The codebase was initially inherited from b2, and certain development approaches and code paths from that code (written back in 2001-2002) are still present today (for compatibility reasons). I’ve been impressed over the last few years how certain backward compatibility features have been maintained while the underlying code has been completely gutted and rewritten. That’s not easy.</p>
+<p>I haven’t spoken to anyone on the core dev team about this yet, but I think that the 3.0 release (WP – WPMU merge) is probably the right time to break a few things in favor of consistency for the future. I’m sure that’s a discussion that is already taking place.</p>
+<p>Here are some simple tips that may help with security going forward:</p>
+<ul>
+<li>The best way to be hacker-proof is to upgrade immediately and have great backups (more on backups later).</li>
+<li>Turn off features you don’t need or use. This includes user registration, XML-RPC, etc.</li>
+<li>Use only the plugins you need, and consider the source when adding any feature (plugin or theme) to your site.</li>
+<li>Remove plugins and themes that are not active.</li>
+<li>Add 401 authentication to your wp-admin directory.</li>
+<li>Use SSL when connecting to your admin interface.<sup><a href="wordpress-security-upgrades-backups.html#fn1256696457069n" id="fn1256696457069" class="footnote">2</a></sup></li>
+</ul>
+<h3>Upgrades</h3>
+<p>New features bring new bugs, and some of those will undoubtedly have security ramifications. The best way to combat this is to upgrade immediately when a new version is available. I upgraded four WordPress installs in three minutes this morning – it’s easy if you set them up right.</p>
+<p>The approach I use won’t work for everyone as it relies on developer tools that not all WordPress users are familiar or comfortable with. If Subversion (SVN) is meaningless or scary to you, I recommend sticking with the auto-upgrade or working with someone who can provide the appropriate technical skills to use the approach outlined here (the <a href="http://wphelpcenter.com/" rel="external">WordPress HelpCenter</a> is a great option for this).</p>
+<p>The WordPress codebase is hosted in a publicly accessible SVN repository – you want to use that. The SVN repository is organized in a <a href="http://stackoverflow.com/questions/16142/what-do-branch-tag-and-trunk-really-mean" rel="external">traditional manner</a> providing us with a variety of options for what code we want to use.</p>
+<p>I recommend checking out the current branch of WordPress and using that for your web site. The benefit of using a branch is that you can simply <code>svn up</code> to update to the latest patch release. If you replace the plugins and themes directories with your own SVN checkouts (as I do on some sites), you will want to use a more selective command for your update:</p>
+<p><code>svn up *.php wp-admin/ wp-includes/</code></p>
+<p>That will get you all the latest code, without affecting the wp-content directories (plugins and themes). Branches are pretty safe – typically the only changes in a branch are to apply the bug fixes and security patches that comprise the point releases for that branch.</p>
+<p>If you want to automate your updates using CRON to pull from SVN, this is the process I recommend.</p>
+<p>Some folks advocate using tags (the official WordPress releases) exclusively. There is certainly an argument for this, however the <code>svn switch</code> command used to change between tags (and branches, for major releases) is not as easy as the update command on a branch (especially if you’re replacing versioned directories like wp-content/plugins and wp-content/themes in your checkout).</p>
+<p>I’ve seen other people advocate running on trunk. <strong>This is madness!</strong> Trunk is where new bugs and security vulnerabilities are written – you do not want to be running trunk. We’ve been having data loss issues<sup><a href="wordpress-security-upgrades-backups.html#fn1256276106728n" id="fn1256276106728" class="footnote">1</a></sup> on an internal site of ours that currently runs on trunk.</p>
+<p>I strongly recommend that any upgrade be tested on a development or local environment before performing the upgrade on your live web site. The importance of this varies from site to site, but if you’re running a significant site on WordPress (like some of the ones we’ve built at <a href="http://crowdfavorite.com">Crowd Favorite</a>), you can’t afford to have your site down because some change in the new release introduces an incompatibility with your configuration or custom code.</p>
+<p>So that takes care of upgrading WordPress, what about plugins and themes? It’s true that some WordPress upgrades will break plugins and themes. However, that doesn’t mean you shouldn’t upgrade. If a plugin or theme breaks, you should contact the developer and see if they plan to upgrade the plugin or theme. If they don’t, you may be able to bribe them. If they still won’t, you can see if someone else will do it, or move on. No plugin or theme is more important than your site’s security.</p>
+<p>Having a good, deep knowledge of how WordPress works and interacting with it in the proper way will allow you to write plugins and themes that hum along smoothly after a WordPress upgrade in most instances, but you should still test in a non-critical environment.</p>
+<p>It’s important to note the position that plugin and theme developers are in with WordPress upgrades as well. When a plugin or theme breaks in a new version of WordPress, it’s not <em>always</em> the developer’s fault. Sometimes a plugin or theme is poorly written and does not follow WordPress coding standards – sometimes the standards that are to be followed are more recent than the plugin or theme in question. The recent change to how widgets are to be coded is a great example. The best practices are constantly evolving, and it can be a challenge to keep up with them all.</p>
+<p>I currently have 28 plugins and 3 themes <a href="http://profiles.wordpress.org/alexkingorg" rel="external">registered on wordpress.org</a>. When a new version of WordPress is released, it’s a tall order to test and patch all of these. There are typically 4 major WordPress releases scheduled each year. </p>
+<p><em>If I did a full test and patch cycle (1/3 day-1 day each) of every plugin and theme I have released with every major release, I’d be spending 4 months a year just testing and patching my plugins and themes.</em></p>
+<p>That isn’t something I’m in position to do, and other plugin and theme developers are in similar positions (to varying degrees).</p>
+<p>Additionally, the plugin and theme system of WordPress is in essence a security feature as well. Because of the ability to customize WordPress without making modifications to the core codebase, you can upgrade without having to go through and apply all of your modifications to the new codebase.</p>
+<h3>Backups</h3>
+<p>In the event your site is hacked or an upgrade goes south (or really if anything bad happens), your best defense is having great backups.</p>
+<p>RSYNC is a great tool, but if you are using RSYNC exclusively for your backups it’s likely you aren’t doing enough. RSYNC will keep a mirror copy of whatever you tell it to back up – this means that if something bad happens on your site, the same thing will be mirrored to your RSYNC backup. There are a bunch of ways to mitigate this – if you are a do-it-yourselfer you are likely already brainstorming a few decent work-arounds. Almost all of these break down if the hack is undetected for a long period of time (a week or two) as staggered RSYNC solutions don’t typically extend that long.</p>
+<p>I think the best solution is snapshot backups, going back a reasonable amount of time into the past. This will allow you to pick a known, good point in time to revert to. Test locally, and restore your production site.</p>
+<p>During a <a href="http://alexking.org/blog/2009/09/05/wordpress-security-upgrade-help">recent security upgrade rush</a> at <a href="http://wphelpcenter.com">WordPress HelpCenter</a> we discovered that many people who thought they had good backups from their hosting providers, didn’t. It’s important that your backups are both monitored and verified for integrity.</p>
+<p>Recovery time is important as well. You want a system that allows you (or your recovery team) to get your backups up and running again quickly. Speed is a big issue when your site is down, and having to apply differential backups to do a restore can be very time consuming.</p>
+<p>We created <a href="http://backupmoxie.com">BackupMoxie</a> because we needed a service that worked this way for our clients at <a href="http://crowdfavorite.com">Crowd Favorite</a>. If you are interested in offering BackupMoxie as a service to your clients, I’ve got good news for you. Next week we are officially launching it as a <a href="http://backupmoxie.com/whitelabel">white label service</a>.</p>
+<h3>Conclusion</h3>
+<p>Hopefully this (lengthy) discussion has been helpful for some of you.</p>
+<p>In thinking about these issues and in the development my team and I have done over the last few years, I’ve considered a number of ideas that I think could be helpful to the WordPress community. I’m working on an outline for an idea that I think may have some merit for a follow-up post.</p>
+<ol class="footnotes">
+<li id="fn1256276106728n">Still need to try to debug them and submit a patch, actually. [<a href="wordpress-security-upgrades-backups.html#fn1256276106728">back</a>]</li>
+<li id="fn1256696457069n">Support for this is relatively recent, not all plugins and themes (including mine) support this properly yet. [<a href="wordpress-security-upgrades-backups.html#fn1256696457069">back</a>]</li>
+</ol>
+<p class="threads-post-notice">This post is part of the project: <a href="../../../../project/backupmoxie.html">BackupMoxie</a>. View the project timeline for more context on this post.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="wordpress-security-upgrades-backups.html#comments">14 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/crowd-favorite.html" rel="category tag">Crowd Favorite</a>, <a href="../../../topic/projects.html" rel="category tag">Projects</a>, <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="wordpress-security-upgrades-backups.html#" rel="social-all"><span>14 Replies</span></a></li>
+			<li class="social-wordpress"><a href="wordpress-security-upgrades-backups.html#" rel="wordpress"><span>6 Comments</span></a></li>
+			<li class="social-twitter"><a href="wordpress-security-upgrades-backups.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="wordpress-security-upgrades-backups.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="wordpress-security-upgrades-backups.html#" rel="social-pingback"><span>8 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was January 16, 2010</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121336">
+<div class="social-comment-inner social-clearfix" id="comment-121336">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263-s=40&d=mm&r=g.png" srcset="http://0.gravatar.com/avatar/0994d5e2e158a24ba8017c2525d78263?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://ottodestruct.com" rel="external nofollow" class="url">Otto</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121336" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Be careful with 401 authentication in wp-admin. Any plugin using the built-in AJAX mechanisms in WordPress will break if you do this in the most obvious way.</p>
+<p>Make sure the admin-ajax.php file is accessible even to unauthenticated users.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121336 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121415">
+<div class="social-comment-inner social-clearfix" id="comment-121415">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/e486dddd09146eb1b00db415869843d3?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/e486dddd09146eb1b00db415869843d3?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://Hikari.ws" rel="external nofollow" class="url">Hikari</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121415" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Nice tipsm nothing new but interesting.</p>
+<p>What do you suggest for automatic database backup? Currently I do it manually, but it would be nice to have something doing it and sending to my mail.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121415 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121442">
+<div class="social-comment-inner social-clearfix" id="comment-121442">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/70d4cfc624c63051cf2c4f19cf5312f8?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/70d4cfc624c63051cf2c4f19cf5312f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.hochstadt.com/" rel="external nofollow" class="url">Marcus Hochstadt</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121442" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@Hikari — Isn’t this what the “WordPress Database Backup” plugin does? At least it does exactly that for me.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121442 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-121461">
+<div class="social-comment-inner social-clearfix" id="comment-121461">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://gfmorris.com/2010/01/08/links-for-2010-01-08/" rel="external nofollow" class="url">links for 2010-01-08 | GFMorris.com</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121461" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress Security, Upgrades and Backups | alexking.org Wise advice from Alex. (tags: WordPress security upgrades backups)    Posted January 8th, 2010 in del.icio.us Links by del.icio.us Linkdumper. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121461 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-121481">
+<div class="social-comment-inner social-clearfix" id="comment-121481">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://kodeexii.net/current-events-computer-technology/wordpress-2-9-1-released-and-wordpress-mu-2-9-1-is-in-the-pipeline.html" rel="external nofollow" class="url">WordPress 2.9.1 Released. WordPress MU 2.9.1 In The Pipeline | Computer Technology | KodeeXII.Net</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121481" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] so far. I’ve always updated my sites to the latest version as they become public. Yes, I upgrade immediately, always. Alhamdulillah, thankfully, I have never faced any problems on any of my […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121481 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121482">
+<div class="social-comment-inner social-clearfix" id="comment-121482">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/6a772ebad75c913df71a01b9f2d0725a?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/6a772ebad75c913df71a01b9f2d0725a?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://shinephp.com" rel="external nofollow" class="url">vladimir</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121482" class="social-posted-when" target="_blank">January 8, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Some plugins which were written without base security rools concern are the large problem for the WordPress users community. The most of WP users have not enough qualification to analyze the new or updated plugin source code. They just install or update it as is. Some additional plugins security checking could be the good help in WordPress security enhancement.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121482 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121553">
+<div class="social-comment-inner social-clearfix" id="comment-121553">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f74aa79135953184a075d0d40cff6fd2?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f74aa79135953184a075d0d40cff6fd2?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">SleeplessinDC</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121553" class="social-posted-when" target="_blank">January 9, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Otto warns about using 401 authentication “in the most obvious way”. I’m not sure what that is. I’d like some more information. I’m using htaccess password protection on wp-admin so all my authors can log on. Does this break the built-in AJAX mechanisms in WordPress?</p>
+<p>Why do we need to keep the admin-ajax.php file accessible even to unauthenticated users? How do we do it?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121553 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-121629">
+<div class="social-comment-inner social-clearfix" id="comment-121629">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/e268e9497d2997cd9632f856c4975042?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/e268e9497d2997cd9632f856c4975042?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://emphaticallystatic.org/" rel="external nofollow" class="url">pundit</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121629" class="social-posted-when" target="_blank">January 9, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<blockquote><p>We’ve been having data loss issues on an internal site of ours that currently runs on trunk.</p></blockquote>
+<p>Could you please provide some more details on this? I run my sites on svn trunk and I haven’t noticed anything untoward. Now I am beginning to think I just haven’t looked hard enough.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121629 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-121670">
+<div class="social-comment-inner social-clearfix" id="comment-121670">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://grantpalin.com/2010/01/10/weekly-links-87/" rel="external nofollow" class="url">Weekly Links #87 | GrantPalin.com</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-121670" class="social-posted-when" target="_blank">January 10, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress Security, Upgrades and Backups Alex King provides good advice on managing, backing up, and upgrading WordPress installations. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-121670 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-122109">
+<div class="social-comment-inner social-clearfix" id="comment-122109">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://wordcast.bitwiremedia.com/2010/01/13/around-the-wordpress-community-wpmu-merger-widgets-custom-fields-shortcodes/" rel="external nofollow" class="url">Around the WordPress Community: WPMU Merger, Widgets, Custom Fields, Shortcodes | WordCast - Blogging news, WordPress help, WordPress plugins, WordPress themes, WordPress news</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-122109" class="social-posted-when" target="_blank">January 13, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress Security, Upgrades and Backups: Alex King offers tips for securing your WordPress blog. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-122109 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-122250">
+<div class="social-comment-inner social-clearfix" id="comment-122250">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://echeng.com/journal/2010/01/15/upgraded-to-wordpress-2-9-1/" rel="external nofollow" class="url">Upgraded to Wordpress 2.9.1 | Eric Cheng’s Journal</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-122250" class="social-posted-when" target="_blank">January 15, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] your database and WordPress files before doing any update. Alex King wrote a good blog entry about maintaining and upgrading WordPress. It’s worth reading. AKPC_IDS += "3433,";  Popularity: unranked | San Francisco, CA | link | […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-122250 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-122266">
+<div class="social-comment-inner social-clearfix" id="comment-122266">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://underwa.ter.net/journal/2010/01/15/wordpress-from-svn/" rel="external nofollow" class="url">wordpress from svn | Underwater World</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-122266" class="social-posted-when" target="_blank">January 15, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] a recent trip to Papua New Guinea my friend Eric Cheng suggested (on advice from his friend Alex King) I use SVN to maintain my wordpress installation that runs this blog. I […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-122266 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-122275">
+<div class="social-comment-inner social-clearfix" id="comment-122275">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.websdeveloper.com/alex-kings-blog-wordpress-security-upgrades-and-backups/" rel="external nofollow" class="url">Alex King’s Blog: WordPress Security, Upgrades and Backups | Webs Developer</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-122275" class="social-posted-when" target="_blank">January 15, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] one of his recent posts Alex King looks at three things that most plague WordPress users in their day to day running of […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-122275 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-122308">
+<div class="social-comment-inner social-clearfix" id="comment-122308">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.planetjk.com/journal/2010/01/website-cms-quandary/" rel="external nofollow" class="url">JK’s Journal » Website CMS Quandary</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-security-upgrades-backups.html#comment-122308" class="social-posted-when" target="_blank">January 16, 2010</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] than other CMS’. And yes, I know that virually EVERYTHING is rife with vulnerabilities: the debate is fierce and will thrive for some time. At the same time, Zope and Plone have been relatively safe […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-122308 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2010/01/08/wordpress-security-upgrades-backups&amp;post_id=3642">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="http://alexking.org/blog/2010/01/05/nexus-one-reaction" rel="prev">Nexus One Reaction</a> »</span>
+	<span class="prev">« <a href="twitter-tools-and-wordpress-2-9-testing-needed.html" rel="next">Twitter Tools and WordPress 2.9 Testing Needed</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="wordpress-security-upgrades-backups.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="wordpress-security-upgrades-backups.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.314 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:01:22 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

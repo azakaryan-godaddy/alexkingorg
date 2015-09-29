@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html class=" js no-touch social-js" lang="en-US"><!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<title>WordPress 2.5 Plugin Compatibility : alexking.org</title>
+		<!--[if IE]><![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="alexking.org » Feed" href="../../../../feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » Comments Feed" href="../../../../comments/feed.rss">
+<link rel="alternate" type="application/rss+xml" title="alexking.org » WordPress 2.5 Plugin Compatibility Comments Feed" href="http://alexking.org/blog/2008/03/30/wordpress-25-plugin-compatibility/feed">
+		<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>
+
+<script type="text/javascript">
+  document.write=function() {};
+  document.writeln=function() {};
+</script>
+
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/alexking.org\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="cfao-css-all-css" href="../../../../wp-content/cfao-cache/alexking.org/285d6328d601241734d8b62882aa3262.cached-ver=1432011302.css" type="text/css" media="all">
+<link rel="stylesheet" id="cfao-css-screen-css" href="../../../../wp-content/cfao-cache/alexking.org/77bcdd2dfe58133b9403082c6120dac6.cached-ver=1414702935.css" type="text/css" media="screen">
+<!--[if IE 7]>
+	<style type="text/css" media="screen">#featured-posts .featured:hover .featured-content {
+			background-color: #d4efff;
+		}
+	</style>
+<![endif]-->
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/7fbf3519525fdf3e89d9845c8782a9a5.cached-ver=1440037880.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../wp/xmlrpc.php-rsd.xml">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Twitter Tools and Best Practices" href="../28/twitter-tools-and-best-practices.html">
+<link rel="next" title="Around the web" href="http://alexking.org/blog/2008/03/30/around-the-web">
+<meta name="generator" content="WordPress 4.3">
+<link rel="canonical" href="wordpress-25-plugin-compatibility.html">
+<link rel="shortlink" href="http://alexking.org/?p=3133">
+<meta property="og:type" content="article">
+<meta property="og:title" content="WordPress 2.5 Plugin Compatibility">
+<meta property="og:url" content="http://alexking.org/blog/2008/03/30/wordpress-25-plugin-compatibility">
+<meta property="og:description" content="I haven’t officially released WordPress 2.3 compatible versions of all of my plugins yet, but WordPress 2.5 is out nonetheless and brings some more plugin compatibility issues along with it. ...">
+<meta property="og:site_name" content="alexking.org">
+<meta property="og:image" content="http://alexking.org/og-image.png">
+
+<link rel="shortcut icon" href="../../../../favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="../../../../og-image.png">
+<link rel="pingback" href="http://alexking.org/wp/xmlrpc.php"><meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="http://alexking.org/blog/2008/03/30/wordpress-25-plugin-compatibility">
+<meta name="twitter:title" content="WordPress 2.5 Plugin Compatibility">
+<meta name="twitter:description" content="I haven't officially released WordPress 2.3 compatible versions of all of my plugins yet, but WordPress 2.5 is out nonetheless and brings some more plugin compatibility issues along with it. I'll try to get updated versions out soon - I'll update this post with status as the plugins are updated. 404 Notifier - tested, version 1.2 is WP 2.5 compatible Articles - untested Category Overload - untested Comment License - tested, version 1.2 is WP">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="single single-post postid-3133 single-format-standard">
+	<header id="header">
+		<div class="container clearfix">
+			<h1 id="site-name"><a href="../../../../index.html" title="Home">alexking.org</a></h1>
+			<nav id="nav-main">
+				<h1>Menu</h1>
+				<ul id="menu-main-nav" class="menu"><li id="menu-item-6109" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-6109"><a href="../../../../blog.html">Blog</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6111"><a href="../../../../projects.html">Projects</a></li>
+<li id="menu-item-21463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21463"><a href="../../../../tweets.html">Tweets</a></li>
+<li id="menu-item-21464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21464"><a href="../../../../sports/golf.html">Golf</a></li>
+<li id="menu-item-6113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6113"><a href="../../../../about.html">About</a></li>
+<li id="menu-item-6110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6110"><a href="../../../../contact.html">Contact</a></li>
+</ul>			</nav>
+		</div><!-- .container -->
+	</header><!-- #header -->
+	
+	
+	
+	<section id="content">
+		<div class="container clearfix">
+<div id="primary">
+
+<article id="post-3133" class="clearfix post-3133 post type-post status-publish format-standard hentry category-projects category-wordpress">
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="wordpress-25-plugin-compatibility.html" title="Permalink to WordPress 2.5 Plugin Compatibility" rel="bookmark">WordPress 2.5 Plugin Compatibility</a></h1>
+		<time class="entry-date" datetime="2008-03-30T18:46:28+00:00" pubdate=""> March 31, 2008</time>
+	</header>
+	<div class="entry-content">
+<p>I haven’t officially released <a href="http://wordpress.org/" rel="external">WordPress</a> 2.3 compatible versions of all of my plugins yet, but WordPress 2.5 is out nonetheless and brings some more plugin compatibility issues along with it.</p>
+<p>I’ll try to get updated versions out soon – I’ll update this post with status as the plugins are updated.</p>
+<ul>
+<li>404 Notifier – <strong>tested</strong>, version 1.2 is WP 2.5 compatible</li>
+<li>Articles – untested</li>
+<li>Category Overload – untested</li>
+<li>Comment License – <strong>tested</strong>, version 1.2 is WP 2.5 compatible</li>
+<li>Delink Comment Author – <strong>tested</strong>, version 1.2 is WP 2.5 compatible</li>
+<li>Link Harvest – untested</li>
+<li>Old Post Alert – <strong>tested</strong>, version 1.0 is WP 2.5 compatible</li>
+<li>Popularity Contest – <strong>broken in 2.5</strong>, fix found</li>
+<li>Share This – <strong>tested</strong>, all tested versions are WP 2.5 compatible</li>
+<li>Shortcut Macros – <strong>tested</strong>, version 1.2 is WP 2.5 compatible</li>
+<li>Twitter Tools – <strong>tested</strong>, versions 1.1 and up are WP 2.5 compatible.</li>
+<li>WP Mobile Edition – <strong>tested</strong>, versions 2.x are WP 2.5 compatible</li>
+<li>WP Grins – untested, reportedly broken in 2.5</li>
+<li>WP Since Last Visit – untested, needs updating in general</li>
+<li>WP Unformatted – <strong>tested</strong>, version 1.1 is WP 2.5 compatible</li>
+</ul>
+<p class="threads-post-notice">This post is part of the following projects: <a href="../../../../project/comment-license.html">Comment License</a>, <a href="../../../../project/old-post-alert.html">Old Post Alert</a>, <a href="../../../../project/since-last-visit.html">Since Last Visit</a>, <a href="../../../../project/wp-grins.html">WP Grins</a>, <a href="../../../../project/404-notifier.html">404 Notifier</a>, <a href="../../../../project/shortcut-macros.html">Shortcut Macros</a>, <a href="../../../../project/delink-comment-author.html">Delink Comment Author</a>, <a href="">ShareThis</a>, <a href="../../../../project/link-harvest.html">Link Harvest</a>. View the project timelines for more context on this post.</p>
+		<aside class="featured-footer">
+			<h1 class="h6">Other Recent-ish Posts of Note on This Site</h1>
+			<ul>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html">
+					<h2 class="h3">We’ve Made Web Development Complicated</h2>
+					<p>When I first made my transition from front-end development into back-end development in ~2002, I had two things to learn: a…</p>
+				</a></li>
+				<li><a href="../../../2014/03/17/every-new-hire-has-three-jobs.html">
+					<h2 class="h3">Every New Hire Has Three Jobs</h2>
+					<p>At Crowd Favorite we’re getting ready to hire several developers. I’ve been told that our on-boarding process can…</p>
+				</a></li>
+				<li><a href="../../../2014/01/23/owning-your-online-identity.html">
+					<h2 class="h3">Owning Your Online Identity</h2>
+					<p>I’ve put up a post on the Crowd Favorite blog about how I use WordPress and the FavePersonal theme (free!) to own my…</p>
+				</a></li>
+			</ul>
+		</aside>
+	</div><!-- .entry-content -->
+	<footer class="entry-meta">
+	<p class="h5"><a href="wordpress-25-plugin-compatibility.html#comments">53 Replies</a></p>
+<p><span class="h6 block">Categories</span> <a href="../../../topic/projects.html" rel="category tag">Projects</a>, <a href="../../../topic/wordpress.html" rel="category tag">WordPress</a></p></footer>
+</article><!-- .post -->
+<div id="social">
+	<div id="social-tabs-comments">
+				<ul class="social-nav social-clearfix">
+			<li class="social-all social-tab-main social-current-tab"><a href="wordpress-25-plugin-compatibility.html#" rel="social-all"><span>53 Replies</span></a></li>
+			<li class="social-wordpress"><a href="wordpress-25-plugin-compatibility.html#" rel="wordpress"><span>34 Comments</span></a></li>
+			<li class="social-twitter"><a href="wordpress-25-plugin-compatibility.html#" rel="social-twitter"><span>0 Tweets</span></a></li>
+			<li class="social-facebook"><a href="wordpress-25-plugin-compatibility.html#" rel="social-facebook"><span>0 Facebook</span></a></li>
+			<li class="social-pingback"><a href="wordpress-25-plugin-compatibility.html#" rel="social-pingback"><span>19 Pingbacks</span></a></li>
+		</ul>
+
+		<!-- panel items -->
+		<div id="social-comments-tab-all" class="social-tabs-panel social-tabs-first-panel">
+			<div id="comments" class="social-comments">
+				<div class="social-last-reply-when">Last reply was July 13, 2009</div><div class="cf-clearfix"></div>				<ol class="social-commentlist">
+				<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62262">
+<div class="social-comment-inner social-clearfix" id="comment-62262">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/5514230b1c2d6e3abee06685f9254f81?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/5514230b1c2d6e3abee06685f9254f81?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://itsvista.com" rel="external nofollow" class="url">Joe</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62262" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Link Harvest breaks on my 2.5, worked on my 2.3. Plugin won’t even activate, gives error.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62262 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62263">
+<div class="social-comment-inner social-clearfix" id="comment-62263">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/505e3b39dcea29b3ded74a5494c493eb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://gfmorris.net/" rel="external nofollow" class="url">Geof F. Morris</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62263" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Old Post Alert activated and appears to work just fine.</p>
+<p>404 Notifier threw a fatal error when I tried to activate.</p>
+<p>Twitter Tools 1.1b1 has activated just fine, but I haven’t tested it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62263 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62265">
+<div class="social-comment-inner social-clearfix" id="comment-62265">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/754cf072d8d20240020e1bd6c8b2be7c?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/754cf072d8d20240020e1bd6c8b2be7c?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://nunnone.com" rel="external nofollow" class="url">joshnunn</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62265" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’ve got sharethis running (hard coded in theme) and 404 notifier via rss (didn’t set up email), and both made the transition without problem.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62265 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62266">
+<div class="social-comment-inner social-clearfix" id="comment-62266">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/42344adac9cf02ca0035d7d2bbcb8d1d?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/42344adac9cf02ca0035d7d2bbcb8d1d?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Daniel Richard</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62266" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Hope they work on my blog well and saves you from any additional upgrading effort. <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62266 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62267">
+<div class="social-comment-inner social-clearfix" id="comment-62267">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/984131589523c4dad1bc2c6c690aaf6f?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/984131589523c4dad1bc2c6c690aaf6f?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">brit</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62267" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Thanks Alex, i am eagerly waiting for your plugins update, especially link-harvest to work again.My all time favorite.</p>
+<p>Cheers and take your time!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62267 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62268">
+<div class="social-comment-inner social-clearfix" id="comment-62268">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/bf17228fe729b096a31e158bb96214eb?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/bf17228fe729b096a31e158bb96214eb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.rluxemburg.com" rel="external nofollow" class="url">Lux</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62268" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I have Share This 1.4 on my WP 2.5 install and it seems to be working fine.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62268 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62270">
+<div class="social-comment-inner social-clearfix" id="comment-62270">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/2aa2fd98d379e83c38f74da1473dca39?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/2aa2fd98d379e83c38f74da1473dca39?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://blastmagazine.com" rel="external nofollow" class="url">John Guilfoil</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62270" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Popularity contest appears to work fine for me in 2.5.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62270 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62271">
+<div class="social-comment-inner social-clearfix" id="comment-62271">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3f7cda86b0d471afad79a0b5423d1677?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/3f7cda86b0d471afad79a0b5423d1677?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://somadesign.ca" rel="external nofollow" class="url">Matt Wiebe</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62271" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Delink Comment Author doesn’t work, but doesn’t throw any fatal errors either. The comment admin screen has just changed too much, whatever it hooked into before is gone.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62271 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62272">
+<div class="social-comment-inner social-clearfix" id="comment-62272">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/3b2c3b534465cd810a32456de35e30f1?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/3b2c3b534465cd810a32456de35e30f1?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.gadgetsdirect.com.au" rel="external nofollow" class="url">Tim Gadget Lester</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62272" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>ShareThis 2.1 is working fine for me on WP 2.5.</p>
+<p>Cheers<br>
+Tim</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62272 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62273">
+<div class="social-comment-inner social-clearfix" id="comment-62273">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f2d126a2eb8087436e389be2262dcacb?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f2d126a2eb8087436e389be2262dcacb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.bradjasper.com" rel="external nofollow" class="url">Brad Jasper</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62273" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>It seems like most of the broken plugins are due to the way categories are handled now.</p>
+<p>I was able to update my Popularity Contest by changing tables and fields over to the new taxonomy ones.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62273 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62274">
+<div class="social-comment-inner social-clearfix" id="comment-62274">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.wp-wordpress.com/themes-and-tricks/wordpress-25-plugin-compatibility" rel="external nofollow" class="url">Wp Wordpress » Blog Archive » WordPress 2.5 Plugin Compatibility</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62274" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Read it at the source […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62274 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62278">
+<div class="social-comment-inner social-clearfix" id="comment-62278">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9fc40cae304a7cd1ce5a3b57fa221646?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9fc40cae304a7cd1ce5a3b57fa221646?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">David T.</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62278" class="social-posted-when" target="_blank">March 30, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Your Articles plugin works for me in 2.5 on my blog that I just updated this afternoon.  I use the plugin to display a list of articles in my sidebar.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62278 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62296">
+<div class="social-comment-inner social-clearfix" id="comment-62296">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/cf88e25582abc63cc9fd03eb4126aa75?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/cf88e25582abc63cc9fd03eb4126aa75?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Richard Hay</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62296" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Twitter Tools is working for me on 2.5 however, Link Harvest has a fatal error when I activate it.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62296 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62298">
+<div class="social-comment-inner social-clearfix" id="comment-62298">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/fd07c32310fe89210c76a0671d424634?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/fd07c32310fe89210c76a0671d424634?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://bloggedbull.com" rel="external nofollow" class="url">Bull</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62298" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Glad I’m not the only one with the Link Harvest Activation error on 2.5</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62298 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62310">
+<div class="social-comment-inner social-clearfix" id="comment-62310">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/ac9831f5410aa2a8f439d93b54721bfb?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/ac9831f5410aa2a8f439d93b54721bfb?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://blog.melkein.com" rel="external nofollow" class="url">Kuraattori</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62310" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I tested the Link Harvest on 2.5, it seems the only part needed to fix is path ../../ to ../ at the start of the pluginfile. The same kind of fix worked with popularity contest.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62310 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62311">
+<div class="social-comment-inner social-clearfix" id="comment-62311">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://vivablog.net/wordpresscust/kiji414/" rel="external nofollow" class="url">WordPress2.5æ—¥æœ¬èªžç‰ˆã«ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆ | VIVABlog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62311" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] ä¸»ãªãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã¯2.3ã®æ™‚ã¨åŒã˜ã§æ®†ã©ãŒæ­£å¸¸ã«å‹•ä½œã—ã¾ã—ãŸãŒã€Popularity Contestã&nbsp;ã‘ã¯2.5ã«å¯¾å¿œã—ã¦ã„ãªã„ã‚ˆã†ã§ã™ã€‚(WordPress 2.5 Plugin Compatibility | alexking.org) […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62311 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62313">
+<div class="social-comment-inner social-clearfix" id="comment-62313">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.erikstell.com/2008/03/31/wordpress-25/" rel="external nofollow" class="url">Erik Stell » Wordpress 2.5</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62313" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress 2.5 Plugin Compatibility [viaÂ&nbsp;Zemanta] […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62313 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62319">
+<div class="social-comment-inner social-clearfix" id="comment-62319">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f8ee5f6ba236b9c423c649d3f2ba1ddf?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f8ee5f6ba236b9c423c649d3f2ba1ddf?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.tbotcotw.com/" rel="external nofollow" class="url">Matt Moore</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62319" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>What’s wrong with Popularity Contest? It seems to work fine for me.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62319 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62322">
+<div class="social-comment-inner social-clearfix" id="comment-62322">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/10e46572a8fca6f6997ca59965eada71?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/10e46572a8fca6f6997ca59965eada71?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://bloggingcents.com" rel="external nofollow" class="url">Lori</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62322" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Popularity contest works on my personal blog but won’t work on my blogging with cents blog.  They are both the same theme with the same plugins.  Not sure what’s going on there:(</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62322 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62323">
+<div class="social-comment-inner social-clearfix" id="comment-62323">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/71116ae3ec7a4370b7926b98a7dd9301?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/71116ae3ec7a4370b7926b98a7dd9301?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">(a different) Alex</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62323" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex,</p>
+<p>The Popularity Contest fix which advises us to change line 59 is not a good solution!</p>
+<p>After the change I was able to activate plugin and it seem to be working only to discover today that inside plugins folder I have a rapidly growing error_log filled with these errors:</p>
+<p>[31-Mar-2008 13:47:52] PHP Fatal error:  main() [<a href="http://alexking.org/blog/2008/03/30/function.require">function.require</a>]: Failed opening required ‘../wp-blog-header.php’ (include_path=’.:/usr/lib/php:/usr/local/lib/php’) in /home/username/public_html/blog/wp-content/plugins/popularity-contest.php on line 59</p>
+<p>So I think the issue is still here and needs to be addressed.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62323 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62326">
+<div class="social-comment-inner social-clearfix" id="comment-62326">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62326" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I never said it was, and it’s not the fix I’m using.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62326 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62327">
+<div class="social-comment-inner social-clearfix" id="comment-62327">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/9769d69336ae4c7aa3babcf80a1973b1?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/9769d69336ae4c7aa3babcf80a1973b1?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Mike</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62327" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’ve gotten Twitter Tools to work as well. Hope this saves you some time.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62327 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62329">
+<div class="social-comment-inner social-clearfix" id="comment-62329">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Oscar</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62329" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex; what is the fix you’re using for popularity contest?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62329 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62330">
+<div class="social-comment-inner social-clearfix" id="comment-62330">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62330" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>When it’s done, I’ll release a new version.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62330 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62331">
+<div class="social-comment-inner social-clearfix" id="comment-62331">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/71bfbfd39bb5e6d449121dbf4d3c4d53?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/71bfbfd39bb5e6d449121dbf4d3c4d53?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://thedutchfiles.com" rel="external nofollow" class="url">DutchBitch</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62331" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Most of them work fine with me. Updating to 2.5 DOES however temporarily deactivate all your plug ins and makes you have to reactivate them one by one. Mine have been working fine ever since.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62331 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62334">
+<div class="social-comment-inner social-clearfix" id="comment-62334">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/25aaffa48e34ee7671ec89703e38d9d8?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/25aaffa48e34ee7671ec89703e38d9d8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://spencerp.net/" rel="external nofollow" class="url">spencerp</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62334" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I’m just leaving this comment to leave a third confirmation that the Twitter Tools are working on WP version 2.5.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62334 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62336">
+<div class="social-comment-inner social-clearfix" id="comment-62336">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Oscar</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62336" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Alex: Great news! Any timeframe?</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62336 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62348">
+<div class="social-comment-inner social-clearfix" id="comment-62348">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/00af6e5441e4c3b5406d76f868b3a72e?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/00af6e5441e4c3b5406d76f868b3a72e?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.optoblog.com" rel="external nofollow" class="url">optoblog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62348" class="social-posted-when" target="_blank">March 31, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>WP Grins works fine for me in 2.5.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62348 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62351">
+<div class="social-comment-inner social-clearfix" id="comment-62351">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/6af06e591d9b69ce6d14d7b8b339e661?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/6af06e591d9b69ce6d14d7b8b339e661?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.gaia.co.yu" rel="external nofollow" class="url">Ivan</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62351" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>I stumbled over this solution for Popularity Contest.<br>
+<a href="http://blog.evaria.com/2008/wp-plugins-1-fix-and-1-update/" rel="nofollow">http://blog.evaria.c[...]nd-1-update/</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62351 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62355">
+<div class="social-comment-inner social-clearfix" id="comment-62355">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://bookmarkmoney.com/blog/take-the-plunge-wordpress-25.html" rel="external nofollow" class="url">Take the Plunge - WordPress 2.5 | The BookmarkMoney Blog</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62355" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Alex King has been hard at work updating his plugins. I expect a lot more updates from various developers are in the works.  addthis_url = […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62355 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62362">
+<div class="social-comment-inner social-clearfix" id="comment-62362">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/c1790d74dd58402692eaec742b8772b2?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/c1790d74dd58402692eaec742b8772b2?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">simon</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62362" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>waiting for your popularity plugin update…..</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62362 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62363">
+<div class="social-comment-inner social-clearfix" id="comment-62363">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://chronobits.com/archives/21" rel="external nofollow" class="url">Plugin Compatibility | chronobits</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62363" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] King has postedÂ&nbsp;on the compatibility of certain WordPress plugins. Now if someone could get PhotoDropper working […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62363 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62364">
+<div class="social-comment-inner social-clearfix" id="comment-62364">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.livecrunch.com/2008/04/01/5-things-i-love-and-hate-about-wordpress-25/" rel="external nofollow" class="url">5 Things I love and Hate About Wordpress 2.5 | Live Crunch</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62364" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress 2.5 Plugin Compatibility […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62364 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62371">
+<div class="social-comment-inner social-clearfix" id="comment-62371">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/46e00fd5f7213ac1a9e37fd0553801a2?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/46e00fd5f7213ac1a9e37fd0553801a2?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://omninoggin.com" rel="external nofollow" class="url">Thaya Kareeson</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62371" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Looks like lots of people are waiting for your Popularity Contest to release before they upgrade to 2.5.  Must be a lots of pressure owning all these plugins huh? <img src="../../../../wp/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;"></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62371 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62375">
+<div class="social-comment-inner social-clearfix" id="comment-62375">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/f57e991447401b22428ff1c68697a876?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Oscar</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62375" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Here’s a solution that worked for me!</p>
+<p><a href="http://www.kenmc.com/2008/03/30/wordpress-25-is-live-and-wild-plus-popularity-contest-notes/" rel="nofollow">http://www.kenmc.com[...]ntest-notes/</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62375 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62377">
+<div class="social-comment-inner social-clearfix" id="comment-62377">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://1.gravatar.com/avatar/4dbdefd531e7af595242a4003b641a6b?s=40&d=mm&r=g" srcset="http://1.gravatar.com/avatar/4dbdefd531e7af595242a4003b641a6b?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://www.nekromant.com" rel="external nofollow" class="url">NeKRoMaNT</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62377" class="social-posted-when" target="_blank">April 1, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Twitter Tools working as expected on WP 2.5:</p>
+<p><a href="http://www.nekromant.com/twitter/" rel="nofollow">http://www.nekromant.com/twitter/</a></p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62377 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62383">
+<div class="social-comment-inner social-clearfix" id="comment-62383">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/221424bbde6d550a35f54f3c8178d70a?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/221424bbde6d550a35f54f3c8178d70a?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Monz</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62383" class="social-posted-when" target="_blank">April 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Grins doesnâ€™t work in admin “write” panel <img src="../../../../wp/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;"><br>
+I hope you will fix it :P, thank you!</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62383 -->
+</li><!-- #comment-## -->
+<li class="wordpress odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62384">
+<div class="social-comment-inner social-clearfix" id="comment-62384">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://2.gravatar.com/avatar/ee370a4d36e324bb26fa4b2b499557a7?s=40&d=mm&r=g" srcset="http://2.gravatar.com/avatar/ee370a4d36e324bb26fa4b2b499557a7?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn">Michael</cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62384" class="social-posted-when" target="_blank">April 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>@Monz: Confirm. WP-Grins only works in commentarea but not in administration write panel.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62384 -->
+</li><!-- #comment-## -->
+<li class="wordpress even thread-even depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62386">
+<div class="social-comment-inner social-clearfix" id="comment-62386">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="http://0.gravatar.com/avatar/32e2c368b10f3926af2d81ea880320d7?s=40&d=mm&r=g" srcset="http://0.gravatar.com/avatar/32e2c368b10f3926af2d81ea880320d7?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="http://nazgul.nu/" rel="external nofollow" class="url">Nazgul</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62386" class="social-posted-when" target="_blank">April 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>WP-Grins gives a JS error in the RTE when you click a smiley:</p>
+<p>tinyMCE.selectedInstance.repaint is not a function<br>
+<a href="http://www.mrdraw.nl/index.php?ak_action=wp_grins_js" rel="nofollow">http://www.mrdraw.nl[...]=wp_grins_js</a><br>
+Line 40</p>
+<p>The plain editor, which is also used for comments, does work.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62386 -->
+</li><!-- #comment-## -->
+<li class="wordpress byuser comment-author-alex bypostauthor odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-wordpress" id="li-comment-62387">
+<div class="social-comment-inner social-clearfix" id="comment-62387">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<img alt="" src="../../../../../2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8-s=40&d=mm&r=g.png" srcset="http://2.gravatar.com/avatar/821b4702df7a852d48ab20da7ca5b1f8?s=80&amp;d=mm&amp;r=g 2x" class="avatar avatar-40 photo js-hidpi-4040" height="40" width="40"><cite class="social-fn fn"><a href="../../../../index.html" rel="external nofollow" class="url">Alex</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-wordpress">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62387" class="social-posted-when" target="_blank">April 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>Not surprising – TinyMCE is changed in WP 2.5. I’m going to close comments on this post as we’re starting to get a lot of repetition.</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62387 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62390">
+<div class="social-comment-inner social-clearfix" id="comment-62390">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.graubrot.net/2008/04/02/update-mit-hoehen-und-tiefen/" rel="external nofollow" class="url">graubrot.net - ... und sonst?! « Update mit Höhen und Tiefen</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62390" class="social-posted-when" target="_blank">April 2, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] welches verhindert, dass die Smilies an die Textarea übergeben werden. Das Problem ist dem Autor des Plugins bekannt und soll bald behoben werden. Bis dahin müssen wir uns also […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62390 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62401">
+<div class="social-comment-inner social-clearfix" id="comment-62401">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.blogherald.com/2008/04/03/wordpress-wednesday-special-edition-wordpress-25/" rel="external nofollow" class="url">WordPress Wednesday Special Edition: WordPress 2.5 : The Blog Herald</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62401" class="social-posted-when" target="_blank">April 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Alex King: WordPress 2.5 Plugin Compatibility […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62401 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62407">
+<div class="social-comment-inner social-clearfix" id="comment-62407">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.macreloaded.com/2008/04/02/wordpress-25-kompatibel/" rel="external nofollow" class="url">WordPress 2.5 Kompatibel? - [UpDate] : macreloaded[dot]com</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62407" class="social-posted-when" target="_blank">April 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Leider bleibt hier nur das abwarten, das Alex King recht schnell noch ein Update nachschiebt. In der Zwischenzeit kann man nur kleinere Anpassungen […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62407 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62432">
+<div class="social-comment-inner social-clearfix" id="comment-62432">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.deepmarket.com/wordpress/wordpress-25-upgrade/" rel="external nofollow" class="url">WordPress 2.5 Upgrade - Stock Market Analysis at DeepMarket</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62432" class="social-posted-when" target="_blank">April 4, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] WordPress 2.5 Plugin Compatibility [via&nbsp;Zemanta] […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62432 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62501">
+<div class="social-comment-inner social-clearfix" id="comment-62501">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://blog.micokelana.com/2008/04/09/wordpress-25-direkomendasikan-upgrade/" rel="external nofollow" class="url">MicoKelana Daily Share » Wordpress 2.5 Direkomendasikan Upgrade</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62501" class="social-posted-when" target="_blank">April 9, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] memang belum dapat digunakan pada versi 2.5 ini, pengembangnya sudah melakukan konfirmasi mengenai dukungannya terhadap wordpress versi 2.5. Terpaksa plugin tersebut saya nonaktifkan hingga versi yang mendukung wordpress 2.5 telah […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62501 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-62897">
+<div class="social-comment-inner social-clearfix" id="comment-62897">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.jackyyong.com/wp/page-blank-after-upgraded-to-wordpress-251" rel="external nofollow" class="url">Page Blank after upgraded to Wordpress 2.5.1 | Jacky Yong</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62897" class="social-posted-when" target="_blank">May 3, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] random post is not the only plugin that does not work with WordPress 2.5.x. It seems the Popularity Contest by Alexking is also not compatible. It does not break my site (yet). Let’s hope someone will pick this up and solve it soon, or […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62897 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-62941">
+<div class="social-comment-inner social-clearfix" id="comment-62941">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.setiabudi.name/archives/436" rel="external nofollow" class="url">Akhirnya Plugin Popularity Contest Bisa Running-Well (Lagi) | Setiabudi a.k.a Buya'e Rania</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-62941" class="social-posted-when" target="_blank">May 5, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] beberapa saat dimatikan, akhirnya saya coba-coba melakukan perbaikan secara manual setelah membaca komentar di posting Alexa King terkait masalah bug pada plugin […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-62941 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-64201">
+<div class="social-comment-inner social-clearfix" id="comment-64201">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://blog.kfchph.com/4/%e7%86%b1%e9%96%80%e6%96%87%e7%ab%a0%e5%a5%97%e4%bb%b6-popularity-contest-%e4%bf%ae%e6%ad%a3" rel="external nofollow" class="url">ç†±é–€æ–‡ç«&nbsp;å¥—ä»¶: Popularity Contest ä¿®æ­£ | Blog.kfchph</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-64201" class="social-posted-when" target="_blank">August 9, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] Popularity Contestï¼Œä¸å¹¸çš„æ˜¯ä¸‹è¼‰å¾Œç„¡æ³•åœ¨å¾Œå°å•Ÿç”¨ï¼Œå¤–æŽ›ä½œè€…éƒ¨è½æ&nbsp;¼ä¸Šæœ‰ç¯‡ WordPress 2.5 Plugin Compatibility […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64201 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-64376">
+<div class="social-comment-inner social-clearfix" id="comment-64376">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.dcrblogs.com/2008/08/23/first-test-post-after-upgrade/" rel="external nofollow" class="url">Believe. Act. Achieve! - dcr Blogs dot Com » Blog Archive » First Test Post After Upgrade</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-64376" class="social-posted-when" target="_blank">August 23, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] also had to disable the Popularity Contest plugin. I was kind of waiting on it before upgrading, but it’s beginning to look as though […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64376 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-64377">
+<div class="social-comment-inner social-clearfix" id="comment-64377">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.dcrblogs.com/2008/08/23/first-test-post-after-upgrade/" rel="external nofollow" class="url">Believe. Act. Achieve! - dcr Blogs dot Com » Blog Archive » First Test Post After Upgrade</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-64377" class="social-posted-when" target="_blank">August 23, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] also had to disable the Popularity Contest plugin. I was kind of waiting on it before upgrading, but it’s beginning to look as though […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64377 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-64829">
+<div class="social-comment-inner social-clearfix" id="comment-64829">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://www.howtospoter.com/web-20/plugins-web-20/keywordluv-plugin-is-gone" rel="external nofollow" class="url">KeywordLuv Plugin Is Gone | WordPress Web 2.0 Spot-Er</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-64829" class="social-posted-when" target="_blank">September 28, 2008</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] with it. I mean i wish I could make up better excuse but he has stated that he knew the problem and knew how to fix it (see his comments) to be compliant with latest version but we never seen that fix released. I know […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-64829 -->
+</li><!-- #comment-## -->
+<li class="pingback odd alt thread-odd thread-alt depth-1 social-comment social-clearfix social-pingback" id="li-comment-65881">
+<div class="social-comment-inner social-clearfix" id="comment-65881">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="../../../2009/01/01/2008-in-review.html" rel="external nofollow" class="url">2008 in Review | alexking.org</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-65881" class="social-posted-when" target="_blank">January 1, 2009</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] March – I pick up the Air and take it with me to visit the ShareThis team. I enjoy my (almost) annual weekend golfing to Phoenix and a quick trip to Minnesota for a wedding. WordPress 2.5 comes out and my plugins aren’t all ready. […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-65881 -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-even depth-1 social-comment social-clearfix social-pingback" id="li-comment-73852">
+<div class="social-comment-inner social-clearfix" id="comment-73852">
+	<div class="social-comment-header">
+		<div class="social-comment-author vcard">
+			<cite class="social-fn fn"><a href="http://blog.meine-domain-war-schon-weg.de/2009/07/wp-grins-plugin-fur-aktuelles-wordpress-2-8/" rel="external nofollow" class="url">wp-grins Plugin fÃ¼r aktuelles Wordpress 2.8 « Meine Domain war schon weg</a></cite>		</div>
+		<!-- .comment-author .vcard -->
+		<div class="social-comment-meta social-comment-meta-pingback">
+			<span class="social-posted-from">
+								<span>View</span>
+							</span>
+			<a href="wordpress-25-plugin-compatibility.html#comment-73852" class="social-posted-when" target="_blank">July 13, 2009</a>
+		</div>
+	</div>
+	<div class="social-comment-body">
+				<p>[…] ist auch dokumentiert. Hier eine vorlÃ¤ufige Abhilfe, bis der Autor sein Plugin selbst anpasst:Â&nbsp; “Plugins – […]</p>
+	</div>
+			<div class="social-actions entry-meta">
+			</div>
+		<!-- .reply -->
+</div><!-- #comment-73852 -->
+</li><!-- #comment-## -->
+				</ol>
+							</div>
+		</div>
+			</div>
+	<!-- #Comments Tabs -->
+			<div class="social-post">
+		<div id="loading" style="display:none">
+			<input type="hidden" id="reload_url" value="http://alexking.org/index.php?social_controller=auth&amp;social_action=reload_form&amp;redirect_to=http://alexking.org/blog/2008/03/30/wordpress-25-plugin-compatibility&amp;post_id=3133">
+			Logging In...		</div>
+				<p class="nocomments">Comments are closed.</p>
+			</div>
+</div>
+<div class="pagination h6 clearfix">
+	<span class="next"><a href="../28/twitter-tools-and-best-practices.html" rel="prev">Twitter Tools and Best Practices</a> »</span>
+	<span class="prev">« <a href="http://alexking.org/blog/2008/03/30/around-the-web" rel="next">Around the web</a></span>
+</div>
+	
+</div>
+
+<div id="secondary">
+	<div id="sidebar-1" class="sidebar">
+	<aside id="cfcp-about-3" class="widget clearfix bio-box">
+		<div class="bio-box-gallery" id="bio-carousel">
+			<div class="bio-box-gallery-images" style="position: relative; width: 300px; height: 174px; overflow: hidden;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/alex-caitlin-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="alex-caitlin" data-id="20064" style="position: absolute; top: 0px; left: 0px; display: block; z-index: 9; opacity: 1;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/001-20140514-2016-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="17th at TPC Sawgrass" data-id="20058" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 7;"><img width="310" height="180" src="../../../../wp-content/uploads/2014/05/family-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="family" data-id="20063" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 6;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsea-speaking-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsea-speaking" data-id="6137" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/golf-swing-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="golf-swing" data-id="6135" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/sxsw-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="sxsw" data-id="6136" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 3;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/wcsf-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="wcsf" data-id="6138" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 2;"><img width="310" height="180" src="../../../../wp-content/uploads/2011/08/20110819-001-310x180-@2x.jpg" class="attachment-small-img js-hidpi-310180" alt="Photographing Big Ben" data-id="6935" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 1;">
+			</div>
+			<a href="wordpress-25-plugin-compatibility.html#prev" class="bio-carousel-nav" id="bio-carousel-prev">prev</a>
+			<a href="wordpress-25-plugin-compatibility.html#next" class="bio-carousel-nav" id="bio-carousel-next">next</a>
+		</div><div class="bio-box-content">
+	<h2 class="bio-box-title">Alex King, Web Developer</h2>
+	<p>I am an <a href="http://monarchyllc.com/">independent web developer</a> based in Denver, CO. I was an original contributor to <a href="http://wordpress.org/">WordPress</a>, I created the <a href="../../../../project/share-icon.html">Share Icon</a>, and I founded <a href="http://crowdfavorite.com/">Crowd Favorite</a>. <a href="../../../../about.html">Read more…</a></p>
+</div>
+</aside></div><!-- #sidebar-1 -->
+<div id="sidebar-2" class="sidebar">
+	<aside id="search-3" class="widget clearfix widget_search">
+<form class="searchform" method="get" action="http://alexking.org/" onsubmit="location.href=this.action+'search/'+encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;">
+	<input type="text" id="s" name="s" placeholder="SEARCH…" size="15">
+	<input type="submit" id="searchsubmit" value="Search">
+</form></aside>		<aside id="recent-posts-by-format-2" class="widget clearfix widget_recent_entries_by_format">		<h3 class="widget-title">Recent Blog Posts</h3>		<ul>
+				<li><a href="../../../2015/08/24/rememberances.html" title="Request: Alex King Rememberances">Request: Alex King Rememberances</a></li>
+				<li><a href="../../../2015/08/24/cycle-1-of-new-trial.html" title="Cycle 1 of New Trial">Cycle 1 of New Trial</a></li>
+				<li><a href="../../../2015/08/22/anker-powerport-5-usb-charging-station.html" title="Anker PowerPort 5 USB Charging Station">Anker PowerPort 5 USB Charging Station</a></li>
+				<li><a href="../../../2015/08/22/personal-wordpress-theme.html" title="Personal WordPress Theme">Personal WordPress Theme</a></li>
+				<li><a href="../../../2015/07/30/er-visit-new-trial.html" title="An Eventful Friday Night + New Trial">An Eventful Friday Night + New Trial</a></li>
+				<li><a href="../../../2015/07/14/new-trial-in-2-weeks.html" title="New trial in 2 weeks?">New trial in 2 weeks?</a></li>
+				<li><a href="../../../2015/05/27/very-pleased-with-webfaction-hover.html" title="Very Pleased with WebFaction + Hover">Very Pleased with WebFaction + Hover</a></li>
+				<li><a href="../../../2015/05/25/treatment-update.html" title="Treatment Update">Treatment Update</a></li>
+				<li><a href="../../../2015/05/17/disable-button-after-submit-jquery.html" title="Disable Submit Button After a Form is Submitted">Disable Submit Button After a Form is Submitted</a></li>
+				<li><a href="../../../2015/05/14/web-development-now-complicated.html" title="We’ve Made Web Development Complicated">We’ve Made Web Development Complicated</a></li>
+				<li><a href="../../../2015/05/06/laravel-5-mail-example-code.html" title="Sane Laravel 5 Mail Example">Sane Laravel 5 Mail Example</a></li>
+				<li><a href="../../../2015/05/04/comparing-asics-and-nike-running-shoe-sizes.html" title="Comparing Asics and Nike Running Shoe Sizes">Comparing Asics and Nike Running Shoe Sizes</a></li>
+				<li><a href="../../../2015/05/02/hiding-email-notifications.html" title="Tricking Myself into Improved Productivity">Tricking Myself into Improved Productivity</a></li>
+				<li><a href="../../../2015/05/01/a-real-life-whos-on-first-moment.html" title="A Real Life “Who’s On First” Moment">A Real Life “Who’s On First” Moment</a></li>
+				<li><a href="../../../2015/04/30/apple-watch-iphone-charging-station.html" title="Apple Watch + iPhone Charging Station">Apple Watch + iPhone Charging Station</a></li>
+				</ul>
+		</aside></div><!-- #sidebar-2 -->
+<div id="sidebar-3" class="sidebar">
+	<aside id="shortcode-widget-2" class="widget clearfix shortcode_widget"><h3 class="widget-title">Sponsors</h3>			<div class="textwidget"><p>Thanks to <a href="http://dealspotr.com/">Dealspotr</a> for sponsoring this site.</p>
+<p><a href="http://www.chameleonjohn.com">ChameleonJohn</a> - best coupon codes for thousands of online stores.</p>
+</div>
+		</aside></div><!-- #sidebar-3 -->
+</div>
+
+
+		</div><!-- .container -->
+	</section><!-- #content -->
+		<nav id="nav-blog">
+			<div class="container clearfix">
+				<div class="col" style="height: 30px;">
+					<h2>Archives</h2>
+					<select name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;">
+						<option value="">Select Month</option>
+	<option value="http://alexking.org/blog/2015/08"> August 2015 </option>
+	<option value="http://alexking.org/blog/2015/07"> July 2015 </option>
+	<option value="http://alexking.org/blog/2015/06"> June 2015 </option>
+	<option value="http://alexking.org/blog/2015/05"> May 2015 </option>
+	<option value="http://alexking.org/blog/2015/04"> April 2015 </option>
+	<option value="http://alexking.org/blog/2015/03"> March 2015 </option>
+	<option value="http://alexking.org/blog/2015/02"> February 2015 </option>
+	<option value="http://alexking.org/blog/2015/01"> January 2015 </option>
+	<option value="http://alexking.org/blog/2014/12"> December 2014 </option>
+	<option value="http://alexking.org/blog/2014/11"> November 2014 </option>
+	<option value="http://alexking.org/blog/2014/10"> October 2014 </option>
+	<option value="http://alexking.org/blog/2014/09"> September 2014 </option>
+	<option value="http://alexking.org/blog/2014/08"> August 2014 </option>
+	<option value="http://alexking.org/blog/2014/07"> July 2014 </option>
+	<option value="http://alexking.org/blog/2014/06"> June 2014 </option>
+	<option value="http://alexking.org/blog/2014/05"> May 2014 </option>
+	<option value="http://alexking.org/blog/2014/04"> April 2014 </option>
+	<option value="http://alexking.org/blog/2014/03"> March 2014 </option>
+	<option value="http://alexking.org/blog/2014/02"> February 2014 </option>
+	<option value="http://alexking.org/blog/2014/01"> January 2014 </option>
+	<option value="http://alexking.org/blog/2013/12"> December 2013 </option>
+	<option value="http://alexking.org/blog/2013/11"> November 2013 </option>
+	<option value="http://alexking.org/blog/2013/10"> October 2013 </option>
+	<option value="http://alexking.org/blog/2013/09"> September 2013 </option>
+	<option value="http://alexking.org/blog/2013/08"> August 2013 </option>
+	<option value="http://alexking.org/blog/2013/07"> July 2013 </option>
+	<option value="http://alexking.org/blog/2013/06"> June 2013 </option>
+	<option value="http://alexking.org/blog/2013/05"> May 2013 </option>
+	<option value="http://alexking.org/blog/2013/04"> April 2013 </option>
+	<option value="http://alexking.org/blog/2013/03"> March 2013 </option>
+	<option value="http://alexking.org/blog/2013/02"> February 2013 </option>
+	<option value="http://alexking.org/blog/2013/01"> January 2013 </option>
+	<option value="http://alexking.org/blog/2012/12"> December 2012 </option>
+	<option value="http://alexking.org/blog/2012/11"> November 2012 </option>
+	<option value="http://alexking.org/blog/2012/10"> October 2012 </option>
+	<option value="http://alexking.org/blog/2012/09"> September 2012 </option>
+	<option value="http://alexking.org/blog/2012/08"> August 2012 </option>
+	<option value="http://alexking.org/blog/2012/07"> July 2012 </option>
+	<option value="http://alexking.org/blog/2012/06"> June 2012 </option>
+	<option value="http://alexking.org/blog/2012/05"> May 2012 </option>
+	<option value="http://alexking.org/blog/2012/04"> April 2012 </option>
+	<option value="http://alexking.org/blog/2012/03"> March 2012 </option>
+	<option value="http://alexking.org/blog/2012/02"> February 2012 </option>
+	<option value="http://alexking.org/blog/2012/01"> January 2012 </option>
+	<option value="http://alexking.org/blog/2011/12"> December 2011 </option>
+	<option value="http://alexking.org/blog/2011/11"> November 2011 </option>
+	<option value="http://alexking.org/blog/2011/10"> October 2011 </option>
+	<option value="http://alexking.org/blog/2011/09"> September 2011 </option>
+	<option value="http://alexking.org/blog/2011/08"> August 2011 </option>
+	<option value="http://alexking.org/blog/2011/07"> July 2011 </option>
+	<option value="http://alexking.org/blog/2011/06"> June 2011 </option>
+	<option value="http://alexking.org/blog/2011/05"> May 2011 </option>
+	<option value="http://alexking.org/blog/2011/04"> April 2011 </option>
+	<option value="http://alexking.org/blog/2011/03"> March 2011 </option>
+	<option value="http://alexking.org/blog/2011/02"> February 2011 </option>
+	<option value="http://alexking.org/blog/2011/01"> January 2011 </option>
+	<option value="http://alexking.org/blog/2010/12"> December 2010 </option>
+	<option value="http://alexking.org/blog/2010/11"> November 2010 </option>
+	<option value="http://alexking.org/blog/2010/10"> October 2010 </option>
+	<option value="http://alexking.org/blog/2010/09"> September 2010 </option>
+	<option value="http://alexking.org/blog/2010/08"> August 2010 </option>
+	<option value="http://alexking.org/blog/2010/07"> July 2010 </option>
+	<option value="http://alexking.org/blog/2010/06"> June 2010 </option>
+	<option value="http://alexking.org/blog/2010/05"> May 2010 </option>
+	<option value="http://alexking.org/blog/2010/04"> April 2010 </option>
+	<option value="http://alexking.org/blog/2010/03"> March 2010 </option>
+	<option value="http://alexking.org/blog/2010/02"> February 2010 </option>
+	<option value="http://alexking.org/blog/2010/01"> January 2010 </option>
+	<option value="http://alexking.org/blog/2009/12"> December 2009 </option>
+	<option value="http://alexking.org/blog/2009/11"> November 2009 </option>
+	<option value="http://alexking.org/blog/2009/10"> October 2009 </option>
+	<option value="http://alexking.org/blog/2009/09"> September 2009 </option>
+	<option value="http://alexking.org/blog/2009/08"> August 2009 </option>
+	<option value="http://alexking.org/blog/2009/07"> July 2009 </option>
+	<option value="http://alexking.org/blog/2009/06"> June 2009 </option>
+	<option value="http://alexking.org/blog/2009/05"> May 2009 </option>
+	<option value="http://alexking.org/blog/2009/04"> April 2009 </option>
+	<option value="http://alexking.org/blog/2009/03"> March 2009 </option>
+	<option value="http://alexking.org/blog/2009/02"> February 2009 </option>
+	<option value="http://alexking.org/blog/2009/01"> January 2009 </option>
+	<option value="http://alexking.org/blog/2008/12"> December 2008 </option>
+	<option value="http://alexking.org/blog/2008/11"> November 2008 </option>
+	<option value="http://alexking.org/blog/2008/10"> October 2008 </option>
+	<option value="http://alexking.org/blog/2008/09"> September 2008 </option>
+	<option value="http://alexking.org/blog/2008/08"> August 2008 </option>
+	<option value="http://alexking.org/blog/2008/07"> July 2008 </option>
+	<option value="http://alexking.org/blog/2008/06"> June 2008 </option>
+	<option value="http://alexking.org/blog/2008/05"> May 2008 </option>
+	<option value="http://alexking.org/blog/2008/04"> April 2008 </option>
+	<option value="http://alexking.org/blog/2008/03"> March 2008 </option>
+	<option value="http://alexking.org/blog/2008/02"> February 2008 </option>
+	<option value="http://alexking.org/blog/2008/01"> January 2008 </option>
+	<option value="http://alexking.org/blog/2007/12"> December 2007 </option>
+	<option value="http://alexking.org/blog/2007/11"> November 2007 </option>
+	<option value="http://alexking.org/blog/2007/10"> October 2007 </option>
+	<option value="http://alexking.org/blog/2007/09"> September 2007 </option>
+	<option value="http://alexking.org/blog/2007/08"> August 2007 </option>
+	<option value="http://alexking.org/blog/2007/07"> July 2007 </option>
+	<option value="http://alexking.org/blog/2007/06"> June 2007 </option>
+	<option value="http://alexking.org/blog/2007/05"> May 2007 </option>
+	<option value="http://alexking.org/blog/2007/04"> April 2007 </option>
+	<option value="http://alexking.org/blog/2007/03"> March 2007 </option>
+	<option value="http://alexking.org/blog/2007/02"> February 2007 </option>
+	<option value="http://alexking.org/blog/2007/01"> January 2007 </option>
+	<option value="http://alexking.org/blog/2006/12"> December 2006 </option>
+	<option value="http://alexking.org/blog/2006/11"> November 2006 </option>
+	<option value="http://alexking.org/blog/2006/10"> October 2006 </option>
+	<option value="http://alexking.org/blog/2006/09"> September 2006 </option>
+	<option value="http://alexking.org/blog/2006/08"> August 2006 </option>
+	<option value="http://alexking.org/blog/2006/07"> July 2006 </option>
+	<option value="http://alexking.org/blog/2006/06"> June 2006 </option>
+	<option value="http://alexking.org/blog/2006/05"> May 2006 </option>
+	<option value="http://alexking.org/blog/2006/04"> April 2006 </option>
+	<option value="http://alexking.org/blog/2006/03"> March 2006 </option>
+	<option value="http://alexking.org/blog/2006/02"> February 2006 </option>
+	<option value="http://alexking.org/blog/2006/01"> January 2006 </option>
+	<option value="http://alexking.org/blog/2005/12"> December 2005 </option>
+	<option value="http://alexking.org/blog/2005/11"> November 2005 </option>
+	<option value="http://alexking.org/blog/2005/10"> October 2005 </option>
+	<option value="http://alexking.org/blog/2005/09"> September 2005 </option>
+	<option value="http://alexking.org/blog/2005/08"> August 2005 </option>
+	<option value="http://alexking.org/blog/2005/07"> July 2005 </option>
+	<option value="http://alexking.org/blog/2005/06"> June 2005 </option>
+	<option value="http://alexking.org/blog/2005/05"> May 2005 </option>
+	<option value="http://alexking.org/blog/2005/04"> April 2005 </option>
+	<option value="http://alexking.org/blog/2005/03"> March 2005 </option>
+	<option value="http://alexking.org/blog/2005/02"> February 2005 </option>
+	<option value="http://alexking.org/blog/2005/01"> January 2005 </option>
+	<option value="http://alexking.org/blog/2004/12"> December 2004 </option>
+	<option value="http://alexking.org/blog/2004/11"> November 2004 </option>
+	<option value="http://alexking.org/blog/2004/10"> October 2004 </option>
+	<option value="http://alexking.org/blog/2004/09"> September 2004 </option>
+	<option value="http://alexking.org/blog/2004/08"> August 2004 </option>
+	<option value="http://alexking.org/blog/2004/07"> July 2004 </option>
+	<option value="http://alexking.org/blog/2004/06"> June 2004 </option>
+	<option value="http://alexking.org/blog/2004/05"> May 2004 </option>
+	<option value="http://alexking.org/blog/2004/04"> April 2004 </option>
+	<option value="http://alexking.org/blog/2004/03"> March 2004 </option>
+	<option value="http://alexking.org/blog/2004/02"> February 2004 </option>
+	<option value="http://alexking.org/blog/2004/01"> January 2004 </option>
+	<option value="http://alexking.org/blog/2003/12"> December 2003 </option>
+	<option value="http://alexking.org/blog/2003/11"> November 2003 </option>
+	<option value="http://alexking.org/blog/2003/10"> October 2003 </option>
+	<option value="http://alexking.org/blog/2003/09"> September 2003 </option>
+	<option value="http://alexking.org/blog/2003/08"> August 2003 </option>
+	<option value="http://alexking.org/blog/2003/07"> July 2003 </option>
+	<option value="http://alexking.org/blog/2003/06"> June 2003 </option>
+	<option value="http://alexking.org/blog/2003/05"> May 2003 </option>
+	<option value="http://alexking.org/blog/2003/04"> April 2003 </option>
+	<option value="http://alexking.org/blog/2003/03"> March 2003 </option>
+	<option value="http://alexking.org/blog/2003/02"> February 2003 </option>
+	<option value="http://alexking.org/blog/2003/01"> January 2003 </option>
+	<option value="http://alexking.org/blog/2002/12"> December 2002 </option>
+	<option value="http://alexking.org/blog/2002/11"> November 2002 </option>
+	<option value="http://alexking.org/blog/2002/10"> October 2002 </option>
+					</select>
+					<h2 class="under">Types</h2>
+					<ul>
+						<li><a href="../../../type/link.html">Link</a></li>
+						<li><a href="../../../type/status.html">Status</a></li>
+						<li><a href="../../../type/image.html">Photo</a></li>
+						<li><a href="../../../type/gallery.html">Gallery</a></li>
+						<li><a href="../../../type/video.html">Video</a></li>
+						<li><a href="../../../type/quote.html">Quote</a></li>
+					</ul>
+				</div>
+				<div class="col projects-1" style="height: 30px;">
+					<h2>Projects</h2>
+					<ul>
+						<li><a href="../../../../project/404-notifier.html">404 Notifier</a></li>
+						<li><a href="../../../../project/admin-column-view.html">Admin Column View</a></li>
+						<li><a href="../../../../project/backupmoxie.html">BackupMoxie</a></li>
+						<li><a href="../../../../project/calendar-tools.html">Calendar Tools</a></li>
+						<li><a href="../../../../project/capsule.html">Capsule</a></li>
+						<li><a href="../../../../project/carrington-build.html">Carrington Build</a></li>
+						<li><a href="../../../../project/carrington-core.html">Carrington Core</a></li>
+						<li><a href="../../../../project/cloudmoxie.html">CloudMoxie</a></li>
+						<li><a href="../../../../project/comment-license.html">Comment License</a></li>
+						<li><a href="../../../../project/delink-comment-author.html">Delink Comment Author</a></li>
+						<li><a href="../../../../project/drafts-dropdown.html">Drafts Dropdown</a></li>
+						<li><a href="../../../../project/exclude-file-type-requests.html">Exclude File Type Requests</a></li>
+						<li><a href="../../../../project/expiring-content-shortcode.html">Expiring Content Shortcode</a></li>
+						<li><a href="../../../../project/personal.html">FavePersonal</a></li>
+						<li><a href="../../../../project/fullscreen-preview-button.html">Fullscreen Preview Button</a></li>
+						<li><a href="../../../../project/gametonight.html">GameTonight?</a></li>
+						<li><a href="../../../../project/internal-link-shortcode.html">Internal Link Shortcode</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+				</ul></div>
+				<div class="col projects-2" style="height: 30px;">
+					<h2>Projects (continued)</h2>
+				<ul><li><a href="../../../../project/itunes-stats.html">iTunes Stats</a></li><li><a href="../../../../project/jquery-delayed-change.html">jQuery Delayed Change</a></li><li><a href="../../../../project/old-post-alert.html">Old Post Alert</a></li><li><a href="../../../../project/php-doc-system.html">PHP Doc System</a></li><li><a href="../../../../project/php-tag-engine.html">PHP Tag Engine</a></li><li><a href="../../../../project/post-formats-admin-ui.html">Post Formats Admin UI</a></li><li><a href="../../../../project/ramp.html">RAMP</a></li><li><a href="../../../../project/revision-manager.html">Revision Manager</a></li><li><a href="../../../../project/share-icon.html">Share Icon</a></li><li><a href="../../../../project/shortcut-macros.html">Shortcut Macros</a></li><li><a href="../../../../project/simplemath.html">SimpleMath</a></li><li><a href="../../../../project/social.html">Social</a></li><li><a href="../../../../project/taskspro.html">Tasks Pro™</a></li><li><a href="../../../../project/threads.html">Threads</a></li><li><a href="../../../../project/twitter-tools.html">Twitter Tools</a></li><li><a href="../../../../project/wp-github-activity.html">WP GitHub Activity</a></li></ul></div>
+				<div class="wrap-at"></div>
+				<div class="col">
+					<h2>Threads</h2>
+					<ul>
+						<li><a href="../../../thread/2014-walkabout.html">2014 Walkabout</a></li>
+						<li><a href="../../../thread/cancer.html">Cancer</a></li>
+						<li><a href="../../../thread/career.html">Career</a></li>
+						<li><a href="../../../thread/content.html">Content Presentation</a></li>
+						<li><a href="../../../thread/crowd-favorite.html">Crowd Favorite</a></li>
+						<li><a href="../../../thread/expectations.html">Expectations</a></li>
+						<li><a href="../../../thread/hard-drive-recovery.html">Hard Drive Recovery</a></li>
+						<li><a href="../../../thread/life-events.html">Life Events</a></li>
+						<li><a href="../../../thread/nfl-playoff-predictions.html">NFL Playoff Predictions</a></li>
+						<li><a href="../../../thread/passwords.html">Passwords</a></li>
+						<li><a href="../../../thread/version-control.html">Version Control</a></li>
+						<li><a href="../../../thread/weight-loss.html">Weight Loss</a></li>
+						<li><a href="../../../thread/wordpress-slashes.html">WordPress Slashes</a></li>
+						<li><a href="../../../thread/year-in-review.html">Year in Review</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Topics</h2>
+					<ul>
+						<li class="cat-item cat-item-2"><a href="../../../topic/alexkingorg.html">alexking.org</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="../../../topic/business.html">Business</a>
+</li>
+	<li class="cat-item cat-item-817"><a href="../../../topic/cancer-email.html">Cancer Email</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="../../../topic/case-studies.html">Case Studies</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="../../../topic/code.html">Code</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="../../../topic/crowd-favorite.html">Crowd Favorite</a>
+</li>
+	<li class="cat-item cat-item-840"><a href="../../../topic/design.html">Design</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="../../../topic/development.html">Development</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="../../../topic/dog.html">Dog</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="../../../topic/fun.html">Fun / Humor</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="../../../topic/general.html">General</a>
+</li>
+	<li class="cat-item cat-item-654"><a href="../../../topic/idea.html">Idea</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="../../../topic/interviews.html">Interviews</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="../../../topic/links.html">Links</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="../../../topic/mobile.html">Mobile</a>
+</li>
+	<li class="cat-item cat-item-833"><a href="../../../topic/monarchy.html">Monarchy</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="../../../topic/music.html">Music</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="../../../topic/news.html">News</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="../../../topic/photography.html">Photography</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="../../../topic/politics.html">Politics</a>
+</li>
+	<li class="cat-item cat-item-602"><a href="../../../topic/projects.html">Projects</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="../../../topic/rants.html">Rants</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="../../../topic/reviews.html">Reviews</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="../../../topic/society.html">Society</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="../../../topic/software.html">Software</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="../../../topic/sports.html">Sports</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="../../../topic/technology.html">Technology</a>
+</li>
+	<li class="cat-item cat-item-740"><a href="../../../topic/travel.html">Travel</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="../../../topic/wordpress.html">WordPress</a>
+</li>
+					</ul>
+				</div>
+			</div><!-- /container -->
+		</nav>
+<script>
+jQuery(function($) {
+	var $navBlog = $('#nav-blog'),
+		$colsRow1 = $('#nav-blog').find('.col:lt(3)'),
+		$projects1 = $navBlog.find('.projects-1'),
+		$projects2 = $navBlog.find('.projects-2'),
+		count = $projects1.find('li').size(),
+		half = Math.ceil(count / 2)
+		colHeight = 0;
+	$projects2.append('<ul></ul>');
+	$projects1.find('li:nth-child(' + half + ')').nextAll('li').appendTo($projects2.find('ul'));
+	$colsRow1.each(function() {
+		if ($(this).height() > colHeight) {
+			colHeight = $(this).height();
+		}
+	});
+	$colsRow1.height(colHeight + 30);
+});
+</script>	<footer id="footer">
+		<div class="container clearfix">
+			<p class="credit">Powered by <a href="http://wordpress.org/">WordPress</a> &nbsp;·&nbsp; <a href="https://github.com/alexkingorg/wp-personal" title="A powerful, personal WordPress theme.">Personal Theme</a></p>
+<p>Copyright © 2002-2015 Alex King. All Rights Reserved.</p>		</div><!--.container-->
+	</footer><!-- #footer -->
+
+<span id="bruteprotect_uptime_check_string" style="display:none;">7ads6x98y</span><script>
+(function($){ 
+	$(function() {
+		var $style = $('<style type="text/css"></style>'); 
+		var styleInner = '';
+		$('img').each(function(index){
+			var imageWidth = $(this).attr('width');
+			var imageHeight = $(this).attr('height');
+			if (!!imageHeight && !!imageWidth) {
+				var imageClass = 'js-hidpi-' + imageWidth + imageHeight;
+				styleInner += ' .' + imageClass + '{'; 
+
+				if (!!imageWidth) {
+					styleInner += ' max-width: ' + imageWidth + 'px;'
+				}
+				if (!!imageHeight) {
+					styleInner += ' max-height: ' + imageHeight + 'px;'
+				}
+				styleInner += '}';
+				$(this).addClass(imageClass);
+			}
+		});
+		if (styleInner != '') {
+			$style.html(styleInner);
+			$('body').append($style);
+		}
+	});
+})(jQuery);
+</script>
+<script>
+;jQuery(function($) {
+	$('.format-image.excerpt .entry-content').hover(function() {
+		if ($('body').width() < 768) {
+			return;
+		}
+		var $img = $(this).find('.entry-media img');
+		if ($img[0].offsetHeight > 300) {
+			$img.parent().clone()
+				.addClass('hovered').find('img').removeAttr('title').end()
+				.prependTo($(this));
+		}
+	}, function() {
+		$(this).find('a.hovered').remove();
+	});
+	// for touch devices like an iPad
+	$('body').click(function() {
+		$('.format-image.excerpt .entry-content a.hovered').remove();
+	});
+});
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="../../../../../www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-295994-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><script type="text/javascript" src="../../../../wp-content/themes/favepersonal/assets/js/jquery.cycle.all.min-ver=2.99.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var Sociali18n = {"commentReplyTitle":"Post a Reply"};;
+
+/* ]]> */
+</script>
+<script type="text/javascript" src="../../../../wp-content/cfao-cache/alexking.org/9441bc547f1e5819a7571005fabb6bc6.cached-ver=1440037880.js"></script>
+
+
+
+
+<!-- Dynamic page generated in 0.328 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-28 14:01:14 -->
+
+<!-- Compression = gzip --><style type="text/css">.js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-4040{ max-width: 40px; max-height: 40px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;} .js-hidpi-310180{ max-width: 310px; max-height: 180px;}</style></body></html>

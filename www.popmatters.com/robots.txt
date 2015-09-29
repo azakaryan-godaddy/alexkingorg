@@ -1,0 +1,41 @@
+# SOME BUT NOT ALL GOOGLE BOTS 
+User-agent: Mediapartners-Google
+Disallow:
+Crawl-delay: 5
+
+User-agent: Googlebot-Image
+Disallow:
+Crawl-delay: 30
+
+User-agent: Googlebot-Mobile
+Disallow:
+Crawl-delay: 1
+
+#MICROSOFT BOTS
+
+User-agent: msnbot
+Disallow:
+Crawl-delay: 30
+
+User-agent: bingbot
+Disallow:
+Crawl-delay: 30
+
+#YAHOO BOTS
+
+User-agent: Slurp
+Disallow:
+Crawl-delay: 30
+
+User-agent: Yahoo! Slurp
+Disallow:
+Crawl-delay: 30
+
+User-agent: AhrefsBot
+disallow: /
+
+#EVERYONE ELSE
+
+User-agent: *
+Disallow: 
+Crawl-delay: 1

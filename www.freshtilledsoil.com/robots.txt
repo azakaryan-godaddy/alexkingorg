@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /clients/
+
+Sitemap: http://app.wistia.com/sitemaps/36059.xml
+Sitemap: http://www.freshtilledsoil.com/sitemap.xml.gz
